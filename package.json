@@ -1,0 +1,23 @@
+{
+  "name": "hubris",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun run src/cli.ts dev",
+    "build": "bun run src/cli.ts build",
+    "inspect": "bun run src/cli.ts inspect",
+    "preview": "bun run src/cli.ts dev --production",
+    "lint": "oxlint src/",
+    "check:types": "tsgo --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.0.0",
+    "@typescript/native-preview": "^7.0.0-dev",
+    "oxlint": "^1.0.0"
+  },
+  "dependencies": {
+    "keybinds": "github:pterror/keybinds",
+    "yaml": "^2.8.2"
+  }
+}
