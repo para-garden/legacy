@@ -61,8 +61,8 @@ function pageHtml(
 </head>
 <body>
   <nav>
-    <a href="/">← back to map</a>
-    <a href="/?focus=${id}">view on map</a>
+    <a href="${siteConfig.basePath}/">← back to map</a>
+    <a href="${siteConfig.basePath}/?focus=${id}">view on map</a>
   </nav>
   <article>
 ${body}

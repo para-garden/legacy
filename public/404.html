@@ -45,7 +45,7 @@
 </head>
 <body>
   <nav>
-    <a href="/">← back to map</a>
+    <a href="/hubris/">← back to map</a>
     <span id="map-link"></span>
   </nav>
   <article id="content">
@@ -54,15 +54,16 @@
     </div>
   </article>
   <script type="module">
-    const id = location.pathname.replace(/^\/|\/$/g, "");
+    const base = "/hubris";
+    const id = location.pathname.replace(new RegExp("^" + base + "/?"), "").replace(/\/$/, "");
     if (!id) {
       document.getElementById("content").innerHTML =
-        '<div class="not-found"><h1>not found</h1><p>this page doesn\'t exist. <a href="/">back to map</a></p></div>';
+        '<div class="not-found"><h1>not found</h1><p>this page doesn\'t exist. <a href="' + base + '/">back to map</a></p></div>';
     } else {
       const mapLink = document.getElementById("map-link");
-      mapLink.innerHTML = '<a href="/?focus=' + id + '">view on map</a>';
+      mapLink.innerHTML = '<a href="' + base + '/?focus=' + id + '">view on map</a>';
 
-      fetch("/content/" + id + ".md")
+      fetch(base + "/content/" + id + ".md")
         .then(r => { if (!r.ok) throw new Error(); return r.text(); })
         .then(md => {
           document.title = id + " — ptera";
