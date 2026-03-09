@@ -65,6 +65,10 @@ No omniscient narrator. Everything is a document someone in the world wrote.
 
 para-garden / paragarden (`~/git/paragarden/`). GitHub org: para-garden.
 
+## Worldbuilding Process
+
+When suggesting multiple options for content direction: immediately add all of them to TODO.md before continuing. The user will pick one, but alternatives shouldn't be lost.
+
 ## Negative Constraints
 
 - No Rust in this repo — it's a TypeScript/web project
