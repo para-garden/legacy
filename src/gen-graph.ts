@@ -39,9 +39,11 @@ interface ParsedNode {
   status?: "production" | "fleshed-out" | "early" | "planned";
   tags: string[];
   radius: number;
+  /** Collision radius used only at layout time (separate from render radius). */
+  collisionRadius?: number;
+  trail?: string;
   color: string;
   cluster?: string;
-  contentWarning?: string;
   // Set by layout
   x: number;
   y: number;
@@ -53,6 +55,56 @@ function ringLayout(cx: number, cy: number, r: number, items: ParsedNode[]): voi
     const angle = -Math.PI / 2 + (2 * Math.PI * i) / items.length;
     items[i]!.x = Math.round(cx + r * Math.cos(angle));
     items[i]!.y = Math.round(cy + r * Math.sin(angle));
+  }
+}
+
+/**
+ * Place nodes on concentric rings when there are enough to benefit.
+ * Outer ring gets more items (larger circumference), inner rings fewer.
+ * Falls back to single ring for small counts.
+ */
+function concentricRingLayout(cx: number, cy: number, outerR: number, items: ParsedNode[], itemRadius: number): void {
+  if (items.length <= 10) {
+    ringLayout(cx, cy, outerR, items);
+    return;
+  }
+
+  const gap = itemRadius * 2 + 12;
+  const minRingR = Math.max(40, outerR * 0.4);
+  const rings: { r: number; capacity: number }[] = [];
+
+  // Build rings from outer to inner
+  for (let r = outerR; r >= minRingR; r -= gap) {
+    const circumference = 2 * Math.PI * r;
+    const capacity = Math.max(3, Math.floor(circumference / (itemRadius * 2 + 8)));
+    rings.push({ r, capacity });
+  }
+
+  // Distribute items proportionally across rings
+  const totalCapacity = rings.reduce((s, ring) => s + ring.capacity, 0);
+  const assignments: ParsedNode[][] = rings.map(() => []);
+  let placed = 0;
+  for (let ri = 0; ri < rings.length && placed < items.length; ri++) {
+    const share = ri < rings.length - 1
+      ? Math.round((rings[ri]!.capacity / totalCapacity) * items.length)
+      : items.length - placed;
+    const count = Math.min(share, items.length - placed);
+    for (let j = 0; j < count; j++) {
+      assignments[ri]!.push(items[placed++]!);
+    }
+  }
+
+  // Place each ring
+  for (let ri = 0; ri < rings.length; ri++) {
+    const ringItems = assignments[ri]!;
+    if (ringItems.length === 0) continue;
+    // Offset inner rings so nodes don't line up radially
+    const offset = ri % 2 === 0 ? 0 : Math.PI / ringItems.length;
+    for (let i = 0; i < ringItems.length; i++) {
+      const angle = -Math.PI / 2 + offset + (2 * Math.PI * i) / ringItems.length;
+      ringItems[i]!.x = Math.round(cx + rings[ri]!.r * Math.cos(angle));
+      ringItems[i]!.y = Math.round(cy + rings[ri]!.r * Math.sin(angle));
+    }
   }
 }
 
@@ -99,9 +151,13 @@ interface ForceParams {
   attraction: number; gravity: number; iterations: number;
 }
 
+function effectiveRadius(m: ParsedNode): number {
+  return m.collisionRadius ?? m.radius;
+}
+
 function initialForceParams(members: ParsedNode[]): ForceParams & { seedR: number } {
   const n = members.length;
-  const maxR = Math.max(...members.map((m) => m.radius));
+  const maxR = Math.max(...members.map(effectiveRadius));
   const minDist = maxR * 2 + 8;
   const restLen = minDist * 1.5;
   const repulsion = restLen ** 2 * 8;
@@ -178,7 +234,7 @@ function runForceLayout(
   adj: Map<string, Set<string>>,
   opts: ForceParams,
 ): void {
-  const { minDist, restLen, repulsion, attraction, gravity, iterations } = opts;
+  const { restLen, repulsion, attraction, gravity, iterations } = opts;
   const [cx, cy] = center;
 
   const vx = new Map<string, number>(members.map((e) => [e.id, 0]));
@@ -192,9 +248,10 @@ function runForceLayout(
     for (let i = 0; i < members.length; i++) {
       for (let j = i + 1; j < members.length; j++) {
         const a = members[i]!, b = members[j]!;
+        const pairMinDist = effectiveRadius(a) + effectiveRadius(b) + 4;
         const dx = a.x - b.x, dy = a.y - b.y;
         const dist = Math.max(Math.hypot(dx, dy), 0.1);
-        const force = dist < minDist
+        const force = dist < pairMinDist
           ? repulsion * 4 / (dist * dist)
           : repulsion / (dist * dist);
         const nx = dx / dist, ny = dy / dist;
@@ -245,10 +302,11 @@ function runForceLayout(
       for (let i = 0; i < members.length; i++) {
         for (let j = i + 1; j < members.length; j++) {
           const a = members[i]!, b = members[j]!;
+          const pairMinDist = effectiveRadius(a) + effectiveRadius(b) + 4;
           const dx = a.x - b.x, dy = a.y - b.y;
           const dist = Math.hypot(dx, dy);
-          if (dist < minDist && dist > 0) {
-            const push = (minDist - dist) / 2 + 0.5;
+          if (dist < pairMinDist && dist > 0) {
+            const push = (pairMinDist - dist) / 2 + 0.5;
             const nx = dx / dist, ny = dy / dist;
             a.x += nx * push; a.y += ny * push;
             b.x -= nx * push; b.y -= ny * push;
@@ -391,6 +449,17 @@ for (const { id, path, category } of files) {
 
   const radius = fm.radius ?? radiusFromStatus(fm.status);
 
+  // Fragments are text-based — estimate collision radius from text dimensions.
+  // At 13px bold font, ~6.5px per char. Max-width 220px CSS, plus description.
+  const isFragment = allTags.includes("fragment");
+  let collisionRadius = fm.collisionRadius != null ? Number(fm.collisionRadius) : undefined;
+  if (isFragment && collisionRadius == null) {
+    const labelW = Math.min(fm.label.length * 6.5, 220);
+    const descLines = fm.description ? Math.ceil(fm.description.length * 5.5 / 220) : 0;
+    const textH = 17 + descLines * 16.5; // label height + desc lines
+    collisionRadius = Math.max(labelW / 2, textH / 2) + 10;
+  }
+
   nodes.push({
     id,
     label: fm.label,
@@ -400,10 +469,11 @@ for (const { id, path, category } of files) {
     status: fm.status,
     tags: allTags,
     radius,
+    collisionRadius,
+    trail: (fm as any).trail,
     iconRadius: clusterForDir?.iconRadius,
     color: fm.color ?? "",
     cluster,
-    contentWarning: fm.content_warning,
     x: 0,
     y: 0,
   });
@@ -577,7 +647,7 @@ interface GroupingOutput {
 
       const maxChildR = Math.max(...children.map((c) => c.radius), 20);
       const ringR = Math.max(100, Math.ceil(children.length * (maxChildR + 8) / Math.PI));
-      ringLayout(parent.x, parent.y, ringR, children);
+      concentricRingLayout(parent.x, parent.y, ringR, children, maxChildR);
 
       if (children.some((c) => !c.color)) {
         const m = parent.color.match(/oklch\([\d.]+ ([\d.]+) ([\d.]+)\)/);
@@ -678,7 +748,8 @@ interface GroupingOutput {
 
     if (config.layout === "ring") {
       const ringR = config.ringRadius ?? Math.max(80, 60 + members.length * 15);
-      ringLayout(center[0], center[1], ringR, members);
+      const maxItemR = Math.max(...members.map((m) => m.radius), 12);
+      concentricRingLayout(center[0], center[1], ringR, members, maxItemR);
     } else {
       const { seedR } = initialForceParams(members);
       ringLayout(center[0], center[1], seedR, members);
@@ -724,7 +795,7 @@ interface GroupingOutput {
         const a = eligibleNodes[i]!, b = eligibleNodes[j]!;
         if (freePlacementIds.has(a.id) || freePlacementIds.has(b.id)) continue;
         if (a.parent && a.parent === b.parent) continue;
-        const minDist = a.radius + b.radius + 4;
+        const minDist = effectiveRadius(a) + effectiveRadius(b) + 4;
         const dist = Math.hypot(a.x - b.x, a.y - b.y);
         if (dist < minDist) overlaps.push([a, b, dist]);
       }
@@ -742,7 +813,7 @@ interface GroupingOutput {
             const a = eligibleNodes[i]!, b = eligibleNodes[j]!;
             if (freePlacementIds.has(a.id) || freePlacementIds.has(b.id)) continue;
             if (a.parent && a.parent === b.parent) continue;
-            const minDist = a.radius + b.radius + 4;
+            const minDist = effectiveRadius(a) + effectiveRadius(b) + 4;
             const dx = a.x - b.x, dy = a.y - b.y;
             const dist = Math.hypot(dx, dy);
             if (dist < minDist && dist > 0) {
@@ -793,6 +864,7 @@ interface GroupingOutput {
     if (regionPushCount > 0) {
       console.warn(`  pushed ${regionPushCount} region-vs-artifact overlaps.`);
     }
+
   }
 
   // Final quality report
@@ -828,7 +900,7 @@ interface GroupingOutput {
       .map((n) => ({ id: n.id, x: n.x, y: n.y, r: n.radius }));
 
     if (freeNodes.length > 0) {
-      const META_CLEARANCE = 100; // landing element visual radius
+      const META_CLEARANCE = metaNodes.reduce((max, m) => Math.max(max, m.collisionRadius ?? 100), 100);
       const FREE_REPULSION = 8000;
       const PUSH = 2.0;
       const ffx = freeNodes.map(() => 0);
@@ -1247,10 +1319,11 @@ const nodeLines = nodes.map((n) => {
   fields.push(`y: ${n.y}`);
   fields.push(`radius: ${n.radius}`);
   if (n.iconRadius != null) fields.push(`iconRadius: ${n.iconRadius}`);
+  if (n.collisionRadius != null) fields.push(`collisionRadius: ${Math.round(n.collisionRadius)}`);
   fields.push(`color: ${quote(n.color)}`);
   if (n.status) fields.push(`status: "${n.status}"`);
-  if (n.contentWarning) fields.push(`contentWarning: ${quote(n.contentWarning)}`);
   fields.push(`tags: [${n.tags.map((t) => `"${t}"`).join(", ")}]`);
+  if (n.trail) fields.push(`trail: ${quote(n.trail)}`);
   return `  { ${fields.join(", ")} },`;
 }).join("\n");
 
