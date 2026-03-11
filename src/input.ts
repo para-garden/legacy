@@ -108,10 +108,16 @@ export function setupInput(
     focusedNode = node;
     setFocus(graph, node, true);
     callbacks.onFocusChange?.(node);
-    if (isPanelOpen() || (isCardOpen() && wasThisNode)) {
-      openPanel(node.id, node.label, false);
-    } else if (getSettings().cardEnabled) {
-      showCard(node, graph);
+    const isFragment = node.tags.includes("fragment");
+    if (!isFragment) {
+      if (node.url && isCardOpen() && wasThisNode) {
+        window.location.href = node.url;
+        return;
+      } else if (isPanelOpen() || (isCardOpen() && wasThisNode)) {
+        openPanel(node.id, node.label, false);
+      } else if (getSettings().cardEnabled) {
+        showCard(node, graph);
+      }
     }
     const targetZoom = Math.max(camera.zoom, 1.5);
     if (animate) {
@@ -294,6 +300,7 @@ export function setupInput(
     },
     confirm: () => {
       if (!focusedNode) return;
+      if (focusedNode.tags.includes("fragment")) return; // fragments are self-contained on graph
       if (isPanelOpen()) return; // no-op when panel already open
       if (isCardOpen() || !getSettings().cardEnabled) {
         openPanel(focusedNode.id, focusedNode.label);
