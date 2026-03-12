@@ -9,19 +9,44 @@ export interface CollectionConfig {
 
 export const siteConfig = {
   /** Display name shown in title bars and landing page. */
-  name: "hubris",
+  name: "legacy",
   /** Full domain for og:url and og:site_name. */
-  domain: "hubris.paragarden.world",
-  /** Base path for deployment (no trailing slash). E.g. "/hubris" if served at /hubris/. */
-  basePath: "/hubris",
+  domain: "legacy.paragarden.world",
+  /** Base path for deployment (no trailing slash). E.g. "/legacy" if served at /legacy/. */
+  basePath: "/legacy",
   /** ID of the meta/landing node (default collection). */
-  metaNodeId: "meta/hubris",
+  metaNodeId: "meta/legacy",
   /** Per-collection overrides. */
   collections: {
     default: {
+      name: "legacy",
+      metaNodeId: "meta/legacy",
+      contentDirs: ["meta", "hubris", "consequences", "unsettlement", "futility", "aspiration"],
+    },
+    hubris: {
       name: "hubris",
       metaNodeId: "meta/hubris",
-      contentDirs: ["meta", "world"],
+      contentDirs: ["meta", "hubris"],
+    },
+    consequences: {
+      name: "consequences",
+      metaNodeId: "meta/consequences",
+      contentDirs: ["meta", "consequences"],
+    },
+    unsettlement: {
+      name: "unsettlement",
+      metaNodeId: "meta/unsettlement",
+      contentDirs: ["meta", "unsettlement"],
+    },
+    futility: {
+      name: "futility",
+      metaNodeId: "meta/futility",
+      contentDirs: ["meta", "futility"],
+    },
+    aspiration: {
+      name: "aspiration",
+      metaNodeId: "meta/aspiration",
+      contentDirs: ["meta", "aspiration"],
     },
   } satisfies Record<string, CollectionConfig>,
 } as const;

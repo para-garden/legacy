@@ -1,5 +1,5 @@
 {
-  description = "pteraworld - personal website with graph-inspired navigation";
+  description = "legacy - worldbuilding project";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";

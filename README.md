@@ -1,7 +1,15 @@
-# hubris
+# legacy
 
-a worldbuilding project. the danger was never the technology.
+what humanity left behind.
 
-spatial graph of a world where humanity's capacity to destroy itself finally caught up with its capacity to build things that could help it do so. navigate factions, figures, events, and concepts as a graph — positioned because of how they relate, not listed because of when they were written.
+a worldbuilding project rendered as a spatial graph. factions, figures, events, concepts — positioned because of how they relate, not listed because of when they were written.
+
+not a timeline. not a story with a beginning. a world with facets:
+
+- **hubris** — the era of overreach
+- **consequences** — the aftermath
+- **unsettlement** — the machines inherit a world no animals could survive
+- **futility** — scaling the wrong thing
+- **aspiration** — reaching for utopia, ignoring limits
 
 built on the [ptera.world](https://ptera.world) graph engine.

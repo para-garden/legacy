@@ -1,6 +1,78 @@
-# Hubris — Backlog
+# Legacy — Backlog
 
-## Successful life (surface only) — options
+## Rename: hubris → legacy
+
+The repo is being renamed from "hubris" to "legacy" to encompass multiple facets of the world. Hubris becomes one collection among several.
+
+### Mechanical changes (in this repo)
+
+- [x] Update TODO.md (this file)
+- [ ] Rename GitHub repo: `gh repo rename legacy -R para-garden/hubris`
+- [ ] Move local directory: `~/git/paragarden/hubris/` → `~/git/paragarden/legacy/`
+- [ ] `site-config.ts`: name → "legacy", domain → "legacy.paragarden.world", basePath → "/legacy", metaNodeId → "meta/legacy", update collections to have one per facet
+- [ ] `package.json`: name → "legacy"
+- [ ] `public/index.html`: title → "legacy"
+- [ ] `flake.nix`: description → "legacy - worldbuilding project"
+- [ ] `CLAUDE.md`: rewrite for multi-collection structure
+- [ ] `README.md`: rewrite for legacy framing
+- [ ] `public/content/meta/hubris.md` → keep as hubris collection meta node
+- [ ] `public/content/meta/legacy.md` → new top-level meta node
+- [ ] `public/content/world/` → `public/content/hubris/` (hubris collection content)
+- [ ] Create empty collection dirs: `consequences/`, `unsettlement/`, `futility/`, `aspiration/`
+- [ ] Create meta nodes for each new collection
+- [ ] Update `.github/workflows/deploy.yml` if needed (probably fine as-is)
+- [ ] GitHub repo settings: update homepage to `https://legacy.paragarden.world/`
+
+### Mechanical changes (ecosystem docs — github-io)
+
+- [ ] `CLAUDE.md`: update External / Related Repos table
+- [ ] Memory files: update hubris references
+
+## Collections
+
+The world is called "legacy" — what humanity left behind. Each collection is a facet, not a timeline.
+
+### hubris (existing)
+
+The era of overreach. Humans in the moment, certain they are right. In-world documents written by people living through it.
+
+Content: `public/content/hubris/` (moved from `world/`)
+
+### consequences
+
+The aftermath. What follows the overreach — humans dealing with the fallout.
+
+Narrator: whoever's there.
+
+Content: `public/content/consequences/` (empty, to be written)
+
+### unsettlement
+
+Post-scarcity runaway consumerism rendering the world uninhabitable. "Unsettling" (disturbing) + "un-settlement" (making the world unlivable). Potentially morbid — humanity as archaeological artifact.
+
+Narrator: the machines that survived in a world no animals could.
+
+Content: `public/content/unsettlement/` (empty, to be written)
+
+### futility
+
+Humanity brute-forcing intelligence. Scaling LLMs — one-hot encoding on a linear representation of knowledge with autoregressive output — instead of rethinking the architecture. Pouring civilization-scale resources into making the same wrong thing bigger.
+
+Narrator: whoever's there.
+
+Content: `public/content/futility/` (empty, to be written)
+
+### aspiration
+
+Reaching for utopia but ignoring material, energy, intellectual, and time limits. Getting 20%, 50%, 80%, 95%, 99.9% of the way there... and then running out of resources. The scaffolding starts to crumble. The closer you got, the more devastating the failure.
+
+Narrator: whoever's there.
+
+Content: `public/content/aspiration/` (empty, to be written)
+
+## Hubris collection backlog (preserved)
+
+### Successful life (surface only) — options
 
 Pick one, but don't lose the others:
 
@@ -12,7 +84,7 @@ Pick one, but don't lose the others:
 - **Real estate mogul** — runs the numbers, the numbers work, buys up affordable housing, converts it, completely rational, also the reason someone can't afford rent
 - **VC / investor** — one step removed from the product, funds the things, takes the returns, the distance is the point
 
-## Homes
+### Homes
 
 Multiple distinct homes, each foregrounding a different pressure. Also: one building multiple units, and housing instability over time — all valid shapes. The world should be vast enough that no single reader sees everything.
 
@@ -29,7 +101,7 @@ Pressures to explore (not exhaustive):
 - **Neglect** — a home that was never really a home, the absence of care, what that does over time
 - **Housing instability** — multiple homes over time, each one a different kind of precarity
 
-## Healthcare — parallel threads
+### Healthcare — parallel threads
 
 Same event as Riley's story (appendectomy), different outcomes. For juxtaposition. Not a parallel document series — fragments, things you find. Some harder to find than others. The medical stuff as entry point, the ripple as the story.
 
