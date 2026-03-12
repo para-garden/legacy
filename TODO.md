@@ -9,17 +9,16 @@ The repo is being renamed from "hubris" to "legacy" to encompass multiple facets
 - [x] Update TODO.md (this file)
 - [ ] Rename GitHub repo: `gh repo rename legacy -R para-garden/hubris`
 - [ ] Move local directory: `~/git/paragarden/hubris/` → `~/git/paragarden/legacy/`
-- [ ] `site-config.ts`: name → "legacy", domain → "legacy.paragarden.world", basePath → "/legacy", metaNodeId → "meta/legacy", update collections to have one per facet
+- [x] `site-config.ts`: single collection, contentDirs: ["meta", "world"]
 - [ ] `package.json`: name → "legacy"
 - [ ] `public/index.html`: title → "legacy"
 - [ ] `flake.nix`: description → "legacy - worldbuilding project"
-- [ ] `CLAUDE.md`: rewrite for multi-collection structure
-- [ ] `README.md`: rewrite for legacy framing
-- [ ] `public/content/meta/hubris.md` → keep as hubris collection meta node
-- [ ] `public/content/meta/legacy.md` → new top-level meta node
-- [ ] `public/content/world/` → `public/content/hubris/` (hubris collection content)
-- [ ] Create empty collection dirs: `consequences/`, `unsettlement/`, `futility/`, `aspiration/`
-- [ ] Create meta nodes for each new collection
+- [x] `CLAUDE.md`: rewrite for single collection with facets as tags
+- [x] `README.md`: rewrite for legacy framing
+- [x] `public/content/meta/hubris.md` → collections: [default]
+- [x] `public/content/meta/legacy.md` → landing node with facets section
+- [x] `public/content/hubris/` → `public/content/world/` (flat content dir)
+- [x] Remove empty collection dirs and per-collection meta nodes
 - [ ] Update `.github/workflows/deploy.yml` if needed (probably fine as-is)
 - [ ] GitHub repo settings: update homepage to `https://legacy.paragarden.world/`
 

@@ -8,13 +8,7 @@ Legacy is a worldbuilding project under the para-garden org — "what humanity l
 
 The site is a spatial graph (forked from ptera.world's engine) that you navigate like a world. Nodes are places, factions, figures, events, concepts. The graph layout is argument: proximity is relationship.
 
-Legacy is the world. It contains multiple collections, each a different facet:
-
-- **hubris** — the era of overreach. humans in the moment, certain they are right.
-- **consequences** — the aftermath. what follows the overreach.
-- **unsettlement** — a world no animals could survive. the machines document what remains.
-- **futility** — humanity brute-forcing intelligence. scaling the wrong thing.
-- **aspiration** — reaching for utopia. ignoring limits. almost getting there.
+Legacy is the world. It has a single collection with facets as tags. A document can carry multiple facets — they're coexisting forces, not separate worlds.
 
 ## Origin
 
@@ -31,9 +25,9 @@ The distinction: ptera.world is reflective. Legacy is immersive.
 Forked from ptera.world's engine. All source is in `src/` (~1,200 lines), zero runtime dependencies except `keybinds` and `yaml`. See ptera.world's CLAUDE.md for the full architecture description — legacy uses the same graph engine, zoom tier system, content pipeline, cluster system, and build tools.
 
 Key differences from ptera.world:
-- Multiple collections (hubris, consequences, unsettlement, futility, aspiration) plus a default collection showing all
+- Single collection, facets as tags (not separate collections)
 - Site config: `name: "legacy"`, `domain: "legacy.paragarden.world"`, `metaNodeId: "meta/legacy"`
-- Each collection has its own meta node and content directory
+- All content lives in `public/content/world/`
 
 ## Commands
 
@@ -48,23 +42,32 @@ bun check:types
 
 ## Content
 
-Each collection has its own content directory under `public/content/`:
-
-- `public/content/hubris/` — hubris collection nodes
-- `public/content/consequences/` — consequences collection nodes
-- `public/content/unsettlement/` — unsettlement collection nodes
-- `public/content/futility/` — futility collection nodes
-- `public/content/aspiration/` — aspiration collection nodes
-- `public/content/meta/` — meta/landing nodes for each collection and the site itself
+All content lives in `public/content/world/`. Meta/landing nodes are in `public/content/meta/`.
 
 Each file is a node in the graph. Frontmatter fields:
 
 - `label` — node display name
 - `description` — one-line summary shown in cards
-- `tags` — used for coloring and grouping
-- `collections` — which collection(s) this node belongs to
+- `tags` — used for coloring, grouping, and facets
+- `collections` — always `[default]`
 - `parent` — containment (this node lives inside another)
 - `related` — edges to other nodes (also via `## Related` section in body)
+
+### Facets
+
+Facets are tags, not separate collections. A document can carry multiple facets.
+
+- **hubris** — the era of overreach. humans in the moment, certain they are right.
+- **consequences** — the aftermath. what follows the overreach.
+- **unsettlement** — post-scarcity runaway consumerism rendering the world uninhabitable. the machines document what remains.
+- **futility** — humanity brute-forcing intelligence. scaling the wrong thing.
+- **aspiration** — reaching for utopia. ignoring limits. almost getting there.
+- **domestication** — a few individuals with disproportionate effect on public consciousness. humanity domesticating itself top-down.
+- **justice** — justice as a product. available to those who can afford it.
+- **complacency** — outsourcing thinking itself. people stop reasoning because the machine does it passably enough.
+- **choice** — the illusion of choice. every option leads to the same place.
+- **satisfaction** — metric satisfaction. picking the numbers that tell the story you want.
+- **rounding** — real humans treated as a decimal point. people who don't fit the model get rounded away.
 
 Content types (suggested, not enforced by the engine):
 - **Factions** — organizations, movements, states, coalitions

@@ -2,7 +2,7 @@
 label: "hubris"
 description: "the danger was never the technology."
 tags: [meta]
-collections: [hubris]
+collections: [default]
 ---
 
 a world where humanity's capacity to destroy itself finally caught up with its capacity to build things that could help it do so.

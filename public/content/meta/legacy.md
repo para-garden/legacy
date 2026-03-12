@@ -11,13 +11,11 @@ this is not a story about AI going rogue. it is a story about what people do whe
 
 the graph is a map. not of geography — of consequence.
 
-## collections
+## facets
 
-- **hubris** — the era of overreach. humans in the moment, certain they are right.
-- **consequences** — the aftermath. what follows.
-- **unsettlement** — a world no animals could survive. the machines document what remains.
-- **futility** — humanity brute-forcing intelligence. scaling the wrong thing.
-- **aspiration** — reaching for utopia. ignoring limits. almost getting there.
+the world has many facets — coexisting forces, not separate worlds. content carries multiple facets as tags.
+
+hubris, consequences, unsettlement, futility, aspiration, domestication, justice, complacency, choice, satisfaction, rounding.
 
 ## how to navigate
 

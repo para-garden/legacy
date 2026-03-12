@@ -21,32 +21,7 @@ export const siteConfig = {
     default: {
       name: "legacy",
       metaNodeId: "meta/legacy",
-      contentDirs: ["meta", "hubris", "consequences", "unsettlement", "futility", "aspiration"],
-    },
-    hubris: {
-      name: "hubris",
-      metaNodeId: "meta/hubris",
-      contentDirs: ["meta", "hubris"],
-    },
-    consequences: {
-      name: "consequences",
-      metaNodeId: "meta/consequences",
-      contentDirs: ["meta", "consequences"],
-    },
-    unsettlement: {
-      name: "unsettlement",
-      metaNodeId: "meta/unsettlement",
-      contentDirs: ["meta", "unsettlement"],
-    },
-    futility: {
-      name: "futility",
-      metaNodeId: "meta/futility",
-      contentDirs: ["meta", "futility"],
-    },
-    aspiration: {
-      name: "aspiration",
-      metaNodeId: "meta/aspiration",
-      contentDirs: ["meta", "aspiration"],
+      contentDirs: ["meta", "world"],
     },
   } satisfies Record<string, CollectionConfig>,
 } as const;
