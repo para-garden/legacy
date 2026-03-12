@@ -24,8 +24,11 @@ export interface Node {
   collisionRadius?: number;
   color: string;
   status?: "production" | "fleshed-out" | "early" | "planned";
-  contentWarning?: string;
   tags: string[];
+  /** Fragment body text (rendered on canvas). */
+  body?: string;
+  /** Optional tagline shown below description on the landing element. */
+  trail?: string;
 }
 
 /** Edge connecting two nodes. */
