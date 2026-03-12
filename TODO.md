@@ -7,25 +7,26 @@ The repo is being renamed from "hubris" to "legacy" to encompass multiple facets
 ### Mechanical changes (in this repo)
 
 - [x] Update TODO.md (this file)
-- [ ] Rename GitHub repo: `gh repo rename legacy -R para-garden/hubris`
-- [ ] Move local directory: `~/git/paragarden/hubris/` → `~/git/paragarden/legacy/`
+- [x] Rename GitHub repo
+- [x] Move local directory
 - [x] `site-config.ts`: single collection, contentDirs: ["meta", "world"]
-- [ ] `package.json`: name → "legacy"
-- [ ] `public/index.html`: title → "legacy"
-- [ ] `flake.nix`: description → "legacy - worldbuilding project"
+- [x] `package.json`: name → "legacy"
+- [x] `public/index.html`: title → "legacy"
+- [x] `flake.nix`: description → "legacy - worldbuilding project"
 - [x] `CLAUDE.md`: rewrite for single collection with facets as tags
 - [x] `README.md`: rewrite for legacy framing
 - [x] `public/content/meta/hubris.md` → collections: [default]
 - [x] `public/content/meta/legacy.md` → landing node with facets section
 - [x] `public/content/hubris/` → `public/content/world/` (flat content dir)
 - [x] Remove empty collection dirs and per-collection meta nodes
-- [ ] Update `.github/workflows/deploy.yml` if needed (probably fine as-is)
-- [ ] GitHub repo settings: update homepage to `https://legacy.paragarden.world/`
+- [x] `.github/workflows/deploy.yml` — no changes needed
+- [x] GitHub repo settings: homepage + description updated
+- [x] Move `~/.claude/projects/` dir to new path
 
 ### Mechanical changes (ecosystem docs — github-io)
 
-- [ ] `CLAUDE.md`: update External / Related Repos table
-- [ ] Memory files: update hubris references
+- [x] `CLAUDE.md`: update External / Related Repos table
+- [x] Memory files: update hubris references
 
 ## Facets
 
