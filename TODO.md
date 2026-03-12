@@ -28,47 +28,57 @@ The repo is being renamed from "hubris" to "legacy" to encompass multiple facets
 - [ ] `CLAUDE.md`: update External / Related Repos table
 - [ ] Memory files: update hubris references
 
-## Collections
+## Facets
 
-The world is called "legacy" — what humanity left behind. Each collection is a facet, not a timeline.
+The world is called "legacy" — what humanity left behind. Facets are not eras, not a timeline — they're coexisting forces, lenses, patterns. They overlap. A single document can carry multiple facets. Content lives in one flat collection; facets are tags.
 
-### hubris (existing)
+### hubris
 
-The era of overreach. Humans in the moment, certain they are right. In-world documents written by people living through it.
-
-Content: `public/content/hubris/` (moved from `world/`)
+The era of overreach. Humans in the moment, certain they are right.
 
 ### consequences
 
 The aftermath. What follows the overreach — humans dealing with the fallout.
 
-Narrator: whoever's there.
-
-Content: `public/content/consequences/` (empty, to be written)
-
 ### unsettlement
 
-Post-scarcity runaway consumerism rendering the world uninhabitable. "Unsettling" (disturbing) + "un-settlement" (making the world unlivable). Potentially morbid — humanity as archaeological artifact.
-
-Narrator: the machines that survived in a world no animals could.
-
-Content: `public/content/unsettlement/` (empty, to be written)
+Post-scarcity runaway consumerism rendering the world uninhabitable. "Unsettling" (disturbing) + "un-settlement" (making the world unlivable). Potentially morbid — humanity as archaeological artifact. The machines that survived in a world no animals could — they have the data but not the context.
 
 ### futility
 
 Humanity brute-forcing intelligence. Scaling LLMs — one-hot encoding on a linear representation of knowledge with autoregressive output — instead of rethinking the architecture. Pouring civilization-scale resources into making the same wrong thing bigger.
 
-Narrator: whoever's there.
-
-Content: `public/content/futility/` (empty, to be written)
-
 ### aspiration
 
 Reaching for utopia but ignoring material, energy, intellectual, and time limits. Getting 20%, 50%, 80%, 95%, 99.9% of the way there... and then running out of resources. The scaffolding starts to crumble. The closer you got, the more devastating the failure.
 
-Narrator: whoever's there.
+### domestication
 
-Content: `public/content/aspiration/` (empty, to be written)
+A few individuals with disproportionate effect on public consciousness. Humanity domesticating itself — shaped top-down into compliance through culture, not genetics.
+
+### justice
+
+Justice as a product. Available to those who can afford it.
+
+### complacency
+
+Outsourcing thinking itself. Not misinformation — that's a surface symptom. The cause: people stop reasoning for themselves entirely because the machine does it passably enough. "Is this real?" → ask the AI, take the answer, move on. Never check, never question, never think.
+
+Distinct from domestication (top-down, done *to* you) — complacency is bottom-up, done *to yourself*.
+
+### choice
+
+The illusion of choice. Every option leads to the same place — political horseshoe, consumer "choice," career "choice." The whole apparatus of freedom that's really just selection from a curated menu. Two "sides" that are functionally the same thing, a spectrum that collapses into one outcome wearing different labels.
+
+### satisfaction
+
+Metric satisfaction. Picking the numbers that tell the story you want. GDP goes up, so things are good. Engagement is high, so people are happy. The metrics are chosen *because* they tell the right story — deliberately. Pick the number that makes things look fine, ignore the ones that don't, and now you have proof.
+
+### rounding
+
+Real humans treated as a decimal point. People who don't fit the model get rounded away — statistical noise, not significant enough to count. The ones who fall through the cracks aren't a bug, they're a rounding error. Homelessness in America is 0.23%. Only 770,000 people.
+
+Satisfaction is the top (who picks the numbers and why). Rounding is the bottom (who disappears when they do).
 
 ## Hubris collection backlog (preserved)
 
