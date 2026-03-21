@@ -68,6 +68,13 @@ Facets are tags, not separate collections. A document can carry multiple facets.
 - **choice** — the illusion of choice. every option leads to the same place.
 - **satisfaction** — metric satisfaction. picking the numbers that tell the story you want.
 - **rounding** — real humans treated as a decimal point. people who don't fit the model get rounded away.
+- **indulgence** — pleasure as philosophy. excess without apology. a subculture that started in the 1960s and never stopped being honest about what it wanted.
+- **consumption** — ambient excess. nobody calls themselves a consumer. the mcmansion, the portion size, the data center. more because more was available and nobody said stop.
+- **excess** — post-scarcity (derogatory). we solved enough problems to have room for spectacular new ones. what happens when the constraints come off and we kept going anyway.
+- **scarcity** — manufactured scarcity. there is enough. there has always been enough. the shortage is a policy decision.
+- **distance** — the gap between the decision and its consequences. how far you have to be from the body to keep going.
+- **margins** — when the numbers matter more than the people behind them.
+- **amplification** — the loudest signals are the ones that get reflected.
 
 Content types (suggested, not enforced by the engine):
 - **Factions** — organizations, movements, states, coalitions

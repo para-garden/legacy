@@ -80,6 +80,58 @@ Real humans treated as a decimal point. People who don't fit the model get round
 
 Satisfaction is the top (who picks the numbers and why). Rounding is the bottom (who disappears when they do).
 
+### amplification
+
+The loudest signals are the ones that get reflected. Opinions spread because they demand a response — agreement, disagreement, doesn't matter. The algorithm doesn't care which side you're on. Polarizing by design because that's what spreads. A person who would have had 200 followers in 2005 has 2 million in 2032. The reach is the distortion.
+
+Not rage specifically — opinions. The hot take economy. Contrarianism as strategy. Stake a position, harvest the replies.
+
+### scarcity
+
+Manufactured scarcity. There is enough — food, water, housing, medicine. The shortage is a policy decision. Someone decided who gets it and who doesn't. The same drug, the same molecule, the same factory — different price across a border. American healthcare is the clearest case: the treatment exists, the hospital is right there, you just can't have it.
+
+Distinct from `margins` (extraction from the living) and `distance` (the gap between decision and consequence). Scarcity is the precondition — the surplus that exists and is withheld.
+
+### distance
+
+The gap between the decision and its consequences. The shareholders don't see the body. The algorithm doesn't know her name. The policy is written far away by people who will never meet the person it affects. Not malice — removal. The mechanism that makes it possible to do enormous harm while remaining, personally, a decent person.
+
+### margins
+
+When the numbers matter more than the people behind them. Not a loss — a gain. The margin is extracted from the living. The number that gets better the worse things get for someone else.
+
+Distinct from `rounding` (you were counted and then disappeared) — margins is the active extraction, the improvement that comes at someone else's expense.
+
+### consumption
+
+Ambient excess. Nobody calls themselves a consumer. The McMansion, the portion size, the defense budget, the data center that uses a river to cool itself. No philosophy, no community, no self-awareness. Just more, because more was available and nobody said stop.
+
+Distinct from `unsettlement` (the ecological toll of all this) and `excess` (the post-scarcity moment). Consumption is the background radiation — so normalized it's invisible.
+
+### excess
+
+Post-scarcity (derogatory). We solved enough problems to have room for spectacular new ones. Abundance as the precondition for a particular kind of self-destruction. Not greed — what happens when the constraints come off. We had enough, and kept going anyway.
+
+Distinct from `consumption` (ambient, unconscious) — excess is the moment of. The thing you do when there's no more need to justify it.
+
+### indulgence
+
+Pleasure as philosophy. Excess without apology. A subculture (several, really) that started in the 1960s and never stopped being honest about what it wanted.
+
+Distinct registers under the same tag — different venues, different bodies, different stakes, different social logic:
+
+- **Swinging / lifestyle** — Plato's Retreat, key parties. Straight, married, mostly white, middle-aged. Post-sexual-revolution but pre-AIDS. Institutional in its own way — couples, rules, the cul-de-sac.
+- **Queer nightlife / club culture** — downtown scene, drag balls, house/ballroom. Survival and celebration in the same breath. The spaces that were refuge before they were aesthetic. Queer roots of house, techno, the whole lineage.
+- **Free love / countercultural** — communes, sex as political act. The ones who thought they were dismantling something. Ideology first, pleasure second (or simultaneously).
+- **Rave culture and adjacent** — collective transcendence with hedonism as side effect. PLUR. The music as the point, the drugs as a tool. Underground → festival product → nostalgia brand. The transcendence gets packaged.
+- **Burning Man arc** — started countercultural, became tech-bro indulgence tourism. The commodification of temporary dissolution.
+- **Ketamine clinics / legal psychedelics** — medicalization and mainstreaming of what used to be illegal and communal. The wellness-to-hedonism pipeline.
+- **Greek system** — institutional hedonism. Has a house, a legacy, a hazing ritual. Handed down. Rules about who's inside and who isn't. Class reproduction, assault liability, alumni donor networks. Hierarchical where rave culture (in its original form) was about dissolving hierarchy — same surface behaviors, opposite social logic.
+
+The common thread: **altered states and excess as access to something real.** Whether that's pleasure, connection, transcendence, escape, or belonging — the body and its chemistry as the site of meaning.
+
+By 2032: 30+ more years of evolution, fragmentation, commodification. What was underground is a product. What was radical is a brand.
+
 ## Hubris collection backlog (preserved)
 
 ### Successful life (surface only) — options
