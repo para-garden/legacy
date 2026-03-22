@@ -8,43 +8,35 @@ related: [text-thread-dani-mel-october-2031, campus-chronicle-phi-delta-sigma-oc
 
 *october 11*
 
-bathroom at the delta sig house. it's 11:47. i don't know why i'm writing that down. the floor is sticky.
+i can still hear the music
 
-okay.
+i'm in the bathroom. door locked. i checked it twice
 
-i have to write this down or it's going to live only in my body and i can't let it do that.
+i said no. i said it and he heard me. i know he heard me because he
 
-we went upstairs. i know him a little. not well. he's in jake's friend group. he always seemed fine. i thought he seemed fine.
+i don't know why i'm writing this
 
-i don't want to write what happened. i'm going to write it anyway.
+i said no and then i said it again and he didn't stop
 
-i said no. not like — i wasn't ambiguous. i said it. he kept going. i said it again and he — he had his hand on my shoulder and he kept going and i couldn't. i didn't.
+my hands are doing that thing. i can't get them to stop
 
-i don't know why i'm trying to explain what i did or didn't do. i hate that i'm doing that.
+someone knocked again. i said just a minute. my voice sounded normal. how did my voice sound normal
 
-he kept going.
+i should go home. priya's there. i could just go home and go to bed and
 
-that's the fact. that is the fact. i am trying to hold it.
+there was a bud light on the windowsill. i keep thinking about that. i don't know why i keep thinking about a can on a windowsill
 
-the bass is still going. some song i know. that's the part that's — how is this the same night. how is there still a party.
+i could hear people laughing downstairs the whole time
 
-i keep thinking about what i said exactly. trying to remember if i said it right. like there's a right way.
+i have to leave this bathroom
 
-there isn't. i know there isn't.
+i don't know if he's still upstairs. i don't know if anyone
 
-priya is going to ask where i've been. she always checks in. i can't tell her tonight. i don't have it.
+i'm going to walk out and go home. that's it. that's what i'm going to do
 
-i'm so cold. that's a weird thing to be right now. in a bathroom that smells like someone else's shampoo.
+my hair tie broke. sometime. i don't know when. it's not on my wrist
 
-i want to text mel but i don't know what to say.
-
-he seemed fine. jake's friend. seemed fine. and now i'm in here and the party is still going and he is presumably still at that party and i am sitting on the floor of this bathroom. between the toilet and the wall. that's where i am.
-
-i need to remember that that is not a complicated sentence. it is a small sentence. it is the truest thing i know right now and i need to stop trying to make it smaller.
-
-he kept going.
-
-okay. i'm going to stand up now.
+ok. i'm going
 
 ---
 
