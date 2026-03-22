@@ -85,6 +85,14 @@ Content types (suggested, not enforced by the engine):
 
 The graph layout is meaning. Put things near each other because they belong near each other.
 
+## Audience
+
+The primary reader is someone who doesn't already know. Not someone who will decode dissociation, recognize the language of coercion, or already understand how Title IX outcomes work. Someone who might read "educational sanctions" and think that sounds about right.
+
+The goal is that they can't. That gap — between what happened and what the system called it — only works if the reader understands both sides. Writing that relies on prior familiarity preaches to the choir. Writing that assumes the reader knows lets everyone else rationalize their way out.
+
+Don't assume shared context. Make the weight legible to someone who has never been in the room.
+
 ## Voice
 
 In-world documents are written as if they exist inside the world — reports, manifestos, histories, profiles. Each collection's narrator emerges from whoever exists in that facet. External pieces (author's framing, analysis) belong on ptera.world's hubris collection, not here.
