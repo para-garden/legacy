@@ -1,5 +1,10 @@
 /** Site-level configuration. Change these values to rebrand the site. */
 
+export interface ContentGate {
+  label: string;
+  description: string;
+}
+
 export interface CollectionConfig {
   name: string;
   metaNodeId: string;
@@ -16,6 +21,13 @@ export const siteConfig = {
   basePath: "/legacy",
   /** ID of the meta/landing node (default collection). */
   metaNodeId: "meta/legacy",
+  /** Content gates: tags that require user acknowledgment before panel content is shown. */
+  contentGates: {
+    "cw:sexual-violence": {
+      label: "Sexual violence",
+      description: "This content includes depictions of sexual violence.",
+    },
+  } satisfies Record<string, ContentGate>,
   /** Per-collection overrides. */
   collections: {
     default: {

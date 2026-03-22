@@ -22,6 +22,7 @@ export interface Node {
   iconRadius?: number;
   color: string;
   status?: "production" | "fleshed-out" | "early" | "planned";
+  contentWarning?: string;
   tags: string[];
 }
 

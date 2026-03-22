@@ -41,6 +41,7 @@ interface ParsedNode {
   radius: number;
   color: string;
   cluster?: string;
+  contentWarning?: string;
   // Set by layout
   x: number;
   y: number;
@@ -402,6 +403,7 @@ for (const { id, path, category } of files) {
     iconRadius: clusterForDir?.iconRadius,
     color: fm.color ?? "",
     cluster,
+    contentWarning: fm.content_warning,
     x: 0,
     y: 0,
   });
@@ -1247,6 +1249,7 @@ const nodeLines = nodes.map((n) => {
   if (n.iconRadius != null) fields.push(`iconRadius: ${n.iconRadius}`);
   fields.push(`color: ${quote(n.color)}`);
   if (n.status) fields.push(`status: "${n.status}"`);
+  if (n.contentWarning) fields.push(`contentWarning: ${quote(n.contentWarning)}`);
   fields.push(`tags: [${n.tags.map((t) => `"${t}"`).join(", ")}]`);
   return `  { ${fields.join(", ")} },`;
 }).join("\n");

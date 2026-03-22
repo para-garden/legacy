@@ -14,6 +14,7 @@ export interface Frontmatter {
   color?: string;
   cluster?: string;
   collections?: string[];
+  content_warning?: string;
 }
 
 /** Strip frontmatter from markdown source, returning the body. */

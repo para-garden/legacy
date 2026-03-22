@@ -1,7 +1,7 @@
 ---
 label: Text thread — Dani and Mel, October 2031
 description: Dani tells Mel what happened at the Phi Delta Sigma party. Seventeen days before the complaint.
-tags: [indulgence, justice]
+tags: [indulgence, justice, cw:sexual-violence]
 collections: [default]
 related: [campus-chronicle-phi-delta-sigma-october-2031, phi-delta-sigma-risk-management-directive-2031]
 ---

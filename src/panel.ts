@@ -4,6 +4,7 @@ import { updateTransform, setFocus, animateTo } from "./dom";
 import { hideCard } from "./card";
 import { parseMarkdown } from "./markdown";
 import { siteUrl } from "./site-config";
+import { checkGate } from "./content-gate";
 
 let panel: HTMLElement;
 let panelTitle: HTMLElement;
@@ -195,8 +196,6 @@ export function initPanel(camera: Camera, graph: Graph): void {
 export function openPanel(nodeId: string, nodeLabel?: string, push = true): void {
   hideCard();
   currentNodeId = nodeId;
-  panel.hidden = false;
-  panelBody.scrollTop = 0;
 
   panelTitle.textContent = nodeLabel ?? nodeId;
   panelOpen.href = siteUrl(`/${nodeId}`);
@@ -214,23 +213,33 @@ export function openPanel(nodeId: string, nodeLabel?: string, push = true): void
     history.pushState({ focus: nodeId }, "", qs ? `?${qs}` : location.pathname);
   }
 
-  const cached = contentCache.get(nodeId);
-  if (cached !== undefined) {
-    panelBody.innerHTML = cached;
-    if (isEssay) prepareContent(panelBody);
+  function proceed(): void {
+    panel.hidden = false;
+    panelBody.scrollTop = 0;
     updateTransform(cam);
-    return;
+
+    const cached = contentCache.get(nodeId);
+    if (cached !== undefined) {
+      panelBody.innerHTML = cached;
+      if (isEssay) prepareContent(panelBody);
+      return;
+    }
+
+    panelBody.innerHTML = "<p style=\"color:#666\">Loading\u2026</p>";
+
+    fetchContent(nodeId).then((html) => {
+      if (currentNodeId === nodeId) {
+        panelBody.innerHTML = html;
+        if (isEssay) prepareContent(panelBody);
+      }
+    });
   }
 
-  panelBody.innerHTML = "<p style=\"color:#666\">Loading\u2026</p>";
-  updateTransform(cam);
-
-  fetchContent(nodeId).then((html) => {
-    if (currentNodeId === nodeId) {
-      panelBody.innerHTML = html;
-      if (isEssay) prepareContent(panelBody);
-    }
-  });
+  if (node) {
+    checkGate(node, proceed, () => { /* stay as-is */ });
+  } else {
+    proceed();
+  }
 }
 
 export function closePanel(): void {
