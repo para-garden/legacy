@@ -91,6 +91,14 @@ In-world documents are written as if they exist inside the world — reports, ma
 
 No omniscient narrator. Everything is a document someone in the world wrote.
 
+## Citations
+
+The fiction is indistinguishable from the fact because it isn't fiction. Before writing any document, research the real version — the actual chargemaster language, the actual collections letter format, the actual risk management memo, the actual Title IX timeline. Write from the source. Accuracy is the horror.
+
+Where a real document exists, cite it inline as a quiet link. Not drawing attention. Just there. The reader clicks it and it's real. That's the point.
+
+Never fabricate citations. Find the real source or don't cite.
+
 ## Org
 
 para-garden / paragarden (`~/git/paragarden/`). GitHub org: para-garden.

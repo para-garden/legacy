@@ -11,123 +11,90 @@ related: [campus-chronicle-phi-delta-sigma-october-2031, phi-delta-sigma-risk-ma
 ---
 
 **Dani** 11:43am
-hey are you around
+hey
 
-**Mel** 11:46am
-yeah what's up
+**Dani** 11:43am
+are you home today
+
+**Mel** 11:45am
+yeah why what's up
 
 **Dani** 11:46am
-something happened at the phi delt thing last night
+i need to
+sorry
+something happened last night
 
-**Mel** 11:47am
+**Mel** 11:46am
 what do you mean
 
-*[read 11:47am]*
+**Mel** 11:50am
+dani?
 
-**Mel** 11:54am
-dani
+*[read 11:50am]*
 
-**Mel** 11:58am
-you still there
+**Dani** 12:03pm
+at the party
+there was this guy i didn't really know
+and i kept saying i wanted to go back downstairs
+and he didn't
 
-**Dani** 12:09pm
-yeah sorry
-i don't really know how to say it
+**Mel** 12:03pm
+oh god
 
-**Mel** 12:09pm
-you don't have to
-i mean you can just say it however
+**Mel** 12:03pm
+oh dani
 
-**Dani** 12:14pm
-i was upstairs and someone i didn't really know came in and i kept saying i needed to go back downstairs and he didn't stop
-
-**Mel** 12:14pm
-oh my god
-
-**Mel** 12:14pm
-dani
-
-**Dani** 12:15pm
+**Dani** 12:04pm
 i'm okay
-i mean i'm fine
+sorry i don't know why i'm texting you this
 
-**Mel** 12:15pm
-are you home right now
+**Mel** 12:04pm
+don't apologize
+where are you right now
 
-**Dani** 12:15pm
-yeah
+**Dani** 12:06pm
+in my room
+i don't really want to be alone but i also don't
+i don't know
 
-**Mel** 12:16pm
-do you want me to come over
+**Mel** 12:06pm
+i'm coming over
 
-**Dani** 12:18pm
+**Dani** 12:07pm
 you don't have to
 
-**Mel** 12:18pm
-i know i don't have to
-
-**Dani** 12:21pm
-yeah okay
+**Mel** 12:07pm
+i know
 
 ---
 
-*October 14, 2031*
+*October 17, 2031*
 
 ---
 
-**Dani** 9:32pm
-i looked up the title ix thing
-
-**Mel** 9:34pm
-yeah?
-
-**Dani** 9:35pm
-it says 90 days for a determination
-and they notify the respondent
-so he would know it was me
-
-**Mel** 9:36pm
-does that matter to you
-
-**Dani** 9:38pm
-i don't know
-i keep going back and forth
-like part of me wants there to be a record of it
-even if nothing happens
-
-**Mel** 9:39pm
-i think that's a completely reasonable thing to want
-
-**Dani** 9:43pm
-he's phi delt
-like a full member not a pledge
-i don't know if that changes anything
-
-**Mel** 9:44pm
-it shouldn't
-
-**Dani** 9:44pm
-yeah
-
-**Dani** 9:51pm
+**Dani** 9:14pm
 can i ask you something
 
-**Mel** 9:51pm
+**Mel** 9:15pm
 of course
 
-**Dani** 9:52pm
-if you were me would you do it
+**Dani** 9:16pm
+do you think it counts
 
-**Mel** 9:55pm
-i think i'd want to
-and i think i'd be scared to
-and i think both of those would be true at the same time
+**Mel** 9:17pm
+what do you mean
 
-**Dani** 9:56pm
-yeah
+**Dani** 9:19pm
+like
+i don't know
+he didn't
+i just keep thinking about whether it actually
+forget it
 
-**Dani** 9:56pm
-that's exactly it
+**Mel** 9:20pm
+it counts
+
+**Dani** *[read 9:20pm]*
 
 ---
 
