@@ -8,36 +8,17 @@ related: [text-thread-dani-mel-october-2031, campus-chronicle-phi-delta-sigma-oc
 
 *october 11*
 
-the floor is vibrating. there's a song playing with a heavy bass drop and the mirror over the sink keeps buzzing against the wall.
+i said no. i said it three times.
+i thought i was good at reading people but i just walked upstairs and let it happen.
+he heard me. i know he heard me.
+it wasn't a misunderstanding. he just decided my 'no' didn't matter.
+he just overrode me.
 
-i am looking at my hands. dad's hands. wide palms. they're just sitting on my thighs. they look completely normal. they don't look like mine.
+i don't know what to do with the statistics now. i am one of them. i'm sitting on my bed and i'm a grant proposal statistic.
 
-i said no.
+i want to call my dad but i don't want to talk about birds.
 
-i heard my voice say it. i know i said it. i said it twice.
-did i not say it loud enough?
-
-it was like i was talking underwater. or like i wasn't even in the room. he just kept doing what he was doing. he didn't look mad or anything. he didn't look like a bad person. he just looked like he was doing something and my speaking didn't factor into the math of it at all. like i was just a suggestion.
-
-my brain keeps hitting a wall and sliding off. it's just a flat white wall. i try to look at what just happened on that bed and it just slips.
-
-someone knocked on the door a couple minutes ago. i said occupied. my voice sounded completely fine. how is that possible. how did i make that sound.
-
-i'm biting my cheek so hard i taste copper.
-
-i thought i was good at reading people. i'm careful. i do impulsive things sometimes but i'm careful about them. going upstairs was impulsive but i read him and i thought it was fine. my statistics are garbage.
-
-i can't text mel. if i text mel it means it's a real thing that happened in the world. and she'll send a voice memo because she's driving back to columbus tonight and if i hear her voice right now i think i will throw up on these tiles.
-
-my hair tie is cutting off the circulation in my wrist. i should take it off. i'm not taking it off.
-
-if i leave this bathroom i have to walk through the party. i don't know where he is.
-if i go home priya will be awake. she'll be on the rug with her laptop and she'll ask how it was and she'll be so warm. i can't be warm tonight. i have nothing left to do it with.
-
-i want to go for a run. i want to put on my headphones and turn it up so loud it hurts and run until my lungs burn out. i want it to be tomorrow morning. i want to be eating my oatmeal.
-
-why didn't he stop.
-i used the word. i used the right word.
+my jaw hurts. i don't know how to wash this off.
 
 ---
 
