@@ -8,35 +8,36 @@ related: [text-thread-dani-mel-october-2031, campus-chronicle-phi-delta-sigma-oc
 
 *october 11*
 
-i can still hear the music
+the floor is vibrating. there's a song playing with a heavy bass drop and the mirror over the sink keeps buzzing against the wall.
 
-i'm in the bathroom. door locked. i checked it twice
+i am looking at my hands. dad's hands. wide palms. they're just sitting on my thighs. they look completely normal. they don't look like mine.
 
-i said no. i said it and he heard me. i know he heard me because he
+i said no.
 
-i don't know why i'm writing this
+i heard my voice say it. i know i said it. i said it twice.
+did i not say it loud enough?
 
-i said no and then i said it again and he didn't stop
+it was like i was talking underwater. or like i wasn't even in the room. he just kept doing what he was doing. he didn't look mad or anything. he didn't look like a bad person. he just looked like he was doing something and my speaking didn't factor into the math of it at all. like i was just a suggestion.
 
-my hands are doing that thing. i can't get them to stop
+my brain keeps hitting a wall and sliding off. it's just a flat white wall. i try to look at what just happened on that bed and it just slips.
 
-someone knocked again. i said just a minute. my voice sounded normal. how did my voice sound normal
+someone knocked on the door a couple minutes ago. i said occupied. my voice sounded completely fine. how is that possible. how did i make that sound.
 
-i should go home. priya's there. i could just go home and go to bed and
+i'm biting my cheek so hard i taste copper.
 
-there was a bud light on the windowsill. i keep thinking about that. i don't know why i keep thinking about a can on a windowsill
+i thought i was good at reading people. i'm careful. i do impulsive things sometimes but i'm careful about them. going upstairs was impulsive but i read him and i thought it was fine. my statistics are garbage.
 
-i could hear people laughing downstairs the whole time
+i can't text mel. if i text mel it means it's a real thing that happened in the world. and she'll send a voice memo because she's driving back to columbus tonight and if i hear her voice right now i think i will throw up on these tiles.
 
-i have to leave this bathroom
+my hair tie is cutting off the circulation in my wrist. i should take it off. i'm not taking it off.
 
-i don't know if he's still upstairs. i don't know if anyone
+if i leave this bathroom i have to walk through the party. i don't know where he is.
+if i go home priya will be awake. she'll be on the rug with her laptop and she'll ask how it was and she'll be so warm. i can't be warm tonight. i have nothing left to do it with.
 
-i'm going to walk out and go home. that's it. that's what i'm going to do
+i want to go for a run. i want to put on my headphones and turn it up so loud it hurts and run until my lungs burn out. i want it to be tomorrow morning. i want to be eating my oatmeal.
 
-my hair tie broke. sometime. i don't know when. it's not on my wrist
-
-ok. i'm going
+why didn't he stop.
+i used the word. i used the right word.
 
 ---
 
