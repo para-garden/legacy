@@ -8,23 +8,53 @@ related: [text-thread-dani-mel-october-2031, campus-chronicle-phi-delta-sigma-oc
 
 *october 11*
 
-okay
+ok
 
-okay
+ok so
 
-i just need to
+i'm in the bathroom. party downstairs. i need to. i don't know.
 
-i said i needed to go downstairs. i said it. i kept
+i keep trying to start this and i don't know what the sentence is. i don't know how to
 
-he didn't
+he didn't. i said it and he
 
-okay
+i'm sitting on the floor. the tile is cold. i should text mel. i can't text mel. i don't know what i would say. i don't know how to say the thing without. i don't know.
 
-i'm in the bathroom. i can hear the party. someone just knocked and i said occupied.
+okay. okay. i'm going to just. okay.
 
-i don't know how to
+i went upstairs. that part is true. i went.
 
-i said it. i kept saying it. that's. i said it.
+and i said no and i said it again and he
+
+that's what happened. those are the facts i can hold.
+
+my hands feel weird. i keep looking at them. dad's hands. that's my hands and they feel like they're someone else's.
+
+someone knocked and i said occupied and now i'm just sitting here and the music is coming through the floor and someone is laughing and someone just went WOOOOO and i need that to stop. i need the floor to stop vibrating i need the bass to stop.
+
+i don't know what to do after this. i don't know if there is an after this. i keep thinking about like. i'm going to have to open this door. i'm going to have to go down the stairs. walk past people. get outside. walk back to the dorm. and every step of that is real and i have to do it.
+
+the steps after that i can't. i can't look at those.
+
+just the door. just the stairs.
+
+his name is
+
+i'm not going to write that.
+
+i know his name.
+
+my face looks normal in the mirror. i checked. i look like me. that doesn't seem right but it's what's there.
+
+mel is three hours away. it's 11:47. she might be up. i can't. i don't want her to drive here in the middle of the night and i don't want her to not come and i don't want to be the reason she's scared on 71 at 2am so i can't call. i can't do that to her.
+
+i don't know who to call.
+
+the tile is really cold. my feet are cold.
+
+ok. ok i'm going to get up. i'm going to open the door. i'm going to get out of this house.
+
+that's the thing i can do.
 
 ---
 

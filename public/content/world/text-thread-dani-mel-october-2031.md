@@ -34,9 +34,10 @@ dani?
 
 **Dani** 12:03pm
 at the party
-there was this guy i didn't really know
-and i kept saying i wanted to go back downstairs
-and he didn't
+there was this guy
+i said no
+i kept saying it
+he didn't stop
 
 **Mel** 12:03pm
 oh god
@@ -45,7 +46,6 @@ oh god
 oh dani
 
 **Dani** 12:04pm
-i'm okay
 sorry i don't know why i'm texting you this
 
 **Mel** 12:04pm
