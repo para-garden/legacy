@@ -1,9 +1,31 @@
 ---
-label: Dani's journal, Dec 2031–Mar 2032
-description: After the determination.
+label: Dani's journal, Oct 2031–Mar 2032
+description: The night of. And after.
 tags: [indulgence, justice, cw:sexual-violence]
 collections: [default]
 related: [text-thread-dani-mel-october-2031, campus-chronicle-phi-delta-sigma-october-2031]
+---
+
+*october 11*
+
+okay
+
+okay
+
+i just need to
+
+i said i needed to go downstairs. i said it. i kept
+
+he didn't
+
+okay
+
+i'm in the bathroom. i can hear the party. someone just knocked and i said occupied.
+
+i don't know how to
+
+i said it. i kept saying it. that's. i said it.
+
 ---
 
 *december 19*
