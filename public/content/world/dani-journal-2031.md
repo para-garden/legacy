@@ -8,45 +8,43 @@ related: [text-thread-dani-mel-october-2031, campus-chronicle-phi-delta-sigma-oc
 
 *october 11*
 
-ok
+bathroom at the delta sig house. it's 11:47. i don't know why i'm writing that down. the floor is sticky.
 
-ok so
+okay.
 
-i'm in the bathroom. party downstairs. i need to. i don't know.
+i have to write this down or it's going to live only in my body and i can't let it do that.
 
-i keep trying to start this and i don't know what the sentence is. i don't know how to
+we went upstairs. i know him a little. not well. he's in jake's friend group. he always seemed fine. i thought he seemed fine.
 
-he didn't. i said it and he
+i don't want to write what happened. i'm going to write it anyway.
 
-i'm sitting on the floor. the tile is cold. i should text mel. i can't text mel. i don't know what i would say. i don't know how to say the thing without. i don't know.
+i said no. not like — i wasn't ambiguous. i said it. he kept going. i said it again and he — he had his hand on my shoulder and he kept going and i couldn't. i didn't.
 
-okay. okay. i'm going to just. okay.
+i don't know why i'm trying to explain what i did or didn't do. i hate that i'm doing that.
 
-i went upstairs. that part is true. i went.
+he kept going.
 
-and i said no and i said it again and he
+that's the fact. that is the fact. i am trying to hold it.
 
-that's what happened. those are the facts i can hold.
+the bass is still going. some song i know. that's the part that's — how is this the same night. how is there still a party.
 
-my hands feel weird. i keep looking at them. dad's hands. that's my hands and they feel like they're someone else's.
+i keep thinking about what i said exactly. trying to remember if i said it right. like there's a right way.
 
-someone knocked and i said occupied and now i'm just sitting here and the music is coming through the floor and someone is laughing and someone just went WOOOOO and i need that to stop. i need the floor to stop vibrating i need the bass to stop.
+there isn't. i know there isn't.
 
-i don't know if there is an after this.
+priya is going to ask where i've been. she always checks in. i can't tell her tonight. i don't have it.
 
-just the door. just the stairs.
+i'm so cold. that's a weird thing to be right now. in a bathroom that smells like someone else's shampoo.
 
-his name is
+i want to text mel but i don't know what to say.
 
-i'm not going to write that.
+he seemed fine. jake's friend. seemed fine. and now i'm in here and the party is still going and he is presumably still at that party and i am sitting on the floor of this bathroom. between the toilet and the wall. that's where i am.
 
-i know his name.
+i need to remember that that is not a complicated sentence. it is a small sentence. it is the truest thing i know right now and i need to stop trying to make it smaller.
 
-the tile is really cold. my feet are cold.
+he kept going.
 
-ok. ok i'm going to get up. i'm going to open the door. i'm going to get out of this house.
-
-that's the thing i can do.
+okay. i'm going to stand up now.
 
 ---
 
