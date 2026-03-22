@@ -130,7 +130,7 @@ You have the right to stop us from contacting you. If you notify us in writing t
 - To notify you that collection efforts are being terminated; or
 - To notify you that we may take specific action, to the extent permitted by law.
 
-Stopping contact does not eliminate the debt.
+[Stopping contact does not eliminate the debt.](https://www.law.cornell.edu/uscode/text/15/1692c)
 
 You have the right to retain an attorney to represent you in connection with this debt. If you retain an attorney, please direct your attorney to contact us at (800) 774-9300. Once we are notified that you have legal representation, we will direct future communications to your attorney.
 

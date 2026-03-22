@@ -43,7 +43,7 @@ Because you chose an **in-network provider**, BlueCross Advantage Select was abl
 | | |
 |---|---|
 | Amount Billed by Provider | $54,817.00 |
-| **Negotiated Discount (Your Savings)** | **−$36,204.00** |
+| [**Negotiated Discount (Your Savings)**](https://www.healthaffairs.org/doi/10.1377/hlthaff.2015.0183) | **−$36,204.00** |
 | Plan Allowed Amount | $18,613.00 |
 | Plan Paid | $14,366.00 |
 | **Your Responsibility This Claim** | **$4,247.00** |
@@ -106,7 +106,7 @@ The following providers typically bill **separately** from the hospital. You may
 
 > **PLEASE READ — Important Notice Regarding Network Status**
 >
-> Pinnacle Anesthesia Partners, LLC has not yet confirmed their network status with BlueCross Advantage Select for the date of your service. Anesthesiologists and other specialist providers who practice at in-network facilities are **not always in-network themselves**. If this provider is determined to be **out-of-network**, different cost-sharing terms will apply, and your balance due may be higher than anticipated.
+> Pinnacle Anesthesia Partners, LLC has not yet confirmed their network status with BlueCross Advantage Select for the date of your service. [Anesthesiologists and other specialist providers who practice at in-network facilities are **not always in-network themselves**](https://www.gao.gov/products/gao-23-105765). If this provider is determined to be **out-of-network**, different cost-sharing terms will apply, and your balance due may be higher than anticipated.
 >
 > **Your rights under the No Surprises Act (Federal Law, effective 2022):**
 > You have protections against certain surprise bills for emergency services. However, these protections apply to the **physician fee** only under specific qualifying conditions. Facility fees are governed separately. If you believe you have been billed incorrectly:

@@ -67,7 +67,7 @@ A well-maintained CDM — one in which charges bear a rational relationship to c
 
 The goal is not to have charges that match costs. The goal is to have **charges that bear a stable and explicable relationship to costs**, even if that relationship involves a consistent multiplier.
 
-Our current system-wide cost-to-charge ratio is 0.21, meaning our costs represent approximately 21 cents of every dollar billed. This is within the normal range for health systems of our size and payer mix. It is a number we actively manage.
+Our current system-wide cost-to-charge ratio is 0.21, meaning our costs represent approximately 21 cents of every dollar billed. [This is within the normal range for health systems of our size and payer mix.](https://www.healthaffairs.org/doi/10.1377/hlthaff.2015.0183) It is a number we actively manage.
 
 ### 2.3 Charge Capture Integrity
 

@@ -69,7 +69,7 @@ ascendhealthsystem.com/portal &nbsp;|&nbsp; Patient Billing Services: (844) 501-
 | J0696 | Ceftriaxone 1gm IV (prophylactic antibiotic) | 1 | $284.00 | $284.00 |
 | A6216 | IV Start Kit / Peripheral Access Tray | 1 | $218.00 | $218.00 |
 | 99000 | Specimen Handling / Transport Fee | 1 | $87.00 | $87.00 |
-| — | Aspirin 325mg (oral) | 2 | $47.00 | $94.00 |
+| — | [Aspirin 325mg (oral)](https://time.com/198/bitter-pill-why-medical-bills-are-killing-us/) | 2 | $47.00 | $94.00 |
 | — | Acetaminophen 1000mg IV (Ofirmev) | 2 | $310.00 | $620.00 |
 | — | Ondansetron 4mg IV (Zofran, anti-nausea) | 2 | $138.00 | $276.00 |
 | — | Surgical Gloves, Sterile, per pair | 3 | $93.00 | $279.00 |
@@ -188,7 +188,7 @@ The following services were provided by independent practitioners and will be bi
 
 **Emergency transportation was provided by Metro Emergency Transport Services (METS), an independent third-party provider.**
 
-Metro Emergency Transport Services operates under contract with local municipalities but **bills patients independently**. METS is **not affiliated with Ascend Health System** and is **not in-network** with most commercial insurance plans.
+Metro Emergency Transport Services operates under contract with local municipalities but **bills patients independently**. METS is **not affiliated with Ascend Health System** and is [**not in-network** with most commercial insurance plans](https://crsreports.congress.gov/product/pdf/R/R47067).
 
 You will receive a separate bill from METS. For questions, contact METS Billing at (833) 620-4411.
 
