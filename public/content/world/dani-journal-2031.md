@@ -32,9 +32,7 @@ my hands feel weird. i keep looking at them. dad's hands. that's my hands and th
 
 someone knocked and i said occupied and now i'm just sitting here and the music is coming through the floor and someone is laughing and someone just went WOOOOO and i need that to stop. i need the floor to stop vibrating i need the bass to stop.
 
-i don't know what to do after this. i don't know if there is an after this. i keep thinking about like. i'm going to have to open this door. i'm going to have to go down the stairs. walk past people. get outside. walk back to the dorm. and every step of that is real and i have to do it.
-
-the steps after that i can't. i can't look at those.
+i don't know if there is an after this.
 
 just the door. just the stairs.
 
@@ -43,12 +41,6 @@ his name is
 i'm not going to write that.
 
 i know his name.
-
-my face looks normal in the mirror. i checked. i look like me. that doesn't seem right but it's what's there.
-
-mel is three hours away. it's 11:47. she might be up. i can't. i don't want her to drive here in the middle of the night and i don't want her to not come and i don't want to be the reason she's scared on 71 at 2am so i can't call. i can't do that to her.
-
-i don't know who to call.
 
 the tile is really cold. my feet are cold.
 
