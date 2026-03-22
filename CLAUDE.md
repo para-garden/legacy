@@ -8,7 +8,7 @@ Legacy is a worldbuilding project under the para-garden org — "what humanity l
 
 The site is a spatial graph (forked from ptera.world's engine) that you navigate like a world. Nodes are places, factions, figures, events, concepts. The graph layout is argument: proximity is relationship.
 
-Legacy is the world. It has a single collection with facets as tags. A document can carry multiple facets — they're coexisting forces, not separate worlds.
+Legacy is the world. It has two collections: `default` (the world itself) and `research` (real sources behind the world). The world collection uses facets as tags — a document can carry multiple facets, coexisting forces not separate worlds.
 
 ## Origin
 
@@ -25,9 +25,9 @@ The distinction: ptera.world is reflective. Legacy is immersive.
 Forked from ptera.world's engine. All source is in `src/` (~1,200 lines), zero runtime dependencies except `keybinds` and `yaml`. See ptera.world's CLAUDE.md for the full architecture description — legacy uses the same graph engine, zoom tier system, content pipeline, cluster system, and build tools.
 
 Key differences from ptera.world:
-- Single collection, facets as tags (not separate collections)
+- Two collections: `default` (world) and `research` (real sources). World collection uses facets as tags.
 - Site config: `name: "legacy"`, `domain: "legacy.paragarden.world"`, `metaNodeId: "meta/legacy"`
-- All content lives in `public/content/world/`
+- World content lives in `public/content/world/`. Research content in `public/content/research/`.
 
 ## Commands
 

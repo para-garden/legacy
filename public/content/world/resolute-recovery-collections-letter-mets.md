@@ -83,7 +83,7 @@ If you have questions about credit reporting related to this account, call (800)
 
 ---
 
-## NOTICE OF YOUR RIGHTS UNDER THE FAIR DEBT COLLECTION PRACTICES ACT
+## NOTICE OF YOUR RIGHTS UNDER THE [FAIR DEBT COLLECTION PRACTICES ACT](https://www.law.cornell.edu/uscode/text/15/1692g)
 
 *Please read this section carefully. It contains important information about your legal rights.*
 

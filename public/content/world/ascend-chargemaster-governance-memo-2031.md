@@ -170,7 +170,7 @@ The CDM analyst team (currently 3.0 FTE) is responsible for maintaining charge a
 
 ## SECTION 6: REGULATORY AND COMPLIANCE NOTES
 
-**IRC 501(r):** Our charity care write-offs under the Ascend Cares Financial Assistance Program are documented and submitted annually as required by IRS Form 990, Schedule H. FY2031 charity care of $47.3M is calculated at gross charge rates, as permitted, which results in a larger reported community benefit figure than would result from cost-based calculations. This is standard practice.
+**IRC 501(r):** Our charity care write-offs under the Ascend Cares Financial Assistance Program are documented and submitted annually as required by IRS Form 990, Schedule H. FY2031 charity care of $47.3M is [calculated at gross charge rates, as permitted](https://www.gao.gov/assets/gao-06-798.pdf), which results in a larger reported community benefit figure than would result from cost-based calculations. This is standard practice.
 
 **No Surprises Act:** The NSA continues to generate administrative complexity, particularly around anesthesia (Pinnacle Anesthesia Partners) and out-of-network disputes. NSA arbitration outcomes have been tracked by our managed care team; to date, arbitration has generally favored Ascend positions. We will continue to monitor legislative developments.
 

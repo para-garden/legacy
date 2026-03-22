@@ -23,6 +23,11 @@ export const siteConfig = {
       metaNodeId: "meta/legacy",
       contentDirs: ["meta", "world"],
     },
+    research: {
+      name: "research",
+      metaNodeId: "meta/research",
+      contentDirs: ["meta", "research"],
+    },
   } satisfies Record<string, CollectionConfig>,
 } as const;
 

@@ -158,7 +158,7 @@ The following providers typically bill **separately** from the hospital. You may
 > Emergency medical transport providers are not required to bill your insurer directly. If METS bills you directly, you may submit the claim for reimbursement yourself. Please be aware:
 >
 > - **METS is not an in-network provider.** Out-of-network emergency transport is a covered benefit under your plan, subject to your out-of-network deductible ($3,500 individual, separate from your in-network deductible) and out-of-network coinsurance (40% after deductible).
-> - The No Surprises Act provides some protections for ground ambulance services, but **federal ground ambulance protections vary by state** and a final rule has not been uniformly implemented. Your state may have additional protections. BlueCross Advantage Select cannot confirm the applicable protections for your transport at this time.
+> - The No Surprises Act provides some protections for ground ambulance services, but [federal ground ambulance protections vary by state and a final rule has not been uniformly implemented](https://crsreports.congress.gov/product/pdf/R/R47067). Your state may have additional protections. BlueCross Advantage Select cannot confirm the applicable protections for your transport at this time.
 >
 > **To submit a manual reimbursement claim:**
 >
