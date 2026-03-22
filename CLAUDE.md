@@ -87,11 +87,11 @@ The graph layout is meaning. Put things near each other because they belong near
 
 ## Audience
 
-The primary reader is someone who doesn't already know. Not someone who will decode dissociation, recognize the language of coercion, or already understand how Title IX outcomes work. Someone who might read "educational sanctions" and think that sounds about right.
+The primary reader is someone who doesn't already know. Not someone who recognizes the systems, understands the jargon, or has personal experience with what's being described. Someone who might encounter a document in this world and find it unremarkable.
 
-The goal is that they can't. That gap — between what happened and what the system called it — only works if the reader understands both sides. Writing that relies on prior familiarity preaches to the choir. Writing that assumes the reader knows lets everyone else rationalize their way out.
+That's the reader to write for. The horror only lands if it's legible to someone without prior context — someone who needs to be shown, not reminded. Writing that assumes familiarity preaches to the choir. Everyone else walks away unaffected.
 
-Don't assume shared context. Make the weight legible to someone who has never been in the room.
+Don't assume shared context. Make the weight legible.
 
 ## Voice
 
