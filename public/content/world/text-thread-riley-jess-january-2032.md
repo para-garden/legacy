@@ -1,6 +1,6 @@
 ---
 label: Text thread — Riley and Jess, Jan 2032
-description: The letter came. She told Jess about dinner instead.
+description: The letter came. Yeah. She kind of figured.
 tags: [justice, distance, cw:sexual-violence]
 collections: [default]
 related: [text-thread-riley-jess-november-2031, whitmore-title-ix-outcome-whitaker-2032]
@@ -35,19 +35,22 @@ insufficient evidence. they gave him a module to complete. it won't go on his re
 riley I'm so sorry
 
 **Riley** 17:00
-it's okay. I knew that was probably going to happen.
+yeah. I kind of figured.
 
-**Riley** 17:00
-I don't know. I don't know what I thought was going to happen.
+**Riley** 17:01
+are you okay
 
 **Jess** 17:01
+am *I* okay?? riley
+
+**Riley** 17:02
+I just wanted to make sure you knew. I'm okay. I promise.
+
+**Jess** 17:03
 do you want me to come over
 
 **Riley** 17:03
 no you have your 6pm. go to your 6pm.
-
-**Riley** 17:04
-I'm okay. I just wanted to tell you.
 
 *Jess is typing...* 17:04
 
