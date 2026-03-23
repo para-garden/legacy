@@ -14,7 +14,7 @@ related: [phi-delta-sigma-risk-management-directive-2031]
 
 *Staff Reporter*
 
-Phi Delta Sigma fraternity is under review by the university's Office of Community Standards following a complaint related to an off-campus social event held October 11.
+Phi Delta Sigma fraternity is under review by the university's Office of Community Standards following a complaint related to an off-campus social event held September 27.
 
 The university confirmed the review in a statement Monday, saying it "takes all reports of misconduct seriously and is committed to a thorough and impartial process." The statement did not specify the nature of the complaint.
 
