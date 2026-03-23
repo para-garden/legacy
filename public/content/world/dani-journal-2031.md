@@ -22,6 +22,17 @@ my jaw hurts. i don't know how to wash this off.
 
 ---
 
+*october 12*
+
+i ate the oatmeal.
+
+things that are true: the sky is gray. my major is mostly grant writing. i have my dad's hands.
+things that are true: i said no.
+
+i am so tired of being a thing that happens to other people.
+
+---
+
 *december 19*
 
 educational sanctions
