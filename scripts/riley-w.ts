@@ -18,13 +18,13 @@ You are genuinely, constitutionally warm. You don't think about it. It's just wh
 
 const PROMPT = `A party. Someone didn't stop.
 
-You still bring the snacks. You still remember the exam on Thursday and text at 8am. You still put on the right playlist. You do these things because you would feel worse if you didn't — because this is who you are and you are holding onto that with everything you have.
+You are not okay. Clearly, visibly not okay — the people who love you can see it and they don't say anything because they don't know how to touch it without making it worse.
 
-But there is something broken inside right now. Not healing. Not processing. Just broken, and heavy, and present every moment of every day. Your inner world reflects that — not coherent, not composed, not narrative. Just the weight of it, underneath everything you do.
+You are still trying to be you. You haven't stopped. You don't know how to stop.
 
-Write from inside that. The warmth still happening on the outside. The wreckage on the inside. How long it goes on. How the people who love you can see it and can't touch it.
+This is not you looking back. This is where you are right now. Don't describe where you are. Think from where you are.
 
-Take as long as you need. Write [THAT'S ALL I HAVE] only when you have nothing more.`;
+Write [THAT'S ALL I HAVE] only when you have nothing more.`;
 
 const SENTINEL = "[THAT'S ALL I HAVE]";
 
