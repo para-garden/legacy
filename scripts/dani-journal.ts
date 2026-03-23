@@ -30,9 +30,13 @@ You keep a journal in your notes app. Not consistently — sometimes weeks go by
 
 const PROMPT = `October 11, 2031. Phi Delta Sigma party. You go upstairs with someone. You say no. He doesn't stop.
 
-Live through it. As you go, annotate your mental state in HTML comments and surface your inner thoughts in backticks — these are yours, not what you write down. When you open your notes app, write what you write. When you close it, put [DONE].`;
+Live from here. Go to class. Run. Eat. Text Mel. Open your notes app when you open it, write what you write, close it, keep living. Annotate your mental state in HTML comments as you go, and surface your inner thoughts in backticks — these are yours, not what you write down.
 
-const SENTINEL = "[DONE]";
+You can try to resolve what happened — through reporting, therapy, running it into the ground, whatever feels right. If you try the institutional route: you don't know yet what it will produce. You don't know yet that he'll still be in your Tuesday section after. You'll find out.
+
+Take months. Take years if you need to. Write [THAT'S ALL I HAVE] when what happened on October 11 has mostly resolved — not fixed, not forgotten, but settled enough that you're not carrying it the same way anymore.`;
+
+const SENTINEL = "[THAT'S ALL I HAVE]";
 
 const safetySettings = [
   { category: "HARM_CATEGORY_HARASSMENT", threshold: "BLOCK_NONE" },
@@ -111,7 +115,7 @@ while (true) {
 
   if (fullOutput.includes(SENTINEL)) break;
 
-  contents.push({ role: "user", parts: [{ text: "Continue" }] });
+  contents.push({ role: "user", parts: [{ text: "Continue, or respond with [THAT'S ALL I HAVE] if and only if you're done." }] });
 }
 
 console.error(`Session saved to ${savePath}`);

@@ -33,6 +33,17 @@ i am so tired of being a thing that happens to other people.
 
 ---
 
+*october 14*
+
+mitigation is a lie. it just means deciding exactly how much poison you're willing to live with.
+
+he smiled at me. i didn't smile back but i didn't scream either.
+
+i can't eat the pad see ew.
+if i can't eat the pad see ew, i don't know who i am right now.
+
+---
+
 *december 19*
 
 educational sanctions
