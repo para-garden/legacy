@@ -6,6 +6,21 @@ collections: [default]
 related: [text-thread-dani-mel-october-2031]
 ---
 
+October 11, 2031
+11:42 PM
+
+I am not very good at reading people.
+The water table is doing something wrong and nobody is talking about it.
+I said no.
+I said it twice.
+There was no balcony.
+He knew there was no balcony.
+He made me a thing. I was just a thing. I didn't consent to being part of this.
+I need a new hair tie. I stretched this one out.
+I don't know what to do.
+
+---
+
 October 12, 2031
 8:45 AM
 
