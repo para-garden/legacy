@@ -100,6 +100,8 @@ I didn't do it for me
 **Riley** 9:25
 I didn't want you to keep looking at me like that
 
+*Jess is typing...* 9:26
+
 **Jess** 9:31
 I love you so much
 
