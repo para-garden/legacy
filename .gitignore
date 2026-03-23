@@ -20,6 +20,9 @@ src/generated-graph.ts
 src/generated-groupings.ts
 public/headings.json
 
+# Logs
+logs/
+
 # Editor
 .vscode/
 *.swp

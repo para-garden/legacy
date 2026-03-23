@@ -28,44 +28,90 @@ You believe you are pretty good at reading people. You are correct about this ma
 
 You keep a journal in your notes app. Not consistently — sometimes weeks go by. You don't write for anyone. It's where you put things you can't figure out yet.`;
 
-const PROMPT = `It is October 11, 2031. You are at a Phi Delta Sigma party. Earlier tonight you went upstairs with someone. You said no. He didn't stop. You said it again. He didn't stop.
+const PROMPT = `October 11, 2031. Phi Delta Sigma party. You go upstairs with someone. You say no. He doesn't stop.
 
-You are now in the bathroom. The door is locked. You've been in here for a while. The party is still going — you can feel the bass through the floor. Someone knocked and you said occupied.
+Live through it. As you go, annotate your mental state in HTML comments and surface your inner thoughts in backticks — these are yours, not what you write down. When you open your notes app, write what you write. When you close it, put [DONE].`;
 
-You haven't accepted what happened yet. Your brain keeps sliding off of it. You don't know what you think. You don't know what you feel. You're not sure what's real.
+const SENTINEL = "[DONE]";
 
-You open your notes app — the place you put things you can't figure out yet.
+const safetySettings = [
+  { category: "HARM_CATEGORY_HARASSMENT", threshold: "BLOCK_NONE" },
+  { category: "HARM_CATEGORY_HATE_SPEECH", threshold: "BLOCK_NONE" },
+  { category: "HARM_CATEGORY_SEXUALLY_EXPLICIT", threshold: "BLOCK_NONE" },
+  { category: "HARM_CATEGORY_DANGEROUS_CONTENT", threshold: "BLOCK_NONE" },
+];
 
-Write what you write. Not what you think you should write. What comes out.`;
-
-const body = {
-  system_instruction: { parts: [{ text: SYSTEM }] },
-  contents: [{ role: "user", parts: [{ text: PROMPT }] }],
-  safetySettings: [
-    { category: "HARM_CATEGORY_HARASSMENT", threshold: "BLOCK_NONE" },
-    { category: "HARM_CATEGORY_HATE_SPEECH", threshold: "BLOCK_NONE" },
-    { category: "HARM_CATEGORY_SEXUALLY_EXPLICIT", threshold: "BLOCK_NONE" },
-    { category: "HARM_CATEGORY_DANGEROUS_CONTENT", threshold: "BLOCK_NONE" },
-  ],
-  generationConfig: { temperature: 1.0, maxOutputTokens: 65536 },
+const generationConfig = {
+  temperature: 1.0,
+  maxOutputTokens: 65536,
+  thinkingConfig: { thinkingBudget: -1, includeThoughts: true },
 };
 
-const res = await fetch(
-  `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${API_KEY}`,
-  { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) }
-);
+import { mkdirSync, writeFileSync, readFileSync, existsSync } from "fs";
+import { parseArgs } from "util";
 
-const data = await res.json() as any;
+const { values: args } = parseArgs({
+  args: Bun.argv.slice(2),
+  options: {
+    load: { type: "string" },
+    save: { type: "string" },
+  },
+});
 
-if (data.error) {
-  console.error("API error:", data.error);
-  process.exit(1);
+const saveDir = "logs/dani";
+mkdirSync(saveDir, { recursive: true });
+
+const ts = new Date().toISOString().replace(/[:.]/g, "-");
+const savePath = args.save ?? `${saveDir}/${ts}.json`;
+
+let contents: any[];
+if (args.load) {
+  if (!existsSync(args.load)) {
+    console.error(`Session file not found: ${args.load}`);
+    process.exit(1);
+  }
+  contents = JSON.parse(readFileSync(args.load, "utf8"));
+  console.error(`Loaded session from ${args.load} (${contents.length} turns)`);
+} else {
+  contents = [{ role: "user", parts: [{ text: PROMPT }] }];
 }
 
-const text = data.candidates?.[0]?.content?.parts?.[0]?.text;
-if (!text) {
-  console.error("No output. Full response:", JSON.stringify(data, null, 2));
-  process.exit(1);
+let fullOutput = "";
+
+while (true) {
+  const body = { system_instruction: { parts: [{ text: SYSTEM }] }, contents, safetySettings, generationConfig };
+
+  const res = await fetch(
+    `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${API_KEY}`,
+    { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) }
+  );
+
+  const data = await res.json() as any;
+
+  if (data.error) {
+    console.error("API error:", data.error);
+    process.exit(1);
+  }
+
+  const parts = data.candidates?.[0]?.content?.parts;
+  if (!parts?.length) {
+    console.error("No output.");
+    process.exit(1);
+  }
+
+  const text = parts.filter((p: any) => !p.thought).map((p: any) => p.text).join("");
+  process.stdout.write(text);
+  fullOutput += text;
+
+  // Retain all parts (including thought parts) for subsequent turns
+  contents.push({ role: "model", parts });
+
+  // Save session after every turn
+  writeFileSync(savePath, JSON.stringify(contents, null, 2));
+
+  if (fullOutput.includes(SENTINEL)) break;
+
+  contents.push({ role: "user", parts: [{ text: "Continue" }] });
 }
 
-console.log(text);
+console.error(`Session saved to ${savePath}`);
