@@ -1,9 +1,9 @@
 ---
-label: Dani's journal, Oct 2031–Mar 2032
+label: Dani's journal, Oct 2031–Oct 2032
 description: The night of. And after.
 tags: [indulgence, justice, cw:sexual-violence]
 collections: [default]
-related: [text-thread-dani-mel-october-2031, campus-chronicle-phi-delta-sigma-october-2031]
+related: [text-thread-dani-mel-october-2031]
 ---
 
 *october 11*
@@ -44,74 +44,104 @@ if i can't eat the pad see ew, i don't know who i am right now.
 
 ---
 
-*december 19*
+*october 15*
 
-educational sanctions
-
-i looked it up. it means he has to complete a module.
-
-i don't know what i'm supposed to do with that.
+i don't think sixty percent of people are good. i think maybe twenty percent are good, and the rest just haven't been put in a room with a lock on the door yet.
 
 ---
 
-*december 26 or 27*
+*october 16*
 
-home. fine. sleeping a lot. mom noticed. said i seemed tired.
+he raised his hand and explained the tragedy of the commons. he understands the concept of a shared resource being destroyed by selfish action. he just doesn't think it applies to me.
 
-yeah.
+i am not a commons.
 
----
-
-*january 9*
-
-he's in my tuesday section
-
-i walked in and he was already there and i just. i sat down. i took my coat off. i took notes.
-
-i don't know what i thought would happen when i filed. i don't know what i thought.
+i survived the hour. i didn't run out. i didn't throw up. my wrist is bruised, but the baseline held.
 
 ---
 
-*january 17*
+*october 17*
 
-can't sleep. went running at like 1am. just needed to be somewhere else for a while.
+mel knows something is wrong. she offered to key althaus's car. i lied to her again.
 
-this is not a sustainable plan
-
----
-
-*january 23*
-
-mel keeps asking. i keep saying i'm fine and i don't know if that's a lie or not. i'm going to class. i'm doing the work.
-
-i keep starting a message to him and then not sending it. i don't know what i'd even say. i don't know what i want.
+i let the sad music play. i didn't skip it.
 
 ---
 
-*february 6*
+*october 18*
 
-got an A on the midterm
-
----
-
-*february 28*
-
-looked up his instagram
-
-he posted from a ski trip. he looks fine. he looks exactly the same.
-
-deleted the app.
+i typed the words to mel. i actually typed them. and then i deleted them.
 
 ---
 
-*march 14*
+*october 20*
 
-mel asked if i'd talked to anyone. told her i'd think about it.
+the bomb went off.
 
-i have thought about it. i keep thinking about a lot of things and it doesn't seem to go anywhere.
+i held the button down and then i just — didn't. he smiled at me and i broke into a million pieces on high street, but i told her. mel is driving. i can hear her tires on the highway. she didn't ask me for a needs statement. she just got in the car.
 
-i don't know what i'd even say. i filed, they did nothing, he sits in front of me every tuesday, i'm fine.
+priya locked the door. she gave me her blanket. she didn't ask me to be warm. she is just letting me be cold.
 
-i'm doing the readings. i'm going to class. i don't know what i thought was going to happen.
+i am still poisoned. but the closed system is open now. i let the air in.
 
-i thought something was going to happen.
+i am going back to columbus. i am going to see the dark-eyed juncos in the frost. i am going to sit in my dad's truck and listen to him talk about blower motors.
+
+i don't have to be sixty percent right about people. i was one hundred percent right about them.
+
+---
+
+*october 24*
+
+watched a documentary about the dust bowl with mel and dad tonight. for two weeks i've been trying to figure out how i over-farmed. trying to find the exact point where i weakened my own roots. i talked to him before class. i agreed to go upstairs. i thought sixty percent was a passing grade.
+
+but i wasn't the farmer.
+
+i was the topsoil. just existing in the environment, doing what i was supposed to do, and someone else came in and stripped the roots away. it wasn't a miscalculation. it was a weather event.
+
+i couldn't stop the wind.
+
+---
+
+*october 26*
+
+mark is going to go to class tomorrow. he gets to keep his ecosystem. he poisoned the water but he didn't drink it, so he doesn't have to leave.
+
+it makes my hands shake. but it's a cold, distant anger. buried under the snow.
+
+---
+
+*november 18*
+
+i ate the pad see ew. it didn't taste like the basement. it just tasted like food.
+
+i sent mel a voice memo.
+
+---
+
+*december 12*
+
+i opened the bag. the smell of the campus was still inside it and it made me feel sick for about ten seconds, but then it just became laundry. i washed hamilton hall out of the fabric. i threw the statistics notebook in the recycling.
+
+the clothes are in the dryer now. when they come out, they are just going to be shirts and pants.
+
+---
+
+*march 3*
+
+i went for a run. my lungs burned and my legs feel like lead, but i did it.
+
+i applied to columbus state. i am going to stay in this habitat for a while. the soil is good here.
+
+---
+
+*october 11*
+
+it has been exactly one year. the earth completed the rotation.
+
+i am standing on a bluff overlooking the river with mel. in ecology, deciduous trees drop their leaves in the autumn because it costs too much caloric energy to keep them alive through the freeze. they cut off the water supply to the stems. they let them die, they let them fall, and the dead leaves become the compost that feeds the roots for the spring bloom.
+
+i am dropping the leaves. i am not carrying the basement anymore. i am letting it all fall into the dirt to become topsoil.
+
+i am dani reyes. i am twenty-two.
+
+this is the last field note. the study is concluded. the ecosystem is thriving.

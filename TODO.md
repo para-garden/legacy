@@ -163,6 +163,15 @@ Pressures to explore (not exhaustive):
 - **Neglect** — a home that was never really a home, the absence of care, what that does over time
 - **Housing instability** — multiple homes over time, each one a different kind of precarity
 
+### Dani cluster — reassignment
+
+The fraternity documents (phi-delta-sigma-risk-management-directive-2031.md, campus-chronicle-phi-delta-sigma-october-2031.md) and the text thread assume someone filed a Title IX complaint. Dani didn't file — her arc is the institutional silence. These documents belong to a different person.
+
+- Rename the fraternity or keep Phi Delta Sigma but assign the filing to a new character (unnamed or named)
+- Update related: fields and frontmatter references accordingly
+- text-thread-dani-mel-october-2031.md stays Dani's — but the October 28 dean's office entry needs to be removed or attributed differently
+- The "educational sanctions" outcome should be legible as belonging to a different incident
+
 ### Healthcare — parallel threads
 
 Same event as Riley's story (appendectomy), different outcomes. For juxtaposition. Not a parallel document series — fragments, things you find. Some harder to find than others. The medical stuff as entry point, the ripple as the story.
