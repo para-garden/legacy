@@ -173,9 +173,9 @@ text-thread-dani-mel-october-2031.md deleted — was hand-crafted and now orphan
 
 ### Simone cluster — to build
 
-- Title IX complaint documents (her filing, the process, the outcome: educational sanctions)
-- Something from Simone's perspective — text thread with Adaeze, or a journal, or the outcome letter itself
-- `related:` links between Simone documents and the fraternity documents once they exist
+- [x] Title IX outcome letter (whitmore-title-ix-outcome-osei-2031.md)
+- [x] Text thread with Adaeze, Oct–Dec 2031 (text-thread-simone-adaeze-2031.md)
+- [ ] Simone node itself — a figure node placing her in the graph
 
 ### Healthcare — parallel threads
 

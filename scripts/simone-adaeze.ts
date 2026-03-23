@@ -75,6 +75,7 @@ const { values: args } = parseArgs({
     load: { type: "string" },
     save: { type: "string" },
   },
+  allowPositionals: true,
 });
 
 const saveDir = "logs/simone";
