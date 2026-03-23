@@ -3,7 +3,7 @@ label: Dani's journal, Oct 2031–Oct 2032
 description: The night of. And after.
 tags: [indulgence, justice, cw:sexual-violence]
 collections: [default]
-related: []
+related: [text-thread-dani-mel-october-2031]
 ---
 
 October 11, 2031
