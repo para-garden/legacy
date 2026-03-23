@@ -167,6 +167,10 @@ Pressures to explore (not exhaustive):
 
 Resolved: Simone Osei (characters/simone.md) is the filer. Her incident is September 27 (different Phi Delta Sigma party). The campus chronicle article and risk management directive belong to her arc. Dani's text thread no longer links to them; the October 28 dean's office entry is removed.
 
+### Dani cluster — text thread
+
+text-thread-dani-mel-october-2031.md deleted — was hand-crafted and now orphaned after the reassignment. Rebuild via Gemini using characters/dani.md + a Mel character card (or just anchor Mel from Dani's perspective). The thread should cover Dani telling Mel what happened — no dean's office, no filing. Just Mel getting in the car.
+
 ### Simone cluster — to build
 
 - Title IX complaint documents (her filing, the process, the outcome: educational sanctions)
