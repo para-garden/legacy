@@ -1,6 +1,7 @@
 ---
 label: research
 description: Real sources behind the world. The fiction is indistinguishable from the fact because it isn't fiction.
+tags: [meta]
 collections: [research]
 ---
 
