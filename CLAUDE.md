@@ -123,11 +123,17 @@ In-world documents are written as if they exist inside the world — reports, ma
 
 No omniscient narrator. Everything is a document someone in the world wrote.
 
+**Write as characters, not about them.** There is a layer between "Claude writing a journal" and "the person writing their journal" and it shows in every sentence. Cleanness, coherence, tasteful distance — all signs of the author, not the character. For inhabited character writing, use the subagent approach: write a character card (system prompt via `/character`), then spawn a subagent with that card. The subagent writes as the character without the author's mediation.
+
+**Don't sanitize heavy content.** A cleaned-up, composed version of trauma is worse than nothing — it minimizes by making it look manageable. When writing from inside a traumatic experience, match the actual cognitive state — fragmented, incoherent, not yet processed. Messiness is accuracy, not melodrama. "Least distance possible" — the closest form to the thing itself. In practice, Claude's safety training still sanitizes despite this rule — the actual workflow for inhabited heavy content is: build the character card here (`/character`), then write via Gemini.
+
 ## Citations
 
-The fiction is indistinguishable from the fact because it isn't fiction. Before writing any document, research the real version — the actual chargemaster language, the actual collections letter format, the actual risk management memo, the actual Title IX timeline. Write from the source. Accuracy is the horror.
+The world is set in 2032. The citations point to real documents from right now. That's the mechanic: the reader encounters a fictional hospital bill, clicks a link, and finds a real GAO report. The fiction doesn't acknowledge the citation. The citation doesn't acknowledge the fiction. The distance between "this is a story" and "this is happening" collapses in that click. Without the citations, it's just bleak worldbuilding. With them, the reader has to contend with the fact that none of it was invented.
 
-Where a real document exists, cite it inline as a quiet link. Not drawing attention. Just there. The reader clicks it and it's real. That's the point.
+Before writing any document, research the real version — the actual chargemaster language, the actual collections letter format, the actual risk management memo, the actual Title IX timeline. Write from the source. Accuracy is the horror.
+
+Every real-system claim in a world document needs a source: prices, statutes, policies, mechanisms. If a number appears and it's a real-system number, it should have a quiet inline link to the real thing. Fictional details (character names, dates, dialogue) don't need citations.
 
 Never fabricate citations. Find the real source or don't cite.
 
@@ -139,9 +145,22 @@ para-garden / paragarden (`~/git/paragarden/`). GitHub org: para-garden.
 
 When suggesting multiple options for content direction: immediately add all of them to TODO.md before continuing. The user will pick one, but alternatives shouldn't be lost.
 
+## Core Rules
+
+**Note things down immediately — no deferral:**
+- Problems, tech debt, issues → TODO.md now, in the same response
+- Design decisions, key insights → CLAUDE.md
+- Future/deferred scope → TODO.md **before** writing any code, not after
+- **Every observed problem → TODO.md. No exceptions.**
+
+**Conversation is not memory.** Anything said in chat evaporates at session end. If it implies a future behavior change, write it to CLAUDE.md immediately — or it will not happen.
+
+**When the user corrects you:** Ask what rule would have prevented this, and write it before proceeding. **"The rule exists, I just didn't follow it" is never the diagnosis** — a rule that doesn't prevent the failure it describes is incomplete; fix the rule, not your behavior.
+
 ## Negative Constraints
 
 - No Rust in this repo — it's a TypeScript/web project
 - Don't hardcode content-specific values in build tools (inherited from ptera.world)
 - Don't add ptera.world-specific content directories (ecosystem, project, prose, etc.)
 - Reflective/analytical writing goes on ptera.world, not here
+- Do not use Claude Code's auto-memory system (`~/.claude/projects/.../memory/`) — it is unversioned, invisible to the user, and can't be diffed or backed up. Write behavioral changes and project context directly to CLAUDE.md instead
