@@ -95,12 +95,12 @@ function onCwLayoutChange(): void {
 
 // CW bar — collapsed by default, expands on click to show CW toggles.
 {
-  const cwBar = document.getElementById("cw-bar")!;
+  const cwBar = document.getElementById("cw-bar");
   const filterBar = document.getElementById("filter-bar")!;
   const gates = siteConfig.contentGates as Record<string, { label: string; description: string }>;
   const cwKeys = Object.keys(gates);
 
-  if (cwKeys.length > 0) {
+  if (cwBar && cwKeys.length > 0) {
     function onFilterChange(): void {
       applyFilter(filter, graph);
       if (filter.active.size > 0) runLayout(graph, getVisibleIds(filter, graph));
