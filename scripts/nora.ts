@@ -75,7 +75,10 @@ if (args.load) {
     console.error(`Session file not found: ${args.load}`);
     process.exit(1);
   }
-  contents = JSON.parse(readFileSync(args.load, "utf8"));
+  const loaded = JSON.parse(readFileSync(args.load, "utf8")).slice(1);
+  contents = loaded[0]?.role === "model"
+    ? [{ role: "user", parts: [{ text: "Continue." }] }, ...loaded]
+    : loaded;
   console.error(`Loaded session from ${args.load} (${contents.length} turns)`);
 } else {
   contents = [{ role: "user", parts: [{ text: PROMPT }] }];
