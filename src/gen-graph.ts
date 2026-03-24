@@ -8,7 +8,7 @@
 import { readFile, writeFile } from "fs/promises";
 import { join } from "path";
 import { parse as parseYaml } from "yaml";
-import { parseFrontmatter, stripFrontmatter } from "./frontmatter";
+import { parseFrontmatter, parseFrontmatterLenient, stripFrontmatter } from "./frontmatter";
 import { type Point, convexHull, expandHull, filterOutliers, hullSeparation } from "./hull";
 import { findMarkdownFiles, CONTENT_DIR } from "./content";
 
@@ -605,8 +605,24 @@ const edges: EdgeDef[] = [];
 
 for (const { id, path } of files) {
   const text = await readFile(path, "utf-8");
-  const body = stripFrontmatter(text);
+  const category = id.split("/")[0]!;
 
+  // Frontmatter related: field
+  const fm = parseFrontmatterLenient(text);
+  const relatedSlugs: string[] = Array.isArray(fm?.related) ? fm.related! : [];
+  for (const slug of relatedSlugs) {
+    const target = (slug as string).includes("/") ? (slug as string) : `${category}/${slug}`;
+    if (!nodeIds.has(target)) continue;
+    const key = [id, target].sort().join("|");
+    if (!seen.has(key)) {
+      seen.add(key);
+      const sorted = [id, target].sort();
+      edges.push({ from: sorted[0]!, to: sorted[1]!, strength: 0.5 });
+    }
+  }
+
+  // ## Related projects / ## See also sections
+  const body = stripFrontmatter(text);
   const match = body.match(/## (?:Related projects|See also)\n([\s\S]*?)(?=\n## |\n$|$)/);
   if (!match) continue;
 

@@ -15,6 +15,7 @@ export interface Frontmatter {
   cluster?: string;
   collections?: string[];
   content_warning?: string;
+  related?: string[];
 }
 
 /** Parse frontmatter allowing missing label/description (for fragments). */

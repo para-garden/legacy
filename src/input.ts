@@ -207,7 +207,7 @@ export function setupInput(
 
   // Click - only act if the mouse didn't drag
   viewport.addEventListener("click", (e) => {
-    if ((e.target as HTMLElement).closest?.("#card")) return;
+    if ((e.target as HTMLElement).closest?.("#card, #bottom-bar, #grouping-bar")) return;
     const dx = e.clientX - downX;
     const dy = e.clientY - downY;
     if (dx * dx + dy * dy > 16 * 16) return;
