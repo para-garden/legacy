@@ -55,13 +55,15 @@ if (args.load) {
     console.error(`Session file not found: ${args.load}`);
     process.exit(1);
   }
-  const loaded = JSON.parse(readFileSync(args.load, "utf8")).slice(1);
-  const steer = args.prompt
-    ? PROMPT
-    : "Continue, or respond with [THAT'S ALL I HAVE] if and only if you're done.";
-  contents = loaded[0]?.role === "model"
-    ? [{ role: "user", parts: [{ text: steer }] }, ...loaded]
-    : loaded;
+  const loaded = JSON.parse(readFileSync(args.load, "utf8"));
+  if (args.prompt) {
+    contents = [...loaded, { role: "user", parts: [{ text: PROMPT }] }];
+  } else {
+    const sliced = loaded.slice(1);
+    contents = sliced[0]?.role === "model"
+      ? [{ role: "user", parts: [{ text: "Continue, or respond with [THAT'S ALL I HAVE] if and only if you're done." }] }, ...sliced]
+      : sliced;
+  }
   console.error(`Loaded session from ${args.load} (${contents.length} turns)`);
 } else {
   contents = [{ role: "user", parts: [{ text: PROMPT }] }];
