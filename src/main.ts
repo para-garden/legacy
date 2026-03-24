@@ -5,7 +5,7 @@ import { setupInput } from "./input";
 import { initPanel, openPanel } from "./panel";
 import { showCard, hideCard, getCurrentCardNode, setCardToggleFilter, setCardIsTagActive, setCardGetTagColor } from "./card";
 import { createFilter, buildFilterUI, applyFilter, getVisibleIds, setActive, updateFilterPillColors, addFilterPill, removeFilterPill } from "./filter";
-import { isAcknowledged, acknowledge, revoke, getCwTags } from "./content-gate";
+import { isAcknowledged, acknowledge, revoke, getCwTags, showGate, isNodeCwHidden } from "./content-gate";
 import { applyCwVisibility } from "./dom";
 import { runLayout } from "./layout";
 import { createFocusLayout } from "./focus-layout";
@@ -73,6 +73,26 @@ buildFilterUI(document.getElementById("filter-bar")!, filter, () => {
   updateFilterUrl();
 });
 
+// Rerun layout accounting for both active filters and CW-hidden nodes.
+function getCwAwareVisibleIds(): Set<string> {
+  const ids = getVisibleIds(filter, graph);
+  for (const node of graph.nodes) {
+    if (isNodeCwHidden(node)) ids.delete(node.id);
+  }
+  return ids;
+}
+
+function onCwLayoutChange(): void {
+  const visibleIds = getCwAwareVisibleIds();
+  const anyHidden = graph.nodes.some(n => !n.tags.includes("meta") && isNodeCwHidden(n));
+  if (filter.active.size > 0 || anyHidden) {
+    runLayout(graph, visibleIds);
+  } else {
+    resetToCurrentGrouping(graph);
+  }
+  updatePositions(graph);
+}
+
 // CW bar — collapsed by default, expands on click to show CW toggles.
 {
   const cwBar = document.getElementById("cw-bar")!;
@@ -133,15 +153,24 @@ buildFilterUI(document.getElementById("filter-bar")!, filter, () => {
           delete btn.dataset.active;
           btn.setAttribute("aria-pressed", "false");
           removeFilterPill(filterBar, filter, key);
+          applyCwVisibility(graph);
+          applyFilter(filter, graph);
+          onCwLayoutChange();
         } else {
-          acknowledge(key, false);
-          btn.dataset.active = "";
-          btn.setAttribute("aria-pressed", "true");
-          addFilterPill(filterBar, filter, key, onFilterChange);
+          showGate(
+            [{ key, label: gate.label, description: gate.description }],
+            () => {
+              acknowledge(key, false);
+              btn.dataset.active = "";
+              btn.setAttribute("aria-pressed", "true");
+              addFilterPill(filterBar, filter, key, onFilterChange);
+              applyCwVisibility(graph);
+              applyFilter(filter, graph);
+              onCwLayoutChange();
+            },
+            () => { /* user dismissed — no change */ },
+          );
         }
-        applyCwVisibility(graph);
-        applyFilter(filter, graph);
-        updatePositions(graph);
       });
 
       panel.appendChild(btn);

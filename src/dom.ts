@@ -522,13 +522,22 @@ export function getRegionHitNode(target: EventTarget | null, regions: RegionDef[
 
 /** Apply or remove data-cw="hidden" on node elements based on current acknowledgement state. */
 export function applyCwVisibility(graph: Graph): void {
+  const cwHidden = new Set<string>();
   for (const node of graph.nodes) {
     const el = nodeEls.get(node.id);
     if (!el) continue;
     if (isNodeCwHidden(node)) {
       el.dataset.cw = "hidden";
+      cwHidden.add(node.id);
     } else {
       delete el.dataset.cw;
+    }
+  }
+  for (const ref of edgeRefs) {
+    if (cwHidden.has(ref.from) || cwHidden.has(ref.to)) {
+      ref.el.dataset.cw = "hidden";
+    } else {
+      delete ref.el.dataset.cw;
     }
   }
 }

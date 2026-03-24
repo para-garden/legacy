@@ -291,6 +291,7 @@ html, body {
 
 /* CW-hidden nodes: invisible and non-interactive regardless of filter state */
 .node[data-cw="hidden"] { display: none !important; }
+.edge[data-cw="hidden"] { display: none !important; }
 
 /* CW bar */
 #cw-bar {
