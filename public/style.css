@@ -290,8 +290,10 @@ html, body {
 .filter-pill[data-active] { background: #2a2a2a; color: color-mix(in oklch, var(--fc, #ddd) 80%, #ddd); border-color: color-mix(in oklch, var(--fc, #666) 80%, #666); }
 
 /* CW-hidden nodes: invisible and non-interactive regardless of filter state */
-.node[data-cw="hidden"] { display: none !important; }
-.edge[data-cw="hidden"] { display: none !important; }
+/* CW-hidden: instant disappear, fade in on reveal */
+.node[data-cw="hidden"],
+.edge[data-cw="hidden"] { opacity: 0; pointer-events: none; transition: none !important; }
+.node[data-cw="hidden"] * { pointer-events: none; }
 
 /* CW bar */
 #cw-bar {

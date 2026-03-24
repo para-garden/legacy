@@ -4,14 +4,15 @@ import type { Graph } from "./graph";
  * Run a synchronous force-directed simulation on visible non-meta nodes.
  * Mutates node.x / node.y in place.
  */
-export function runLayout(graph: Graph, visibleIds: Set<string>): void {
+export function runLayout(graph: Graph, visibleIds: Set<string>, totalEligible?: number): void {
   const nodes = graph.nodes.filter(
     (n) => visibleIds.has(n.id) && !n.tags.includes("meta"),
   );
   if (nodes.length === 0) return;
 
-  // Fade layout effect to zero as visible count approaches half of all nodes
-  const totalNonEco = graph.nodes.filter((n) => !n.tags.includes("meta")).length;
+  // Fade layout effect to zero as visible count approaches half of eligible nodes.
+  // totalEligible can be passed by caller to exclude permanently-hidden nodes (e.g. CW).
+  const totalNonEco = totalEligible ?? graph.nodes.filter((n) => !n.tags.includes("meta")).length;
   const THRESHOLD = 0.45;
   const ratio = nodes.length / totalNonEco;
   const weight = Math.max(0, (THRESHOLD - ratio) / THRESHOLD);

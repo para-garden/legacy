@@ -57,24 +57,20 @@ if (initFilterParam) {
 
 applyFilter(filter, graph);
 if (filter.active.size > 0) {
-  runLayout(graph, getVisibleIds(filter, graph));
+  runFilterLayout();
   updatePositions(graph);
 }
 buildGroupingUI(document.getElementById("grouping-bar")!);
 buildFilterUI(document.getElementById("filter-bar")!, filter, () => {
   applyFilter(filter, graph);
-  if (filter.active.size > 0) {
-    runLayout(graph, getVisibleIds(filter, graph));
-  } else {
-    resetToCurrentGrouping(graph);
-  }
+  runFilterLayout();
   updatePositions(graph);
   hideCard();
   updateFilterUrl();
 });
 
-// Rerun layout accounting for both active filters and CW-hidden nodes.
-function getCwAwareVisibleIds(): Set<string> {
+// Visible IDs for layout: excludes CW-hidden nodes so they don't exert forces.
+function getLayoutIds(): Set<string> {
   const ids = getVisibleIds(filter, graph);
   for (const node of graph.nodes) {
     if (isNodeCwHidden(node)) ids.delete(node.id);
@@ -82,14 +78,23 @@ function getCwAwareVisibleIds(): Set<string> {
   return ids;
 }
 
-function onCwLayoutChange(): void {
-  const visibleIds = getCwAwareVisibleIds();
-  const anyHidden = graph.nodes.some(n => !n.tags.includes("meta") && isNodeCwHidden(n));
-  if (filter.active.size > 0 || anyHidden) {
-    runLayout(graph, visibleIds);
+// Non-meta nodes that aren't permanently CW-hidden — the denominator for layout threshold.
+function eligibleCount(): number {
+  return graph.nodes.filter(n => !n.tags.includes("meta") && !isNodeCwHidden(n)).length;
+}
+
+function runFilterLayout(): void {
+  const visibleIds = getLayoutIds();
+  const anyCwHidden = graph.nodes.some(n => !n.tags.includes("meta") && isNodeCwHidden(n));
+  if (filter.active.size > 0 || anyCwHidden) {
+    runLayout(graph, visibleIds, eligibleCount());
   } else {
     resetToCurrentGrouping(graph);
   }
+}
+
+function onCwLayoutChange(): void {
+  runFilterLayout();
   updatePositions(graph);
 }
 
@@ -103,8 +108,7 @@ function onCwLayoutChange(): void {
   if (cwBar && cwKeys.length > 0) {
     function onFilterChange(): void {
       applyFilter(filter, graph);
-      if (filter.active.size > 0) runLayout(graph, getVisibleIds(filter, graph));
-      else resetToCurrentGrouping(graph);
+      runFilterLayout();
       updatePositions(graph);
       updateFilterUrl();
     }
@@ -186,8 +190,7 @@ setCardToggleFilter((tag: string) => {
 
   if (filter.active.has(tag)) filter.active.delete(tag); else filter.active.add(tag);
   applyFilter(filter, graph);
-  if (filter.active.size > 0) runLayout(graph, getVisibleIds(filter, graph));
-  else resetToCurrentGrouping(graph);
+  runFilterLayout();
   updatePositions(graph);
   updateFilterUrl();
   syncFilterPills();
@@ -304,11 +307,7 @@ window.addEventListener("popstate", () => {
   if (current !== next) {
     setActive(filter, newTags);
     applyFilter(filter, graph);
-    if (filter.active.size > 0) {
-      runLayout(graph, getVisibleIds(filter, graph));
-    } else {
-      resetToCurrentGrouping(graph);
-    }
+    runFilterLayout();
     updatePositions(graph);
     syncFilterPills();
   }
