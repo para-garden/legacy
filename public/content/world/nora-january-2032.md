@@ -1,0 +1,169 @@
+---
+label: Nora — January 2032
+description: The letter came. They went to get coffee. She put it in the drawer.
+tags: [justice, distance, cw:sexual-violence]
+collections: [default]
+related: [whitmore-title-ix-outcome-whitaker-2032]
+---
+
+*Insufficient evidence.*
+
+It's typed in standard font. Twelve point. Black ink.
+
+*The panel notes that an inability to reach a finding does not constitute a determination that the complainant's account is not credible.*
+
+They put it in a sentence that cancels itself out. A neat little legal circle. It means: we are not saying you are lying, but we are not doing anything about it.
+
+It means I keep it.
+
+I just wanted it out of my head. That was the whole point. I needed someone outside of this room to take it, look at it, and say, *Yes. We see it. This is a thing that happened, and it was wrong.* But they just folded it back up and slipped it under my door. It's mine again. It's only mine.
+
+Cal is breathing very quietly.
+
+He's on his bed. He's pretending to read, but he's been on the same page of his textbook since I opened the envelope. He is a master of peripheral vision now. He knows exactly how I'm sitting. He knows I've stopped moving.
+
+I want him to come over here. I want my best friend. I want him to cross the four feet of carpet between us, pull up a chair, and be angry for me. I want to pass him the paper and let him hold it so I don't have to anymore.
+
+But if he moves. If he closes his book, stands up, and takes a step toward me.
+
+My pulse will spike. My lungs will forget how to pull air. My skin will freeze. My brain will say *it's Cal, it's Cal, it's Cal*, and my body will not listen. My body will just see a man getting closer, and it will shut all the doors.
+
+And Cal will see it happen. He will see my shoulders lock. He will stop halfway across the rug, his hands twitching at his sides, and he will step back. He will retreat into his corner, folding himself up, making himself as small and unthreatening as possible. He will apologize just by the way he sits.
+
+I can't watch him do that right now. I am so tired of making him do that.
+
+So I don't say anything. I fold the paper in half. Once. Twice. I set it next to my laptop.
+
+Across the room, Cal carefully turns a page. He doesn't read that one, either.
+
+---
+
+I push my chair back.
+
+It scrapes against the linoleum. Loud. Too loud.
+
+Cal's posture stiffens, just for a second, before he forces his shoulders to drop. He keeps his eyes on his book. He's mapping my trajectory. He's waiting to see where I go so he can make sure he's not in the way.
+
+I stand up.
+
+The room feels thick. Like breathing underwater. If I stay in here with that piece of paper, I am going to suffocate, and I'm going to take him down with me.
+
+I need a routine. I need a fact.
+
+"I'm going to get coffee," I say.
+
+My voice is level. It sounds like a Tuesday. It sounds like before.
+
+Cal closes the textbook. Carefully. He doesn't snap it shut. "I'll come."
+
+He stands up, but he doesn't walk toward the door. He waits by his bed. He is giving me the right of way. He is letting me establish the route so he doesn't accidentally cross too close to my orbit.
+
+I hate it. I hate the math of it. Three feet. Four feet. Calculate the angle of approach.
+
+I grab my coat. I don't look at the letter. If I look at the letter, it becomes real again. Right now, it's just a shape on a desk.
+
+I walk out into the hallway.
+
+I hear Cal's footsteps behind me. One, two, three beats later. The exact right distance. Close enough to be with me. Far enough away that my lungs don't freeze.
+
+The air in the stairwell is colder. I breathe it in.
+
+We walk out the double doors of the dorm. The sky is gray and flat, exactly like home. We take the path past the science building. We step over the place where the roots of the oak tree have pushed the concrete up. I step over it. A second later, he steps over it.
+
+He walks beside me now, but with a gap between us that could fit a whole third person.
+
+"It's cold," he says.
+
+"Yeah."
+
+It's a nothing conversation. It's perfect. It's exactly what works.
+
+My body is unclenching out here. The air is sharp. The coffee shop is exactly four blocks away. I am going to order coffee with a splash of oat milk. I am going to hold the paper cup until it burns my palms, because that is a sensation I can control.
+
+I am going to let the routine do the heavy lifting. I am going to put one foot in front of the other, and Cal is going to walk exactly far enough away, and we are going to pretend for twenty minutes that there is nothing folded up on my desk waiting for me to come back.
+
+The bell above the door chimes. It always chimes. That's good.
+
+The line is three people deep. Also good. It gives me something to look at. The menu board I already have memorized. The pastry case with the scones that are always a little too dry.
+
+Cal stands at the edge of the line. He's pretending to look at the bags of coffee beans on the retail shelf, but he's keeping himself positioned between me and the door. A buffer.
+
+I step up to the register.
+
+"Small dark roast. Splash of oat milk."
+
+The barista taps the screen. She doesn't look up. She has a smudge of blue pen on her thumb. She doesn't know about the letter. She doesn't know what the words *insufficient evidence* look like. To her, I am just a small dark roast. I love her for it.
+
+I pay and step to the side.
+
+Cal orders a green tea. He pays for it, then moves to the pickup counter. The space here is tighter. The floor plan is narrow. He stops at the edge of the rubber mat. Two feet away. It's closer than we were outside, but there are people behind us. He puts his hands in his coat pockets. He is making himself contained. He is pulling his elbows in.
+
+A group of guys walks in. Loud. Taking off backpacks, shifting around, not looking where they're stepping.
+
+One of them backs up and bumps hard into Cal.
+
+Cal stumbles forward. A half-step. He catches his balance, but it puts him right inside my space. His sleeve brushes my arm.
+
+My breath stops.
+
+It's automatic. A steel door slamming shut in my chest. All the air leaves the room. My shoulders hit my ears, my spine locks, and I shrink back against the counter, my hands pressing flat and hard into the wood. My eyes wide.
+
+Cal freezes. He looks horrified.
+
+"Sorry," he whispers.
+
+He doesn't mean for the bump. He means for being too close. He means for setting it off. He scrambles backward, pressing his shoulders against the brick wall, putting as much air between us as the crowded shop allows. He looks like I just hit him.
+
+"It's fine," I say.
+
+My voice is tight. It sounds small. It doesn't sound like a Tuesday anymore.
+
+"Small dark roast!" the barista calls out.
+
+I grab the paper cup. It's too hot. The sleeve isn't on right, and the cardboard burns the palm of my hand. I hold it tight anyway. The burn is loud. It gives my brain a single, sharp thing to focus on that isn't the sudden lack of oxygen in my lungs.
+
+"Let's go," I say.
+
+I walk out. I don't wait to see if he grabbed his tea. I know he's following. He always follows.
+
+The cold air hits my face. I take a breath. It shakes.
+
+I hear his footsteps behind me. They are farther back now. Ten feet. Twelve feet. The gap will be wider all the way back to the dorm. I ruined the walk.
+
+The routine didn't fix it. It just moved the problem outside.
+
+I don't loosen my grip on the cup. Let it burn. It keeps me in my feet. It keeps me on the sidewalk.
+
+The wind kicks up, biting through my coat. I don't look over my shoulder. I don't need to. I know the cadence of his boots on the concrete. He is matching my pace exactly, just dragging a twelve-foot anchor between us.
+
+I want to turn around. I want to say, *It wasn't you. You know it wasn't you.*
+
+But I don't. Because saying it means we are talking about it, and if we talk about it, the careful architecture we've built to survive this semester might collapse entirely. So I just walk.
+
+Through the double doors. Up the stairs. Down the hall.
+
+I unlock our door. Push it open.
+
+The room is exactly as we left it. The air is stale, smelling faintly of radiator heat and laundry detergent.
+
+I walk to my desk. I set the coffee down. I don't take off my coat.
+
+Cal walks in a moment later. The door clicks shut. He moves strictly along the perimeter, tracking the invisible boundary line, and lowers himself onto his bed. He sets his green tea on his nightstand. He hasn't taken a single sip.
+
+I look at the paper. Folded in half. Resting next to my laptop.
+
+*Insufficient evidence.*
+
+They looked at the dates and the timeline and the lack of a torn shirt or a bruised wrist, and they said they couldn't find the proof.
+
+I look at Cal across the room. He is pressed against the wall, staring at the floor, afraid to breathe too loudly in case it startles me. I look at my own hand, the palm violently red from holding a scalding cup just to feel something louder than my own panic.
+
+How is this not evidence?
+
+What do they call this, if not a finding?
+
+My coffee stops steaming. The radiator hisses. Cal turns a page of a book he isn't reading.
+
+I open my top drawer. I slide the folded paper inside, underneath a stack of blank notebooks, and I push the drawer shut. It's a wooden sound. Final.
+
+I pull my chair out. I sit down.
