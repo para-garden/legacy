@@ -1,0 +1,111 @@
+---
+label: Theo — January 2032
+description: The word 'disclosure' appears fourteen times. The assault is not in the document.
+tags: [justice, rounding, distance, cw:sexual-violence]
+collections: [default]
+related: [whitmore-title-ix-outcome-park-2032]
+---
+
+Fourteen times. The word *disclosure* is in this document fourteen times.
+
+I counted on the second read. I had to read it twice because the first time through, my brain kept looking for the paragraph where they addressed the timeline I provided. The timestamps. The part where I said *stop*, the part where I tried to leverage my knee against his hip, the part where he pinned my wrists. I kept scanning the blocks of text looking for the resolution to those facts.
+
+They aren't there.
+
+Instead, there's a section titled *Context of the Encounter.*
+
+*The respondent noted a reasonable expectation of transparency prior to the initiation of physical intimacy.*
+
+Transparency. As if I'm a supply chain. As if I'm a real estate transaction and he found out there was water damage in the basement.
+
+I thought about how I answered them in that office. Three different times. The investigator had this very gentle, tilted-head way of asking me. *And at what point did you inform him of your transition? Did you use the word trans? Did you feel you had adequately communicated your biological history before entering the room?*
+
+I answered her. I sat in that chair, keeping my voice steady, hands folded on my lap, and I answered her questions because I thought we were just clearing up the margins. I thought she just needed to get all the data points down before we got to the actual center of the issue. I didn't realize my medical history wasn't the margin. I didn't realize it was the defense.
+
+He said he didn't know.
+
+That's the fulcrum this whole letter pivots on. He didn't know I was trans. And because he didn't know, the university has decided that the entire framework of consent collapses.
+
+I'm trying to follow the logic. He didn't stop when I said stop. He didn't stop when I fought back. But the Title IX office has concluded, in four pages of carefully justified institutional speak, that because I didn't issue a verbal disclaimer about my endocrine system and my surgeries, my right to say *stop* was somehow voided.
+
+Because I didn't tell him what I am, it doesn't matter what he did.
+
+I built this life so carefully. Three years on T. Modulating my voice, choosing my clothes, figuring out exactly how to exist in the world so that I am just a guy in an environmental studies seminar taking notes. I did everything right. I went to the intake meeting with a notebook. I knew the policies. I followed the rules.
+
+I thought I was the one filing the report. I didn't realize I was the one on trial for fraud.
+
+---
+
+There is a specific kind of danger in being believed, but only about the wrong thing.
+
+They believed him. They believed him completely when he said he was shocked. They took his shock, polished it, and built a whole ruling out of it.
+
+I keep looking at the phrase *reasonable expectation*.
+
+What is the baseline for reasonable? If you go to a room with someone, and they say *stop*, a reasonable person stops. That's the baseline they teach at freshman orientation. That's the bold text on the poster on the back of every bathroom door in the student union. *Consent is mandatory. Consent can be withdrawn at any time.*
+
+There are no asterisks on those posters. There is no fine print that says *unless the person is transgender, in which case they must submit a full biological inventory before the right to say 'stop' activates.*
+
+But the investigator — I remember the way she clicked her pen. She asked if a reasonable person would have understood my disclosure to be complete.
+
+Complete.
+
+What did they want? An itemized list? A timeline of my endocrinology appointments? Did I need to sit him down on the edge of the bed and give a presentation on my chest scars before he pinned my wrists to the mattress?
+
+It's a neat trick. The respondent — I don't even use his name in my head anymore, he's just *the respondent* now — found the exact loophole in the university's progressive veneer. He knew, or his advisor knew, that if you make an administrative committee uncomfortable enough about gender, they will stop looking at the violence. He threw a smoke bomb, and the Title IX office stared at the smoke while he walked away.
+
+And the worst part is, I let them.
+
+I sat in those meetings and answered their questions. I thought if I stayed calm, if I didn't get defensive, if I showed them I was rational and cooperative, they would eventually realize none of this had anything to do with my report. I treated the system with respect. I used my careful, modulated voice. I sat there while they negotiated the terms of my own unreality, and I let them do it because I thought we were all operating under the same set of facts.
+
+I passed too well. That's what this letter actually says. I passed so well that I tricked him into wanting me, and he is the victim of that trick. My existence was the primary offense. Whatever he did to me after that was just the fallout.
+
+I don't lead with being trans. It's information, not an announcement.
+
+But this document says that by not announcing it, I forfeited my bodily autonomy. It says that I am a conditional person, and my right to say no is contingent on me warning people what they are looking at first.
+
+---
+
+I am looking at the digital signature at the bottom of the fourth page.
+
+Outside my door, I can hear people in the hall. It's Tuesday. It's 5:30. Someone is laughing, someone is dragging a laundry basket toward the stairwell. I know these sounds. I know this building. I've spent four years putting down roots here, millimeter by millimeter. I study environmental systems. I spend hours looking at soil samples, analyzing ecosystems, learning how to measure toxicity and identify dead zones. You look at what the environment can no longer support.
+
+I thought I was part of this ecosystem.
+
+By tomorrow, the case will be formally closed in their system. The respondent will go to his classes. I will go to mine. He will walk across the quad knowing that the university looked at what he did to me, looked at my medical history, and decided that he was the one who had been wronged. He will know that the posters on the bathroom doors don't apply to the trans guys.
+
+If I appeal — what do I even appeal? You can't appeal the fundamental premise of an investigation once the institution has adopted it as fact.
+
+I am so tired.
+
+I've spent years calibrating myself. Making sure my voice sits at the right pitch so I don't make people uncomfortable. Making sure I was polite and methodical in those intake meetings so I didn't come off as hysterical, or overly emotional, or whatever stereotype they were looking for. I didn't raise my voice. I never raise my voice. I played the good, quiet, rational student.
+
+It didn't matter. You can't out-behave a system that thinks your body is inherently deceptive.
+
+---
+
+I move the cursor to the red X in the corner of the PDF.
+
+I just sit there, watching the arrow hover over it.
+
+I click the trackpad. The window disappears.
+
+My desktop is cluttered with PDFs for my thesis. *Soil Remediation Strategies. Heavy Metal Bioaccumulation.* My whole academic career here has been about studying how environments become toxic, and how — or if — you can pull the poison out of the dirt so things can grow again.
+
+Sometimes you can't. Sometimes the contamination goes all the way down to the bedrock. You just have to cap it, put up a fence, and mark the zone as hazardous.
+
+I close the laptop. I grab my keys. I lace my boots the way I do every day — pull the loops tight, double knot, tuck the ends. The physical routine of it keeps my hands from shaking.
+
+I walk out into the hallway. The door clicks shut behind me.
+
+I pass the RA's door at the end of the hall. The poster. The one I mentally referenced a hundred times when I was deciding whether to report. *Title IX: You Have The Right To A Safe Educational Environment.* The font is a soothing, authoritative blue.
+
+I look at it now and I just see the fence around the dead zone.
+
+I am not going to drop out. I am not going to pack up my room in the middle of the night and disappear. That's what this letter is designed to make me do, whether the administration admits it to themselves or not. The institution wants the anomaly to remove itself so the system can return to homeostasis.
+
+I'm not doing it. I have six months left. I am going to walk into my seminars, and I am going to sit in my usual seat, and I am going to make them look at me. I am going to pass the Title IX coordinator in the administration building, and I am going to nod at her. I am going to exist in this ecosystem, fully aware of exactly what is in the groundwater.
+
+I push open the heavy metal doors to the stairwell.
+
+I survived before I got here. I will survive the rest of the way through. I am just going to have to do it with my eyes wide open.
