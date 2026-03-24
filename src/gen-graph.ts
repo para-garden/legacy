@@ -536,7 +536,6 @@ for (const { id, path, category } of files) {
 
   const clusterForDir = dirToCluster.get(category);
   const isMeta = fm.tags?.includes("meta") ?? false;
-  if (!clusterForDir && !isMeta) continue;
 
   const cluster = fm.cluster ?? (
     clusterForDir && !fm.parent ? clusterForDir.id : undefined
