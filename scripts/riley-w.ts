@@ -93,6 +93,7 @@ while (true) {
   }
 
   const text = parts.filter((p: any) => !p.thought).map((p: any) => p.text).join("");
+  if (fullOutput && !fullOutput.endsWith("\n")) process.stdout.write("\n");
   process.stdout.write(text);
   fullOutput += text;
 
