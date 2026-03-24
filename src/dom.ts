@@ -10,6 +10,11 @@ import { isNodeCwHidden } from "./content-gate";
 const viewport = document.getElementById("viewport")!;
 export const worldEl = document.getElementById("world")!;
 
+/** Split a description into display lines at sentence boundaries and newlines. */
+function descLines(text: string): string[] {
+  return text.replace(/([.!?])\s+/g, "$1\n").split("\n").filter(Boolean);
+}
+
 interface EdgeRef {
   el: SVGPathElement;
   from: string;
@@ -127,7 +132,7 @@ export function buildWorld(graph: Graph): void {
       if (node.description) {
         const desc = document.createElement("div");
         desc.className = "node-desc";
-        const parts = node.description.split("\n");
+        const parts = descLines(node.description);
         for (let i = 0; i < parts.length; i++) {
           if (i > 0) desc.appendChild(document.createElement("br"));
           desc.appendChild(document.createTextNode(parts[i]!));
@@ -385,7 +390,7 @@ function createRegionElement(region: RegionDef): HTMLElement {
   if (region.description) {
     const desc = document.createElement("div");
     desc.className = "node-desc";
-    const parts = region.description.split("\n");
+    const parts = descLines(region.description);
     for (let i = 0; i < parts.length; i++) {
       if (i > 0) desc.appendChild(document.createElement("br"));
       desc.appendChild(document.createTextNode(parts[i]!));

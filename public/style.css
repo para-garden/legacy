@@ -106,7 +106,7 @@ html, body {
 .node-label { font-size: 12px; color: #ccc; }
 .node.region .node-label { font-size: 24px; font-weight: bold; color: #ddd; }
 .node.region .node-desc { font-size: 16px; }
-.node-desc { font-size: 11px; color: #888; margin-top: 2px; }
+.node-desc { font-size: 11px; color: #888; margin-top: 2px; white-space: normal; max-width: 200px; }
 
 /* Landing intro */
 .landing {
