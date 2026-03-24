@@ -80,7 +80,7 @@ for (const { id, path } of files) {
   const raw = await readFile(path, "utf-8");
   const fm = parseFrontmatter(raw);
   const md = stripFrontmatter(raw);
-  const html = parseMarkdown(md);
+  const { html } = parseMarkdown(md);
 
   const title = fm?.label ?? id.split("/").pop() ?? id;
   const description = fm?.description?.replace(/\n/g, " ") ?? "";

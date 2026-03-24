@@ -52,6 +52,30 @@ Each file is a node in the graph. Frontmatter fields:
 - `collections` — always `[default]`
 - `parent` — containment (this node lives inside another)
 - `related` — edges to other nodes (also via `## Related` section in body)
+- `format` — optional. controls panel presentation. the author sets this explicitly; it is never auto-detected. see below.
+
+### Document Formats
+
+The `format` frontmatter field tells the panel how to render the document. If absent, the document renders as standard prose. The markdown body should be structured to match the format.
+
+**`format: thread`** — SMS/text conversation. The body must be raw HTML using these elements:
+
+```html
+<div class="thread-date">March 7, 2032</div>
+<div class="msg sent"><div class="bubble">message text</div><span class="time">2:14 PM</span></div>
+<div class="msg recv"><div class="bubble">reply text</div><span class="time">2:15 PM</span></div>
+<div class="thread-silence">2:20 PM — no response for 3 minutes</div>
+<div class="thread-receipt">Read 2:54 PM</div>
+```
+
+- `.msg.sent` — right-aligned (the document's protagonist)
+- `.msg.recv` — left-aligned (the other person)
+- `.time` — timestamp, shown beneath the bubble
+- `.thread-silence` — centered gap annotation (no response for N minutes)
+- `.thread-date` — centered date header at top
+- `.thread-receipt` — read receipt line at the end
+
+Do not mix markdown prose and thread HTML in the same document. The thread format renders the entire body as a flat message list.
 
 ### Facets
 

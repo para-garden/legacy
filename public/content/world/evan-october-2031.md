@@ -2,6 +2,7 @@
 label: Evan — October 2031
 description: A few weeks after the weird night. He's fine. He's the easy guy.
 tags: [distance, complacency, cw:sexual-violence]
+format: prose
 collections: [default]
 ---
 

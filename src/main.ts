@@ -4,7 +4,9 @@ import { buildWorld, updateTransform, setFilterRef, updatePositions, animateTo, 
 import { setupInput } from "./input";
 import { initPanel, openPanel } from "./panel";
 import { showCard, hideCard, getCurrentCardNode, setCardToggleFilter, setCardIsTagActive, setCardGetTagColor } from "./card";
-import { createFilter, buildFilterUI, applyFilter, getVisibleIds, setActive, updateFilterPillColors } from "./filter";
+import { createFilter, buildFilterUI, applyFilter, getVisibleIds, setActive, updateFilterPillColors, addFilterPill, removeFilterPill } from "./filter";
+import { isAcknowledged, acknowledge, revoke, getCwTags } from "./content-gate";
+import { applyCwVisibility } from "./dom";
 import { runLayout } from "./layout";
 import { createFocusLayout } from "./focus-layout";
 import { loadSettingsFromUrl } from "./settings";
@@ -27,6 +29,7 @@ if (metaNode) { camera.x = metaNode.x; camera.y = metaNode.y; }
 worldEl.dataset.noTransition = "";
 
 buildWorld(graph);
+applyCwVisibility(graph);
 
 // Initialize grouping state and restore from URL
 initGroupingState(graph, camera);
@@ -69,6 +72,82 @@ buildFilterUI(document.getElementById("filter-bar")!, filter, () => {
   hideCard();
   updateFilterUrl();
 });
+
+// CW bar — collapsed by default, expands on click to show CW toggles.
+{
+  const cwBar = document.getElementById("cw-bar")!;
+  const filterBar = document.getElementById("filter-bar")!;
+  const gates = siteConfig.contentGates as Record<string, { label: string; description: string }>;
+  const cwKeys = Object.keys(gates);
+
+  if (cwKeys.length > 0) {
+    function onFilterChange(): void {
+      applyFilter(filter, graph);
+      if (filter.active.size > 0) runLayout(graph, getVisibleIds(filter, graph));
+      else resetToCurrentGrouping(graph);
+      updatePositions(graph);
+      updateFilterUrl();
+    }
+
+    const trigger = document.createElement("button");
+    trigger.className = "cw-trigger";
+    trigger.setAttribute("aria-expanded", "false");
+    trigger.setAttribute("aria-label", "Content warnings");
+    trigger.textContent = "⚠";
+    cwBar.appendChild(trigger);
+
+    const panel = document.createElement("div");
+    panel.className = "cw-panel";
+    panel.hidden = true;
+    cwBar.appendChild(panel);
+
+    trigger.addEventListener("click", () => {
+      const expanded = panel.hidden;
+      panel.hidden = !expanded;
+      trigger.setAttribute("aria-expanded", String(expanded));
+    });
+
+    // Close on outside click
+    document.addEventListener("click", (e) => {
+      if (!cwBar.contains(e.target as Node)) {
+        panel.hidden = true;
+        trigger.setAttribute("aria-expanded", "false");
+      }
+    });
+
+    for (const key of cwKeys) {
+      const gate = gates[key]!;
+      const btn = document.createElement("button");
+      btn.className = "cw-toggle";
+      btn.dataset.key = key;
+      btn.setAttribute("aria-pressed", isAcknowledged(key) ? "true" : "false");
+      btn.textContent = gate.label;
+      if (isAcknowledged(key)) {
+        btn.dataset.active = "";
+        addFilterPill(filterBar, filter, key, onFilterChange);
+      }
+
+      btn.addEventListener("click", () => {
+        if (isAcknowledged(key)) {
+          revoke(key);
+          delete btn.dataset.active;
+          btn.setAttribute("aria-pressed", "false");
+          removeFilterPill(filterBar, filter, key);
+        } else {
+          acknowledge(key, false);
+          btn.dataset.active = "";
+          btn.setAttribute("aria-pressed", "true");
+          addFilterPill(filterBar, filter, key, onFilterChange);
+        }
+        applyCwVisibility(graph);
+        applyFilter(filter, graph);
+        updatePositions(graph);
+      });
+
+      panel.appendChild(btn);
+    }
+  }
+}
 
 // Card tag support: clicking a tag on the card toggles the filter and compensates camera.
 setCardToggleFilter((tag: string) => {

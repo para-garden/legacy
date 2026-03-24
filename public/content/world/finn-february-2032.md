@@ -2,6 +2,7 @@
 label: Finn — February 2032
 description: The form had boxes. None of them fit. He still hasn't decided.
 tags: [justice, rounding, distance, cw:sexual-violence]
+format: prose
 collections: [default]
 related: [whitmore-title-ix-intake-barrett-2032]
 ---

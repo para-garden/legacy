@@ -29,6 +29,8 @@ export interface Node {
   body?: string;
   /** Optional tagline shown below description on the landing element. */
   trail?: string;
+  /** Per-node content warning (shown as a gate before opening the panel). */
+  contentWarning?: string;
 }
 
 /** Edge connecting two nodes. */

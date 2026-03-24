@@ -105,9 +105,9 @@ function buildCard(node: Node, graph: Graph): DocumentFragment {
 
   const cached = contentCache.get(node.id);
   if (cached) {
-    setSummary(desc, cached);
+    setSummary(desc, cached.html);
   } else {
-    fetchContent(node.id).then((html) => setSummary(desc, html));
+    fetchContent(node.id).then(({ html }) => setSummary(desc, html));
   }
 
   // URL

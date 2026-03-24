@@ -1,119 +1,92 @@
-/** Minimal markdown → HTML parser. No dependencies. */
+/** Markdown → HTML using remark+rehype. */
 
-function slugify(text: string): string {
-  return text
-    .toLowerCase()
-    .replace(/[^\w\s-]/g, "")
-    .trim()
-    .replace(/[\s_]+/g, "-");
+import { unified } from "unified";
+import remarkParse from "remark-parse";
+import remarkGfm from "remark-gfm";
+import remarkRehype from "remark-rehype";
+import rehypeRaw from "rehype-raw";
+import rehypeStringify from "rehype-stringify";
+import { visit } from "unist-util-visit";
+import { parse as parseYaml } from "yaml";
+import type { Root, Element } from "hast";
+
+// Tags where inline quote wrapping applies
+const TEXT_TAGS: Record<string, true> = {
+  p: true, li: true, blockquote: true,
+  h1: true, h2: true, h3: true, h4: true, h5: true, h6: true,
+  td: true, th: true,
+  q: true, span: true, sub: true, sup: true,
+  strong: true, em: true, b: true, i: true, u: true,
+};
+
+function rehypeParseInlineQuotes() {
+  return (tree: Root) => {
+    visit(tree, "element", (node: Element) => {
+      if (!TEXT_TAGS[node.tagName]) return;
+      const newChildren: Element["children"] = [];
+      let quoteChildren: Element["children"] | undefined;
+      for (const child of node.children) {
+        if (child.type !== "text") {
+          (quoteChildren ?? newChildren).push(child);
+          continue;
+        }
+        const parts = child.value.match(/[^"]+|"/g);
+        if (!parts) continue;
+        for (const part of parts) {
+          if (part === '"') {
+            if (quoteChildren) {
+              newChildren.push({
+                type: "element",
+                tagName: "q",
+                properties: {},
+                children: quoteChildren,
+              });
+              quoteChildren = undefined;
+            } else {
+              quoteChildren = [];
+            }
+          } else {
+            (quoteChildren ?? newChildren).push({ type: "text", value: part });
+          }
+        }
+      }
+      if (quoteChildren) {
+        newChildren.push({
+          type: "element",
+          tagName: "q",
+          properties: {},
+          children: quoteChildren,
+        });
+      }
+      node.children = newChildren;
+    });
+  };
 }
 
-function escapeHtml(s: string): string {
-  return s
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;");
-}
+const processor = unified()
+  .use(remarkParse)
+  .use(remarkGfm)
+  .use(remarkRehype, { allowDangerousHtml: true })
+  .use(rehypeRaw)
+  .use(rehypeParseInlineQuotes)
+  .use(rehypeStringify);
 
-function inlineMarkup(line: string): string {
-  return (
-    escapeHtml(line)
-      // bold
-      .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
-      // italic
-      .replace(/\*(.+?)\*/g, "<em>$1</em>")
-      // inline code
-      .replace(/`(.+?)`/g, "<code>$1</code>")
-      // links
-      .replace(
-        /\[([^\]]+)\]\(([^)]+)\)/g,
-        '<a href="$2">$1</a>',
-      )
-  );
-}
+export function parseMarkdown(src: string): { html: string; format?: string } {
+  let format: string | undefined;
+  let body = src;
 
-export function parseMarkdown(src: string): string {
-  // Strip YAML frontmatter if present
   if (src.startsWith("---\n")) {
     const end = src.indexOf("\n---", 4);
-    if (end !== -1) src = src.slice(end + 4).trimStart();
-  }
-
-  const lines = src.split("\n");
-  const out: string[] = [];
-  let i = 0;
-
-  while (i < lines.length) {
-    const line = lines[i]!;
-
-    // Blank line - skip
-    if (line.trim() === "") {
-      i++;
-      continue;
-    }
-
-    // Fenced code block
-    if (line.startsWith("```")) {
-      const lang = line.slice(3).trim();
-      const codeLines: string[] = [];
-      i++;
-      while (i < lines.length && !lines[i]!.startsWith("```")) {
-        codeLines.push(escapeHtml(lines[i]!));
-        i++;
-      }
-      i++; // skip closing ```
-      const cls = lang ? ` class="language-${escapeHtml(lang)}"` : "";
-      out.push(`<pre><code${cls}>${codeLines.join("\n")}</code></pre>`);
-      continue;
-    }
-
-    // Heading
-    const headingMatch = line.match(/^(#{1,6})\s+(.+)$/);
-    if (headingMatch) {
-      const level = headingMatch[1]!.length;
-      const headingText = headingMatch[2]!;
-      const slug = slugify(headingText);
-      out.push(`<h${level} id="${slug}"><a href="#${slug}">${inlineMarkup(headingText)}</a></h${level}>`);
-      i++;
-      continue;
-    }
-
-    // Horizontal rule
-    if (/^---+$/.test(line.trim())) {
-      out.push("<hr>");
-      i++;
-      continue;
-    }
-
-    // Unordered list
-    if (line.match(/^[-*]\s/)) {
-      const items: string[] = [];
-      while (i < lines.length && lines[i]!.match(/^[-*]\s/)) {
-        items.push(`<li>${inlineMarkup(lines[i]!.replace(/^[-*]\s/, ""))}</li>`);
-        i++;
-      }
-      out.push(`<ul>${items.join("")}</ul>`);
-      continue;
-    }
-
-    // Paragraph - collect consecutive non-blank, non-special lines
-    const pLines: string[] = [];
-    while (
-      i < lines.length &&
-      lines[i]!.trim() !== "" &&
-      !lines[i]!.startsWith("#") &&
-      !lines[i]!.startsWith("```") &&
-      !lines[i]!.match(/^[-*]\s/) &&
-      !/^---+$/.test(lines[i]!.trim())
-    ) {
-      pLines.push(inlineMarkup(lines[i]!));
-      i++;
-    }
-    if (pLines.length) {
-      out.push(`<p>${pLines.join(" ")}</p>`);
+    if (end !== -1) {
+      const yamlStr = src.slice(4, end);
+      try {
+        const fm = parseYaml(yamlStr) as Record<string, unknown>;
+        format = typeof fm.format === "string" ? fm.format : undefined;
+      } catch { /* malformed frontmatter */ }
+      body = src.slice(end + 4).trimStart();
     }
   }
 
-  return out.join("\n");
+  const html = String(processor.processSync(body));
+  return { html, format };
 }

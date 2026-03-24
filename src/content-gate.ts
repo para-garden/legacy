@@ -169,6 +169,23 @@ export function showGate(
   document.addEventListener("keydown", onKeyDown);
 }
 
+export function revoke(key: string): void {
+  const storageKey = STORAGE_PREFIX + key;
+  localStorage.removeItem(storageKey);
+  sessionStorage.removeItem(storageKey);
+}
+
+/** Returns CW tags on a node that are configured in siteConfig.contentGates. */
+export function getCwTags(node: Node): string[] {
+  const gates = siteConfig.contentGates as Record<string, unknown>;
+  return node.tags.filter((t) => t in gates);
+}
+
+/** True if the node has any unacknowledged CW tag. */
+export function isNodeCwHidden(node: Node): boolean {
+  return getCwTags(node).some((t) => !isAcknowledged(t));
+}
+
 export function checkGate(
   node: Node,
   onProceed: () => void,

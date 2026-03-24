@@ -2,6 +2,7 @@
 label: "Riley's Journal — February–September 2032"
 description: "Personal journal entries spanning an emergency appendectomy, its financial aftermath, and the collections letter that arrived seven months later."
 tags: [document, healthcare, capitalism, personal]
+format: prose
 related: [ascend-hospital-bill-appendectomy, bluecross-eob-appendectomy, text-thread-hospital-bill-reaction, resolute-recovery-collections-letter-mets]
 ---
 

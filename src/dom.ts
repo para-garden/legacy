@@ -5,6 +5,7 @@ import type { FilterState } from "./filter";
 import { updateMinimap } from "./minimap";
 import { siteConfig, getActiveCollection } from "./site-config";
 import { getSettings } from "./settings";
+import { isNodeCwHidden } from "./content-gate";
 
 const viewport = document.getElementById("viewport")!;
 export const worldEl = document.getElementById("world")!;
@@ -48,7 +49,6 @@ export function buildWorld(graph: Graph): void {
   landingEl.innerHTML =
     `<div class="landing-name">${metaNode?.label ?? collection.name}</div>` +
     `<div class="landing-body">${metaNode?.description ?? ""}</div>` +
-    `<div class="landing-trail">this is a map of things i've been exploring.</div>` +
     `<div class="landing-hint">scroll to zoom · click to explore · <kbd>/</kbd> to search</div>`;
   worldEl.appendChild(landingEl);
   nodeEls.set(collection.metaNodeId, landingEl);
@@ -518,4 +518,17 @@ export function getRegionHitNode(target: EventTarget | null, regions: RegionDef[
   if (!hitEl) return null;
   const id = (hitEl as HTMLElement).dataset.id;
   return regions.find(r => r.id === id) ?? null;
+}
+
+/** Apply or remove data-cw="hidden" on node elements based on current acknowledgement state. */
+export function applyCwVisibility(graph: Graph): void {
+  for (const node of graph.nodes) {
+    const el = nodeEls.get(node.id);
+    if (!el) continue;
+    if (isNodeCwHidden(node)) {
+      el.dataset.cw = "hidden";
+    } else {
+      delete el.dataset.cw;
+    }
+  }
 }

@@ -2,6 +2,7 @@
 label: Nora — January 2032
 description: The letter came. They went to get coffee. She put it in the drawer.
 tags: [justice, distance, cw:sexual-violence]
+format: prose
 collections: [default]
 related: [whitmore-title-ix-outcome-whitaker-2032]
 ---

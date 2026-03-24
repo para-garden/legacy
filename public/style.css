@@ -270,9 +270,12 @@ html, body {
 .node[data-kind="essay"] .node-dot { border-radius: 25%; }
 
 
-/* Filter bar */
-#filter-bar {
+/* Bottom bar — wraps CW toggles + filter pills in a stacked column */
+#bottom-bar {
   position: absolute; bottom: 12px; left: 0; right: 0; z-index: 5;
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+}
+#filter-bar {
   display: flex; gap: 6px; flex-wrap: wrap; justify-content: center;
 }
 .filter-pill {
@@ -285,6 +288,35 @@ html, body {
 }
 .filter-pill:hover { border-color: color-mix(in oklch, var(--fc, #888) 80%, #888); }
 .filter-pill[data-active] { background: #2a2a2a; color: color-mix(in oklch, var(--fc, #ddd) 80%, #ddd); border-color: color-mix(in oklch, var(--fc, #666) 80%, #666); }
+
+/* CW-hidden nodes: invisible and non-interactive regardless of filter state */
+.node[data-cw="hidden"] { display: none !important; }
+
+/* CW bar */
+#cw-bar {
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+}
+.cw-trigger {
+  padding: 2px 7px; border-radius: 10px; font-size: 11px;
+  border: 1px solid #222; background: none; color: #333;
+  cursor: pointer; font-family: inherit; line-height: 1.4;
+  transition: color 150ms, border-color 150ms;
+}
+.cw-trigger:hover { color: #555; border-color: #333; }
+.cw-panel[hidden] { display: none; }
+.cw-panel {
+  display: flex; gap: 6px; flex-wrap: wrap; justify-content: center;
+  background: #111; border: 1px solid #222; border-radius: 10px;
+  padding: 6px 10px;
+}
+.cw-toggle {
+  padding: 3px 10px; border-radius: 12px; font-size: 11px;
+  border: 1px solid #2a2a2a; background: none; color: #555;
+  cursor: pointer; font-family: inherit;
+  transition: background 200ms, color 200ms, border-color 200ms;
+}
+.cw-toggle:hover { border-color: #444; color: #888; }
+.cw-toggle[data-active] { background: #1e1a14; color: #a0855a; border-color: #4a3a1a; }
 
 /* Grouping bar */
 #grouping-bar {
@@ -514,6 +546,111 @@ html[data-collection="unfiltered"] .landing-body { color: #aaa; }
   transition: color 150ms;
 }
 .cw-remember:hover label { color: #888; }
+
+/* ── Format: prose ───────────────────────────────────────── */
+#panel-body[data-format="prose"] {
+  font-size: 15px;
+  line-height: 1.75;
+  color: #bbb;
+}
+#panel-body[data-format="prose"] p {
+  margin: 0 0 1em;
+}
+#panel-body[data-format="prose"] em {
+  font-style: italic;
+  color: #ccc;
+}
+#panel-body[data-format="prose"] strong {
+  font-weight: 600;
+  color: #ddd;
+}
+#panel-body[data-format="prose"] q {
+  font-style: italic;
+  quotes: none;
+}
+#panel-body[data-format="prose"] q::before { content: "\201C"; color: #666; }
+#panel-body[data-format="prose"] q::after  { content: "\201D"; color: #666; }
+#panel-body[data-format="prose"] hr {
+  border: none;
+  border-top: 1px solid #222;
+  margin: 1.5em 0;
+}
+
+/* ── Format: thread ──────────────────────────────────────── */
+#panel-body[data-format="thread"] {
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  background: #111;
+  font-size: 14px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+.thread-date {
+  text-align: center;
+  font-size: 11px;
+  color: #555;
+  margin: 12px 0 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.thread-silence {
+  text-align: center;
+  font-size: 11px;
+  color: #444;
+  margin: 6px 0;
+  font-style: italic;
+}
+.thread-receipt {
+  text-align: right;
+  font-size: 10px;
+  color: #555;
+  margin-top: 2px;
+  padding-right: 4px;
+}
+.msg {
+  display: flex;
+  flex-direction: column;
+  max-width: 72%;
+  margin-bottom: 1px;
+}
+.msg.sent {
+  align-self: flex-end;
+  align-items: flex-end;
+}
+.msg.recv {
+  align-self: flex-start;
+  align-items: flex-start;
+}
+.bubble {
+  padding: 8px 12px;
+  border-radius: 18px;
+  line-height: 1.4;
+  word-break: break-word;
+}
+.msg.sent .bubble {
+  background: #1a4a8a;
+  color: #e8eef8;
+  border-bottom-right-radius: 4px;
+}
+.msg.recv .bubble {
+  background: #252525;
+  color: #ccc;
+  border-bottom-left-radius: 4px;
+}
+/* Consecutive messages from same side: less rounding on interior corners */
+.msg.sent + .msg.sent .bubble { border-top-right-radius: 6px; border-bottom-right-radius: 4px; }
+.msg.recv + .msg.recv .bubble { border-top-left-radius: 6px; border-bottom-left-radius: 4px; }
+/* First of a run: full top radius */
+.msg.sent:not(.msg.sent + .msg.sent) .bubble { border-top-right-radius: 18px; }
+.msg.recv:not(.msg.recv + .msg.recv) .bubble { border-top-left-radius: 18px; }
+.msg .time {
+  font-size: 10px;
+  color: #444;
+  margin-top: 2px;
+  padding: 0 4px;
+}
 
 /* Mobile: vertical stack */
 @media (max-width: 640px) {

@@ -2,6 +2,7 @@
 label: Theo — January 2032
 description: The word 'disclosure' appears fourteen times. The assault is not in the document.
 tags: [justice, rounding, distance, cw:sexual-violence]
+format: prose
 collections: [default]
 related: [whitmore-title-ix-outcome-park-2032]
 ---

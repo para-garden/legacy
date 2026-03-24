@@ -2,6 +2,7 @@
 label: Nora — February 2032
 description: She crossed the room. Her body was loudly, violently not okay with this. She didn't move.
 tags: [distance, rounding, cw:sexual-violence]
+format: prose
 collections: [default]
 related: [nora-january-2032, whitmore-title-ix-outcome-whitaker-2032]
 ---

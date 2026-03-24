@@ -94,6 +94,11 @@ const server = Bun.serve({
     const url = new URL(req.url);
     let path = url.pathname;
 
+    // Strip basePath prefix in dev (basePath is for production deployment only)
+    if (siteConfig.basePath && path.startsWith(siteConfig.basePath)) {
+      path = path.slice(siteConfig.basePath.length) || "/";
+    }
+
     // Detect collection from path prefix
     let collectionId: CollectionId = "default";
     for (const id of Object.keys(siteConfig.collections) as CollectionId[]) {
@@ -144,7 +149,7 @@ const server = Bun.serve({
       const mdFile = Bun.file(`${dir}/content/${slug}.md`);
       if (await mdFile.exists()) {
         const md = await mdFile.text();
-        const html = parseMarkdown(md);
+        const { html } = parseMarkdown(md);
         return new Response(contentPage(slug, html), {
           headers: { "Content-Type": "text/html" },
         });

@@ -2,6 +2,7 @@
 label: Sofia — November 2031
 description: The letter came. She already knew what it would say in the first line.
 tags: [justice, rounding, distance, cw:sexual-violence]
+format: prose
 collections: [default]
 related: [whitmore-title-ix-outcome-rivera-2032]
 ---

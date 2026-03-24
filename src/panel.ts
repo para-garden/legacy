@@ -15,7 +15,7 @@ let cam: Camera;
 let graphRef: Graph;
 
 let currentNodeId: string | null = null;
-export const contentCache = new Map<string, string>();
+export const contentCache = new Map<string, { html: string; format?: string }>();
 
 const FALLBACK = "<p style=\"color:#666\">No detailed page available yet.</p>";
 
@@ -88,7 +88,7 @@ function prepareContent(container: HTMLElement): void {
   if (section) container.appendChild(section);
 }
 
-export function fetchContent(nodeId: string): Promise<string> {
+export function fetchContent(nodeId: string): Promise<{ html: string; format?: string }> {
   const cached = contentCache.get(nodeId);
   if (cached !== undefined) return Promise.resolve(cached);
 
@@ -98,13 +98,14 @@ export function fetchContent(nodeId: string): Promise<string> {
       return res.text();
     })
     .then((md) => {
-      const html = parseMarkdown(md);
-      contentCache.set(nodeId, html);
-      return html;
+      const result = parseMarkdown(md);
+      contentCache.set(nodeId, result);
+      return result;
     })
     .catch(() => {
-      contentCache.set(nodeId, FALLBACK);
-      return FALLBACK;
+      const result = { html: FALLBACK };
+      contentCache.set(nodeId, result);
+      return result;
     });
 }
 
@@ -220,17 +221,19 @@ export function openPanel(nodeId: string, nodeLabel?: string, push = true): void
 
     const cached = contentCache.get(nodeId);
     if (cached !== undefined) {
-      panelBody.innerHTML = cached;
-      if (isEssay) prepareContent(panelBody);
+      panelBody.innerHTML = cached.html;
+      panelBody.dataset.format = cached.format ?? "";
+      if (!cached.format && isEssay) prepareContent(panelBody);
       return;
     }
 
     panelBody.innerHTML = "<p style=\"color:#666\">Loading\u2026</p>";
 
-    fetchContent(nodeId).then((html) => {
+    fetchContent(nodeId).then(({ html, format }) => {
       if (currentNodeId === nodeId) {
         panelBody.innerHTML = html;
-        if (isEssay) prepareContent(panelBody);
+        panelBody.dataset.format = format ?? "";
+        if (!format && isEssay) prepareContent(panelBody);
       }
     });
   }

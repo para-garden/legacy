@@ -10,7 +10,7 @@ export function createFilter(nodes: Node[]): FilterState {
   const tagSet = new Set<string>();
   for (const node of nodes) {
     for (const tag of node.tags) {
-      if (tag !== "region") tagSet.add(tag);
+      if (tag !== "region" && !tag.startsWith("cw:")) tagSet.add(tag);
     }
   }
   const available = [...tagSet].sort();
@@ -174,35 +174,62 @@ export function updateFilterPillColors(getColor: (tag: string) => string | undef
   }
 }
 
+function makePill(filter: FilterState, tag: string, onToggle: () => void): HTMLButtonElement {
+  const pill = document.createElement("button");
+  pill.className = "filter-pill";
+  pill.textContent = tag;
+  pill.dataset.tag = tag;
+  if (filter.active.has(tag)) {
+    pill.dataset.active = "";
+    pill.setAttribute("aria-pressed", "true");
+  } else {
+    pill.setAttribute("aria-pressed", "false");
+  }
+  pill.addEventListener("click", () => {
+    toggleTag(filter, tag);
+    if (filter.active.has(tag)) {
+      pill.dataset.active = "";
+      pill.setAttribute("aria-pressed", "true");
+    } else {
+      delete pill.dataset.active;
+      pill.setAttribute("aria-pressed", "false");
+    }
+    onToggle();
+  });
+  return pill;
+}
+
 export function buildFilterUI(
   container: HTMLElement,
   filter: FilterState,
   onToggle: () => void,
 ): void {
   for (const tag of filter.available) {
-    const pill = document.createElement("button");
-    pill.className = "filter-pill";
-    pill.textContent = tag;
-    pill.dataset.tag = tag;
-    if (filter.active.has(tag)) {
-      pill.dataset.active = "";
-      pill.setAttribute("aria-pressed", "true");
-    } else {
-      pill.setAttribute("aria-pressed", "false");
-    }
-
-    pill.addEventListener("click", () => {
-      toggleTag(filter, tag);
-      if (filter.active.has(tag)) {
-        pill.dataset.active = "";
-        pill.setAttribute("aria-pressed", "true");
-      } else {
-        delete pill.dataset.active;
-        pill.setAttribute("aria-pressed", "false");
-      }
-      onToggle();
-    });
-
-    container.appendChild(pill);
+    container.appendChild(makePill(filter, tag, onToggle));
   }
+}
+
+/** Dynamically add a single filter pill (e.g. when a CW is enabled). */
+export function addFilterPill(
+  container: HTMLElement,
+  filter: FilterState,
+  tag: string,
+  onToggle: () => void,
+): void {
+  if (!filter.available.includes(tag)) filter.available.push(tag);
+  if (!container.querySelector(`[data-tag="${CSS.escape(tag)}"]`)) {
+    container.appendChild(makePill(filter, tag, onToggle));
+  }
+}
+
+/** Remove a filter pill and deactivate its tag. */
+export function removeFilterPill(
+  container: HTMLElement,
+  filter: FilterState,
+  tag: string,
+): void {
+  filter.active.delete(tag);
+  const idx = filter.available.indexOf(tag);
+  if (idx >= 0) filter.available.splice(idx, 1);
+  container.querySelector(`[data-tag="${CSS.escape(tag)}"]`)?.remove();
 }
