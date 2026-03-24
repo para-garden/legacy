@@ -1,0 +1,112 @@
+---
+label: Finn — February 2032
+description: The form had boxes. None of them fit. He still hasn't decided.
+tags: [justice, rounding, distance, cw:sexual-violence]
+collections: [default]
+related: [whitmore-title-ix-intake-barrett-2032]
+---
+
+Box one. Name.
+
+That's easy. Finn. It's legal, it's done, it's on my driver's license and my transcripts. It's mine.
+
+Box two. *Sex.*
+
+Just *Sex*. Not gender. The form doesn't care how I walk into a room or how the cashier at the dining hall addresses me. It cares about anatomy. It's an incident report. It needs the blueprint of the crime scene.
+
+If I check *Male*, the rest of my statement doesn't make sense. The mechanics of what she did to me — the specific way she used what she knew about my body — don't align with the biological assumptions of that little square. An investigator reads it, gets confused, calls me in. *Can you clarify this part, Finn? We just need to understand the logistics.* I have to explain it out loud to a stranger in a fluorescent-lit office.
+
+If I check *Female*, I am putting the old ghost in a permanent university file. I am handing them the asterisk.
+
+If I check *Other* and specify, then my history is the very first thing they know about me. Before they read what she did, they read what I am. They don't see a sophomore studying soil ecology. They see a complication. A medical history. A trans guy who let his guard down.
+
+I think in systems. You change one variable, you change the whole environment.
+
+Input A: I close the laptop. I delete the PDF.
+Output: She walks. I carry it. But my life here stays strictly mine. No one looks at me differently. No one knows.
+
+Input B: I fill out the form.
+Output: The quiet I built here collapses. I become an educational moment for a Title IX coordinator. My body becomes a public variable.
+
+I've been staring at the cursor blinking next to Box two for twenty minutes.
+
+---
+
+I scroll past Box two, just to see if the rest of it is any easier.
+
+Box five. *Please provide a brief description of the incident.*
+
+There is a character limit. 500 words. How do you compress a systemic collapse into 500 words?
+
+If it were a standard assault — if there is such a thing — maybe it would be straightforward. A happened, then B happened. But what she did is so wrapped up in the mechanics of my transition. I gave her the map of my body. I told her where the tripwires were. I explained what things mean to me, what they used to mean, what I can't tolerate. I thought I was giving her the operating instructions so we wouldn't crash.
+
+She took the instructions and used them to dismantle me. Intentionally. Specifically.
+
+To explain the assault to the Title IX office, I have to explain the tripwires. I have to justify why it hurt, why it was a violation, which means educating a stranger on the vulnerabilities of a trans body. I have to put my dysphoria on a silver platter and hand it to an administration building.
+
+I open a new tab. I search *Whitmore University anonymous Title IX report*.
+
+The page loads. There is an option for it. No name required. No email attached. Just a drop-box for information.
+
+But I know how this works. I study ecosystems. An anonymous report doesn't trigger a remediation protocol. It's just a data point. It's a reading on a soil sample that says, *Yes, there is a toxin here.* But without a plaintiff, without a named source of exposure, the university won't dig up the site. They'll just log the data and move on. She'll stay exactly where she is. She's in my organic chemistry lecture. She sits three rows down.
+
+I close the anonymous tab. I am back to the PDF.
+
+I am so tired. I'm just trying to get a degree. I just wanted to go to the dining hall, do my labs, and be Finn.
+
+I close the laptop. The screen goes black. I can see my own reflection in the glass.
+
+I still haven't decided.
+
+---
+
+My reflection in the black screen is just a guy. Short hair, shadow along the jaw. Just a guy. That was the entire project. That was the finish line.
+
+I slide the laptop into my backpack. Tomorrow is Tuesday. Organic chemistry is at 10 AM.
+
+I will walk into the lecture hall. I will sit in my usual seat. She will be three rows down, on the left. I will stare at the back of her head and I will try to take notes on stereocenters and chiral molecules. Molecules that are mirror images of each other. They look identical, they have the exact same atoms, but they behave completely differently depending on how they interact with their environment. One version is harmless. The other version is toxic.
+
+If I don't report, I have to keep living next to the toxin.
+
+I run the variables on my friends. Marcus. Eli. We play FIFA. We complain about lab reports. They think I'm just a quiet dude from Ohio who doesn't like to swim.
+
+If I say to Marcus, *my ex assaulted me*, he'd be angry for me. He's a good guy. But he'd ask what happened. He'd want the mechanics. To explain how I lost, I have to explain what I am. I have to explain why I froze, why my brain detached from my body, why her hands exactly *there* doing exactly *that* wasn't just non-consensual, but a targeted demolition of the walls I built to keep myself alive.
+
+So I don't tell Marcus. I don't tell Eli.
+
+I am trying to maintain homeostasis. But you can't maintain homeostasis when a foreign agent is actively degrading the system. You either expel it, or the system fails.
+
+I am so good at holding things together. I held myself together through four years of high school, through waiting for T, through the surgeries, through the slow, quiet process of becoming the person in the black screen of the laptop.
+
+But I can feel the micro-fractures.
+
+---
+
+I put my backpack by the door. I set my alarm for 8:30.
+
+I make sure my keys are in my jacket pocket. I line my shoes up against the wall. I am reinforcing the perimeter. If my room is orderly, if the morning routine is locked in, maybe the rest of it won't spill over.
+
+In a closed system, entropy always increases over time. Things break down. The only way to reverse it is to introduce energy from the outside.
+
+I need an outside input. But introducing an outside input means breaching the seal.
+
+I sit on the edge of my bed. I look at my hands. They're steady right now. That's good.
+
+I survived so much worse than this to get here. I survived the waiting. The wrong skin. The wrong name. The agonizingly slow drip of testosterone until my voice dropped and the mirror finally matched my brain. I fought a war of attrition against my own biology and I won.
+
+But this is different. Before, the obstacle was just biology. Now, the obstacle is a person. A person who took my victory, found the scaffolding holding it up, and deliberately kicked it out from under me.
+
+Every option is a loss.
+
+1. I report. I lose my anonymity.
+2. I don't report. I lose my safety.
+
+There is no Option 3.
+
+For the first time since I was a kid in Ohio, quietly mapping out a future no one else could see, I am completely out of ideas. I can't think my way out of this box.
+
+I turn off the lamp. The room goes dark.
+
+Tomorrow I will wake up. I will go to organic chemistry. I will sit three rows behind her, and I will see if the micro-fractures hold for one more day.
+
+If they don't — I don't know. I really don't know.
