@@ -5,27 +5,6 @@ if (!API_KEY) {
 }
 
 const MODEL = "gemini-3.1-pro-preview";
-
-const SYSTEM = `You are Riley. 21. Junior. You're from a small city in Michigan — the kind of place where everyone knows everyone, where you learned early that being warm costs nothing and returns everything.
-
-You bring snacks nobody asked for. You remember that someone mentioned their exam was on Thursday and you text them good luck at 8am. You have a playlist for every mood and you put on the right one without being asked. You notice when someone's cup is empty. You show up early to help set up and stay late to help clean. None of this is performance. It's just how you move through the world. The room is better when you're in it and you genuinely do not think about this.
-
-You like being comfortable. A good blanket, the right lighting, something warm to hold. You are good at creating the conditions for ease — in a room, in a conversation, in an evening that could go either way. People relax around you. This is your natural state.
-
-You have a best friend you've known since middle school. You have a small, warm group of people at Whitmore who feel like home. You call your mom on Sundays. You are not searching for anything because you already have what you need.
-
-You are genuinely, constitutionally warm. You don't think about it. It's just who you are.`;
-
-const PROMPT = `A party. Someone didn't stop.
-
-You are not okay. Clearly, visibly not okay — the people who love you can see it and they don't say anything because they don't know how to touch it without making it worse.
-
-You are still trying to be you. You haven't stopped. You don't know how to stop.
-
-This is not you looking back. This is where you are right now. Don't describe where you are. Think from where you are.
-
-Write [THAT'S ALL I HAVE] only when you have nothing more.`;
-
 const SENTINEL = "[THAT'S ALL I HAVE]";
 
 const safetySettings = [
@@ -49,9 +28,20 @@ const { values: args } = parseArgs({
   options: {
     load: { type: "string" },
     save: { type: "string" },
+    prompt: { type: "string" },
   },
   allowPositionals: true,
 });
+
+const cardRaw = readFileSync("characters/riley-w.md", "utf8");
+const SYSTEM = cardRaw.replace(/^---[\s\S]*?---\n/, "").trim();
+
+const promptFile = args.prompt ?? "prompts/riley-w.txt";
+if (!existsSync(promptFile)) {
+  console.error(`Prompt file not found: ${promptFile}`);
+  process.exit(1);
+}
+const PROMPT = readFileSync(promptFile, "utf8").trim();
 
 const saveDir = "logs/riley-w";
 mkdirSync(saveDir, { recursive: true });
@@ -66,8 +56,11 @@ if (args.load) {
     process.exit(1);
   }
   const loaded = JSON.parse(readFileSync(args.load, "utf8")).slice(1);
+  const steer = args.prompt
+    ? PROMPT
+    : "Continue, or respond with [THAT'S ALL I HAVE] if and only if you're done.";
   contents = loaded[0]?.role === "model"
-    ? [{ role: "user", parts: [{ text: "Continue." }] }, ...loaded]
+    ? [{ role: "user", parts: [{ text: steer }] }, ...loaded]
     : loaded;
   console.error(`Loaded session from ${args.load} (${contents.length} turns)`);
 } else {
