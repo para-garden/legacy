@@ -291,8 +291,9 @@ html, body {
 
 /* CW-hidden nodes: invisible and non-interactive regardless of filter state */
 /* CW-hidden: instant disappear, fade in on reveal */
+/* opacity: 0 !important so this wins over .node[data-neighborhood="distant"] { opacity: 0.06 } */
 .node[data-cw="hidden"],
-.edge[data-cw="hidden"] { opacity: 0; pointer-events: none; transition: none !important; }
+.edge[data-cw="hidden"] { opacity: 0 !important; pointer-events: none; transition: none !important; }
 .node[data-cw="hidden"] * { pointer-events: none; }
 
 /* CW bar */

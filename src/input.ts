@@ -7,6 +7,7 @@ import { isPanelOpen, closePanel, openPanel } from "./panel";
 
 import { siteConfig, getActiveCollection, siteUrl } from "./site-config";
 import { getSettings } from "./settings";
+import { isNodeCwHidden } from "./content-gate";
 import { keybinds, defineSchema, fromBindings, registerComponents, fuzzyMatcher } from "keybinds";
 import type { Command } from "keybinds";
 
@@ -104,6 +105,7 @@ export function setupInput(
   }
 
   function navigateTo(node: Node, push = true, animate = true): void {
+    if (isNodeCwHidden(node)) return;
     const wasThisNode = focusedNode === node;
     focusedNode = node;
     setFocus(graph, node, true);
@@ -316,7 +318,7 @@ export function setupInput(
 
   // Node navigation commands (no key binding — palette-only)
   const nodeMap = new Map(graph.nodes.map(n => [n.id, n]));
-  const nodeCommands: Command[] = graph.nodes.map(node => {
+  const nodeCommands: Command[] = graph.nodes.filter(n => !isNodeCwHidden(n)).map(node => {
     const parent = node.parent ? nodeMap.get(node.parent) : null;
     const category = node.tags.includes("essay") ? "Essays"
       : parent ? parent.label
@@ -604,9 +606,10 @@ function bestNeighbor(from: Node, dir: [number, number], graph: Graph, camera: C
     if (node.id === from.id) continue;
     // Tier visibility filter — no region nodes, skip all at far zoom
     if (tier === "far") continue;
-    // Respect active filters
+    // Respect active filters and CW consent
     const el = nodeEls.get(node.id);
     if (el?.dataset.filtered === "hidden") continue;
+    if (isNodeCwHidden(node)) continue;
 
     const dx = node.x - from.x;
     const dy = node.y - from.y;
@@ -632,6 +635,7 @@ function nearestToCamera(graph: Graph, camera: Camera): Node | null {
     if (tier === "far") continue;
     const el = nodeEls.get(node.id);
     if (el?.dataset.filtered === "hidden") continue;
+    if (isNodeCwHidden(node)) continue;
     const dx = node.x - camera.x;
     const dy = node.y - camera.y;
     const dist = dx * dx + dy * dy;

@@ -43,8 +43,11 @@ export function runLayout(
   const REPEL = 5000;
   const SPRING_K = 0.008;
   const SPRING_LEN = 80;
-  const ANCHOR_K = 0.08;
-  const CENTER_K = 0.006;
+  // When force=true (CW-driven layout), anchoring nodes to their pre-sim positions
+  // locks them in the gap left by hidden nodes. Zero the anchor so they rearrange freely;
+  // use stronger centering to prevent drift.
+  const ANCHOR_K = force ? 0 : 0.08;
+  const CENTER_K = force ? 0.02 : 0.006;
   const DAMPING = 0.85;
   const MAX_FORCE = 10;
   const MAX_STEPS = 200;
@@ -88,11 +91,13 @@ export function runLayout(
     }
 
     // Gentle anchor toward pre-simulation positions (= current grouping positions)
-    for (const n of nodes) {
-      const dx = anchorX.get(n.id)! - n.x;
-      const dy = anchorY.get(n.id)! - n.y;
-      vx.set(n.id, vx.get(n.id)! + dx * ANCHOR_K);
-      vy.set(n.id, vy.get(n.id)! + dy * ANCHOR_K);
+    if (ANCHOR_K > 0) {
+      for (const n of nodes) {
+        const dx = anchorX.get(n.id)! - n.x;
+        const dy = anchorY.get(n.id)! - n.y;
+        vx.set(n.id, vx.get(n.id)! + dx * ANCHOR_K);
+        vy.set(n.id, vy.get(n.id)! + dy * ANCHOR_K);
+      }
     }
 
     // Centering: pull toward collective centroid (keeps disjoint groups together)

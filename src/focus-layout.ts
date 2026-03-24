@@ -170,6 +170,8 @@ export function createFocusLayout(graph: Graph) {
   function applyNeighborhoodAttr(): void {
     if (!getSettings().neighborhoodFocus) return;
     for (const [id, el] of nodeEls) {
+      const node = nodeMap.get(id);
+      if (node && isNodeCwHidden(node)) { delete el.dataset.neighborhood; continue; }
       if (neighborIds.has(id)) {
         delete el.dataset.neighborhood;
       } else {
