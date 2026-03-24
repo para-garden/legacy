@@ -56,10 +56,8 @@ if (initFilterParam) {
 }
 
 applyFilter(filter, graph);
-if (filter.active.size > 0) {
-  runFilterLayout();
-  updatePositions(graph);
-}
+runFilterLayout();
+updatePositions(graph);
 buildGroupingUI(document.getElementById("grouping-bar")!);
 buildFilterUI(document.getElementById("filter-bar")!, filter, () => {
   applyFilter(filter, graph);
