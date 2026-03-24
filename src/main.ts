@@ -85,6 +85,9 @@ function runFilterLayout(): void {
   const visibleIds = getLayoutIds();
   const anyCwHidden = graph.nodes.some(n => !n.tags.includes("meta") && isNodeCwHidden(n));
   if (filter.active.size > 0 || anyCwHidden) {
+    // Reset to base positions before the CW sim so nodes spread from a clean
+    // layout rather than from their current (gapped/clustered) positions.
+    if (anyCwHidden) resetToCurrentGrouping(graph);
     runLayout(graph, visibleIds, { totalEligible: eligibleCount(), force: anyCwHidden });
   } else {
     resetToCurrentGrouping(graph);
@@ -93,7 +96,10 @@ function runFilterLayout(): void {
 
 function onCwLayoutChange(): void {
   runFilterLayout();
+  // Enable translate transition (same pattern as focus-layout applySettled).
+  worldEl.dataset.settling = "";
   updatePositions(graph);
+  setTimeout(() => { delete worldEl.dataset.settling; }, 350);
 }
 
 // CW bar — collapsed by default, expands on click to show CW toggles.

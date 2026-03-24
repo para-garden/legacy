@@ -47,7 +47,7 @@ export function runLayout(
   // locks them in the gap left by hidden nodes. Zero the anchor so they rearrange freely;
   // use stronger centering to prevent drift.
   const ANCHOR_K = force ? 0 : 0.08;
-  const CENTER_K = force ? 0.010 : 0.006;
+  const CENTER_K = 0.006;
   const DAMPING = 0.85;
   const MAX_FORCE = 10;
   const MAX_STEPS = 200;
