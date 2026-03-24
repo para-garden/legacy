@@ -1,4 +1,16 @@
-import type { Graph } from "./graph";
+import type { Graph, Node } from "./graph";
+
+/**
+ * Effective collision radius: base radius + estimated text height below the circle.
+ * Descriptions are split at sentence boundaries (same logic as descLines in dom.ts)
+ * and rendered at 11px * 0.65 scale ≈ 7px per line in world space.
+ */
+function effectiveRadius(n: Node): number {
+  const base = n.collisionRadius ?? n.radius;
+  if (!n.description) return base;
+  const lines = n.description.replace(/([.!?])\s+/g, "$1\n").split("\n").filter(Boolean).length;
+  return base + lines * 7;
+}
 
 /**
  * Run a synchronous force-directed simulation on visible non-meta nodes.
@@ -42,7 +54,7 @@ export function runLayout(
 
   const REPEL = 5000;
   const SPRING_K = 0.008;
-  const SPRING_LEN = 80;
+  const SPRING_LEN = 120;
   // When force=true (CW-driven layout), anchoring nodes to their pre-sim positions
   // locks them in the gap left by hidden nodes. Zero the anchor so they rearrange freely;
   // use stronger centering to prevent drift.
@@ -62,7 +74,8 @@ export function runLayout(
         const dy = b.y - a.y;
         const d2 = dx * dx + dy * dy;
         const d = Math.sqrt(d2) || 1;
-        const f = Math.min(REPEL / d2, MAX_FORCE);
+        const minDist = effectiveRadius(a) + effectiveRadius(b) + 8;
+        const f = Math.min(d < minDist ? REPEL * 4 / d2 : REPEL / d2, MAX_FORCE);
         const fx = (dx / d) * f;
         const fy = (dy / d) * f;
         vx.set(a.id, vx.get(a.id)! - fx);

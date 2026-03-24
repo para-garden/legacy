@@ -15,6 +15,13 @@ function descLines(text: string): string[] {
   return text.replace(/([.!?])\s+/g, "$1\n").split("\n").filter(Boolean);
 }
 
+/** Split a label at em dashes (priority) or space-hyphen-space. */
+function labelLines(text: string): string[] {
+  if (text.includes("—")) return text.split(/\s*—\s*/).map((s, i) => i === 0 ? s : `— ${s}`);
+  if (text.includes(" - ")) return text.split(" - ").map((s, i) => i === 0 ? s : `- ${s}`);
+  return [text];
+}
+
 interface EdgeRef {
   el: SVGPathElement;
   from: string;
@@ -127,7 +134,11 @@ export function buildWorld(graph: Graph): void {
       text.className = "node-text";
       const label = document.createElement("div");
       label.className = "node-label";
-      label.textContent = node.label;
+      const lparts = labelLines(node.label);
+      for (let i = 0; i < lparts.length; i++) {
+        if (i > 0) label.appendChild(document.createElement("br"));
+        label.appendChild(document.createTextNode(lparts[i]!));
+      }
       text.appendChild(label);
       if (node.description) {
         const desc = document.createElement("div");
@@ -384,7 +395,11 @@ function createRegionElement(region: RegionDef): HTMLElement {
   text.className = "node-text";
   const label = document.createElement("div");
   label.className = "node-label";
-  label.textContent = region.label;
+  const lparts = labelLines(region.label);
+  for (let i = 0; i < lparts.length; i++) {
+    if (i > 0) label.appendChild(document.createElement("br"));
+    label.appendChild(document.createTextNode(lparts[i]!));
+  }
   text.appendChild(label);
 
   if (region.description) {

@@ -32,6 +32,9 @@ export function createFocusLayout(graph: Graph) {
   const vy = new Map<string, number>();
   const anchorX = new Map<string, number>();
   const anchorY = new Map<string, number>();
+  // Positions captured at the start of a focus session; restored on unfocus.
+  const preFocusX = new Map<string, number>();
+  const preFocusY = new Map<string, number>();
   const nodeMap = new Map(graph.nodes.map((n) => [n.id, n]));
   let settleTimer = 0;
 
@@ -130,12 +133,23 @@ export function createFocusLayout(graph: Graph) {
     const settings = getSettings();
     const newId = node?.id ?? null;
     if (newId === focusedId) return;
+
+    // Capture pre-focus positions at the start of a session (null → something).
+    // On unfocus we restore these instead of baseX/baseY, so filter/CW layouts
+    // aren't destroyed by the focus sim.
+    if (focusedId === null && newId !== null && settings.dynamicLayout) {
+      for (const n of graph.nodes) { preFocusX.set(n.id, n.x); preFocusY.set(n.id, n.y); }
+    }
+
     focusedId = newId;
 
     if (!focusedId) {
       clearNeighborhoodAttr();
       if (settings.dynamicLayout) {
-        for (const n of graph.nodes) { n.x = n.baseX; n.y = n.baseY; }
+        for (const n of graph.nodes) {
+          n.x = preFocusX.get(n.id) ?? n.baseX;
+          n.y = preFocusY.get(n.id) ?? n.baseY;
+        }
         applySettled();
       }
       return;
