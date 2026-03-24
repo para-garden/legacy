@@ -100,14 +100,13 @@ while (true) {
 
   contents.push({ role: "model", parts });
 
-  const lastModel = contents[contents.length - 1];
-  if (lastModel?.role === "model") {
-    lastModel.parts = lastModel.parts.map((p: any) =>
-      p.text ? { ...p, text: p.text.replace(SENTINEL, "").trimEnd() } : p
-    );
-  }
+  const stripped = contents.map((c: any) =>
+    c.role === "model"
+      ? { ...c, parts: c.parts.map((p: any) => p.text ? { ...p, text: p.text.replace(SENTINEL, "").trimEnd() } : p) }
+      : c
+  );
 
-  writeFileSync(savePath, JSON.stringify(contents, null, 2));
+  writeFileSync(savePath, JSON.stringify(stripped, null, 2));
 
   if (fullOutput.includes(SENTINEL)) break;
 
