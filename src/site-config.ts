@@ -27,6 +27,10 @@ export const siteConfig = {
       label: "Sexual violence",
       description: "This content includes depictions of sexual violence.",
     },
+    "cw:suicide": {
+      label: "Suicide",
+      description: "This content includes discussion of suicide.",
+    },
   } satisfies Record<string, ContentGate>,
   /** Per-collection overrides. */
   collections: {

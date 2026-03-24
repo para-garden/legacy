@@ -1,7 +1,7 @@
 ---
 label: Online Harassment and Creator Death
 description: Documented cases of sustained community harassment leading to suicide, with particular focus on snark communities, platform accountability gaps, and the Mikayla Raines case (2025).
-tags: [amplification, distance]
+tags: [amplification, distance, cw:suicide]
 collections: [research]
 ---
 
