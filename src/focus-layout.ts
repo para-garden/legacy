@@ -6,6 +6,7 @@
 import type { Graph, Node } from "./graph";
 import { updatePositions, nodeEls, worldEl } from "./dom";
 import { getSettings } from "./settings";
+import { isNodeCwHidden } from "./content-gate";
 
 const REPEL = 4000;
 const SPRING_K = 0.018;
@@ -156,7 +157,7 @@ export function createFocusLayout(graph: Graph) {
     }
 
     const active = graph.nodes.filter(
-      (n) => neighborIds.has(n.id) && !n.tags.includes("meta"),
+      (n) => neighborIds.has(n.id) && !n.tags.includes("meta") && !isNodeCwHidden(n),
     );
     const edges = graph.edges.filter(
       (e) => neighborIds.has(e.from) && neighborIds.has(e.to),

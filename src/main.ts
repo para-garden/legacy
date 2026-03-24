@@ -87,7 +87,7 @@ function runFilterLayout(): void {
   const visibleIds = getLayoutIds();
   const anyCwHidden = graph.nodes.some(n => !n.tags.includes("meta") && isNodeCwHidden(n));
   if (filter.active.size > 0 || anyCwHidden) {
-    runLayout(graph, visibleIds, eligibleCount());
+    runLayout(graph, visibleIds, { totalEligible: eligibleCount(), force: anyCwHidden });
   } else {
     resetToCurrentGrouping(graph);
   }
@@ -103,7 +103,7 @@ function onCwLayoutChange(): void {
   const cwBar = document.getElementById("cw-bar");
   const filterBar = document.getElementById("filter-bar")!;
   const gates = siteConfig.contentGates as Record<string, { label: string; description: string }>;
-  const cwKeys = Object.keys(gates);
+  const cwKeys = Object.keys(gates).filter(key => graph.nodes.some(n => n.tags.includes(key)));
 
   if (cwBar && cwKeys.length > 0) {
     function onFilterChange(): void {
