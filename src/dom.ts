@@ -17,8 +17,8 @@ function descLines(text: string): string[] {
 
 /** Split a label at em dashes (priority) or space-hyphen-space. */
 function labelLines(text: string): string[] {
-  if (text.includes("—")) return text.split(/\s*—\s*/).map((s, i) => i === 0 ? s : `— ${s}`);
-  if (text.includes(" - ")) return text.split(" - ").map((s, i) => i === 0 ? s : `- ${s}`);
+  if (text.includes("—")) return text.split(/\s*—\s*/);
+  if (text.includes(" - ")) return text.split(" - ");
   return [text];
 }
 

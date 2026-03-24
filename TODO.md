@@ -208,8 +208,8 @@ Documents with real-system claims need quiet inline links to real sources. Statu
 
 ### World analogues for research subjects
 
-- [ ] **Mikayla Raines analogue** — someone who built something real, got targeted by an organized community, died. Platform gap, former-friend vector, petition after. Facets: amplification, distance.
-- [ ] **Jammie Thomas-Rasset analogue** — someone hit by a statutory damages regime designed for commercial actors, applied to an individual. Judgment bearing no relation to harm. The bankruptcy endpoint. Facets: justice, margins, distance.
+- [x] **Mikayla Raines analogue** — Joy Callahan. Community meal coordinator, Evarts, KY. Character card: `characters/joy.md`. World doc: `harlan-county-gazette-callahan-obituary-2032.md`. Facets: amplification, distance.
+- [x] **Jammie Thomas-Rasset analogue** — Marco Salinas. Data gig worker, Cebu City. Character card: `characters/marco.md`. World doc: `meridian-copyright-demand-salinas-2032.md`. Facets: justice, margins, distance.
 
 ### Healthcare — parallel threads
 
