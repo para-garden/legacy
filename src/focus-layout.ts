@@ -18,7 +18,7 @@ const SETTLE_THRESHOLD = 0.3;
 const NEIGHBORHOOD_HOPS = 2;
 const MAX_ITERS = 400;
 /** Duration of the CSS settle transition in ms. */
-const SETTLE_DURATION = 700;
+const SETTLE_DURATION = 300;
 
 function nodeRadius(n: Node): number {
   return n.collisionRadius ?? n.radius;
