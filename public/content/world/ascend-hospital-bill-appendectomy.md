@@ -54,7 +54,7 @@ ascendhealthsystem.com/portal &nbsp;|&nbsp; Patient Billing Services: (844) 501-
 
 | Code | Description | Qty | Unit Price | Total |
 |---|---|---:|---:|---:|
-| 99285 | ED Visit — Level 5, High Complexity | 1 | $3,840.00 | $3,840.00 |
+| 99285 | [ED Visit — Level 5, High Complexity](https://clearhealthcosts.com/blog/procedure/99285-emergency-care-level-5/) | 1 | $3,840.00 | $3,840.00 |
 | 71046 | Chest X-Ray, 2 Views (pre-op clearance) | 1 | $892.00 | $892.00 |
 | 74177 | CT Abdomen/Pelvis w/ Contrast | 1 | $6,240.00 | $6,240.00 |
 | 80053 | Comprehensive Metabolic Panel | 1 | $412.00 | $412.00 |
@@ -63,7 +63,7 @@ ascendhealthsystem.com/portal &nbsp;|&nbsp; Patient Billing Services: (844) 501-
 | 86900 | Blood Type and Screen | 1 | $387.00 | $387.00 |
 | 93005 | ECG, 12-Lead, Tracing and Interpretation | 1 | $623.00 | $623.00 |
 | A4217 | Sterile Water for Irrigation, per 500ml | 3 | $184.00 | $552.00 |
-| A4216 | Normal Saline, 1000ml IV Bag | 4 | $380.00 | $1,520.00 |
+| A4216 | [Normal Saline, 1000ml IV Bag](https://www.advisory.com/daily-briefing/2013/08/27/the-secret-of-salines-cost-why-a-1-bag-can-cost-700) | 4 | $380.00 | $1,520.00 |
 | J2250 | Midazolam HCl 1mg IV (Versed) | 2 | $94.00 | $188.00 |
 | J3010 | Fentanyl Citrate 0.1mg IV | 3 | $112.00 | $336.00 |
 | J0696 | Ceftriaxone 1gm IV (prophylactic antibiotic) | 1 | $284.00 | $284.00 |
@@ -83,7 +83,7 @@ ascendhealthsystem.com/portal &nbsp;|&nbsp; Patient Billing Services: (844) 501-
 | Code | Description | Qty | Unit Price | Total |
 |---|---|---:|---:|---:|
 | 44950 | Appendectomy, Laparoscopic (facility fee) | 1 | $8,400.00 | $8,400.00 |
-| — | Operating Room Time — first hour | 1 | $4,200.00 | $4,200.00 |
+| — | [Operating Room Time — first hour](https://jamanetwork.com/journals/jamasurgery/fullarticle/2673385) | 1 | $4,200.00 | $4,200.00 |
 | — | Operating Room Time — additional 30 min | 1 | $2,100.00 | $2,100.00 |
 | — | Recovery Room (PACU), per hour | 2 | $840.00 | $1,680.00 |
 | A4550 | Surgical Tray / Instrument Pack | 1 | $2,870.00 | $2,870.00 |
@@ -109,7 +109,7 @@ ascendhealthsystem.com/portal &nbsp;|&nbsp; Patient Billing Services: (844) 501-
 
 | Code | Description | Qty | Unit Price | Total |
 |---|---|---:|---:|---:|
-| — | Medical/Surgical Room, Semi-Private, per night | 1 | $2,800.00 | $2,800.00 |
+| — | [Medical/Surgical Room, Semi-Private, per night](https://www.kff.org/health-costs/state-indicator/expenses-per-inpatient-day/) | 1 | $2,800.00 | $2,800.00 |
 | — | Nursing Care — General Floor, per day | 1 | $1,240.00 | $1,240.00 |
 | — | Patient Monitoring — Continuous, per day | 1 | $640.00 | $640.00 |
 | — | Normal Saline 1000ml IV (maintenance) | 3 | $380.00 | $1,140.00 |

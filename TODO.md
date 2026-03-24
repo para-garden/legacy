@@ -181,36 +181,20 @@ text-thread-dani-mel-october-2031.md deleted — was hand-crafted and now orphan
 
 Documents with real-system claims need quiet inline links to real sources. Status:
 
-**Partially sourced — sources identified, need embedding:**
-- `ascend-hospital-bill-appendectomy.md` — TIME "Bitter Pill" ($47 aspirin), CRS ground ambulance already linked. Sources found for missing items:
-  - Saline $380/L → NYT/Advisory Board investigation (manufacturing cost $1.07, charges $91–$787): `advisory.com/daily-briefing/2013/08/27/the-secret-of-salines-cost-why-a-1-bag-can-cost-700`
-  - OR $4,200/hr → JAMA Surgery 2018 (mean cost $36-37/min, chargemaster 2-4x): `jamanetwork.com/journals/jamasurgery/fullarticle/2673385`
-  - Room $2,800/night → KFF inpatient day expenses ($3,132 avg 2023): `kff.org/health-costs/state-indicator/expenses-per-inpatient-day/`
-  - ED Level 5 $3,840 → ClearHealthCosts (median $1,784, IQR $863–$3,194, individual hospitals well above $3k): `clearhealthcosts.com/blog/procedure/99285-emergency-care-level-5/`
-  - Total $54,817 → CBS News viral Sutter Hospital bill of $55,029: `cbsnews.com/news/cost-of-an-appendectomy-reddit-user-posts-55000-bill/`
-- `bluecross-eob-appendectomy.md` — Health Affairs, GAO, CRS already linked. Sources found:
-  - $3,500 OON deductible → KFF employer survey (OON typically 2-3x in-network): `kff.org/health-costs/2024-employer-health-benefits-survey/`
-  - 20% coinsurance → HealthCare.gov (standard PPO structure): `healthcare.gov/glossary/co-insurance/`
-  - No Surprises Act → CMS/NAIC overview + ground ambulance exclusion: `content.naic.org/insurance-topics/no-surprises-act`
-- `ascend-chargemaster-governance-memo-2031.md` — Health Affairs, GAO charity care already linked. Best-sourced document.
-- `resolute-recovery-collections-letter-mets.md` — FDCPA statute (Cornell Law). Solid.
+**Sourced:**
+- `ascend-hospital-bill-appendectomy.md` — TIME, Advisory Board (saline), JAMA Surgery (OR), KFF (room), ClearHealthCosts (ED), CRS (ambulance)
+- `bluecross-eob-appendectomy.md` — Health Affairs, GAO, CRS, KFF (deductible), HealthCare.gov (coinsurance), NAIC (No Surprises Act)
+- `ascend-chargemaster-governance-memo-2031.md` — Health Affairs, GAO
+- `resolute-recovery-collections-letter-mets.md` — FDCPA statute (Cornell Law)
+- `marcus-personal-journal-2003-2033.md` — BLS (wages x2), Child Care Aware, NYT (gifted cuts), ASCA (counselor ratios)
+- `whitmore-title-ix-outcome-*.md` (4 files) — 34 CFR Part 106, 2011 Dear Colleague Letter
+- `phi-delta-sigma-risk-management-directive-2031.md` — NIC
+- `whitmore-title-ix-intake-barrett-2032.md` — AACRAO
+- `riley-personal-journal-appendectomy.md` — claims derive from sourced hospital bill/EOB docs
 
-**Unsourced — sources identified, need embedding:**
-- `marcus-personal-journal-2003-2033.md`:
-  - $9.50/hr Home Depot → BLS OES 2005 retail wages + Reuters 2019 Home Depot raise (confirming pre-2019 was lower): `bls.gov/oes/2005/may/oes412031.htm`
-  - $17.50 HVAC → BLS OES 49-9021 (entry-level/lower market): `bls.gov/ooh/installation-maintenance-and-repair/heating-air-conditioning-and-refrigeration-mechanics-and-installers.htm`
-  - Daycare = one parent's income → Child Care Aware 2019 report: `childcareaware.org/our-issues/research/the-us-and-the-high-price-of-child-care-2019/` + EPI interactive: `epi.org/child-care-costs-in-the-united-states/`
-  - Gifted program cuts → NAGC State of States + NYC 2021 elimination (NYT): `nytimes.com/2021/10/08/nyregion/gifted-talented-program-nyc.html`
-  - Test prep $200–400 → medium confidence, needs local journalism (Chicago/NYC best documented)
-  - Counselor ratio 800:1 → ASCA (recommends 250:1, national avg 385:1, AZ 700:1+): `schoolcounselor.org/About-School-Counseling/School-Counselor-Roles-Ratios`
-- `whitmore-title-ix-outcome-*.md` (4 files):
-  - Grievance procedures → 34 CFR 106.45: `ecfr.gov/current/title-34/subtitle-B/chapter-I/part-106`
-  - Outcome letter contents → 34 CFR 106.45(b)(7)(ii) (prescribes exact contents)
-  - Timeline → 2011 Dear Colleague Letter (60-day benchmark): `www2.ed.gov/about/offices/list/ocr/letters/colleague-201104.pdf`
-- `phi-delta-sigma-risk-management-directive-2031.md` — FIPG risk management policy (sober monitors, guest lists, incident reporting). NIC standards: `nicfraternity.org`
-- `whitmore-title-ix-intake-barrett-2032.md` — AACRAO guidance on name/gender changes: `aacrao.org`
-- `derek-otter-transcripts-2032.md` — CBRE/BiggerPockets/CCIM for RE investment practices: `cbre.com/insights`
-- `riley-personal-journal-appendectomy.md` — payment plan mechanics, ambulance reimbursement. Claims derive from the hospital bill/EOB docs; sources flow from those.
+**Still unsourced:**
+- `marcus-personal-journal-2003-2033.md` — test prep costs ($200–400). Medium confidence, needs local journalism (Chicago/NYC).
+- `derek-otter-transcripts-2032.md` — cap rates, NOI, rent escalation strategies. Sources exist (CBRE, BiggerPockets, CCIM) but not yet embedded.
 
 **No sourcing needed** (fiction/personal voice, no real-system claims):
 - Text threads (hospital-bill-reaction, riley-jess x2, simone-adaeze, dani-mel)

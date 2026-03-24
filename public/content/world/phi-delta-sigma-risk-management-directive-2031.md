@@ -15,7 +15,7 @@ RE: Updated Social Event Protocols — Immediate Implementation Required
 
 Brothers,
 
-Following the events of October and in consultation with our national insurance carrier, the following protocols are effective immediately and apply to all chartered chapters and colonies.
+Following the events of October and in consultation with our [national insurance carrier](https://nicfraternity.org), the following protocols are effective immediately and apply to all chartered chapters and colonies.
 
 **Social Event Registration**
 

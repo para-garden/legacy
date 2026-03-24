@@ -20,7 +20,7 @@ Student ID: 4488341
 
 Dear Mr. Park,
 
-This letter provides notification of the outcome of the formal grievance process initiated by your complaint filed October 22, 2031 under Title IX of the Education Amendments of 1972 and Whitmore University Policy 5.14 (Sexual Misconduct Policy).
+This letter provides notification of the outcome of the [formal grievance process](https://www.ecfr.gov/current/title-34/subtitle-B/chapter-I/part-106) initiated by your complaint filed October 22, 2031 under Title IX of the Education Amendments of 1972 and Whitmore University Policy 5.14 (Sexual Misconduct Policy).
 
 ---
 
@@ -43,7 +43,7 @@ Total investigation timeline: 84 days.
 
 **Findings**
 
-The hearing panel considered all evidence under the preponderance of evidence standard (whether it is more likely than not that the alleged conduct occurred).
+The hearing panel considered all evidence under the [preponderance of evidence standard](https://www2.ed.gov/about/offices/list/ocr/letters/colleague-201104.pdf) (whether it is more likely than not that the alleged conduct occurred).
 
 A central question in this matter was whether the complainant had disclosed relevant personal information to the respondent prior to the alleged incident, and whether the absence of such disclosure was material to the question of consent.
 

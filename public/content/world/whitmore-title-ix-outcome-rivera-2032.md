@@ -20,7 +20,7 @@ Student ID: 4502917
 
 Dear [Mx./Ms.] Rivera,
 
-This letter provides notification of the outcome of the formal grievance process initiated by your complaint filed November 3, 2031 under Title IX of the Education Amendments of 1972 and Whitmore University Policy 5.14 (Sexual Misconduct Policy).
+This letter provides notification of the outcome of the [formal grievance process](https://www.ecfr.gov/current/title-34/subtitle-B/chapter-I/part-106) initiated by your complaint filed November 3, 2031 under Title IX of the Education Amendments of 1972 and Whitmore University Policy 5.14 (Sexual Misconduct Policy).
 
 ---
 
@@ -41,7 +41,7 @@ Total investigation timeline: 100 days.
 
 **Findings**
 
-The hearing panel considered all evidence under the preponderance of evidence standard (whether it is more likely than not that the alleged conduct occurred).
+The hearing panel considered all evidence under the [preponderance of evidence standard](https://www2.ed.gov/about/offices/list/ocr/letters/colleague-201104.pdf) (whether it is more likely than not that the alleged conduct occurred).
 
 The panel found:
 

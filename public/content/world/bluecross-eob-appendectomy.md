@@ -108,7 +108,7 @@ The following providers typically bill **separately** from the hospital. You may
 >
 > Pinnacle Anesthesia Partners, LLC has not yet confirmed their network status with BlueCross Advantage Select for the date of your service. [Anesthesiologists and other specialist providers who practice at in-network facilities are **not always in-network themselves**](https://www.gao.gov/products/gao-23-105765). If this provider is determined to be **out-of-network**, different cost-sharing terms will apply, and your balance due may be higher than anticipated.
 >
-> **Your rights under the No Surprises Act (Federal Law, effective 2022):**
+> **Your rights under the [No Surprises Act](https://content.naic.org/insurance-topics/no-surprises-act) (Federal Law, effective 2022):**
 > You have protections against certain surprise bills for emergency services. However, these protections apply to the **physician fee** only under specific qualifying conditions. Facility fees are governed separately. If you believe you have been billed incorrectly:
 >
 > **Step 1:** Contact Member Services at 1-800-422-2583 and request a No Surprises Act eligibility review (allow 10–15 business days).
@@ -157,7 +157,7 @@ The following providers typically bill **separately** from the hospital. You may
 >
 > Emergency medical transport providers are not required to bill your insurer directly. If METS bills you directly, you may submit the claim for reimbursement yourself. Please be aware:
 >
-> - **METS is not an in-network provider.** Out-of-network emergency transport is a covered benefit under your plan, subject to your out-of-network deductible ($3,500 individual, separate from your in-network deductible) and out-of-network coinsurance (40% after deductible).
+> - **METS is not an in-network provider.** Out-of-network emergency transport is a covered benefit under your plan, subject to your out-of-network deductible ([$3,500](https://www.kff.org/health-costs/2024-employer-health-benefits-survey/) individual, separate from your in-network deductible) and out-of-network coinsurance ([40%](https://www.healthcare.gov/glossary/co-insurance/) after deductible).
 > - The No Surprises Act provides some protections for ground ambulance services, but [federal ground ambulance protections vary by state and a final rule has not been uniformly implemented](https://crsreports.congress.gov/product/pdf/R/R47067). Your state may have additional protections. BlueCross Advantage Select cannot confirm the applicable protections for your transport at this time.
 >
 > **To submit a manual reimbursement claim:**

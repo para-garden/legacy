@@ -23,7 +23,7 @@ Office of Equity and Civil Rights Compliance
 
 Complainant reported an incident occurring approximately January 11, 2032 involving a fellow student. Complainant described the incident as non-consensual. Complainant indicated the respondent was known to them and that the incident occurred in an on-campus residence.
 
-Complainant disclosed transgender identity during intake. Coordinator noted that complainant's legal name and gender marker in university records (M, per state ID submitted at enrollment) do not reflect complainant's stated identity. Coordinator advised complainant that university correspondence and formal records would reflect legal name and documentation on file unless updated through the Registrar's office. Coordinator provided Registrar contact information.
+Complainant disclosed transgender identity during intake. Coordinator noted that complainant's legal name and gender marker in university records (M, per state ID submitted at enrollment) do not reflect complainant's stated identity. Coordinator advised complainant that university correspondence and formal records would reflect legal name and documentation on file unless updated through the [Registrar's office](https://www.aacrao.org). Coordinator provided Registrar contact information.
 
 Complainant asked whether the nature of the incident — including details the complainant described as "specific to my situation" — would be documented in full in the formal complaint record. Coordinator confirmed that all relevant details would be included in investigative materials, which would be shared with both parties and the hearing panel.
 

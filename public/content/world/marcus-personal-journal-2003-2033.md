@@ -74,7 +74,7 @@ Homecoming was last weekend. I went with a girl named Simone. It was pretty good
 
 ## March 15, 2010
 
-Met with the guidance counselor today. Mrs. Frye. She's the only one for the whole school which is 800 kids. I waited for 40 minutes and then we had like 20 minutes.
+Met with the guidance counselor today. Mrs. Frye. She's [the only one for the whole school](https://www.schoolcounselor.org/About-School-Counseling/School-Counselor-Roles-Ratios) which is 800 kids. I waited for 40 minutes and then we had like 20 minutes.
 
 She looked at my grades and scores and asked what I was thinking. I said maybe college. She said that was good, she said there are "a lot of pathways." She asked about trade programs, did I know about the welding certification, the HVAC program at the community college, they have good job placement, she had the brochures right there.
 
@@ -88,7 +88,7 @@ I think she's probably right. I don't know what my situation is exactly but she'
 
 Graduated. Mom came and Aunt Cheryl. We took pictures in the parking lot.
 
-I got a job at the Home Depot on Millfield, stocking. $9.50 an hour. I start Tuesday.
+I got a job at the Home Depot on Millfield, stocking. [$9.50 an hour](https://www.bls.gov/oes/2005/may/oes412031.htm). I start Tuesday.
 
 I'm going to look into the HVAC thing in the fall. See how much it costs.
 
@@ -106,7 +106,7 @@ I think this is the right move.
 
 ## April 4, 2014
 
-Got the certification. Got a job with a company called Meridian Climate Services. Commercial accounts. The pay is better — $17.50 to start, with the promise of moving up.
+Got the certification. Got a job with a company called Meridian Climate Services. Commercial accounts. The pay is better — [$17.50](https://www.bls.gov/ooh/installation-maintenance-and-repair/heating-air-conditioning-and-refrigeration-mechanics-and-installers.htm) to start, with the promise of moving up.
 
 I'm going to get my own place.
 
@@ -152,7 +152,7 @@ I held Zoe for a long time. She smelled like something I don't have a word for.
 
 ## August 19, 2021
 
-Back to something like normal, or the new normal, everyone says that now. Yolanda went back to work in the spring. We found a daycare — it costs almost exactly what she makes four days a week. We don't talk about that.
+Back to something like normal, or the new normal, everyone says that now. Yolanda went back to work in the spring. We found a daycare — [it costs almost exactly what she makes](https://www.childcareaware.org/our-issues/research/the-us-and-the-high-price-of-child-care-2019/) four days a week. We don't talk about that.
 
 Zoe is walking now. She's not good at it but she's committed. She will walk straight into a wall and get up and go again. She doesn't seem to register failure as a concept.
 
@@ -182,7 +182,7 @@ I asked about the parent-teacher nights. Last year was her first year there, I t
 
 ## February 21, 2028
 
-Zoe's reading above grade level, the report card says. They flagged it like it was a concern, or no — not a concern, just something they noticed. They don't have a program for it is what Ms. Abara said at the conference. There used to be a gifted program but it was cut.
+Zoe's reading above grade level, the report card says. They flagged it like it was a concern, or no — not a concern, just something they noticed. They don't have a program for it is what Ms. Abara said at the conference. There used to be a [gifted program but it was cut](https://www.nytimes.com/2021/10/08/nyregion/gifted-talented-program-nyc.html).
 
 She does read a lot. We get books from the library every Saturday, that's our Saturday thing. She reads them in about four days and then she's ready to go back.
 
