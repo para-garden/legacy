@@ -149,16 +149,30 @@ As of 2026-03-25. The world is heavily concentrated in justice/distance/rounding
 - **scarcity** — manufactured scarcity. No documents. Natural entry: a pricing memo, a supply chain report, a policy document that explains why something abundant is rationed.
 - **consumption** — ambient excess. No documents. Natural entry: a receipt, an inventory, a utility bill, a thing so normal nobody questions it.
 - **excess** — post-scarcity (derogatory). No documents. Natural entry: a menu, an event program, a product launch — the moment when the constraints came off.
+- **absence** — the thing that should exist and doesn't. No documents. Natural entry: not the tool itself — the moment someone reaches for it and it's not there. A developer's notes, a forum post, a quiet realization.
 
 ### Sparse (1-2 docs)
 
-- **complacency** (1) — only Sasha's blog. Needs more: the person who stopped checking, the AI-generated answer accepted without question.
+- **complacency** (2) — Sasha's blog, Grace's journal. Grace also touches domestication.
 - **amplification** (1) — only Joy's obituary. Needs more: the algorithm side, the platform mechanics, the person with 2 million followers who would've had 200.
-- **margins** (1) — only Marco's demand letter. Needs more: the extraction side — Derek's transcripts touch this but aren't tagged. The number that gets better the worse things get for someone.
+- **margins** (3) — Marco's demand letter, Stratum buildout, Kindling. Needs more: the extraction side — Derek's transcripts touch this but aren't tagged.
+- **hubris** (1) — Stratum buildout. Needs more.
+- **futility** (1) — Stratum buildout. Needs more.
+- **domestication** (2) — Kindling, Grace's journal. Needs more.
 
 ### Well-covered (10+ docs)
 
 - **justice** (19), **distance** (14), **rounding** (10) — healthcare and Title IX clusters.
+
+### 2032 tools — the absence cluster
+
+The world describes tools that should exist. The citation mechanic inverted: fiction links to a real download page. The reader goes from "imagine if this existed" to "wait, this exists?"
+
+Two approaches (not mutually exclusive):
+1. **Real tools earning their place** — rhi ecosystem tools (normalize, rescribe, pad/Lumen, dusklight, paraphase, crescent, reincarnate) appear in world documents because the facets demand them. Lumen already exists this way (complacency). Each tool must illuminate a facet, not just be a product page.
+2. **Imaginary tools waiting for an implementor** — tools that *should* exist but don't. Not necessarily rhi tools. Things that are obvious-in-retrospect, tools shaped by the absence. The 2032 version exists in the fiction; the 2026 version is a gap.
+
+The connecting facet is **absence** — the thing that should be here and isn't. The reason it doesn't exist is the world itself: wrong incentives, no market for the right thing, the person who could build it is building four other things.
 
 ## Hubris collection backlog (preserved)
 

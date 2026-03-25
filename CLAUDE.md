@@ -99,6 +99,7 @@ Facets are tags, not separate collections. A document can carry multiple facets.
 - **distance** — the gap between the decision and its consequences. how far you have to be from the body to keep going.
 - **margins** — when the numbers matter more than the people behind them.
 - **amplification** — the loudest signals are the ones that get reflected.
+- **absence** — the thing that should exist and doesn't. not loss — nothing was taken. the shape is just empty. someone can see exactly what belongs there and it isn't, and the world moved on without noticing.
 
 Content types (suggested, not enforced by the engine):
 - **Factions** — organizations, movements, states, coalitions
