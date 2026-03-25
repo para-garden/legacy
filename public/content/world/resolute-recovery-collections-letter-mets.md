@@ -2,6 +2,7 @@
 label: "Resolute Recovery Solutions — Collections Notice (METS Ambulance)"
 description: "Collections letter for unpaid METS ambulance bill. Original debt: $3,180.00. Amount referred: $2,847.00. September 2032."
 format: document
+theme: resolute
 tags: [document, healthcare, capitalism, debt]
 ---
 

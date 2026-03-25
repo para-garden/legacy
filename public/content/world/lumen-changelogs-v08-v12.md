@@ -2,6 +2,7 @@
 label: "Lumen — Changelogs v0.8–v1.2"
 description: "Release notes for Lumen, an open-source personal information manager, spanning v0.8 through v1.2 (2030–2032). Written by Noa Chen."
 format: changelog
+theme: lumen
 tags: [document, technology, open-source, artifact]
 related: [lumen-interrupt-profile-noa-chen-2032]
 ---

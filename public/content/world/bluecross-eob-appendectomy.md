@@ -2,6 +2,7 @@
 label: "BlueCross Advantage Select — Explanation of Benefits"
 description: "EOB for emergency appendectomy. Your savings this claim: $36,204.00. Amount you owe: $4,247.00. This is not a bill."
 format: document
+theme: bluecross
 tags: [document, healthcare, insurance, capitalism]
 ---
 

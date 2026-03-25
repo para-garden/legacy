@@ -2,6 +2,7 @@
 label: "Meridian Content Protection — Copyright Demand Letter (Salinas)"
 description: "Pre-litigation demand for statutory damages. 11 copyrighted sound recordings identified via audio fingerprinting of AI training data uploads. Settlement offer: ₱180,000. Maximum statutory exposure: $1,650,000."
 format: document
+theme: meridian
 tags: [justice, margins, distance]
 collections: [default]
 related: [copyright-statutory-damages]
@@ -108,17 +109,17 @@ We also note that Parallax Data, Inc. has suspended your contributor account pen
 
 | # | Title | Artist | Rights Holder | Detection Amplitude | Upload File Ref |
 |---|---|---|---|---|---|
-| 1 | Pagtingin | Ben&Ben | Sony Music Philippines | –38 dB | PX-VID-2031-0847 |
-| 2 | GENTO | SB19 | Sony Music Entertainment | –41 dB | PX-VID-2031-1204 |
-| 3 | Dynamite | BTS | HYBE Corporation | –36 dB | PX-VID-2030-0293 |
-| 4 | Kill Bill | SZA | RCA Records / Sony | –39 dB | PX-VID-2032-0112 |
-| 5 | Blinding Lights | The Weeknd | Universal Music Group | –34 dB | PX-VID-2030-0571 |
-| 6 | Pink Venom | BLACKPINK | YG Ent. / Interscope / UMG | –40 dB | PX-VID-2031-0663 |
-| 7 | Best Part | Daniel Caesar | Golden Child / Republic / UMG | –37 dB | PX-VID-2031-0891 |
-| 8 | Mundo | IV of Spades | Sony Music Philippines | –42 dB | PX-VID-2029-0044 |
-| 9 | Tahanan | Adie | Sony Music Philippines | –39 dB | PX-VID-2031-1187 |
-| 10 | APT. | ROSÉ & Bruno Mars | Atlantic / Warner Music Group | –35 dB | PX-VID-2032-0203 |
-| 11 | Pano | Zack Tabudlo | Island Records Philippines / UMG | –43 dB | PX-VID-2030-0819 |
+| 1 | Mundo | IV of Spades | Sony Music Philippines | –42 dB | PX-VID-2029-0044 |
+| 2 | Pagtingin | Ben&Ben | Sony Music Philippines | –38 dB | PX-VID-2030-0293 |
+| 3 | Blinding Lights | The Weeknd | Universal Music Group | –34 dB | PX-VID-2030-0571 |
+| 4 | Langit | Kaia | Warner Music Philippines | –40 dB | PX-VID-2031-0663 |
+| 5 | Soft Landing | HORI7ON | HYBE / MLD Ent. | –37 dB | PX-VID-2031-0847 |
+| 6 | Kulay | Lara Soleil | Sony Music Philippines | –39 dB | PX-VID-2031-1187 |
+| 7 | Passenger | Minjun | HYBE Corporation | –36 dB | PX-VID-2031-1204 |
+| 8 | Last Room | Vex Kierra | RCA Records / Sony | –41 dB | PX-VID-2032-0112 |
+| 9 | Daang | Ren Kai | Universal Music Philippines | –35 dB | PX-VID-2032-0203 |
+| 10 | Gabi-Gabi | Neon Palms | Warner Music Philippines | –43 dB | PX-VID-2032-0388 |
+| 11 | Still Here | Park Jia | Warner Music Group | –39 dB | PX-VID-2032-0451 |
 
 *Full exhibit with ISRC codes, detection timestamps, and spectrographic analysis available upon request.*
 

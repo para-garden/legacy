@@ -86,8 +86,9 @@ const processor = unified()
   .use(rehypeExternalLinks)
   .use(rehypeStringify);
 
-export function parseMarkdown(src: string): { html: string; format?: string } {
+export function parseMarkdown(src: string): { html: string; format?: string; theme?: string } {
   let format: string | undefined;
+  let theme: string | undefined;
   let body = src;
 
   if (src.startsWith("---\n")) {
@@ -97,11 +98,12 @@ export function parseMarkdown(src: string): { html: string; format?: string } {
       try {
         const fm = parseYaml(yamlStr) as Record<string, unknown>;
         format = typeof fm.format === "string" ? fm.format : undefined;
+        theme = typeof fm.theme === "string" ? fm.theme : undefined;
       } catch { /* malformed frontmatter */ }
       body = src.slice(end + 4).trimStart();
     }
   }
 
   const html = String(processor.processSync(body));
-  return { html, format };
+  return { html, format, theme };
 }

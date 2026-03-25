@@ -2,6 +2,7 @@
 label: Campus Chronicle — Phi Delta Sigma Under Review
 description: Brief campus news item following a complaint from an off-campus event, October 2031.
 format: article
+theme: whitmore
 tags: [indulgence, justice]
 collections: [default]
 related: [phi-delta-sigma-risk-management-directive-2031]

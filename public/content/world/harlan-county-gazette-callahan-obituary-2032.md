@@ -2,6 +2,7 @@
 label: "Harlan County Gazette — Evarts Woman Behind Community Meals Dies at 31"
 description: "Local news obituary for Joy Callahan, who organized an informal meal program serving dozens of households in Evarts, Kentucky. Died March 2032."
 format: article
+theme: gazette
 tags: [amplification, distance]
 collections: [default]
 related: [online-harassment-death]

@@ -2,6 +2,7 @@
 label: Phi Delta Sigma — Risk Management Directive, Fall 2031
 description: National office memo to chapter presidents following the events of October 2031.
 format: document
+theme: phi-delta-sigma
 tags: [indulgence, justice]
 collections: [default]
 ---

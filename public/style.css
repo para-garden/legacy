@@ -846,7 +846,7 @@ html[data-collection="unfiltered"] .landing-body { color: #aaa; }
 }
 #panel-body[data-format="blog"] h3 {
   font-size: 12px;
-  color: #555;
+  color: #777;
   font-family: 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
   font-weight: 400;
   margin: 28px 0 4px;
@@ -876,9 +876,9 @@ html[data-collection="unfiltered"] .landing-body { color: #aaa; }
   font-size: 11px;
   padding: 1px 8px;
   border-radius: 8px;
-  border: 1px solid #2a2a2a;
-  color: #555;
-  background: #151515;
+  border: 1px solid #333;
+  color: #777;
+  background: #1a1a1a;
 }
 /* Footer */
 #panel-body[data-format="blog"] > p:last-child {
@@ -975,6 +975,186 @@ html[data-collection="unfiltered"] .landing-body { color: #aaa; }
   margin: 2px 0;
   color: #aaa;
 }
+
+/* ── Themes: org-specific accent colors and fonts ────────── */
+/* Themes set --doc-accent (used by format styles for headers, */
+/* borders, table accents) and override font-family.           */
+
+/* Ascend Health System — corporate healthcare, clinical */
+#panel-body[data-theme="ascend"] {
+  --doc-accent: #4a8a8a;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+#panel-body[data-theme="ascend"] h1 {
+  color: #6aaaaa;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+  font-size: 15px;
+}
+#panel-body[data-theme="ascend"] h2 { color: #5a9a9a; }
+#panel-body[data-theme="ascend"] th { background: #142828; border-color: #1e3838; color: #5a9a9a; }
+#panel-body[data-theme="ascend"] td { border-color: #1a2e2e; }
+#panel-body[data-theme="ascend"] tr:nth-child(even) td { background: #111e1e; }
+#panel-body[data-theme="ascend"] hr { border-color: #1a2e2e; }
+
+/* BlueCross — insurance, steady blue */
+#panel-body[data-theme="bluecross"] {
+  --doc-accent: #5a7aaa;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+#panel-body[data-theme="bluecross"] h1 {
+  color: #7a9abb;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  font-size: 15px;
+}
+#panel-body[data-theme="bluecross"] h2 { color: #6a8aaa; }
+#panel-body[data-theme="bluecross"] th { background: #141e2a; border-color: #1e2e3e; color: #6a8aaa; }
+#panel-body[data-theme="bluecross"] td { border-color: #1a2430; }
+#panel-body[data-theme="bluecross"] tr:nth-child(even) td { background: #111820; }
+#panel-body[data-theme="bluecross"] hr { border-color: #1a2430; }
+
+/* Resolute Recovery — collections, warm amber, slightly menacing */
+#panel-body[data-theme="resolute"] {
+  --doc-accent: #8a7a5a;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+#panel-body[data-theme="resolute"] h1 {
+  color: #aa9a7a;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  font-size: 14px;
+}
+#panel-body[data-theme="resolute"] h2 { color: #9a8a6a; }
+#panel-body[data-theme="resolute"] th { background: #1e1a14; border-color: #2e2818; color: #8a7a5a; }
+#panel-body[data-theme="resolute"] td { border-color: #241e14; }
+#panel-body[data-theme="resolute"] tr:nth-child(even) td { background: #181410; }
+#panel-body[data-theme="resolute"] hr { border-color: #2a2218; }
+#panel-body[data-theme="resolute"] strong { color: #caba9a; }
+
+/* Meridian Content Protection — legal, formal serif, navy */
+#panel-body[data-theme="meridian"] {
+  --doc-accent: #5a6a8a;
+  font-family: 'Source Serif 4', Georgia, serif;
+}
+#panel-body[data-theme="meridian"] h1 {
+  color: #7a8aaa;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+}
+#panel-body[data-theme="meridian"] h2 { color: #6a7a9a; }
+#panel-body[data-theme="meridian"] th { background: #14182a; border-color: #1e2438; color: #6a7a9a; }
+#panel-body[data-theme="meridian"] td { border-color: #1a1e2e; }
+#panel-body[data-theme="meridian"] tr:nth-child(even) td { background: #111420; }
+#panel-body[data-theme="meridian"] hr { border-color: #1e2230; }
+
+/* Whitmore University — academic, traditional serif, maroon */
+#panel-body[data-theme="whitmore"] {
+  --doc-accent: #8a4a5a;
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 13px;
+}
+#panel-body[data-theme="whitmore"] h1 {
+  color: #aa6a7a;
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+}
+#panel-body[data-theme="whitmore"] h2 { color: #9a5a6a; }
+#panel-body[data-theme="whitmore"] h3 { color: #9a5a6a; }
+#panel-body[data-theme="whitmore"] th { background: #1e1418; border-color: #2e1e24; color: #8a5a6a; }
+#panel-body[data-theme="whitmore"] td { border-color: #241a1e; }
+#panel-body[data-theme="whitmore"] tr:nth-child(even) td { background: #181114; }
+#panel-body[data-theme="whitmore"] hr { border-color: #2a1a20; }
+#panel-body[data-theme="whitmore"] strong { color: #bba0a8; }
+
+/* Phi Delta Sigma — fraternity, gold/amber */
+#panel-body[data-theme="phi-delta-sigma"] {
+  --doc-accent: #8a7a4a;
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 13px;
+}
+#panel-body[data-theme="phi-delta-sigma"] h1,
+#panel-body[data-theme="phi-delta-sigma"] h2 { color: #aa9a6a; }
+#panel-body[data-theme="phi-delta-sigma"] hr { border-color: #2a2418; }
+#panel-body[data-theme="phi-delta-sigma"] strong { color: #bbaa88; }
+
+/* Interrupt magazine — editorial serif, warm neutral */
+#panel-body[data-theme="interrupt"] {
+  --doc-accent: #8a8070;
+  font-family: 'Source Serif 4', Georgia, serif;
+}
+#panel-body[data-theme="interrupt"] h1 {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #e8e4de;
+  letter-spacing: -0.01em;
+}
+#panel-body[data-theme="interrupt"] p { color: #b0aaa0; }
+#panel-body[data-theme="interrupt"] em { color: #c8c0b0; }
+#panel-body[data-theme="interrupt"] hr { border-color: #282420; }
+
+/* Harlan County Gazette — local newspaper, earthy serif */
+#panel-body[data-theme="gazette"] {
+  --doc-accent: #7a7060;
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 14px;
+}
+#panel-body[data-theme="gazette"] h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #d8d0c8;
+}
+#panel-body[data-theme="gazette"] em { color: #a09888; }
+#panel-body[data-theme="gazette"] hr { border-color: #282420; }
+
+/* Otter.ai transcripts — tech, clean sans, blue accent */
+#panel-body[data-theme="otter"] {
+  --doc-accent: #5a7a9a;
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+#panel-body[data-theme="otter"] h2 { color: #6a8aaa; border-color: #1a2430; }
+#panel-body[data-theme="otter"] strong { color: #8aaacc; }
+#panel-body[data-theme="otter"] em { color: #5a7a9a; }
+#panel-body[data-theme="otter"] hr { border-color: #1a2430; }
+#panel-body[data-theme="otter"] .ts { color: #4a6a8a; }
+
+/* House of Velvet — ballroom, purple-gold, expressive */
+#panel-body[data-theme="velvet"] {
+  --doc-accent: #8a5a9a;
+  color: #bba8c8;
+}
+#panel-body[data-theme="velvet"] strong {
+  color: #d4b870;
+  letter-spacing: 0.06em;
+}
+#panel-body[data-theme="velvet"] hr {
+  border-color: #2a1e30;
+  width: 50%;
+}
+#panel-body[data-theme="velvet"] ul { list-style: none; padding: 0; }
+#panel-body[data-theme="velvet"] li { color: #a898b8; margin: 3px 0; }
+
+/* Lumen / Noa Chen — developer, monospace accent, muted green */
+#panel-body[data-theme="lumen"] {
+  --doc-accent: #5a8a6a;
+  font-family: 'DM Mono', 'Consolas', monospace;
+  font-size: 13px;
+  line-height: 1.6;
+}
+#panel-body[data-theme="lumen"] h1 { color: #7aaa8a; font-weight: 400; }
+#panel-body[data-theme="lumen"] h2 { color: #6a9a7a; font-weight: 400; cursor: auto; }
+#panel-body[data-theme="lumen"] h3 { color: #5a8a6a; font-weight: 600; }
+#panel-body[data-theme="lumen"] p { color: #8a9a8a; }
+#panel-body[data-theme="lumen"] strong { color: #aabfaa; }
+#panel-body[data-theme="lumen"] em { color: #7a8a7a; }
+#panel-body[data-theme="lumen"] hr { border-color: #1a2a1e; }
+#panel-body[data-theme="lumen"] ul { padding-left: 18px; }
+#panel-body[data-theme="lumen"] li { color: #8a9a8a; }
+#panel-body[data-theme="lumen"] code { background: #141e16; color: #7a9a7a; border: 1px solid #1e2e22; }
 
 /* Mobile: vertical stack */
 @media (max-width: 640px) {

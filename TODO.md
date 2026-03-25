@@ -252,6 +252,10 @@ Same event as Riley's story (appendectomy), different outcomes. For juxtapositio
 
 Current world only covers fraternities (Phi Delta Sigma). Sororities have their own documented issues: hazing, exclusion, body image pressure, racial gatekeeping, and assault (both as sites where victims come from and, less commonly, as direct perpetrators of hazing with sexual elements). Worth exploring — different shape from fraternity dynamics but same institutional structure.
 
+### Node logos / org icons
+
+Each node could display its org's logo — Ascend's teal mark, Whitmore's seal, Otter.ai's logo, etc. Needs: `icon` frontmatter field, asset pipeline for SVGs/PNGs, dom.ts changes to render icons on dots and in cards/panels. Personal docs could show author avatars. Research nodes could show source org logos.
+
 ### Audio generation (low priority)
 
 Someday: generate audio for world documents. Voice recordings, phone calls, ambient sound. Very low priority — text-first world, audio as enhancement not replacement.

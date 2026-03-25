@@ -2,6 +2,7 @@
 label: "Ascend Health System — Chargemaster Governance & CDM Strategy (Internal)"
 description: "Internal memo from Ascend's Revenue Cycle division explaining and justifying chargemaster pricing strategy. Dated November 2031."
 format: document
+theme: ascend
 tags: [document, healthcare, capitalism]
 related: [ascend-hospital-bill-appendectomy, bluecross-eob-appendectomy]
 ---

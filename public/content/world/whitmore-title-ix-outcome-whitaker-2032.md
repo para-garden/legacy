@@ -2,6 +2,7 @@
 label: Title IX Outcome — Whitaker/Whitmore, Jan 2032
 description: The process worked exactly as designed.
 format: document
+theme: whitmore
 tags: [justice, rounding, distance]
 collections: [default]
 related: [text-thread-riley-jess-november-2031, whitmore-title-ix-outcome-osei-2031]

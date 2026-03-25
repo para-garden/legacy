@@ -2,6 +2,7 @@
 label: Title IX Intake Notes — Barrett, Feb 2032
 description: Preliminary intake. Complainant did not return to complete the formal complaint.
 format: document
+theme: whitmore
 tags: [justice, rounding, distance, cw:sexual-violence]
 collections: [default]
 ---

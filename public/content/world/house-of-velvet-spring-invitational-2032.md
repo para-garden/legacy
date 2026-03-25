@@ -2,6 +2,7 @@
 label: House of Velvet — Spring Invitational 2032
 description: Flyer for the House of Velvet's annual spring ball, March 2032.
 format: flyer
+theme: velvet
 tags: [indulgence]
 collections: [default]
 ---

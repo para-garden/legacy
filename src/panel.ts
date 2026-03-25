@@ -15,7 +15,7 @@ let cam: Camera;
 let graphRef: Graph;
 
 let currentNodeId: string | null = null;
-export const contentCache = new Map<string, { html: string; format?: string }>();
+export const contentCache = new Map<string, { html: string; format?: string; theme?: string }>();
 
 const FALLBACK = "<p style=\"color:#666\">No detailed page available yet.</p>";
 
@@ -128,7 +128,7 @@ function prepareBlog(container: HTMLElement): void {
   }
 }
 
-export function fetchContent(nodeId: string): Promise<{ html: string; format?: string }> {
+export function fetchContent(nodeId: string): Promise<{ html: string; format?: string; theme?: string }> {
   const cached = contentCache.get(nodeId);
   if (cached !== undefined) return Promise.resolve(cached);
 
@@ -263,6 +263,7 @@ export function openPanel(nodeId: string, nodeLabel?: string, push = true): void
     if (cached !== undefined) {
       panelBody.innerHTML = cached.html;
       panelBody.dataset.format = cached.format ?? "";
+      panelBody.dataset.theme = cached.theme ?? "";
       if (!cached.format && isEssay) prepareContent(panelBody);
       if (cached.format === "transcript") prepareTranscript(panelBody);
       if (cached.format === "blog") prepareBlog(panelBody);
@@ -271,10 +272,11 @@ export function openPanel(nodeId: string, nodeLabel?: string, push = true): void
 
     panelBody.innerHTML = "<p style=\"color:#666\">Loading\u2026</p>";
 
-    fetchContent(nodeId).then(({ html, format }) => {
+    fetchContent(nodeId).then(({ html, format, theme }) => {
       if (currentNodeId === nodeId) {
         panelBody.innerHTML = html;
         panelBody.dataset.format = format ?? "";
+        panelBody.dataset.theme = theme ?? "";
         if (!format && isEssay) prepareContent(panelBody);
         if (format === "transcript") prepareTranscript(panelBody);
         if (format === "blog") prepareBlog(panelBody);

@@ -2,6 +2,7 @@
 label: "The Last Free Tool — Interrupt on Lumen and Noa Chen"
 description: "Profile piece from Interrupt magazine, 2032. Covers Lumen, the open-source personal information manager, and its creator — a developer who could afford to build something good."
 format: article
+theme: interrupt
 tags: [document, technology, capitalism, open-source, profile]
 related: []
 ---

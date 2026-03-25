@@ -2,6 +2,7 @@
 label: Title IX Outcome — Osei/Whitmore, Dec 2031
 description: Office of Civil Rights compliance letter to the complainant. The process worked exactly as designed.
 format: document
+theme: whitmore
 tags: [justice, rounding]
 collections: [default]
 related: [text-thread-simone-adaeze-2031, campus-chronicle-phi-delta-sigma-october-2031, phi-delta-sigma-risk-management-directive-2031]
