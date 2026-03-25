@@ -1151,6 +1151,44 @@ html[data-collection="unfiltered"] .landing-body { color: #aaa; }
 #panel-body[data-theme="velvet"] ul { list-style: none; padding: 0; }
 #panel-body[data-theme="velvet"] li { color: #a898b8; margin: 3px 0; }
 
+/* Lede — wire service, flat, forgettable */
+#panel-body[data-theme="lede"] {
+  --doc-accent: #888;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+}
+#panel-body[data-theme="lede"] h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ccc;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+}
+#panel-body[data-theme="lede"] p { color: #999; }
+#panel-body[data-theme="lede"] em { color: #888; }
+#panel-body[data-theme="lede"] strong { color: #bbb; }
+#panel-body[data-theme="lede"] hr { border-color: #1e1e1e; }
+
+/* Lede site chrome — minimal wire service header */
+#panel-body[data-theme="lede"] .site-chrome {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-color: #1e1e1e;
+}
+#panel-body[data-theme="lede"] .site-wordmark {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #777;
+}
+#panel-body[data-theme="lede"] .site-nav { color: #444; margin-top: 0; }
+#panel-body[data-theme="lede"] .site-meta { color: #555; }
+#panel-body[data-theme="lede"] .site-footer { border-color: #1e1e1e; }
+#panel-body[data-theme="lede"] .site-footer .site-wordmark { font-size: 11px; color: #444; }
+#panel-body[data-theme="lede"] .site-footer-text { color: #333; }
+
 /* Lumen / Noa Chen — developer, monospace accent, muted green */
 #panel-body[data-theme="lumen"] {
   --doc-accent: #5a8a6a;
