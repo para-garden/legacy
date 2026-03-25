@@ -8,7 +8,12 @@ collections: [default]
 related: [phi-delta-sigma-risk-management-directive-2031]
 ---
 
-*The Whitmore Chronicle — October 28, 2031*
+<div class="site-chrome">
+<div class="site-wordmark">THE WHITMORE CHRONICLE</div>
+<nav class="site-nav">News · Campus · Sports · Opinion · Arts · Classifieds</nav>
+</div>
+
+<div class="site-meta">October 28, 2031 · Vol. 94, No. 7</div>
 
 ---
 

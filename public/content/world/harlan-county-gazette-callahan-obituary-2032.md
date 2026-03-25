@@ -8,7 +8,12 @@ collections: [default]
 related: [online-harassment-death]
 ---
 
-*Harlan County Gazette — March 19, 2032*
+<div class="site-chrome">
+<div class="site-wordmark">HARLAN COUNTY GAZETTE</div>
+<nav class="site-nav">Local · Obituaries · Sports · Opinion · Classifieds</nav>
+</div>
+
+<div class="site-meta">March 19, 2032 · Serving Harlan County since 1911</div>
 
 ---
 

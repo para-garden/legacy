@@ -7,11 +7,12 @@ tags: [document, technology, capitalism, open-source, profile]
 related: []
 ---
 
----
+<div class="site-chrome">
+<div class="site-wordmark">INTERRUPT</div>
+<nav class="site-nav">Features · Archive · About · Subscribe</nav>
+</div>
 
-*[From Interrupt, Issue 41, June 2032. Interrupt is an independent technology magazine, funded by reader subscriptions. No affiliate relationships. Full editorial policy at interrupt.pub/about.]*
-
----
+<div class="site-meta">Issue 41 · June 2032 · 12 min read</div>
 
 # The Last Free Tool
 
@@ -103,4 +104,8 @@ A pause.
 
 *Priya Anand is a contributing editor at Interrupt.*
 
----
+<div class="site-footer">
+<div class="site-wordmark">INTERRUPT</div>
+<div class="site-footer-text">Independent technology journalism, funded by readers. No ads. No affiliates.</div>
+<nav class="site-nav">Subscribe · Gift · Back Issues · Editorial Policy</nav>
+</div>

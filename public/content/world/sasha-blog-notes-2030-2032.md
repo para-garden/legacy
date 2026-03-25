@@ -5,7 +5,12 @@ format: blog
 tags: [document, tech, labor, capitalism, personal]
 ---
 
-# ~/notes — sasha's technical notebook
+<div class="site-chrome">
+<div class="site-wordmark">~/notes</div>
+<nav class="site-nav">posts · rss · github · about</nav>
+</div>
+
+*sasha's technical notebook — updated irregularly*
 
 ---
 
@@ -285,4 +290,7 @@ That's enough for now.
 
 ---
 
-*~/notes — updated irregularly — [rss](/feed.xml) — [sparrowdb-utils](https://github.com/sparrowdb/sparrowdb-utils)*
+<div class="site-footer">
+<div class="site-wordmark">~/notes</div>
+<nav class="site-nav">rss · <a href="https://github.com/sparrowdb/sparrowdb-utils">sparrowdb-utils</a> · pgp</nav>
+</div>

@@ -7,9 +7,12 @@ tags: [document, technology, open-source, artifact]
 related: [lumen-interrupt-profile-noa-chen-2032]
 ---
 
----
+<div class="site-chrome">
+<div class="site-wordmark">lumen</div>
+<nav class="site-nav">Docs · Changelog · Download · Source</nav>
+</div>
 
-*[Archived from lumen.noachen.net/changelog. Entries written by Noa Chen.]*
+<div class="site-meta">lumen.noachen.net/changelog</div>
 
 ---
 
@@ -142,6 +145,7 @@ This will probably be the last release for a few months. I have some other thing
 
 ---
 
-*[Lumen is maintained by Noa Chen. Source: github.com/noachen/lumen. License: MIT.]*
-
----
+<div class="site-footer">
+<div class="site-wordmark">lumen</div>
+<div class="site-footer-text">Maintained by Noa Chen. Source: github.com/noachen/lumen. License: MIT.</div>
+</div>

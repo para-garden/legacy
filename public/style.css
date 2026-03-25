@@ -1156,6 +1156,127 @@ html[data-collection="unfiltered"] .landing-body { color: #aaa; }
 #panel-body[data-theme="lumen"] li { color: #8a9a8a; }
 #panel-body[data-theme="lumen"] code { background: #141e16; color: #7a9a7a; border: 1px solid #1e2e22; }
 
+/* ── Site chrome: mastheads, navs, footers ───────────────── */
+.site-chrome {
+  margin: -16px -20px 16px;
+  padding: 12px 20px 10px;
+  border-bottom: 1px solid #222;
+}
+.site-wordmark {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #666;
+}
+.site-nav {
+  font-size: 11px;
+  color: #444;
+  margin-top: 4px;
+  letter-spacing: 0.02em;
+}
+.site-meta {
+  font-size: 11px;
+  color: #444;
+  margin-bottom: 12px;
+}
+.site-footer {
+  margin-top: 24px;
+  padding-top: 12px;
+  border-top: 1px solid #222;
+}
+.site-footer .site-wordmark {
+  font-size: 11px;
+  color: #444;
+  margin-bottom: 4px;
+}
+.site-footer-text {
+  font-size: 11px;
+  color: #333;
+  line-height: 1.5;
+}
+.site-footer .site-nav {
+  margin-top: 6px;
+  color: #333;
+}
+
+/* Theme-specific site chrome overrides */
+#panel-body[data-theme="interrupt"] .site-wordmark {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 18px;
+  letter-spacing: 0.2em;
+  color: #8a8070;
+}
+#panel-body[data-theme="interrupt"] .site-nav { color: #5a5448; }
+#panel-body[data-theme="interrupt"] .site-meta { color: #5a5448; }
+#panel-body[data-theme="interrupt"] .site-chrome { border-color: #282420; }
+#panel-body[data-theme="interrupt"] .site-footer { border-color: #282420; }
+#panel-body[data-theme="interrupt"] .site-footer .site-wordmark { font-size: 14px; color: #5a5448; }
+#panel-body[data-theme="interrupt"] .site-footer-text { color: #3a3830; }
+
+#panel-body[data-theme="gazette"] .site-wordmark {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 16px;
+  letter-spacing: 0.15em;
+  color: #7a7060;
+}
+#panel-body[data-theme="gazette"] .site-nav { color: #5a5448; }
+#panel-body[data-theme="gazette"] .site-meta { color: #5a5448; }
+#panel-body[data-theme="gazette"] .site-chrome { border-color: #282420; }
+
+#panel-body[data-theme="whitmore"] .site-wordmark {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  color: #8a4a5a;
+}
+#panel-body[data-theme="whitmore"] .site-nav { color: #5a3a44; }
+#panel-body[data-theme="whitmore"] .site-meta { color: #5a3a44; }
+#panel-body[data-theme="whitmore"] .site-chrome { border-color: #2a1a20; }
+
+#panel-body[data-theme="lumen"] .site-wordmark {
+  font-family: 'DM Mono', 'Consolas', monospace;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: lowercase;
+  color: #5a8a6a;
+}
+#panel-body[data-theme="lumen"] .site-nav {
+  font-family: 'DM Mono', 'Consolas', monospace;
+  color: #3a5a44;
+}
+#panel-body[data-theme="lumen"] .site-meta {
+  font-family: 'DM Mono', 'Consolas', monospace;
+  color: #3a5a44;
+}
+#panel-body[data-theme="lumen"] .site-chrome { border-color: #1a2a1e; }
+#panel-body[data-theme="lumen"] .site-footer { border-color: #1a2a1e; }
+#panel-body[data-theme="lumen"] .site-footer .site-wordmark { color: #3a5a44; }
+#panel-body[data-theme="lumen"] .site-footer-text {
+  font-family: 'DM Mono', 'Consolas', monospace;
+  color: #2a4a34;
+}
+
+/* Blog format site chrome — personal dev blog feel */
+#panel-body[data-format="blog"] .site-wordmark {
+  font-family: 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
+  font-size: 14px;
+  letter-spacing: 0;
+  text-transform: none;
+  color: #777;
+}
+#panel-body[data-format="blog"] .site-nav {
+  font-family: 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
+  color: #444;
+}
+#panel-body[data-format="blog"] .site-chrome { border-color: #1a1a1a; }
+#panel-body[data-format="blog"] .site-footer { border-color: #1a1a1a; }
+#panel-body[data-format="blog"] .site-footer .site-wordmark { color: #444; }
+#panel-body[data-format="blog"] .site-footer-text {
+  font-family: 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
+  color: #333;
+}
+
 /* Mobile: vertical stack */
 @media (max-width: 640px) {
   #app { flex-direction: column; }
