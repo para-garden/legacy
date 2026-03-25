@@ -7,8 +7,10 @@ tags: [indulgence, justice]
 collections: [default]
 ---
 
-PHI DELTA SIGMA FRATERNITY
-National Office of Risk Management
+<div class="letterhead">
+<div class="letterhead-name">PHI DELTA SIGMA FRATERNITY</div>
+<div class="letterhead-dept">National Office of Risk Management</div>
+</div>
 
 TO: All Chapter Presidents
 FROM: Office of Risk Management

@@ -7,8 +7,11 @@ tags: [justice, rounding, distance, cw:sexual-violence]
 collections: [default]
 ---
 
-WHITMORE UNIVERSITY
-Office of Equity and Civil Rights Compliance
+<div class="letterhead">
+<div class="letterhead-name">WHITMORE UNIVERSITY</div>
+<div class="letterhead-dept">Office of Equity and Civil Rights Compliance</div>
+</div>
+
 **PRELIMINARY INTAKE NOTES — NOT FOR DISTRIBUTION**
 *Formal complaint not filed. Retained per record-keeping policy 7.2(c).*
 

@@ -8,9 +8,13 @@ collections: [default]
 related: [whitmore-title-ix-outcome-osei-2031, whitmore-title-ix-outcome-whitaker-2032, whitmore-title-ix-outcome-rivera-2032]
 ---
 
-WHITMORE UNIVERSITY
-Office of Equity and Civil Rights Compliance
-Student Affairs Building, Suite 220
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">WHITMORE UNIVERSITY</div>
+<div class="letterhead-dept">Office of Equity and Civil Rights Compliance</div>
+<div class="letterhead-addr">Student Affairs Building, Suite 220</div>
+</div>
 
 January 14, 2032
 
@@ -41,7 +45,9 @@ Your complaint alleged that a Whitmore University student engaged in non-consens
 
 Total investigation timeline: 84 days.
 
----
+</div>
+
+<div class="page">
 
 **Findings**
 
@@ -59,8 +65,6 @@ The panel was therefore unable to reach a finding on the underlying allegation o
 
 The panel notes that an inability to reach a finding does not constitute a determination that the complainant's account is not credible.
 
----
-
 **Sanctions**
 
 In light of the inconclusive finding, the panel imposed the following educational measures:
@@ -70,7 +74,9 @@ In light of the inconclusive finding, the panel imposed the following educationa
 
 These measures are not disciplinary in nature and will not appear on the respondent's academic record.
 
----
+</div>
+
+<div class="page">
 
 **Appeal Rights**
 
@@ -82,8 +88,6 @@ Both parties have the right to appeal this determination within ten (10) busines
 
 Appeal requests should be submitted in writing to the Dean of Students Office.
 
----
-
 **Supportive Measures**
 
 Regardless of outcome, the following supportive measures remain available to you:
@@ -93,8 +97,6 @@ Regardless of outcome, the following supportive measures remain available to you
 - Academic accommodations through the Dean of Students
 
 You are not required to have further contact with the respondent. If you have concerns about contact, please notify this office.
-
----
 
 This matter is now closed unless an appeal is submitted within the specified window.
 
@@ -107,3 +109,5 @@ Deputy Title IX Coordinator
 Office of Equity and Civil Rights Compliance
 Whitmore University
 p.hollis@whitmore.edu | 614-555-0211
+
+</div>

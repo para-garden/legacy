@@ -229,11 +229,6 @@ Documents with real-system claims need quiet inline links to real sources. Statu
 - Journal/personal entries (dani-journal, evan, theo, nora x2, finn, sofia, caitlin-walsh)
 - Fictional artifacts (lumen-changelogs, lumen-interrupt-profile, sasha-blog, house-of-velvet, campus-chronicle)
 
-**No sourcing needed** (fiction/personal voice, no real-system claims):
-- Text threads (hospital-bill-reaction, riley-jess x2, simone-adaeze, dani-mel)
-- Journal/personal entries (dani-journal, evan, theo, nora x2, finn, sofia, caitlin-walsh)
-- Fictional artifacts (lumen-changelogs, lumen-interrupt-profile, sasha-blog, house-of-velvet, campus-chronicle)
-
 ### World analogues for research subjects
 
 - [x] **Mikayla Raines analogue** — Joy Callahan. Community meal coordinator, Evarts, KY. Character card: `characters/joy.md`. World doc: `harlan-county-gazette-callahan-obituary-2032.md`. Facets: amplification, distance.
@@ -255,6 +250,12 @@ Current world only covers fraternities (Phi Delta Sigma). Sororities have their 
 ### Node logos / org icons
 
 Each node could display its org's logo — Ascend's teal mark, Whitmore's seal, Otter.ai's logo, etc. Needs: `icon` frontmatter field, asset pipeline for SVGs/PNGs, dom.ts changes to render icons on dots and in cards/panels. Personal docs could show author avatars. Research nodes could show source org logos.
+
+**SVG generation:** Generating quality logos via AI is unreliable — mediocre is worse than absent. Options: (1) commission/hand-make SVGs, (2) find an AI workflow that can iterate to quality, (3) use CSS-only placeholders (initial-in-circle) as interim. Currently using option 3 for letterheads.
+
+### Document page layout
+
+Institutional letters (Title IX outcomes, legal demand letters) should render as paginated paper — US Letter aspect ratio (8.5×11), subtle paper styling, manual page breaks via `<div class="page">`. Partially implemented: page divs added to Title IX letters, CSS for `.page` and `.letterhead` not yet written.
 
 ### Audio generation (low priority)
 

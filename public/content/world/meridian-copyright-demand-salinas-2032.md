@@ -8,16 +8,13 @@ collections: [default]
 related: [copyright-statutory-damages]
 ---
 
----
+<div class="page">
 
-# MERIDIAN CONTENT PROTECTION, LLC
-
-**Intellectual Property Enforcement & Licensing Compliance**
-
-200 Park Avenue, 18th Floor &nbsp;|&nbsp; New York, NY 10166
-(212) 905-7100 &nbsp;|&nbsp; meridiancp.com &nbsp;|&nbsp; enforcement@meridiancp.com
-
----
+<div class="letterhead">
+<div class="letterhead-name">MERIDIAN CONTENT PROTECTION, LLC</div>
+<div class="letterhead-dept">Intellectual Property Enforcement & Licensing Compliance</div>
+<div class="letterhead-addr">200 Park Avenue, 18th Floor · New York, NY 10166 · (212) 905-7100</div>
+</div>
 
 &nbsp;
 
@@ -52,7 +49,9 @@ This firm represents the above-named rights holders in connection with the enfor
 
 We write to notify you that copyrighted sound recordings owned or controlled by our clients have been identified in media files uploaded by you to the Parallax Data platform. These files were subsequently incorporated into AI training datasets licensed to third parties.
 
----
+</div>
+
+<div class="page">
 
 ## IDENTIFICATION OF INFRINGING MATERIAL
 
@@ -62,8 +61,6 @@ The audio fragments were detected at low amplitude levels consistent with enviro
 
 We note that the Parallax Data Contributor Agreement (Version 4.2, Section 9.3) provides that contributors "represent and warrant that all uploaded content is free of third-party intellectual property claims" and that contributors "shall indemnify and hold harmless Parallax Data, Inc., its licensees, successors, and assigns from any claims arising from breach of this warranty." A copy of the relevant provisions is attached as **Exhibit B**.
 
----
-
 ## STATUTORY DAMAGES
 
 Under [17 U.S.C. § 504(c)](https://www.law.cornell.edu/uscode/text/17/504), a copyright owner may elect to recover statutory damages in lieu of actual damages and profits. The statutory range is **$750 to $30,000 per work infringed**, and up to **$150,000 per work** where infringement is found to be willful.
@@ -71,8 +68,6 @@ Under [17 U.S.C. § 504(c)](https://www.law.cornell.edu/uscode/text/17/504), a c
 For the 11 works at issue, statutory damages range from a minimum of **$8,250** to a maximum of **$1,650,000**.
 
 We note that [statutory damages need not bear any relation to actual harm suffered by the rights holder](https://en.wikipedia.org/wiki/Capitol_Records,_Inc._v._Thomas-Rasset#Appeals). The statutory framework exists precisely because actual damages in cases of individual infringement are often small and difficult to quantify. This does not limit the range of damages available.
-
----
 
 ## SETTLEMENT OFFER
 
@@ -90,7 +85,9 @@ Upon receipt of payment in full, our clients will:
 
 This settlement does not constitute an admission of liability by any party. This offer expires **July 3, 2032**.
 
----
+</div>
+
+<div class="page">
 
 ## IF NO SETTLEMENT IS REACHED
 
@@ -102,8 +99,6 @@ If we do not receive payment or a written response within 30 days, our clients r
 - Pursue indemnification claims against you under the Parallax Data Contributor Agreement.
 
 We also note that Parallax Data, Inc. has suspended your contributor account pending resolution of this matter, as provided under Section 12.1 of the Contributor Agreement.
-
----
 
 ## EXHIBIT A — IDENTIFIED WORKS (SUMMARY)
 
@@ -125,7 +120,9 @@ We also note that Parallax Data, Inc. has suspended your contributor account pen
 
 *Detection amplitudes indicate audio fragment levels relative to primary content. Values between –34 dB and –43 dB are consistent with bone conduction headphone acoustic leakage captured by a mobile device microphone at close range.*
 
----
+</div>
+
+<div class="page">
 
 This letter constitutes a good-faith attempt to resolve this matter prior to litigation. It is not a waiver of any rights, claims, or remedies available to our clients under applicable law.
 
@@ -151,3 +148,5 @@ Meridian Content Protection, LLC
 &nbsp;
 
 *MCP-2032-SEA-004417 | Generated: 2032-06-03T09:14:22Z*
+
+</div>

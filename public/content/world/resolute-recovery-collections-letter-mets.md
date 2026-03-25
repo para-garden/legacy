@@ -6,16 +6,13 @@ theme: resolute
 tags: [document, healthcare, capitalism, debt]
 ---
 
----
+<div class="page">
 
-# RESOLUTE RECOVERY SOLUTIONS
-
-**Healthcare Revenue Cycle Management**
-
-1800 Meridian Corporate Parkway, Suite 400 &nbsp;|&nbsp; Columbus, OH 43240
-(800) 774-9300 &nbsp;|&nbsp; resoluterecovery.com/pay &nbsp;|&nbsp; Monday–Friday 8:00 AM–9:00 PM ET
-
----
+<div class="letterhead">
+<div class="letterhead-name">RESOLUTE RECOVERY SOLUTIONS</div>
+<div class="letterhead-dept">Healthcare Revenue Cycle Management</div>
+<div class="letterhead-addr">1800 Meridian Corporate Parkway, Suite 400 · Columbus, OH 43240 · (800) 774-9300</div>
+</div>
 
 &nbsp;
 
@@ -53,8 +50,6 @@ The amount currently due is **$2,847.00.**
 
 We understand that medical expenses can be unexpected and difficult to manage. We are contacting you because this balance remains unpaid, and we would like to help you resolve it. If you have questions about the services reflected in this balance, or if you believe this debt has been paid or does not belong to you, please read the Notice of Rights below.
 
----
-
 ## HOW TO RESOLVE THIS ACCOUNT
 
 **Online:** resoluterecovery.com/pay — Use your Assigned Account Number: **RRS-2032-87334-OH**
@@ -69,13 +64,13 @@ We understand that medical expenses can be unexpected and difficult to manage. W
 
 *Do not send cash by mail.*
 
----
+</div>
+
+<div class="page">
 
 ## PAYMENT PLAN
 
 If you are unable to pay the full balance at this time, a payment arrangement may be available. Payment plans are offered based on the outstanding balance and may be established with as little as an initial payment. To discuss a payment arrangement, call (800) 774-9300 and ask to speak with an account representative. Payment plans must be agreed to in writing before they take effect.
-
----
 
 ## NOTICE REGARDING CREDIT REPORTING
 
@@ -83,15 +78,15 @@ This debt may be reported to one or more consumer credit reporting agencies. If 
 
 If you have questions about credit reporting related to this account, call (800) 774-9300.
 
----
-
 ## NOTICE OF YOUR RIGHTS UNDER THE [FAIR DEBT COLLECTION PRACTICES ACT](https://www.law.cornell.edu/uscode/text/15/1692g)
 
 *Please read this section carefully. It contains important information about your legal rights.*
 
 **THIS IS A COMMUNICATION FROM A DEBT COLLECTOR. THIS IS AN ATTEMPT TO COLLECT A DEBT, AND ANY INFORMATION OBTAINED WILL BE USED FOR THAT PURPOSE.**
 
----
+</div>
+
+<div class="page">
 
 **Your Right to Dispute This Debt**
 
@@ -111,8 +106,6 @@ The 30-day dispute window does not eliminate our right to continue collection ac
 
 Please include your full name, address, and assigned account number (RRS-2032-87334-OH) in any written correspondence.
 
----
-
 **Your Right to Request Creditor Information**
 
 You may request in writing the name and address of the original creditor. The original creditor for this account is:
@@ -122,8 +115,6 @@ You may request in writing the name and address of the original creditor. The or
 > PO Box 7740
 > Columbus, OH 43207
 > (833) 620-4411
-
----
 
 **Your Additional Rights**
 
@@ -136,7 +127,9 @@ You have the right to stop us from contacting you. If you notify us in writing t
 
 You have the right to retain an attorney to represent you in connection with this debt. If you retain an attorney, please direct your attorney to contact us at (800) 774-9300. Once we are notified that you have legal representation, we will direct future communications to your attorney.
 
----
+</div>
+
+<div class="page">
 
 **State Disclosures**
 
@@ -144,13 +137,9 @@ You have the right to retain an attorney to represent you in connection with thi
 
 *You may have additional rights under state law. The disclosures above are not a complete statement of all applicable laws.*
 
----
-
 *Resolute Recovery Solutions, LLC is a licensed debt collection agency registered in Ohio (License No. OHDC-0047192) and all states in which collection activity is conducted. NMLS ID: 1884201. This communication does not constitute legal advice.*
 
 *If you have already paid this debt in full, or if you believe this account was sent to you in error, please call (800) 774-9300 immediately so we may update our records.*
-
----
 
 *Resolute Recovery Solutions, LLC*
 *1800 Meridian Corporate Parkway, Suite 400*
@@ -158,3 +147,5 @@ You have the right to retain an attorney to represent you in connection with thi
 *(800) 774-9300 | resoluterecovery.com*
 
 *Notice Date: September 11, 2032 | Account: RRS-2032-87334-OH | Ref: METS-2032-T-041892*
+
+</div>

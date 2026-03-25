@@ -6,14 +6,11 @@ theme: ascend
 tags: [document, healthcare, capitalism]
 ---
 
----
-
-# ASCEND HEALTH SYSTEM
-**Integrated Care. Exceptional Outcomes.**
-
-ascendhealthsystem.com/portal &nbsp;|&nbsp; Patient Billing Services: (844) 501-9200
-
----
+<div class="letterhead">
+<div class="letterhead-name">ASCEND HEALTH SYSTEM</div>
+<div class="letterhead-dept">Integrated Care. Exceptional Outcomes.</div>
+<div class="letterhead-addr">ascendhealthsystem.com/portal · Patient Billing Services: (844) 501-9200</div>
+</div>
 
 ## BILLING STATEMENT
 

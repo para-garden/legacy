@@ -7,12 +7,10 @@ tags: [document, healthcare, capitalism]
 related: [ascend-hospital-bill-appendectomy, bluecross-eob-appendectomy]
 ---
 
----
-
-**ASCEND HEALTH SYSTEM**
-*Revenue Cycle Management Division*
-
----
+<div class="letterhead">
+<div class="letterhead-name">ASCEND HEALTH SYSTEM</div>
+<div class="letterhead-dept">Revenue Cycle Management Division</div>
+</div>
 
 **MEMORANDUM**
 

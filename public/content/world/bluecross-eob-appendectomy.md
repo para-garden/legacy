@@ -6,17 +6,14 @@ theme: bluecross
 tags: [document, healthcare, insurance, capitalism]
 ---
 
+<div class="letterhead">
+<div class="letterhead-name">BLUECROSS ADVANTAGE SELECT</div>
+<div class="letterhead-dept">A Division of BlueCross Health Partners, Inc.</div>
+<div class="letterhead-addr">P.O. Box 91400 · Phoenix, AZ 85068-1400 · 1-800-422-2583</div>
+</div>
+
 # EXPLANATION OF BENEFITS
 ## This Is Not a Bill
-
----
-
-**BlueCross Advantage Select**
-A Division of BlueCross Health Partners, Inc.
-P.O. Box 91400
-Phoenix, AZ 85068-1400
-Member Services: 1-800-422-2583 | TTY: 711
-bluecrossadvantageselect.com
 
 ---
 

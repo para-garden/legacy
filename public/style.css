@@ -744,6 +744,8 @@ html[data-collection="unfiltered"] .landing-body { color: #aaa; }
   border-top: 1px solid #222;
   margin: 12px 0;
 }
+/* Hide empty thead rows (markdown requires header row but some tables don't need one) */
+#panel-body[data-format="document"] thead:has(th:first-child:empty):not(:has(th:not(:empty))) { display: none; }
 #panel-body[data-format="document"] ul {
   padding-left: 18px;
   margin: 4px 0 8px;
@@ -1081,21 +1083,32 @@ html[data-collection="unfiltered"] .landing-body { color: #aaa; }
 #panel-body[data-theme="phi-delta-sigma"] hr { border-color: #2a2418; }
 #panel-body[data-theme="phi-delta-sigma"] strong { color: #bbaa88; }
 
-/* Interrupt magazine — editorial serif, warm neutral */
+/* Interrupt magazine — tech longform, cooler editorial */
 #panel-body[data-theme="interrupt"] {
-  --doc-accent: #8a8070;
-  font-family: 'Source Serif 4', Georgia, serif;
+  --doc-accent: #7a8898;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 #panel-body[data-theme="interrupt"] h1 {
   font-family: 'Source Serif 4', Georgia, serif;
   font-size: 26px;
   font-weight: 700;
-  color: #e8e4de;
+  color: #e4e6ea;
   letter-spacing: -0.01em;
 }
-#panel-body[data-theme="interrupt"] p { color: #b0aaa0; }
-#panel-body[data-theme="interrupt"] em { color: #c8c0b0; }
-#panel-body[data-theme="interrupt"] hr { border-color: #282420; }
+/* Article body paragraphs get serif */
+#panel-body[data-theme="interrupt"] p {
+  font-family: 'Source Serif 4', Georgia, serif;
+  color: #b0b8c0;
+}
+#panel-body[data-theme="interrupt"] li {
+  font-family: 'Source Serif 4', Georgia, serif;
+  color: #b0b8c0;
+}
+#panel-body[data-theme="interrupt"] blockquote p {
+  font-family: 'Source Serif 4', Georgia, serif;
+}
+#panel-body[data-theme="interrupt"] em { color: #90a0b0; }
+#panel-body[data-theme="interrupt"] hr { border-color: #202428; }
 
 /* Harlan County Gazette — local newspaper, earthy serif */
 #panel-body[data-theme="gazette"] {
@@ -1156,6 +1169,119 @@ html[data-collection="unfiltered"] .landing-body { color: #aaa; }
 #panel-body[data-theme="lumen"] li { color: #8a9a8a; }
 #panel-body[data-theme="lumen"] code { background: #141e16; color: #7a9a7a; border: 1px solid #1e2e22; }
 
+/* ── Page layout: paginated paper for letters/documents ──── */
+.page {
+  position: relative;
+  background: #141414;
+  border: 1px solid #252525;
+  border-radius: 2px;
+  padding: 32px 28px;
+  margin-bottom: 12px;
+  aspect-ratio: 8.5 / 11;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+/* Last page doesn't need bottom margin */
+.page:last-child { margin-bottom: 0; }
+
+/* Letterhead */
+.letterhead {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #252525;
+}
+/* CSS placeholder seal — initial in a circle, before the text block */
+.letterhead::before {
+  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  border-radius: 50%;
+  border: 1.5px solid #444;
+  font-size: 16px;
+  font-weight: 700;
+  color: #666;
+  line-height: 1;
+}
+.letterhead-name {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #bbb;
+}
+.letterhead-dept {
+  font-size: 11px;
+  color: #777;
+  margin-top: 2px;
+}
+.letterhead-addr {
+  font-size: 11px;
+  color: #555;
+  margin-top: 1px;
+}
+
+/* Theme-specific letterhead */
+#panel-body[data-theme="whitmore"] .letterhead::before {
+  content: "W";
+  border-color: #8a4a5a;
+  color: #8a4a5a;
+}
+#panel-body[data-theme="whitmore"] .letterhead-name { color: #aa6a7a; }
+#panel-body[data-theme="whitmore"] .letterhead { border-color: #2a1a20; }
+#panel-body[data-theme="whitmore"] .page { border-color: #2a1a20; background: #131114; }
+
+#panel-body[data-theme="ascend"] .letterhead::before {
+  content: "A";
+  border-color: #4a8a8a;
+  color: #4a8a8a;
+}
+#panel-body[data-theme="ascend"] .letterhead-name { color: #6aaaaa; }
+#panel-body[data-theme="ascend"] .letterhead { border-color: #1a2e2e; }
+#panel-body[data-theme="ascend"] .page { border-color: #1a2e2e; background: #111414; }
+
+#panel-body[data-theme="meridian"] .letterhead::before {
+  content: "M";
+  border-color: #5a6a8a;
+  color: #5a6a8a;
+}
+#panel-body[data-theme="meridian"] .letterhead-name { color: #7a8aaa; }
+#panel-body[data-theme="meridian"] .letterhead { border-color: #1e2230; }
+#panel-body[data-theme="meridian"] .page { border-color: #1e2230; background: #111218; }
+
+#panel-body[data-theme="resolute"] .letterhead::before {
+  content: "R";
+  border-color: #8a7a5a;
+  color: #8a7a5a;
+}
+#panel-body[data-theme="resolute"] .letterhead-name { color: #aa9a7a; }
+#panel-body[data-theme="resolute"] .letterhead { border-color: #2a2218; }
+#panel-body[data-theme="resolute"] .page { border-color: #2a2218; background: #141210; }
+
+#panel-body[data-theme="bluecross"] .letterhead::before {
+  content: "B";
+  border-color: #5a7aaa;
+  color: #5a7aaa;
+}
+#panel-body[data-theme="bluecross"] .letterhead-name { color: #7a9abb; }
+#panel-body[data-theme="bluecross"] .letterhead { border-color: #1a2430; }
+#panel-body[data-theme="bluecross"] .page { border-color: #1a2430; background: #111418; }
+
+#panel-body[data-theme="phi-delta-sigma"] .letterhead::before {
+  content: "ΦΔΣ";
+  font-size: 10px;
+  border-color: #8a7a4a;
+  color: #8a7a4a;
+}
+#panel-body[data-theme="phi-delta-sigma"] .letterhead-name { color: #aa9a6a; }
+#panel-body[data-theme="phi-delta-sigma"] .letterhead { border-color: #2a2418; }
+#panel-body[data-theme="phi-delta-sigma"] .page { border-color: #2a2418; background: #141210; }
+
 /* ── Site chrome: mastheads, navs, footers ───────────────── */
 .site-chrome {
   margin: -16px -20px 16px;
@@ -1201,18 +1327,40 @@ html[data-collection="unfiltered"] .landing-body { color: #aaa; }
 }
 
 /* Theme-specific site chrome overrides */
-#panel-body[data-theme="interrupt"] .site-wordmark {
-  font-family: 'Source Serif 4', Georgia, serif;
-  font-size: 18px;
-  letter-spacing: 0.2em;
-  color: #8a8070;
+#panel-body[data-theme="interrupt"] .site-chrome {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-color: #202428;
 }
-#panel-body[data-theme="interrupt"] .site-nav { color: #5a5448; }
-#panel-body[data-theme="interrupt"] .site-meta { color: #5a5448; }
-#panel-body[data-theme="interrupt"] .site-chrome { border-color: #282420; }
-#panel-body[data-theme="interrupt"] .site-footer { border-color: #282420; }
-#panel-body[data-theme="interrupt"] .site-footer .site-wordmark { font-size: 14px; color: #5a5448; }
-#panel-body[data-theme="interrupt"] .site-footer-text { color: #3a3830; }
+#panel-body[data-theme="interrupt"] .site-wordmark {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  color: #c0c4cc;
+}
+#panel-body[data-theme="interrupt"] .site-nav {
+  color: #707880;
+  margin-top: 0;
+}
+#panel-body[data-theme="interrupt"] .site-meta { color: #707880; }
+#panel-body[data-theme="interrupt"] .site-footer {
+  border-color: #202428;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+#panel-body[data-theme="interrupt"] .site-footer .site-wordmark {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #707880;
+}
+#panel-body[data-theme="interrupt"] .site-footer-text { color: #606870; }
+#panel-body[data-theme="interrupt"] .site-footer .site-nav { color: #606870; }
 
 #panel-body[data-theme="gazette"] .site-wordmark {
   font-family: 'Merriweather', Georgia, serif;
