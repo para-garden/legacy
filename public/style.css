@@ -1189,6 +1189,54 @@ html[data-collection="unfiltered"] .landing-body { color: #aaa; }
 #panel-body[data-theme="lede"] .site-footer .site-wordmark { font-size: 11px; color: #444; }
 #panel-body[data-theme="lede"] .site-footer-text { color: #333; }
 
+/* Kindling — warm, personal, solo operator */
+#panel-body[data-theme="kindling"] {
+  --doc-accent: #aa8866;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+}
+#panel-body[data-theme="kindling"] h1 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #ddd;
+  letter-spacing: -0.01em;
+}
+#panel-body[data-theme="kindling"] h2 {
+  font-size: 15px;
+  color: #aa8866;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+  cursor: auto;
+}
+#panel-body[data-theme="kindling"] p { color: #a09080; }
+#panel-body[data-theme="kindling"] em { color: #908070; }
+#panel-body[data-theme="kindling"] strong { color: #c0a888; }
+#panel-body[data-theme="kindling"] hr { border-color: #221e1a; }
+#panel-body[data-theme="kindling"] blockquote {
+  border-left-color: #3a2e22;
+}
+#panel-body[data-theme="kindling"] blockquote p { color: #90857a; font-style: italic; }
+#panel-body[data-theme="kindling"] th { background: #1e1a16; border-color: #2a2420; color: #8a7a66; }
+#panel-body[data-theme="kindling"] td { border-color: #221e1a; }
+#panel-body[data-theme="kindling"] li { color: #a09080; }
+
+/* Kindling site chrome */
+#panel-body[data-theme="kindling"] .site-chrome { border-color: #221e1a; }
+#panel-body[data-theme="kindling"] .site-wordmark {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+  color: #aa8866;
+}
+#panel-body[data-theme="kindling"] .site-nav { color: #5a4e44; }
+#panel-body[data-theme="kindling"] .site-meta { color: #5a4e44; }
+#panel-body[data-theme="kindling"] .site-footer { border-color: #221e1a; }
+#panel-body[data-theme="kindling"] .site-footer-text { color: #3a3028; }
+
 /* Lumen / Noa Chen — developer, monospace accent, muted green */
 #panel-body[data-theme="lumen"] {
   --doc-accent: #5a8a6a;
