@@ -132,6 +132,34 @@ The common thread: **altered states and excess as access to something real.** Wh
 
 By 2032: 30+ more years of evolution, fragmentation, commodification. What was underground is a product. What was radical is a brand.
 
+## Facet coverage
+
+As of 2026-03-25. The world is heavily concentrated in justice/distance/rounding (healthcare + Title IX clusters). Most facets have zero documents.
+
+### Empty (0 docs)
+
+- **hubris** — the era of overreach. No documents yet showing humans in the moment, certain they are right. Natural entry: a memo, a pitch deck, a policy brief where the author is visibly, confidently wrong about the future.
+- **consequences** — the aftermath. Exists implicitly (Riley's debt cascade, Marcus's narrowed options) but no document is *about* the aftermath as its primary subject. Natural entry: something set years later — a follow-up, a where-are-they-now, a thing someone finds in a drawer.
+- **unsettlement** — post-scarcity runaway consumerism. The machines documenting what remains. No documents. The most speculative facet — could be the furthest-future material. Natural entry: a data log, a survey report, an automated system's output with no human reader.
+- **futility** — brute-forcing intelligence. Scaling the wrong thing. No documents. Sasha's blog touches this but isn't tagged for it. Natural entry: a changelog, a benchmark report, a funding proposal that's about to scale something that doesn't work.
+- **aspiration** — reaching for utopia, ignoring limits. No documents. Natural entry: a mission statement, a manifesto, a grant application from something that almost worked.
+- **domestication** — a few individuals shaping public consciousness. No documents. Natural entry: an influencer's content calendar, a PR strategy doc, a platform's internal metrics showing what they amplified and why.
+- **choice** — the illusion of choice. No documents. Natural entry: a comparison chart, a ballot, a product catalog where every option leads to the same place.
+- **satisfaction** — metric satisfaction. Picking the numbers that tell the story you want. No documents. Natural entry: a quarterly report, a dashboard, a press release celebrating a number that hides a worse one.
+- **scarcity** — manufactured scarcity. No documents. Natural entry: a pricing memo, a supply chain report, a policy document that explains why something abundant is rationed.
+- **consumption** — ambient excess. No documents. Natural entry: a receipt, an inventory, a utility bill, a thing so normal nobody questions it.
+- **excess** — post-scarcity (derogatory). No documents. Natural entry: a menu, an event program, a product launch — the moment when the constraints came off.
+
+### Sparse (1-2 docs)
+
+- **complacency** (1) — only Sasha's blog. Needs more: the person who stopped checking, the AI-generated answer accepted without question.
+- **amplification** (1) — only Joy's obituary. Needs more: the algorithm side, the platform mechanics, the person with 2 million followers who would've had 200.
+- **margins** (1) — only Marco's demand letter. Needs more: the extraction side — Derek's transcripts touch this but aren't tagged. The number that gets better the worse things get for someone.
+
+### Well-covered (10+ docs)
+
+- **justice** (19), **distance** (14), **rounding** (10) — healthcare and Title IX clusters.
+
 ## Hubris collection backlog (preserved)
 
 ### Successful life (surface only) — options
@@ -219,3 +247,11 @@ Same event as Riley's story (appendectomy), different outcomes. For juxtapositio
 - **Debt cascade** — medical debt tips into missed rent, destroyed credit, downstream effects on unrelated things. Medical in the background, ripple in the foreground.
 - **Delayed care** — person who didn't go in because of cost. Paid a different price for that.
 - **Out-of-network cascade** — anesthesiologist came back OON and tipped something Riley narrowly avoided.
+
+### Greek life — sororities
+
+Current world only covers fraternities (Phi Delta Sigma). Sororities have their own documented issues: hazing, exclusion, body image pressure, racial gatekeeping, and assault (both as sites where victims come from and, less commonly, as direct perpetrators of hazing with sexual elements). Worth exploring — different shape from fraternity dynamics but same institutional structure.
+
+### Audio generation (low priority)
+
+Someday: generate audio for world documents. Voice recordings, phone calls, ambient sound. Very low priority — text-first world, audio as enhancement not replacement.

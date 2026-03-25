@@ -252,7 +252,26 @@ html, body {
 }
 #panel-body pre code { background: none; padding: 0; font-size: 13px; }
 #panel-body hr { border: none; border-top: 1px solid #333; margin: 16px 0; }
+#panel-body em { color: #c8c0b0; }
 #panel-body strong { color: #ddd; }
+#panel-body strong em, #panel-body em strong { color: #d8d0c0; }
+#panel-body q { font-style: normal; quotes: none; color: #b8b0a0; }
+#panel-body q::before { content: "\201C"; color: #555; }
+#panel-body q::after  { content: "\201D"; color: #555; }
+#panel-body blockquote { border-left: 2px solid #333; padding-left: 16px; margin: 12px 0; }
+#panel-body blockquote p { color: #999; }
+/* External links — subtle dotted underline, no accent color */
+#panel-body a[href^="http"] {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 2px;
+  text-decoration-color: #555;
+}
+#panel-body a[href^="http"]:hover {
+  text-decoration-color: #999;
+  color: #ddd;
+}
 
 /* Collapsible content sections */
 .section-body {
@@ -659,6 +678,302 @@ html[data-collection="unfiltered"] .landing-body { color: #aaa; }
   color: #444;
   margin-top: 2px;
   padding: 0 4px;
+}
+
+/* ── Format: document ────────────────────────────────────── */
+/* Institutional: bills, EOBs, letters, memos, directives    */
+#panel-body[data-format="document"] {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #aaa;
+}
+#panel-body[data-format="document"] h1 {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #ccc;
+  margin: 16px 0 4px;
+}
+#panel-body[data-format="document"] h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #bbb;
+  margin: 20px 0 8px;
+  cursor: auto;
+}
+#panel-body[data-format="document"] h3 {
+  font-size: 13px;
+  color: #aaa;
+  margin: 14px 0 6px;
+}
+#panel-body[data-format="document"] p {
+  margin: 0 0 8px;
+  color: #999;
+}
+#panel-body[data-format="document"] strong { color: #bbb; }
+#panel-body[data-format="document"] em { color: #888; }
+#panel-body[data-format="document"] table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 8px 0 12px;
+  font-size: 13px;
+}
+#panel-body[data-format="document"] th {
+  text-align: left;
+  padding: 6px 10px;
+  background: #1e1e1e;
+  border: 1px solid #2a2a2a;
+  color: #888;
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+#panel-body[data-format="document"] td {
+  padding: 5px 10px;
+  border: 1px solid #222;
+  color: #999;
+  vertical-align: top;
+}
+#panel-body[data-format="document"] tr:nth-child(even) td {
+  background: #151515;
+}
+#panel-body[data-format="document"] hr {
+  border: none;
+  border-top: 1px solid #222;
+  margin: 12px 0;
+}
+#panel-body[data-format="document"] ul {
+  padding-left: 18px;
+  margin: 4px 0 8px;
+}
+#panel-body[data-format="document"] li {
+  margin: 2px 0;
+  color: #999;
+  font-size: 13px;
+}
+
+/* ── Format: article ─────────────────────────────────────── */
+/* Magazine profiles, campus newspaper, local news            */
+#panel-body[data-format="article"] {
+  font-size: 15px;
+  line-height: 1.85;
+  color: #b0b0b0;
+  max-width: 640px;
+}
+#panel-body[data-format="article"] h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #eee;
+  margin: 8px 0 4px;
+  line-height: 1.3;
+}
+#panel-body[data-format="article"] h2 {
+  font-size: 18px;
+  color: #ddd;
+  margin: 24px 0 8px;
+  cursor: auto;
+}
+#panel-body[data-format="article"] p {
+  margin: 0 0 1.1em;
+}
+#panel-body[data-format="article"] em { color: #c0b8a8; }
+#panel-body[data-format="article"] strong {
+  color: #ccc;
+  font-weight: 600;
+}
+#panel-body[data-format="article"] hr {
+  border: none;
+  border-top: 1px solid #222;
+  margin: 1.8em 0;
+}
+
+/* ── Format: transcript ──────────────────────────────────── */
+/* Auto-transcribed calls, speaker-timestamped dialogue       */
+#panel-body[data-format="transcript"] {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #999;
+}
+#panel-body[data-format="transcript"] h2 {
+  font-size: 13px;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 24px 0 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #222;
+  cursor: auto;
+}
+#panel-body[data-format="transcript"] p {
+  margin: 0 0 6px;
+  color: #888;
+}
+#panel-body[data-format="transcript"] strong {
+  color: #bbb;
+  font-weight: 600;
+}
+#panel-body[data-format="transcript"] em {
+  color: #666;
+  font-size: 12px;
+}
+#panel-body[data-format="transcript"] hr {
+  border: none;
+  border-top: 1px solid #1a1a1a;
+  margin: 16px 0;
+}
+.ts {
+  font-family: 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
+  font-size: 11px;
+  color: #444;
+}
+
+/* ── Format: blog ────────────────────────────────────────── */
+/* Personal tech notebook, dated posts with tags              */
+#panel-body[data-format="blog"] {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #aaa;
+  max-width: 640px;
+}
+#panel-body[data-format="blog"] h1 {
+  font-size: 15px;
+  color: #777;
+  font-weight: 400;
+  font-family: 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
+  margin: 0 0 8px;
+}
+#panel-body[data-format="blog"] h3 {
+  font-size: 12px;
+  color: #555;
+  font-family: 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
+  font-weight: 400;
+  margin: 28px 0 4px;
+}
+#panel-body[data-format="blog"] p {
+  margin: 0 0 0.9em;
+}
+#panel-body[data-format="blog"] strong { color: #ccc; }
+#panel-body[data-format="blog"] em { color: #b0a898; }
+#panel-body[data-format="blog"] hr {
+  border: none;
+  border-top: 1px solid #1a1a1a;
+  margin: 8px 0;
+}
+#panel-body[data-format="blog"] ol {
+  padding-left: 20px;
+  margin: 4px 0 12px;
+}
+#panel-body[data-format="blog"] li { margin: 3px 0; }
+.blog-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 2px 0 8px;
+}
+.blog-tag {
+  font-size: 11px;
+  padding: 1px 8px;
+  border-radius: 8px;
+  border: 1px solid #2a2a2a;
+  color: #555;
+  background: #151515;
+}
+/* Footer */
+#panel-body[data-format="blog"] > p:last-child {
+  font-size: 12px;
+  color: #555;
+  font-family: 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
+  margin-top: 16px;
+}
+
+/* ── Format: changelog ───────────────────────────────────── */
+/* Software release notes                                     */
+#panel-body[data-format="changelog"] {
+  font-size: 14px;
+  line-height: 1.65;
+  color: #aaa;
+  max-width: 640px;
+}
+#panel-body[data-format="changelog"] h1 {
+  font-size: 16px;
+  color: #888;
+  font-weight: 400;
+  margin: 0 0 8px;
+}
+#panel-body[data-format="changelog"] h2 {
+  font-size: 14px;
+  color: #ccc;
+  font-family: 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
+  margin: 20px 0 8px;
+  cursor: auto;
+}
+#panel-body[data-format="changelog"] h3 {
+  font-size: 13px;
+  color: #bbb;
+  font-weight: 600;
+  margin: 12px 0 4px;
+}
+#panel-body[data-format="changelog"] p {
+  margin: 0 0 0.8em;
+}
+#panel-body[data-format="changelog"] em { color: #888; }
+#panel-body[data-format="changelog"] strong { color: #bbb; }
+#panel-body[data-format="changelog"] hr {
+  border: none;
+  border-top: 1px solid #1a1a1a;
+  margin: 16px 0;
+}
+#panel-body[data-format="changelog"] ul {
+  padding-left: 18px;
+  margin: 4px 0 8px;
+}
+#panel-body[data-format="changelog"] li {
+  margin: 3px 0;
+}
+#panel-body[data-format="changelog"] code {
+  font-size: 12px;
+  background: #1a1a1a;
+  padding: 1px 4px;
+  border-radius: 3px;
+  color: #888;
+}
+
+/* ── Format: flyer ───────────────────────────────────────── */
+/* Event posters, invitations                                 */
+#panel-body[data-format="flyer"] {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #999;
+  max-width: 420px;
+  margin: 0 auto;
+  padding-top: 16px;
+}
+#panel-body[data-format="flyer"] p {
+  margin: 0 0 8px;
+}
+#panel-body[data-format="flyer"] strong {
+  color: #ddd;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+#panel-body[data-format="flyer"] hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 16px auto;
+  width: 40%;
+}
+#panel-body[data-format="flyer"] ul {
+  list-style: none;
+  padding: 0;
+  margin: 4px 0 12px;
+}
+#panel-body[data-format="flyer"] li {
+  margin: 2px 0;
+  color: #aaa;
 }
 
 /* Mobile: vertical stack */

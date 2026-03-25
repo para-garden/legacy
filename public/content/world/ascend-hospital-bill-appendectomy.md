@@ -1,6 +1,7 @@
 ---
 label: "Ascend Health System — Patient Billing Statement"
 description: "Itemized hospital bill for emergency appendectomy. Total charges: $54,817.00. Patient responsibility: $4,247.00."
+format: document
 tags: [document, healthcare, capitalism]
 ---
 

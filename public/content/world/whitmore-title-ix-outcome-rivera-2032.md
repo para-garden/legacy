@@ -1,6 +1,7 @@
 ---
 label: Title IX Outcome — Rivera/Whitmore, Feb 2032
 description: The process worked exactly as designed. The letter went to the right address.
+format: document
 tags: [justice, rounding, distance, cw:sexual-violence]
 collections: [default]
 related: [whitmore-title-ix-outcome-osei-2031, whitmore-title-ix-outcome-whitaker-2032]

@@ -63,12 +63,27 @@ function rehypeParseInlineQuotes() {
   };
 }
 
+/** External links get target="_blank" and rel="noopener". */
+function rehypeExternalLinks() {
+  return (tree: Root) => {
+    visit(tree, "element", (node: Element) => {
+      if (node.tagName !== "a") return;
+      const href = node.properties?.href;
+      if (typeof href === "string" && /^https?:\/\//.test(href)) {
+        node.properties!.target = "_blank";
+        node.properties!.rel = "noopener";
+      }
+    });
+  };
+}
+
 const processor = unified()
   .use(remarkParse)
   .use(remarkGfm)
   .use(remarkRehype, { allowDangerousHtml: true })
   .use(rehypeRaw)
   .use(rehypeParseInlineQuotes)
+  .use(rehypeExternalLinks)
   .use(rehypeStringify);
 
 export function parseMarkdown(src: string): { html: string; format?: string } {

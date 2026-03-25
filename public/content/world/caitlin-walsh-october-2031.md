@@ -1,6 +1,7 @@
 ---
 label: Caitlin Walsh — late October 2031
 description: She laughs easily. Everyone knows that about her.
+format: prose
 tags: [indulgence, justice, cw:sexual-violence]
 collections: [default]
 ---

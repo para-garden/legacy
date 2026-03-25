@@ -1,6 +1,7 @@
 ---
 label: "~/notes — sasha's technical notebook"
 description: "A personal tech blog, updated irregularly. Mostly about systems design and open source. Some of it is about other things."
+format: blog
 tags: [document, tech, labor, capitalism, personal]
 ---
 

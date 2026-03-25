@@ -1,6 +1,7 @@
 ---
 label: Title IX Outcome — Park/Whitmore, Jan 2032
 description: The panel could not reach a finding. The investigation addressed the disclosure question thoroughly.
+format: document
 tags: [justice, rounding, distance, cw:sexual-violence]
 collections: [default]
 related: [whitmore-title-ix-outcome-osei-2031, whitmore-title-ix-outcome-whitaker-2032, whitmore-title-ix-outcome-rivera-2032]

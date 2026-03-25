@@ -1,6 +1,7 @@
 ---
 label: "Marcus's Journal — 2003–2033"
 description: "Personal journal spanning childhood through early middle age. Recovered from a storage unit in Clarksville, Tennessee, 2034."
+format: prose
 tags: [document, poverty, education, capitalism, personal]
 ---
 

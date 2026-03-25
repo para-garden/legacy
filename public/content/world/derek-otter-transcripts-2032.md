@@ -1,6 +1,7 @@
 ---
 label: "Derek — Auto-Transcribed Call Recordings (Otter.ai, Jan–Apr 2032)"
 description: "Seven auto-transcribed phone calls from a real estate investor's cloud account. Routine portfolio management. Cap rates, rent increases, a tenant situation, a neighborhood turning."
+format: transcript
 tags: [document, housing, capitalism]
 ---
 

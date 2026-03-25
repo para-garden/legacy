@@ -88,6 +88,46 @@ function prepareContent(container: HTMLElement): void {
   if (section) container.appendChild(section);
 }
 
+/** Wrap [HH:MM:SS] timestamps in transcript format with styled spans. */
+function prepareTranscript(container: HTMLElement): void {
+  const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT);
+  const replacements: { node: Text; html: string }[] = [];
+  let node: Text | null;
+  while ((node = walker.nextNode() as Text | null)) {
+    const text = node.textContent ?? "";
+    if (/\[\d{2}:\d{2}:\d{2}\]/.test(text)) {
+      replacements.push({
+        node,
+        html: text.replace(/\[(\d{2}:\d{2}:\d{2})\]/g, '<span class="ts">[$1]</span>'),
+      });
+    }
+  }
+  for (const { node: n, html } of replacements) {
+    const span = document.createElement("span");
+    span.innerHTML = html;
+    n.parentNode?.replaceChild(span, n);
+  }
+}
+
+/** Convert italic "tags: x, y, z" lines in blog format to pill elements. */
+function prepareBlog(container: HTMLElement): void {
+  for (const em of container.querySelectorAll("em")) {
+    const text = em.textContent ?? "";
+    if (!text.startsWith("tags:")) continue;
+    const tags = text.slice(5).split(",").map(t => t.trim()).filter(Boolean);
+    const div = document.createElement("div");
+    div.className = "blog-tags";
+    for (const tag of tags) {
+      const span = document.createElement("span");
+      span.className = "blog-tag";
+      span.textContent = tag;
+      div.appendChild(span);
+    }
+    const parent = em.parentElement;
+    if (parent?.tagName === "P") parent.replaceWith(div);
+  }
+}
+
 export function fetchContent(nodeId: string): Promise<{ html: string; format?: string }> {
   const cached = contentCache.get(nodeId);
   if (cached !== undefined) return Promise.resolve(cached);
@@ -224,6 +264,8 @@ export function openPanel(nodeId: string, nodeLabel?: string, push = true): void
       panelBody.innerHTML = cached.html;
       panelBody.dataset.format = cached.format ?? "";
       if (!cached.format && isEssay) prepareContent(panelBody);
+      if (cached.format === "transcript") prepareTranscript(panelBody);
+      if (cached.format === "blog") prepareBlog(panelBody);
       return;
     }
 
@@ -234,6 +276,8 @@ export function openPanel(nodeId: string, nodeLabel?: string, push = true): void
         panelBody.innerHTML = html;
         panelBody.dataset.format = format ?? "";
         if (!format && isEssay) prepareContent(panelBody);
+        if (format === "transcript") prepareTranscript(panelBody);
+        if (format === "blog") prepareBlog(panelBody);
       }
     });
   }

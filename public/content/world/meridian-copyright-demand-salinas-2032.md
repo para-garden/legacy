@@ -1,6 +1,7 @@
 ---
 label: "Meridian Content Protection — Copyright Demand Letter (Salinas)"
 description: "Pre-litigation demand for statutory damages. 11 copyrighted sound recordings identified via audio fingerprinting of AI training data uploads. Settlement offer: ₱180,000. Maximum statutory exposure: $1,650,000."
+format: document
 tags: [justice, margins, distance]
 collections: [default]
 related: [copyright-statutory-damages]
