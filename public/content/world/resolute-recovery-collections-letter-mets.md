@@ -16,10 +16,9 @@ tags: [document, healthcare, capitalism, debt]
 
 &nbsp;
 
-[NAME]
-[ADDRESS LINE 1]
-[ADDRESS LINE 2]
-[CITY, STATE ZIP]
+Riley A. Whitaker
+1847 Indianola Ave, Apt 3
+Columbus, OH 43201
 
 &nbsp;
 
@@ -42,7 +41,7 @@ tags: [document, healthcare, capitalism, debt]
 
 &nbsp;
 
-Dear [NAME],
+Dear Ms. Whitaker,
 
 This letter is to notify you that the above-referenced account has been placed with Resolute Recovery Solutions, LLC by Metro Emergency Transport Services (METS) for collection. We have been engaged to assist in the resolution of this outstanding balance on METS's behalf.
 

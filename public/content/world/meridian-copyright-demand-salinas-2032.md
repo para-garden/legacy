@@ -19,7 +19,7 @@ related: [copyright-statutory-damages]
 &nbsp;
 
 Marco Reyes Salinas
-[ADDRESS LINE 1]
+Unit 4B, 127 M.J. Cuenco Ave
 Cebu City, Cebu 6000
 Philippines
 

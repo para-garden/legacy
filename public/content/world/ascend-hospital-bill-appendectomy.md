@@ -18,10 +18,10 @@ tags: [document, healthcare, capitalism]
 |---|---|
 | **Statement Date:** | March 4, 2032 |
 | **Account Number:** | AHS-2032-0047821 |
-| **Patient Name:** | [PATIENT NAME] |
-| **Date of Birth:** | [DOB] |
-| **Member ID:** | [INSURANCE MEMBER ID] |
-| **Insurance Plan:** | [PLAN NAME] — Group #[GROUP NUMBER] |
+| **Patient Name:** | Riley A. Whitaker |
+| **Date of Birth:** | 06/14/2011 |
+| **Member ID:** | BCX-881-44-7203 |
+| **Insurance Plan:** | BlueCross Advantage Select PPO — Group #MI-04419 |
 | **Service Dates:** | February 24–26, 2032 |
 | **Facility:** | Ascend Regional Medical Center — East Campus |
 | **Statement Number:** | STM-20320304-88241 |
@@ -174,10 +174,10 @@ The following services were provided by independent practitioners and will be bi
 
 | Provider | Service | Expected Billing Entity |
 |---|---|---|
-| [SURGEON NAME], MD | Professional surgical fee, appendectomy | [SURGICAL GROUP PRACTICE NAME] |
-| [ANESTHESIOLOGIST NAME], MD | Anesthesia services, intraoperative | Pinnacle Anesthesia Partners, LLC |
-| [RADIOLOGIST NAME], MD | CT interpretation, ED read | Radiology Partners National Group |
-| [PATHOLOGIST NAME], MD | Pathology interpretation | Regional Pathology Associates |
+| David Okonkwo, MD | Professional surgical fee, appendectomy | Central Ohio Surgical Associates |
+| Priya Ramachandran, MD | Anesthesia services, intraoperative | Pinnacle Anesthesia Partners, LLC |
+| James Fenton, MD | CT interpretation, ED read | Radiology Partners National Group |
+| Linda Szabo, MD | Pathology interpretation | Regional Pathology Associates |
 
 **Note regarding anesthesia:** Anesthesia services are provided by Pinnacle Anesthesia Partners, LLC, an independent contractor operating within Ascend facilities. Pinnacle Anesthesia Partners is **not a participating provider** with all insurance plans. If you received an out-of-network determination for anesthesia services, you may have rights under the No Surprises Act (effective 2022). Contact Pinnacle Anesthesia Partners directly at (866) 774-0183 or visit pinnacleap.com/billing.
 
@@ -262,4 +262,4 @@ A copy of our Notice of Privacy Practices is available at ascendhealthsystem.com
 *(844) 501-9200 | ascendhealthsystem.com/portal*
 
 *Statement generated: March 4, 2032 | Page 1 of 1*
-*Account: AHS-2032-0047821 | Patient: [PATIENT NAME]*
+*Account: AHS-2032-0047821 | Patient: Riley A. Whitaker*

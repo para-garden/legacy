@@ -19,9 +19,9 @@ tags: [document, healthcare, insurance, capitalism]
 
 ```
 Processed Date:        March 3, 2032
-Member Name:           [MEMBER NAME]
-Member ID:             [MEMBER ID]
-Group Number:          [GROUP NUMBER]
+Member Name:           Riley A. Whitaker
+Member ID:             BCX-881-44-7203
+Group Number:          MI-04419
 Plan Name:             BlueCross Advantage Select PPO — Tier 2
 Claim Number:          BCX-2032-03-887741-A
 Provider:              Ascend Regional Medical Center — East Campus
