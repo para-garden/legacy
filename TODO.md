@@ -198,6 +198,40 @@ The citation mechanic fully inverted: the fictional tool is real software at a r
 
 ## Hubris collection backlog (preserved)
 
+### Entertainment industry cluster
+
+Three industries, one structure: extract creative labor, own the output, manufacture parasocial connection to the product, discard the people when they're spent. The fan's love is real. The industry uses that love as leverage.
+
+Documents are not necessarily one-per-arc. Some stories contain the whole arc. Personal details matter — the thing they loved before they knew what it would cost them. Fiction must be tamer than reality; reality is already this bad.
+
+**Research complete** (2026-03-27) — see notes below. All numbers are real and citable.
+
+#### Gamedev
+
+Real source: Nathan Allen Ortega — cosplayed as a Telltale character, relocated from Texas, landed dream job, developed an ulcer, 30 minutes to clear his desk when Telltale collapsed. This is the template.
+
+Real numbers: Telltale 225 layoffs in a day, 30-minute notice, paper check, healthcare expired within days. Some hired one week prior. CDPR mandatory 6-day weeks after promising no crunch. Rockstar 80-hour weeks, "culture of fear" from 6 independent employees. EA settled two class-actions for $30M combined. 45,000 game jobs lost 2022–2025.
+
+Facets: **aspiration** (going in), **margins + distance** (inside), **rounding + absence** (out)
+
+Personal layer: what game they grew up playing. what they told their parents. what was on their desk in the box.
+
+#### Idol industry
+
+Real numbers: Daisy (~$150k trainee debt, paid once in two years, translation job paid 1.3x). Minjoon (₩600M debt, CEO billing "life lectures" at ₩1M/hour, sued for defamation when he went public). TVXQ: ₩50,000 after 500,000 albums sold = ₩10,000 (~$9) per member. 90% of trainees never debut. Jonghyun. VCHA member's statement: "environment that encourages eating disorders and has caused members to self-harm." Momo told to lose 7kg in a week, ate only ice cubes.
+
+Facets: **aspiration** (going in), **domestication + margins** (inside), **rounding + consequences** (out)
+
+Personal layer: the specific idol they loved. the audition. what their family said.
+
+#### Animation industry
+
+Real numbers: Japanese in-between animators at ¥200/drawing (~$2), 20–30 min per drawing. JAniCA: median 225 hours/month, 65 hours overtime. One Madhouse employee: 400 hours in a month, 37 consecutive days without a day off. US: 1/3 of Animation Guild workforce laid off leading up to 2024. Pixar 175 (14%), Netflix animation 50 (1/3 of entire feature division). Kyoto Animation: the named exception — full employment, benefits, they were treated well and someone burned the building down.
+
+Facets: **aspiration** (going in), **margins + distance** (inside), **rounding + absence** (out)
+
+Personal layer: the film or show that made them want this. the first paycheck. the math they did at 3am.
+
 ### Successful life (surface only) — options
 
 Pick one, but don't lose the others:
@@ -296,3 +330,31 @@ Institutional letters (Title IX outcomes, legal demand letters) should render as
 ### Audio generation (low priority)
 
 Someday: generate audio for world documents. Voice recordings, phone calls, ambient sound. Very low priority — text-first world, audio as enhancement not replacement.
+
+## Autonomous worldbuilding loop
+
+When out of specific tasks: research real parts of society that are broken, exploitative, or quietly terrible. Find the real numbers, the real mechanisms, the real documents. Then build tamer fictional versions in legacy — the fiction is never as bad as the reality, and the citation mechanic makes that visible.
+
+Sources of inspiration:
+- Industries that chew people up (gamedev, animation, idol, gig economy, adjunct academia, residency programs, fast fashion supply chains, warehouse work, content moderation, meat processing)
+- Systems that punish individuals for structural failures (medical debt, student loans, criminal justice, immigration, disability, housing)
+- Institutions that perform care while extracting value (universities, hospitals, insurance, nonprofits, platforms)
+- The gap between the brochure and the experience (recruitment materials vs actual conditions, marketing vs product, mission statement vs practice)
+
+Process: research first (real sources, real numbers, real documents), then build characters (`/character`), then write going-in documents (aspiration, before the machine is legible), then inside documents (the grind, when the pattern becomes visible), then out documents (aftermath, whatever that looks like). Not every thread needs all three. Let the character tell you what's needed.
+
+### Entertainment industry cluster (in progress)
+
+Three industries, same pattern: creative people enter a machine that extracts their passion as labor.
+
+**Gamedev** — Jessie Torres (done: character card, forum post going-in)
+- Inside/out documents still needed
+- Research: Telltale closure, CDPR crunch, Rockstar 100-hour weeks, EA spouse letter
+
+**Idol industry** — Soo-yeon Park (done: character card, voice message going-in)
+- Inside/out documents still needed
+- Research: trainee debt structures, dating bans, weight checks, mental health (Sulli, Goo Hara, Jonghyun)
+
+**Animation** — Yuki Shimizu (done: character card, blog post going-in)
+- Inside/out documents still needed
+- Research: ¥200/drawing pay, Madhouse/MAPPA conditions, animator surveys, IP ownership

@@ -4,6 +4,7 @@ description: "Game dev forum post from a 21-year-old who just landed her first i
 tags: [document, technology, personal, artifact, aspiration]
 collections: [default]
 related: []
+theme: levelup
 ---
 
 <div class="site-chrome">

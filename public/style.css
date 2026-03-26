@@ -1491,6 +1491,95 @@ html[data-collection="unfiltered"] .landing-body { color: #aaa; }
   color: #2a4a34;
 }
 
+/* LevelUp Forums — game dev community, indigo/purple accent */
+#panel-body[data-theme="levelup"] {
+  --doc-accent: #8a7aaa;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+}
+#panel-body[data-theme="levelup"] h1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ddd;
+  letter-spacing: -0.01em;
+}
+#panel-body[data-theme="levelup"] p { color: #aaa; }
+#panel-body[data-theme="levelup"] strong { color: #c8c0dd; }
+#panel-body[data-theme="levelup"] em { color: #908aaa; }
+#panel-body[data-theme="levelup"] hr { border-color: #1e1a28; }
+#panel-body[data-theme="levelup"] small { color: #6a6480; }
+#panel-body[data-theme="levelup"] small strong { color: #9a90bb; font-weight: 600; }
+
+/* LevelUp site chrome */
+#panel-body[data-theme="levelup"] .site-chrome {
+  border-color: #1e1a28;
+}
+#panel-body[data-theme="levelup"] .site-wordmark {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: #8a7aaa;
+}
+#panel-body[data-theme="levelup"] .site-nav {
+  color: #4a4460;
+  margin-top: 2px;
+}
+#panel-body[data-theme="levelup"] .site-meta { color: #5a5470; }
+
+/* ame no oto — Yuki's blog, quiet, warm gray, barely there */
+#panel-body[data-theme="amenooto"] {
+  --doc-accent: #888;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+}
+#panel-body[data-theme="amenooto"] h1 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #bbb;
+  letter-spacing: -0.01em;
+}
+#panel-body[data-theme="amenooto"] p { color: #8a8a8a; }
+#panel-body[data-theme="amenooto"] strong { color: #aaa; }
+#panel-body[data-theme="amenooto"] em { color: #777; }
+#panel-body[data-theme="amenooto"] hr { border-color: #1a1a1a; }
+
+/* ame no oto site chrome */
+#panel-body[data-theme="amenooto"] .site-chrome {
+  border-color: #1a1a1a;
+}
+#panel-body[data-theme="amenooto"] .site-wordmark {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: lowercase;
+  color: #666;
+}
+#panel-body[data-theme="amenooto"] .site-nav { color: #444; margin-top: 2px; }
+#panel-body[data-theme="amenooto"] .site-meta { color: #555; }
+#panel-body[data-theme="amenooto"] .site-footer { border-color: #1a1a1a; }
+#panel-body[data-theme="amenooto"] .site-footer .site-wordmark { font-size: 11px; color: #444; }
+
+/* Voice memo — transcription style, minimal, stage directions muted */
+#panel-body[data-theme="voicememo"] {
+  --doc-accent: #8a8a6a;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+}
+#panel-body[data-theme="voicememo"] h1 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #bbb;
+}
+#panel-body[data-theme="voicememo"] p { color: #aaa; }
+#panel-body[data-theme="voicememo"] strong { color: #bbb; }
+#panel-body[data-theme="voicememo"] em { color: #666; font-style: normal; }
+#panel-body[data-theme="voicememo"] hr { border-color: #1a1a1a; }
+
 /* Blog format site chrome — personal dev blog feel */
 #panel-body[data-format="blog"] .site-wordmark {
   font-family: 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
