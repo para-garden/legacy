@@ -174,6 +174,28 @@ Two approaches (not mutually exclusive):
 
 The connecting facet is **absence** — the thing that should be here and isn't. The reason it doesn't exist is the world itself: wrong incentives, no market for the right thing, the person who could build it is building four other things.
 
+### Lumen / noachen.net — build the real thing
+
+The citation mechanic fully inverted: the fictional tool is real software at a real domain. The reader finds Lumen in the legacy world, clicks through, and Noa Chen is real enough to have a domain, a GitHub, and software that works.
+
+**noachen.net** — Noa's personal site. Sparse, careful, her voice. Blog posts from the late 2020s watching her figure out the problem pad solves before she names it. The whole arc visible if you scroll back far enough.
+
+**lumen** — real software. LuaJIT + crescent underneath (vendored binaries in the repo, no install ceremony). Local-first, single binary, SQLite, full-text search, no telemetry, no account. pad is the proven foundation; Lumen is what pad looks like with a face.
+
+**github.com/noachen/lumen** — real repository. Commit history starting ~2028. Plausible, not announced. The repo doesn't say it's fiction. Nothing does.
+
+**Stack:** LuaJIT (finished, fastest JIT on the planet, best FFI). crescent for ecosystem/stdlib/distribution. Binaries vendored for all platforms — clone and run, no toolchain required. Same approach as pad's `core/dep/`.
+
+**Priority:** when crescent is far enough along to be the right foundation. Not before. Lumen should be built once and built right.
+
+**Two repos:**
+- `noachen/lumen` — the public artifact. Faked commit history aligned to the changelog. No meta-commentary. The fiction stands on its own.
+- `paragarden/lumen-dev` — the making-of. Real development history, fabrication script that generates the faked git history from the canonical changelog, decision notes. Public is fine — anyone who finds it knows what it is, but Noa's repo doesn't link to it so it doesn't break anything.
+
+**Fabrication script:** takes the changelog as input, produces a git repo with *texture* — not one commit per release but the shape of real development. Small fixes between releases. The sync rebuild visible as a six-week gap in commit density. Early 2028 commits where it's clearly not done yet. The history should feel discovered, not generated.
+
+**Initial commit hash:** `90ac4e9` — NOACHEN in calculator hex (9=N, 0=O, a=A, c=C, 4=H, e=E, 9=N). Mined deliberately. Every Noa repo shares this root. Date: sometime in 2025, probably — after the B2B exit settled and before she started building seriously. The kind of thing you do on a quiet afternoon when you're setting up a new machine and thinking about what comes next.
+
 ## Hubris collection backlog (preserved)
 
 ### Successful life (surface only) — options
