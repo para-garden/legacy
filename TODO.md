@@ -134,7 +134,7 @@ By 2032: 30+ more years of evolution, fragmentation, commodification. What was u
 
 ## Facet coverage
 
-As of 2026-03-27 (continued). 121 world docs. All facets covered; former sparse facets now moderate.
+As of 2026-03-27 (continued). 123 world docs. All facets covered; former sparse facets now moderate.
 
 ### Moderate (5-10 docs)
 
@@ -274,7 +274,7 @@ Documents with real-system claims need quiet inline links to real sources. Statu
 
 **Still unsourced:**
 - `marcus-personal-journal-2003-2033.md` — test prep costs ($200–400). Medium confidence, needs local journalism (Chicago/NYC).
-- `derek-otter-transcripts-2032.md` — cap rates, NOI, rent escalation strategies. Sources exist (CBRE, BiggerPockets, CCIM) but not yet embedded.
+- `derek-otter-transcripts-2032.md` — portfolio numbers are fictional (no inline links needed). Could add a `<small>` footer contextualizing the investment practices with real Phoenix market data (CBRE cap rate reports, Census rent increases, Maricopa County tenant displacement ordinances). Low priority — the transcript format makes inline links impossible anyway.
 
 **No sourcing needed** (fiction/personal voice, no real-system claims):
 - Text threads (hospital-bill-reaction, riley-jess x2, simone-adaeze, dani-mel)
@@ -292,7 +292,7 @@ Same event as Riley's story (appendectomy), different outcomes. For juxtapositio
 
 - [x] **No insurance** — Jordan Watts. Same hospital, same procedure, no insurance. Self-pay discount 25%, owes $41,112.75. Riley owed $4,247. `ascend-hospital-bill-appendectomy-watts-2031.md`
 - **Debt cascade** — medical debt tips into missed rent, destroyed credit, downstream effects on unrelated things. Medical in the background, ripple in the foreground.
-- **Delayed care** — person who didn't go in because of cost. Paid a different price for that.
+- [x] **Delayed care** — Tyler Chen, 34, uninsured, waited 72 hours. Appendix perforated. Open surgery, ICU, 7-day stay, second procedure. Bill will exceed $100K. `ascend-discharge-summary-chen-2032.md`
 - **Out-of-network cascade** — anesthesiologist came back OON and tipped something Riley narrowly avoided.
 
 ### Greek life — sororities
