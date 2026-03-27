@@ -7,6 +7,7 @@ related:
   - silver-creek-staffing-memo-2032
   - resignation-letter-maria-gutierrez-silver-creek-2032
   - ridgemont-community-college-allied-health-2031
+  - federal-register-staffing-rule-repeal-2025
 ---
 
 <div class="site-chrome">

@@ -8,6 +8,7 @@ related:
   - stratum-series-b-pitch-memo-2029
   - lede-stratum-trillion-dollar-buildout-2032
   - stratum-workforce-reduction-email-2032
+  - mesa-city-council-water-allocation-hearing-2032
 ---
 
 <div class="page">
