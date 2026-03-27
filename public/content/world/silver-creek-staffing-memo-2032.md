@@ -3,7 +3,7 @@ label: "Silver Creek Senior Living — Staffing Adequacy Update, Q1 2032"
 description: "CNA turnover: 94%. The memo calls it 'workforce fluidity.' Residents per aide on third shift: 18."
 tags: [document, margins, distance, satisfaction, rounding]
 collections: [default]
-related: [ascend-community-benefit-report-2032, clarity-solutions-trust-safety-analyst-posting-2032]
+related: [ascend-community-benefit-report-2032, resignation-letter-maria-gutierrez-silver-creek-2032, ridgemont-community-college-allied-health-2031]
 ---
 
 <div class="page">

@@ -3,7 +3,7 @@ label: "Notice of Rent Adjustment — Unit 4C, 1614 Caldwell Street"
 description: "A 22% rent increase with 60 days' notice. The letter thanks the tenant for being a valued resident."
 tags: [document, scarcity, margins, distance]
 collections: [default]
-related: [whitmore-adjunct-appointment-odom-fall-2032, redfin-listing-whispering-oaks-austin-2032]
+related: [whitmore-adjunct-appointment-odom-fall-2032, redfin-listing-whispering-oaks-austin-2032, heron-capital-q2-2032-investor-letter, google-reviews-caldwell-place-apartments-2032, unsent-letter-rachel-odom-november-2032]
 ---
 
 <div class="page">

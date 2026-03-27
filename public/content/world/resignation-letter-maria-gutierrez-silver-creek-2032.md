@@ -3,7 +3,7 @@ label: "Resignation Letter — Maria Gutierrez, CNA"
 description: "She lasted eight months. She's going to Amazon. She cried in the parking lot after telling Mrs. Patterson."
 tags: [document, personal, margins, consequences]
 collections: [default]
-related: [silver-creek-staffing-memo-2032]
+related: [silver-creek-staffing-memo-2032, ridgemont-community-college-allied-health-2031]
 ---
 
 <div class="page">

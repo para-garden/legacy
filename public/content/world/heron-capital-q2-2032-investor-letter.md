@@ -3,7 +3,7 @@ label: "Heron Capital Partners — Q2 2032 Investor Letter"
 description: "Revenue per unit up 19%. Occupancy stable. The fund doesn't use the word 'tenant' — it says 'resident.'"
 tags: [document, margins, distance, satisfaction]
 collections: [default]
-related: [greystone-property-management-rent-increase-2032, redfin-listing-whispering-oaks-austin-2032]
+related: [greystone-property-management-rent-increase-2032, redfin-listing-whispering-oaks-austin-2032, google-reviews-caldwell-place-apartments-2032, linkedin-profile-james-whitford-heron-capital-2032]
 ---
 
 <div class="page">

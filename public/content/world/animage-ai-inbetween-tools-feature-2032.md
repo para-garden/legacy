@@ -3,7 +3,7 @@ label: "The Future of In-Betweens? AI Tools Promise 10x Efficiency for Anime Pro
 description: "A trade magazine profiles tools that automate douga — the work Yuki does by hand, for ¥200 a drawing."
 tags: [document, futility, complacency, distance, margins]
 collections: [default]
-related: [blog-yuki-shimizu-first-week-animator-2031, blog-yuki-shimizu-six-months-animator-2032]
+related: [blog-yuki-shimizu-first-week-animator-2031, blog-yuki-shimizu-six-months-animator-2032, blog-yuki-shimizu-one-year-animator-2032]
 ---
 
 <div class="site-chrome">
