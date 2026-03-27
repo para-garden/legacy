@@ -33,15 +33,15 @@ So now I correct the output. This is my job. The tool generates the in-betweens 
 
 I am faster at this than I was at drawing from scratch. Everyone is. Hasegawa-san said our throughput is up 340%. He said it like it was good news. It is good news. For the studio. I understand that.
 
-Two of the contract douga artists were not renewed in August. Nishida-san and the woman whose name I'm embarrassed to say I never learned — she sat two desks from mine and she hummed when she was concentrating and now her desk is empty and nobody hums. I don't know where they went. People don't announce these things. The desk is just empty and then after a few days someone puts a box of supplies on it and it becomes a surface instead of a place where a person sat.
+[Two of the contract douga artists were not renewed](https://variety.com/2024/film/news/pixar-layoffs-175-staffers-cut-1236011766/) in August. Nishida-san and the woman whose name I'm embarrassed to say I never learned — she sat two desks from mine and she hummed when she was concentrating and now her desk is empty and nobody hums. I don't know where they went. People don't announce these things. The desk is just empty and then after a few days someone puts a box of supplies on it and it becomes a surface instead of a place where a person sat.
 
 Takagi-san is still here. He draws keys. The tool doesn't do keys. Not yet. He said something to me in the hallway last week — we were both leaving late, the printing company lights already off — and he said "learn keys, Shimizu-san. Learn them fast." He wasn't joking. He's never joking but this was a different kind of not-joking.
 
-I am trying to learn keys. Mizuno-san has been letting me shadow her when she has time, which is not often because the schedule is tighter now, not looser — the clients know the tools exist and they've adjusted the deadlines accordingly. The tools were supposed to reduce overwork. What they reduced was the excuse for the timeline. The timeline shrank. The work didn't.
+I am trying to learn keys. Mizuno-san has been letting me shadow her when she has time, which is not often because the schedule is tighter now, not looser — the clients know the tools exist and they've adjusted the deadlines accordingly. The tools were supposed to [reduce overwork](https://www.nippon.com/en/in-depth/d01174/). What they reduced was the excuse for the timeline. The timeline shrank. The work didn't.
 
 What I want to say, and I've been trying to say it for two months, is this:
 
-I used to draw 412 drawings a month. By hand. Each one was mine. My line, my spacing, my hand. The callus on my ring finger was from that — from the pencil pressing into the same spot ten thousand times. The callus is still there but it's softer now. The tablet stylus doesn't press the same way.
+I used to draw [412 drawings a month](https://www.slashfilm.com/782183/the-pay-controversy-that-plagues-the-japanese-anime-industry/). By hand. Each one was mine. My line, my spacing, my hand. The callus on my ring finger was from that — from the pencil pressing into the same spot ten thousand times. The callus is still there but it's softer now. The tablet stylus doesn't press the same way.
 
 The in-between sequence I was proudest of — a girl catching a leaf, four frames, the fingers curling closed — I drew that in April. If that scene came through today it would be generated in minutes and I would review it and probably it would be fine and I would approve it and move on. And nobody would know the difference. The scene would air. The audience would watch. The leaf would still fall.
 

@@ -50,7 +50,7 @@ related: [voice-message-sooyeon-park-trainee-accepted-2030]
 | **Target Weight** | [49.0 kg](https://koreajoongangdaily.joins.com/2023/05/30/entertainment/kpop/kpop-idols-weight-dieting/20230530170418919.html) |
 | **Status** | ⚠️ Above target — [management review scheduled](https://koreajoongangdaily.joins.com/2023/05/30/entertainment/kpop/kpop-idols-weight-dieting/20230530170418919.html) |
 
-Trainee has gained 0.8 kg this month despite dietary guidance provided in February evaluation. Dormitory meal plan has been adjusted. Trainee has been counseled on the relationship between physical presentation and [concept readiness](https://www.billboard.com/music/pop/k-pop-trainee-life-reality-documentary-1235640921/). Follow-up weigh-in scheduled for April 15. If target is not met by May evaluation, training priority reassignment may be considered.
+Trainee has gained 0.8 kg this month despite dietary guidance provided in February evaluation. [Dormitory meal plan has been adjusted](https://www.scmp.com/magazines/style/celebrity/article/3110355/k-pop-trainee-rules-no-dating-no-phones-weekly-weight). Trainee has been counseled on the relationship between physical presentation and [concept readiness](https://www.billboard.com/music/pop/k-pop-trainee-life-reality-documentary-1235640921/). Follow-up weigh-in scheduled for April 15. If target is not met by May evaluation, training priority reassignment may be considered.
 
 ---
 

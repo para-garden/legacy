@@ -71,7 +71,7 @@ Per **Trainee Agreement §7.4**, the accumulated training investment advanced by
 | Administrative overhead | ₩400,000 | ₩4,400,000 |
 | **Total Training Investment** | | **₩84,480,000** |
 
-The full amount of ₩84,480,000 (approximately $63,400 USD at current exchange rates) is due and payable per the terms below.
+The full amount of [₩84,480,000](https://www.koreaboo.com/news/3rd-gen-kpop-idol-exposes-trainee-debt/) (approximately $63,400 USD at current exchange rates) is due and payable per the terms below.
 
 &nbsp;
 
@@ -97,7 +97,7 @@ Per **Trainee Agreement §9.1**, Luminance Entertainment retains all rights, tit
 
 **4. [Exclusivity and Cooling Period](https://www.koreaboo.com/stories/exposed-terms-kpop-trainee-contracts-privacy-depression/)**
 
-Per **Trainee Agreement §11.2**, a cooling period of twenty-four (24) months shall apply following the termination date. During this period, the former trainee may not enter into a trainee agreement, management contract, or exclusive representation arrangement with any other entertainment company, talent agency, or music label without the prior written consent of Luminance Entertainment. Requests for early release from the cooling period may be submitted in writing to the Legal Affairs Division and will be evaluated on a case-by-case basis.
+Per **Trainee Agreement §11.2**, a cooling period of [twenty-four (24) months](https://en.wikipedia.org/wiki/Slave_contract) shall apply following the termination date. During this period, the former trainee may not enter into a trainee agreement, management contract, or exclusive representation arrangement with any other entertainment company, talent agency, or music label without the prior written consent of Luminance Entertainment. Requests for early release from the cooling period may be submitted in writing to the Legal Affairs Division and will be evaluated on a case-by-case basis.
 
 &nbsp;
 

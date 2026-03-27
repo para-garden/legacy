@@ -21,7 +21,7 @@ As of last week, Voltan has moved our target ship date from March 14 to January 
 
 **What this means in practice.**
 
-Starting Monday, September 16, we're moving into what I'm calling a **sustained milestone push**. This isn't a sprint — it's a commitment to showing up for each other and for the project during a critical window. I'm asking the team for **voluntary extended hours** through the end of the year. The expectation is that leads will work with their teams to find a [flexible schedule](https://igda.org/dss/) that supports both the milestone targets and individual needs.
+Starting Monday, September 16, we're moving into what I'm calling a **sustained milestone push**. This isn't a sprint — it's a commitment to showing up for each other and for the project during a critical window. I'm asking the team for **voluntary extended hours** through the end of the year. The expectation is that leads will work with their teams to find a [flexible schedule](https://igda-website.s3.us-east-2.amazonaws.com/wp-content/uploads/2024/05/01161842/2023-04-14_IGSA-DSS-2023_SummaryReport.pdf) that supports both the milestone targets and individual needs.
 
 To put concrete numbers to it: we need to be targeting **core hours of 9 AM to 8 PM weekdays**, with weekend availability as needed for your department's milestone deliverables. Your leads will communicate specific sprint targets. I trust every person in this studio to understand what their piece of the puzzle requires.
 
@@ -42,7 +42,7 @@ I mean this genuinely — please take care of yourselves during this push. Eat r
 
 **Why this matters.**
 
-I've been in this industry for eighteen years. I've shipped games I was proud of and games I wasn't. Heliograph is the former. What this team has built over the last two and a half years — the world, the systems, the craft in every environment and animation and line of dialogue — it's [genuinely rare](https://www.gamedeveloper.com/audio/crunch-and-extended-hours-both-down-in-latest-igda-dev-satisfaction-survey). You should be proud of it. I am.
+I've been in this industry for eighteen years. I've shipped games I was proud of and games I wasn't. Heliograph is the former. What this team has built over the last two and a half years — the world, the systems, the craft in every environment and animation and line of dialogue — it's [genuinely rare](https://time.com/5603329/e3-video-game-creators-union/). You should be proud of it. I am.
 
 The next four months will be hard. I won't sugarcoat that. But when this ships, when players walk through what you built and feel what you intended them to feel — that's the thing. That's why we're here.
 

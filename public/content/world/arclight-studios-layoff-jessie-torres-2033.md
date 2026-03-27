@@ -17,7 +17,7 @@ Team,
 
 I want to be transparent with you about a decision that affects our studio and our people.
 
-As part of Voltan Entertainment's strategic realignment across its portfolio, Arclight Studios will be reducing its team by approximately 40%. This impacts roles across every department. I want to be direct: this is not a performance decision. The people affected by today's changes are talented, dedicated professionals who gave everything to ship Heliograph.
+As part of Voltan Entertainment's strategic realignment across its portfolio, Arclight Studios will be [reducing its team by approximately 40%](https://en.wikipedia.org/wiki/2022%E2%80%932026_video_game_industry_layoffs). This impacts roles across every department. I want to be direct: this is not a performance decision. The people affected by today's changes are talented, dedicated professionals who gave everything to ship Heliograph.
 
 This was not an easy decision. I want you to know that leadership explored every alternative before arriving here.
 
@@ -25,7 +25,7 @@ This was not an easy decision. I want you to know that leadership explored every
 
 If your role has been eliminated, you will receive a separate email within the next fifteen minutes with details specific to your situation.
 
-- **Severance:** Two weeks of base salary for each year of service, with a minimum of two weeks
+- **Severance:** [Two weeks of base salary for each year of service](https://variety.com/2018/gaming/news/walking-dead-game-developer-hit-staff-layoffs-1202952915/), with a minimum of two weeks
 - **Healthcare:** COBRA eligibility information will be included in your separation packet
 - **Equipment:** Please return your badge and any studio hardware to your department lead or the front desk before end of day
 - **References:** I am personally committed to serving as a reference for anyone affected. You built Heliograph. That matters, and I will make sure anyone who asks knows it

@@ -40,7 +40,7 @@ For workers at Arclight, the timing was particularly bitter. *Heliograph* launch
 
 "We crunched for four months straight," said one former environment artist who requested anonymity. "They told us the milestone bonus was our reward for that sacrifice. I got the bonus in February and my termination email in April."
 
-The former employee said affected workers were given 30 minutes to collect their belongings and that building access was revoked by the time some returned from clearing their desks. Arclight disputes this characterization, saying in a statement that "all affected employees were treated with dignity and respect throughout the separation process."
+The former employee said affected workers were given [30 minutes to collect their belongings](https://thenextweb.com/news/celebrated-studio-telltale-games-shuts-down-in-the-messiest-way-possible) and that building access was revoked by the time some returned from clearing their desks. Arclight disputes this characterization, saying in a statement that "all affected employees were treated with dignity and respect throughout the separation process."
 
 Severance for Arclight employees was two weeks of base pay per year of service, with a two-week minimum. For recently hired workers, that amounted to two weeks. [The Bureau of Labor Statistics reports that only 34% of private-sector workers have access to severance pay at all](https://www.bls.gov/ncs/).
 
@@ -50,7 +50,7 @@ Severance for Arclight employees was two weeks of base pay per year of service, 
 
 Austin has positioned itself as a game development hub for over a decade, with tax incentives, a deep talent pool from UT's game design program, and a cost of living — though rapidly rising — that remains below the Bay Area. The [Austin Chamber of Commerce estimated in 2031](https://www.austinchamber.com/) that the game industry contributed $1.2 billion annually to the local economy and supported roughly 4,800 direct jobs.
 
-But those numbers obscure a pattern that workers say is endemic. Studios ramp up for production, hire aggressively, ship, and then cut — a cycle that leaves workers in a permanent state of insecurity. [The IGDA's most recent Developer Satisfaction Survey](https://igda.org/dss/) found that 36% of respondents had been laid off at least once, and 10% had been laid off three or more times.
+But those numbers obscure a pattern that workers say is endemic. Studios ramp up for production, hire aggressively, ship, and then cut — a cycle that leaves workers in a permanent state of insecurity. [The IGDA's most recent Developer Satisfaction Survey](https://igda-website.s3.us-east-2.amazonaws.com/wp-content/uploads/2024/05/01161842/2023-04-14_IGSA-DSS-2023_SummaryReport.pdf) found that [36% of respondents had been laid off at least once](https://time.com/5603329/e3-video-game-creators-union/), and 10% had been laid off three or more times.
 
 "Nobody saw this coming" is what people keep saying, and it's just not true," said Chris Barlow, a veteran technical artist who has survived four rounds of layoffs across three studios over 12 years. "Everyone saw this coming. We just didn't want to say it out loud during crunch because then you're the negative person and the negative person gets cut first."
 
