@@ -134,20 +134,17 @@ By 2032: 30+ more years of evolution, fragmentation, commodification. What was u
 
 ## Facet coverage
 
-As of 2026-03-27 (late). Updated after full autonomous sprint — 105 world docs, all facets covered.
-
-### Still sparse (3-4 docs)
-
-- **choice** (3), **hubris** (3), **unsettlement** (3), **excess** (4)
+As of 2026-03-27 (continued). 119 world docs. All facets covered; former sparse facets now moderate.
 
 ### Moderate (5-10 docs)
 
-- **amplification** (5), **consumption** (5), **futility** (5), **absence** (7)
-- **aspiration** (10), **complacency** (10), **domestication** (10), **indulgence** (10)
+- **amplification** (5), **futility** (5), **unsettlement** (5), **excess** (6), **hubris** (6)
+- **absence** (7), **consumption** (8), **choice** (9), **complacency** (10), **indulgence** (10)
 
 ### Well-covered (12+ docs)
 
-- **scarcity** (12), **consequences** (13), **satisfaction** (14), **rounding** (19), **justice** (20), **margins** (36), **distance** (73)
+- **domestication** (11), **aspiration** (12), **consequences** (13), **satisfaction** (18)
+- **scarcity** (19), **rounding** (23), **justice** (24), **margins** (44), **distance** (87)
 
 ### 2032 tools — the absence cluster
 
@@ -385,4 +382,21 @@ Three industries, same pattern: creative people enter a machine that extracts th
 - Resignation letter ($15.25/hr → Amazon $19)
 - Silver Creek staffing memo (94% turnover)
 - Ridgemont Community College catalog (where she got her CNA, clinical site at Silver Creek)
+- CMS inspection report — 2 stars, 1 star staffing, 8 deficiencies, 4 CNAs for 106 residents after Maria left
 - No character card yet — could build
+
+**Criminal justice / institutional** — Maricopa County (no character, cross-thread)
+- Bail schedule ($500 misdemeanor → sit in jail if you can't pay)
+- Jail commissary price list (ramen $1.05, 15-min call $4.80, Keefe Group contract)
+- Connects to Carlos (Phoenix), debt portfolio (Resolute buys accounts)
+- Could add: pretrial detention personal document, public defender caseload memo
+
+**Consumer systems / infrastructure** — cross-thread
+- BroadbandNow availability check (1 real option at Carlos's address, $103.99/mo)
+- B-Stock liquidation lot (847 returned items, $24,218 retail → $1,875 bid)
+- Dollar General site selection (Evarts, KY — 0.4 miles from Joy Callahan's church)
+- Desert Vista Elementary school report card (C grade, 24% math proficiency)
+- Capstone Online University recruitment email targeting Carlos
+- Stratum sustainability report (PR version of environmental compliance data)
+- Resolute debt portfolio purchase ($38.2M face value → $1.53M, 4 cents on dollar)
+- FastCash title loan ($1,100 against the Camry at 204% APR)
