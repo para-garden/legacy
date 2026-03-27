@@ -5,7 +5,7 @@ format: article
 theme: gazette
 tags: [amplification, distance]
 collections: [default]
-related: [online-harassment-death]
+related: [online-harassment-death, dollar-general-site-selection-analysis-2032]
 ---
 
 <div class="site-chrome">

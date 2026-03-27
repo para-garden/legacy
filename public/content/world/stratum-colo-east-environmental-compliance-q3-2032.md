@@ -3,7 +3,7 @@ label: "Stratum Colo-East — Automated Environmental Compliance Report, Q3 2032
 description: "The data center used 412 million gallons of water this quarter. The report was generated automatically. Nobody read it."
 tags: [document, unsettlement, distance, futility, consumption]
 collections: [default]
-related: [stratum-series-b-pitch-memo-2029, stratum-workforce-reduction-email-2032]
+related: [stratum-series-b-pitch-memo-2029, stratum-workforce-reduction-email-2032, stratum-annual-sustainability-report-2032]
 ---
 
 <div class="page">
