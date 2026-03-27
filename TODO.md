@@ -134,33 +134,33 @@ By 2032: 30+ more years of evolution, fragmentation, commodification. What was u
 
 ## Facet coverage
 
-As of 2026-03-27. Updated after entertainment cluster + facet expansion sprint.
+As of 2026-03-27. Updated after inside documents + facet expansion.
 
 ### Empty (0 docs)
 
-- **unsettlement** — post-scarcity runaway consumerism. The machines documenting what remains. The most speculative facet — furthest-future material. Natural entry: a data log, a survey report, an automated system's output with no human reader.
-- **absence** — the thing that should exist and doesn't. Natural entry: not the tool itself — the moment someone reaches for it and it's not there. A developer's notes, a forum post, a quiet realization.
 - **indulgence** — pleasure as philosophy. Excess without apology. No documents yet.
 
 ### Sparse (1-3 docs)
 
-- **hubris** (2) — Stratum buildout + Stratum Series B investment memo. The memo is better — none of the claims are wrong yet.
-- **futility** (2) — Stratum buildout + investment memo.
-- **consequences** (1) — Resolute collections letter (Riley Whitaker). The hospital bill became a debt.
-- **choice** (1) — BlueCross open enrollment plan comparison. Three plans, three paths to the same place.
-- **satisfaction** (1) — Whitmore president's annual report. Every number tells the story the institution wants.
-- **scarcity** (1) — BlueCross insulin prior auth denial. Manufacturing cost $3.69/vial, list price $332.
-- **domestication** (3) — Kindling, Grace's journal, Interrupt engagement memo. The algorithm optimizes for arousal.
+- **unsettlement** (1) — Stratum Colo-East environmental compliance report. 412M gallons, auto-generated, nobody read it.
+- **absence** (1) — developer blog post about file sharing. Every path leads to a platform.
+- **hubris** (2) — Stratum buildout + Series B investment memo.
+- **futility** (3) — Stratum buildout + investment memo + env compliance report.
+- **consequences** (1) — Resolute collections letter (Riley Whitaker).
+- **choice** (1) — BlueCross open enrollment plan comparison.
+- **satisfaction** (2) — Whitmore president's annual report + Ascend community benefit report.
+- **scarcity** (1) — BlueCross insulin prior auth denial.
+- **domestication** (4) — Kindling, Grace's journal, Interrupt engagement memo, Luminance trainee eval.
 - **amplification** (3) — Joy's obituary, Interrupt engagement memo, Gazette voter guide.
-- **complacency** (3) — Sasha's blog, Grace's journal, Gazette voter guide. The guide is accurate enough. Nobody wrote it.
-- **consumption** (1) — HydraSense smart water bottle. $79 water bottle with a subscription.
-- **excess** (1) — HydraSense. The horror is that it reads as normal.
-- **aspiration** (3) — Jessie forum post, Soo-yeon voice message, Yuki blog post. Three people entering three industries.
-- **margins** (3) — Marco's demand letter, Stratum buildout, Kindling.
+- **complacency** (3) — Sasha's blog, Grace's journal, Gazette voter guide.
+- **consumption** (2) — HydraSense smart water bottle + Stratum env report + Redfin listing.
+- **excess** (2) — HydraSense + Redfin listing.
+- **aspiration** (6) — Jessie forum post, Soo-yeon voice message, Yuki blog post, Carlos/Luis text thread, Rachel blog post, Rachel cover letter.
+- **margins** (7) — Marco's demand letter, Stratum buildout, Kindling, DoorDash earnings, Rachel cover letter, Arclight crunch email, Luminance trainee eval, Yuki six-months blog.
 
 ### Well-covered (10+ docs)
 
-- **justice** (19), **distance** (14), **rounding** (10) — healthcare and Title IX clusters.
+- **justice** (19), **distance** (20+), **rounding** (10) — healthcare and Title IX clusters, plus new threads.
 
 ### 2032 tools — the absence cluster
 
@@ -345,14 +345,20 @@ Process: research first (real sources, real numbers, real documents), then build
 
 Three industries, same pattern: creative people enter a machine that extracts their passion as labor.
 
-**Gamedev** — Jessie Torres (done: character card, forum post going-in)
-- Inside/out documents still needed
+**Gamedev** — Jessie Torres (done: character card, forum post going-in, Arclight crunch email inside)
+- Out document still needed
 - Research: Telltale closure, CDPR crunch, Rockstar 100-hour weeks, EA spouse letter
 
-**Idol industry** — Soo-yeon Park (done: character card, voice message going-in)
-- Inside/out documents still needed
+**Idol industry** — Soo-yeon Park (done: character card, voice message going-in, Luminance trainee eval inside)
+- Out document still needed
 - Research: trainee debt structures, dating bans, weight checks, mental health (Sulli, Goo Hara, Jonghyun)
 
-**Animation** — Yuki Shimizu (done: character card, blog post going-in)
-- Inside/out documents still needed
+**Animation** — Yuki Shimizu (done: character card, blog post going-in, six-months blog inside)
+- Out document still needed
 - Research: ¥200/drawing pay, Madhouse/MAPPA conditions, animator surveys, IP ownership
+
+**Gig economy** — Carlos Reyes (done: character card, Carlos/Luis text thread going-in, DoorDash earnings inside)
+- Out document still needed
+
+**Adjunct academia** — Rachel Odom (done: character card, first-semester blog going-in, cover letter inside)
+- Out document still needed
