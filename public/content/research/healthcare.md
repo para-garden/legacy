@@ -1,6 +1,6 @@
 ---
 label: Healthcare Billing
-description: Real sources behind the hospital bill, EOB, collections letter, and chargemaster memo.
+description: Real sources behind the hospital bill, EOB, collections letter, chargemaster memo, and community benefit reporting.
 collections: [research]
 ---
 
@@ -122,3 +122,167 @@ Flat. Bureaucratic precision. No emotional language. Careful not to threaten arr
 - KFF Health Tracking Poll, "Health Care Debt in the United States," June 2022. https://www.kff.org/health-costs/poll-finding/kff-health-care-debt-survey/
 - GAO-22-105337, "Ambulance Providers: Available Data and Limitations," April 2022. https://www.gao.gov/products/gao-22-105337
 - Himmelstein et al., "Medical Bankruptcy: Still Common Despite the ACA," *American Journal of Public Health*, 2019.
+
+---
+
+## Community Benefit Reporting and the IRS Schedule H
+
+### What IRS Schedule H requires
+
+Nonprofit hospitals must file IRS Form 990, Schedule H to maintain tax-exempt status under IRC 501(c)(3). Schedule H requires reporting on community benefit activities, community health needs assessments (CHNA, required every three years), financial assistance policies, and billing/collection practices under Section 501(r).
+
+**Schedule H community benefit categories (Part I):**
+1. **Financial assistance (charity care)** — free or discounted services under the hospital's financial assistance policy
+2. **Unreimbursed Medicaid** — the gap between Medicaid payments and hospital costs for Medicaid patients
+3. **Unreimbursed costs of other means-tested government programs**
+4. **Health professions education** — residency programs, nursing education, clinical training
+5. **Subsidized health services** — services provided at a loss that meet community need (e.g., burn units, trauma, psychiatric)
+6. **Research** — unfunded or underfunded clinical and community health research
+7. **Community health improvement services** — screenings, health education, vaccination clinics
+8. **Cash and in-kind contributions** — donations to community organizations for health purposes
+9. **Community building activities** (Part II, reported separately) — housing improvement, workforce development, environmental improvements
+
+**Critical: no minimum spending threshold.** There is no federal law mandating that nonprofit hospitals provide a specific dollar amount or percentage of revenue as community benefit. The IRS requires reporting but does not define "enough." A hospital can report $0 in charity care and retain its tax exemption as long as it completes the CHNA, maintains a financial assistance policy, and limits billing practices under 501(r).
+
+### The charity care trick — what counts as "community benefit"
+
+The headline community benefit number that hospitals report is vastly larger than actual free care for poor people. The accounting categories do the work.
+
+**Composition of reported community benefit (2017 aggregate, from Health Affairs):**
+- Unreimbursed Medicaid: **44%** of total reported community benefit
+- Charity care (actual free/discounted care): **17%**
+- Health professions education: **15%**
+- Subsidized health services: **10%**
+- Community health improvement: **4%**
+- Research: **4%**
+- Cash/in-kind contributions: **3%**
+- Other means-tested programs: **2%**
+- Community building: **1%**
+
+So **less than one-fifth** of reported "community benefit" is actual charity care. The single largest category — unreimbursed Medicaid — is the gap between what Medicaid pays and what the hospital says it costs to treat Medicaid patients. The hospital had no choice about treating these patients. The "cost" is calculated against the hospital's own cost accounting, not an external standard.
+
+**Average spending as percentage of operating expenses:**
+- Total community benefit (all categories): **8.1%** of expenses
+- Community benefit excluding unreimbursed Medicaid: **4.3%**
+- Charity care alone: **1.7%** average; **median is 1.4%** (half of all hospitals spend 1.4% or less)
+
+**Charity care is reported at gross charges, not cost.** Hospitals report charity care write-offs at chargemaster rates. Since chargemaster rates are typically 3x to 10x actual cost (see chargemaster section above), reporting at charges inflates the community benefit number. GAO documented this in 2006: "Hospitals generally report uncompensated care at charges... since charges typically exceed costs, reporting uncompensated care at charges overstates the actual resource cost." This was the subject of Senate Finance Committee investigation under Sen. Grassley in 2013. It remains standard practice.
+
+**Medical education as community benefit:** Teaching hospitals count the unreimbursed cost of residency programs as community benefit. This is a real expense, but it primarily benefits the hospital (trained residents provide cheap labor) and the medical profession. It is not charity. It can represent 15% of a hospital's reported community benefit.
+
+### Real numbers — the scale
+
+**JAMA study (2024):** 2,927 US nonprofit hospitals received a total of **$37.4 billion** in tax benefits in 2021. More than half came from state and local tax exemptions (property tax, sales tax, income tax). 7% of hospitals accounted for half the tax benefits.
+
+**AHA's counter-claim:** The American Hospital Association reports that tax-exempt hospitals provided **$149 billion** in "total benefits" to communities in 2022. This figure includes all Schedule H categories plus "Medicare shortfall" (the gap between Medicare payments and hospital costs), which is not even a Schedule H community benefit category. The AHA commissioned Ernst & Young for this analysis.
+
+**Lown Institute Fair Share analysis (2024):**
+- **77-80%** of nonprofit hospitals spend less on charity care and community investment than the value of their tax exemption
+- Combined "fair share deficit": **$25.7 billion** in 2021 — the amount by which tax breaks exceeded community spending
+- The 10 private nonprofit systems with the largest deficits: Providence ($705M), Trinity Health ($671M), Mass General Brigham ($625M) — these 10 systems alone accounted for $5.6 billion of the total deficit
+- The $25.7 billion deficit would be enough to pay off the medical debt of everyone in California, Texas, New York, and Pennsylvania combined
+
+**Health Affairs study (2023) — "Profits And Cash Reserves Grow, Charity Care Does Not":**
+- From 2012 to 2019, mean nonprofit hospital operating profit grew from $43.01M to $58.61M
+- Cash reserves grew from $133.34M to $224.33M
+- Charity care spending *decreased* from $6.65M to $6.36M
+- For every dollar of extra profit, nonprofit hospitals set aside **$1.73 in cash reserves**
+- For-profit hospitals actually *increased* charity care spending slightly over the same period
+
+### CEO compensation
+
+**Lown Institute pay equity analysis:**
+- Average nonprofit hospital CEO compensation: **$1.3 million/year**
+- CEOs make on average **8x** what workers without advanced degrees (housekeeping, kitchen, medical records) earn
+- Range: 2:1 at the most equitable hospitals to **60:1** at the least equitable
+- Some CEOs make more than 1,000x housekeeping staff wages
+- Most CEOs saw a **29% pay increase** from 2021-2024, exceeding both inflation (22%) and worker wage growth (26%)
+- Largest systems: Ascension CEO received more than **$10 million** in bonuses
+- Four Pennsylvania hospitals had tax-exempt status revoked because executive salaries were deemed excessive and none spent even 1% of expenses on charity care
+
+### The contrast — specific cases
+
+**Methodist Le Bonheur Healthcare (Memphis, TN) — ProPublica/MLK50 investigation:**
+- Filed more than **8,300 lawsuits** against patients over five years (2014-2018)
+- Secured wage garnishment orders in **46%** of cases
+- Sued dozens of its own low-wage employees for unpaid medical bills
+- Reported **$226 million** in community benefit
+- CEO: Michael Ugwueke, compensation in the millions
+- Pays zero property taxes, zero income taxes
+- After investigation: erased debts of 6,500+ patients, raised minimum wage, stopped suing employees
+
+**Providence Health System (51 hospitals, 7 states) — NYT investigation (2022):**
+- Reported **$1.9-2.1 billion** in community benefit annually
+- Actual charity care spending: **below 1%** of expenses (vs. 2.4% industry average)
+- Lown Institute "fair share deficit": **$705 million** (largest of any private nonprofit system initially, then second-largest)
+- In 2018, executives hired McKinsey to design "Rev-Up" — a program to extract more money from patients, including those who qualified for free care
+- Rev-Up playbook: collection department employees tracked on wall-mounted thermometer charts; supervisors wore Rev-Up themed Halloween costumes
+- In 2019, Providence stopped waiving bills for Medicaid-covered patients and sent them to debt collections instead
+- After investigation: agreed to **$157.7 million** in refunds and debt erasure ($20.6M in repayments plus $137.2M in debt forgiveness for 65,217 patients)
+- Washington state AG and Oregon consumer protection probe
+
+**Heartland Regional Medical Center (St. Joseph, MO) — ProPublica:**
+- Only hospital in economically struggling county of 90,000
+- Reported **$45 million profit** in the year investigated
+- CEO compensation: **$1.2 million**
+- Pays no income or property taxes
+- Aggressively pursued patients for unpaid bills
+
+### The language — how hospitals talk about this
+
+**AHA framing (industry voice):**
+- "Tax-exempt hospitals provided nearly $150 billion in total benefits to their communities"
+- "Too often, discussions of 'community benefit' narrowly equate it with Part I financial assistance"
+- "Nonprofit hospitals' value to communities [is] ten times their federal tax exemption"
+- "Beyond the Labels: Schedule H Reporting and the Benefits That Hospitals Provide to Communities" (actual AHA blog title)
+- Commissioned Ernst & Young to produce the numbers. Contracted RTI International for data.
+
+**Individual hospital system voice (typical community benefit report language):**
+- Community benefit reports present the aggregate number in large type — "$226 million invested in our community" — without breaking down what the categories are
+- "Committed to the health and well-being of the communities we serve"
+- "Addressing each community's unique needs"
+- Charity care is listed alongside medical education, Medicaid shortfall, and research as if they are equivalent forms of generosity
+- The CHNA (Community Health Needs Assessment) becomes a document about programs the hospital offers, not about outcomes in the community
+- Reports emphasize number of programs, number of people "reached," number of partnerships — activity metrics, not impact metrics
+
+**What the reports do not say:**
+- They do not compare community benefit spending to the value of the tax exemption
+- They do not break out charity care as a percentage of total community benefit
+- They do not report charity care at cost (only at charges)
+- They do not mention lawsuits filed against patients
+- They do not mention CEO compensation in the community benefit report
+- They do not mention cash reserves
+
+### Key sources
+
+- IRS Instructions for Schedule H (Form 990). https://www.irs.gov/instructions/i990sh
+- IRS, "Requirements for 501(c)(3) hospitals under the ACA — Section 501(r)." https://www.irs.gov/charities-non-profits/charitable-organizations/requirements-for-501c3-hospitals-under-the-affordable-care-act-section-501r
+- Health Affairs Brief, "Nonprofit Hospitals' Community Benefit Requirements." https://www.healthaffairs.org/do/10.1377/hpb20160225.954803/
+- Ge Bai et al., "Nonprofit Hospitals: Profits And Cash Reserves Grow, Charity Care Does Not," *Health Affairs*, June 2023. https://www.healthaffairs.org/doi/10.1377/hlthaff.2022.01542
+- Hossein Zare, Matthew Eisenberg, Gerard Anderson, "Charity Care and Community Benefit in Non-Profit Hospitals: Definition and Requirements," *INQUIRY*, 2021. https://journals.sagepub.com/doi/10.1177/00469580211028180 / https://pmc.ncbi.nlm.nih.gov/articles/PMC8246580/
+- Bai & Anderson, "Estimation of Tax Benefit of US Nonprofit Hospitals," *JAMA*, September 2024. https://jamanetwork.com/journals/jama/fullarticle/2824116
+- GAO-23-106777, "IRS Oversight of Hospitals' Tax-Exempt Status." https://www.gao.gov/assets/gao-23-106777.pdf
+- GAO-06-798, "Nonprofit, For-Profit, and Government Hospitals: Uncompensated Care and Other Community Benefits," 2006. https://www.gao.gov/assets/gao-06-798.pdf
+- Lown Institute, "Hospital Fair Share Spending," 2024. https://lownhospitalsindex.org/hospital-fair-share-spending-2024/
+- Lown Institute, "5 Things You Need to Know About Hospital Community Benefit Spending." https://lowninstitute.org/5-things-you-need-to-know-about-hospital-community-benefit-spending/
+- Lown Institute, "What Do the Highest-Paid Nonprofit Hospital CEOs Have in Common?" https://lowninstitute.org/what-do-the-highest-paid-nonprofit-hospital-ceos-have-in-common/
+- Lown Institute Hospitals Index methodology. https://lownhospitalsindex.org/rankings/our-methodology/
+- KFF, "Hospital Charity Care: How It Works and Why It Matters." https://www.kff.org/health-costs/hospital-charity-care-how-it-works-and-why-it-matters/
+- KFF Health System Tracker (charity care data). https://www.healthsystemtracker.org
+- ProPublica, "The Nonprofit Hospital That Makes Millions, Owns a Collection Agency and Relentlessly Sues the Poor" (Methodist Le Bonheur). https://www.propublica.org/article/methodist-le-bonheur-healthcare-sues-poor-medical-debt
+- ProPublica, "Thousands of Poor Patients Face Lawsuits From Nonprofit Hospitals That Trap Them in Debt." https://www.propublica.org/article/thousands-of-poor-patients-face-lawsuits-from-nonprofit-hospitals-that-trap-them-in-debt
+- ProPublica, "From the E.R. to the Courtroom: How Nonprofit Hospitals Are Seizing Patients' Wages." https://www.propublica.org/article/how-nonprofit-hospitals-are-seizing-patients-wages
+- ProPublica, "Low-Wage Workers Are Being Sued for Unpaid Medical Bills by a Nonprofit Christian Hospital That Employs Them." https://www.propublica.org/article/methodist-hospital-sues-low-wage-workers-medical-debt
+- NYT / Willamette Week, "They Were Entitled to Free Care. Hospitals Hounded Them to Pay." (Providence investigation, September 2022). https://www.wweek.com/news/2022/09/25/a-new-york-times-investigation-examines-providences-aggressive-financial-practices/
+- STAT News, "JAMA study: Nonprofit hospitals get big federal, state tax breaks," September 2024. https://www.statnews.com/2024/09/26/value-of-nonprofit-hospital-tax-exemption-jama-aha-study/
+- STAT News, "Nonprofit hospitals posting a profit should lose tax exempt status," April 2024. https://www.statnews.com/2024/04/14/nonprofit-hospitals-turn-profit-charity-care-tax-exempt-status/
+- Fierce Healthcare, "80% of nonprofit hospitals' community investments lag their tax savings." https://www.fiercehealthcare.com/providers/80-nonprofit-hospitals-dont-reinvest-their-tax-savings-community-lown-institute-finds
+- Fierce Healthcare, "Providence agrees to $158M of refunds, debt erasure." https://www.fiercehealthcare.com/providers/providence-agrees-158m-refunds-debt-erasure-settle-charity-care-billing-investigation
+- NPR, "CEOs earn big bucks at nonprofit hospitals. Does that benefit patients?" August 2024. https://www.npr.org/sections/shots-health-news/2024/08/19/nx-s1-5078495/nonprofit-hospitals-ceo-compensation-community-benefit-uninsured-mission-tax-exempt-management
+- Health Affairs Forefront, "Nonprofit Hospital CEO Compensation: How Much Is Enough?" https://www.healthaffairs.org/do/10.1377/forefront.20220208.925255/
+- AHA, "Tax-exempt Hospitals Provided $149 Billion in Total Benefits to Their Communities," September 2025. https://www.aha.org/guidesreports/2025-09-10-tax-exempt-hospitals-provided-149-billion-total-benefits-their-communities
+- AHA, "Benefits to Communities." https://www.aha.org/community-benefit
+- Community Benefit Insight (IRS Schedule H data explorer). https://www.communitybenefitinsight.org/?page=info.cb101
+- CRFB, "The Federal Tax Benefits for Nonprofit Hospitals," June 2024. https://www.crfb.org/papers/federal-tax-benefits-nonprofit-hospitals
+- US Senate HELP Committee report on nonprofit hospitals' tax-exempt status, October 2023.
+- House Ways and Means Committee hearing, "Tax-Exempt Hospitals and the Community Benefit Standard," September 2025. https://waysandmeans.house.gov/2025/09/22/six-key-moments-hearing-on-tax-exempt-hospitals-and-the-community-benefit-standard/
