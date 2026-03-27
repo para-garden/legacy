@@ -134,33 +134,32 @@ By 2032: 30+ more years of evolution, fragmentation, commodification. What was u
 
 ## Facet coverage
 
-As of 2026-03-27. Updated after inside documents + facet expansion.
-
-### Empty (0 docs)
-
-- **indulgence** — pleasure as philosophy. Excess without apology. No documents yet.
+As of 2026-03-27 (late). Updated after autonomous worldbuilding sprint — all facets covered.
 
 ### Sparse (1-3 docs)
 
-- **unsettlement** (1) — Stratum Colo-East environmental compliance report. 412M gallons, auto-generated, nobody read it.
-- **absence** (1) — developer blog post about file sharing. Every path leads to a platform.
-- **hubris** (2) — Stratum buildout + Series B investment memo.
-- **futility** (3) — Stratum buildout + investment memo + env compliance report.
-- **consequences** (1) — Resolute collections letter (Riley Whitaker).
-- **choice** (1) — BlueCross open enrollment plan comparison.
-- **satisfaction** (2) — Whitmore president's annual report + Ascend community benefit report.
-- **scarcity** (1) — BlueCross insulin prior auth denial.
-- **domestication** (4) — Kindling, Grace's journal, Interrupt engagement memo, Luminance trainee eval.
-- **amplification** (3) — Joy's obituary, Interrupt engagement memo, Gazette voter guide.
-- **complacency** (3) — Sasha's blog, Grace's journal, Gazette voter guide.
-- **consumption** (2) — HydraSense smart water bottle + Stratum env report + Redfin listing.
-- **excess** (2) — HydraSense + Redfin listing.
-- **aspiration** (6) — Jessie forum post, Soo-yeon voice message, Yuki blog post, Carlos/Luis text thread, Rachel blog post, Rachel cover letter.
-- **margins** (7) — Marco's demand letter, Stratum buildout, Kindling, DoorDash earnings, Rachel cover letter, Arclight crunch email, Luminance trainee eval, Yuki six-months blog.
+- **unsettlement** (1) — Stratum env compliance report
+- **indulgence** (1) — Solstice ketamine retreat
+- **hubris** (2) — Stratum buildout + Series B memo
+- **amplification** (3) — Joy's obituary, Interrupt memo, Gazette voter guide
+
+### Moderate (4-9 docs)
+
+- **futility** (4) — Stratum cluster + Animage+ AI feature
+- **absence** (2) — dev blog + rideshare cooperative rejection
+- **choice** (2) — BlueCross plan comparison + cooperative rejection
+- **consequences** (5) — collections letter, Arclight layoff, COBRA, Soo-yeon termination, IRS installment
+- **satisfaction** (4) — Whitmore annual report, Ascend community benefit, Heron Capital, Silver Creek staffing
+- **scarcity** (5) — insulin denial, appointment letter, rent increase, COBRA, urgent care bill
+- **domestication** (7) — Kindling, Grace, Interrupt, Luminance eval, termination, Soo-yeon thread, Uber review
+- **complacency** (5) — Sasha, Grace, Gazette, Rachel's AI paper email, Animage+ feature
+- **consumption** (3) — HydraSense, env report, Redfin listing
+- **excess** (3) — HydraSense, Redfin, Solstice retreat
+- **aspiration** (7) — Jessie, Soo-yeon, Yuki, Carlos/Luis, Rachel blog, cover letter, viewbook
 
 ### Well-covered (10+ docs)
 
-- **justice** (19), **distance** (20+), **rounding** (10) — healthcare and Title IX clusters, plus new threads.
+- **margins** (15+), **distance** (30+), **rounding** (12+), **justice** (19) — the densest facets.
 
 ### 2032 tools — the absence cluster
 
