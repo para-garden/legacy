@@ -235,19 +235,19 @@ Find the seeds in the frozen dirt.
 
 ---
 
-October 20, 2031
+October 19, 2031
 11:15 PM
 
-The bruise on my wrist is getting worse. I had to change the band-aid. 
-I am so tired. I haven't even walked into the room yet, and I am already exhausted by the sheer force of will it's going to take to sit in that chair. 
-I have to look at him. I have to occupy the same physical space as him. 
-I am going to have to do this every Tuesday and Thursday until December. 
-Thirty-one more hours in that room. 
-If I just break the time down into minutes, it's easier to swallow. 
-Sixty minutes tomorrow. Three thousand, six hundred seconds. 
-I can hold my breath for three thousand, six hundred seconds. 
-I just have to be a rock sitting at the bottom of the river while the toxicant flows over me. I won't absorb it. I'll just let it pass. 
-I have to sleep. If I don't sleep, the engine is going to seize up during the lecture. 
+The bruise on my wrist is getting worse. I had to change the band-aid.
+I am so tired. I haven't even walked into the room yet, and I am already exhausted by the sheer force of will it's going to take to sit in that chair.
+I have to look at him. I have to occupy the same physical space as him.
+I am going to have to do this every Tuesday and Thursday until December.
+Thirty-one more hours in that room.
+If I just break the time down into minutes, it's easier to swallow.
+Sixty minutes tomorrow. Three thousand, six hundred seconds.
+I can hold my breath for three thousand, six hundred seconds.
+I just have to be a rock sitting at the bottom of the river while the toxicant flows over me. I won't absorb it. I'll just let it pass.
+I have to sleep. If I don't sleep, the engine is going to seize up during the lecture.
 Find the seeds. Just find the seeds.
 
 ---

@@ -69,6 +69,7 @@ related: [dani-journal-2031]
 <div class="msg sent"><div class="bubble">I haven't told anyone. I've just been going to class. He sits two rows behind me. I thought if I just kept the routine it would be fine.</div><span class="time">3:08 PM</span></div>
 <div class="msg sent"><div class="bubble">He smiled at me. He thinks it's a joke. He made me into a punchline and I didn't consent to it.</div><span class="time">3:09 PM</span></div>
 <div class="msg sent"><div class="bubble">I am on High Street and my chest is doing something wrong. I bit the inside of my cheek so hard it's bleeding.</div><span class="time">3:10 PM</span></div>
+<div class="msg sent"><div class="bubble">I just dropped my phone. The screen is cracked. There's glass in my thumb.</div></div>
 
 <div class="msg recv"><div class="bubble">where on high street.</div><span class="time">3:11 PM</span></div>
 <div class="msg sent"><div class="bubble">Outside the Thai place. On the green bench.</div><span class="time">3:12 PM</span></div>
@@ -133,7 +134,7 @@ related: [dani-journal-2031]
 
 <div class="msg sent"><div class="bubble">I'm walking back to the apartment. My fingers are numb.</div><span class="time">5:05 PM</span></div>
 
-<div class="msg sent"><div class="bubble">I'm inside. Priya was in the kitchen. She asked if I wanted tea and I told her I had a migraine and locked my door.</div><span class="time">5:15 PM</span></div>
+<div class="msg sent"><div class="bubble">I'm inside. Priya took one look at me and locked the door. She gave me her blanket. She didn't ask.</div><span class="time">5:15 PM</span></div>
 <div class="msg sent"><div class="bubble">I'm sitting on the floor.</div><span class="time">5:16 PM</span></div>
 
 <div class="msg recv"><div class="bubble">good. stay on the floor.</div><span class="time">5:20 PM</span></div>
