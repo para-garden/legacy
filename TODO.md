@@ -134,31 +134,29 @@ By 2032: 30+ more years of evolution, fragmentation, commodification. What was u
 
 ## Facet coverage
 
-As of 2026-03-25. The world is heavily concentrated in justice/distance/rounding (healthcare + Title IX clusters). Most facets have zero documents.
+As of 2026-03-27. Updated after entertainment cluster + facet expansion sprint.
 
 ### Empty (0 docs)
 
-- **hubris** — the era of overreach. No documents yet showing humans in the moment, certain they are right. Natural entry: a memo, a pitch deck, a policy brief where the author is visibly, confidently wrong about the future.
-- **consequences** — the aftermath. Exists implicitly (Riley's debt cascade, Marcus's narrowed options) but no document is *about* the aftermath as its primary subject. Natural entry: something set years later — a follow-up, a where-are-they-now, a thing someone finds in a drawer.
-- **unsettlement** — post-scarcity runaway consumerism. The machines documenting what remains. No documents. The most speculative facet — could be the furthest-future material. Natural entry: a data log, a survey report, an automated system's output with no human reader.
-- **futility** — brute-forcing intelligence. Scaling the wrong thing. No documents. Sasha's blog touches this but isn't tagged for it. Natural entry: a changelog, a benchmark report, a funding proposal that's about to scale something that doesn't work.
-- **aspiration** — reaching for utopia, ignoring limits. No documents. Natural entry: a mission statement, a manifesto, a grant application from something that almost worked.
-- **domestication** — a few individuals shaping public consciousness. No documents. Natural entry: an influencer's content calendar, a PR strategy doc, a platform's internal metrics showing what they amplified and why.
-- **choice** — the illusion of choice. No documents. Natural entry: a comparison chart, a ballot, a product catalog where every option leads to the same place.
-- **satisfaction** — metric satisfaction. Picking the numbers that tell the story you want. No documents. Natural entry: a quarterly report, a dashboard, a press release celebrating a number that hides a worse one.
-- **scarcity** — manufactured scarcity. No documents. Natural entry: a pricing memo, a supply chain report, a policy document that explains why something abundant is rationed.
-- **consumption** — ambient excess. No documents. Natural entry: a receipt, an inventory, a utility bill, a thing so normal nobody questions it.
-- **excess** — post-scarcity (derogatory). No documents. Natural entry: a menu, an event program, a product launch — the moment when the constraints came off.
-- **absence** — the thing that should exist and doesn't. No documents. Natural entry: not the tool itself — the moment someone reaches for it and it's not there. A developer's notes, a forum post, a quiet realization.
+- **unsettlement** — post-scarcity runaway consumerism. The machines documenting what remains. The most speculative facet — furthest-future material. Natural entry: a data log, a survey report, an automated system's output with no human reader.
+- **absence** — the thing that should exist and doesn't. Natural entry: not the tool itself — the moment someone reaches for it and it's not there. A developer's notes, a forum post, a quiet realization.
+- **indulgence** — pleasure as philosophy. Excess without apology. No documents yet.
 
-### Sparse (1-2 docs)
+### Sparse (1-3 docs)
 
-- **complacency** (2) — Sasha's blog, Grace's journal. Grace also touches domestication.
-- **amplification** (1) — only Joy's obituary. Needs more: the algorithm side, the platform mechanics, the person with 2 million followers who would've had 200.
-- **margins** (3) — Marco's demand letter, Stratum buildout, Kindling. Needs more: the extraction side — Derek's transcripts touch this but aren't tagged.
-- **hubris** (1) — Stratum buildout. Needs more.
-- **futility** (1) — Stratum buildout. Needs more.
-- **domestication** (2) — Kindling, Grace's journal. Needs more.
+- **hubris** (2) — Stratum buildout + Stratum Series B investment memo. The memo is better — none of the claims are wrong yet.
+- **futility** (2) — Stratum buildout + investment memo.
+- **consequences** (1) — Resolute collections letter (Riley Whitaker). The hospital bill became a debt.
+- **choice** (1) — BlueCross open enrollment plan comparison. Three plans, three paths to the same place.
+- **satisfaction** (1) — Whitmore president's annual report. Every number tells the story the institution wants.
+- **scarcity** (1) — BlueCross insulin prior auth denial. Manufacturing cost $3.69/vial, list price $332.
+- **domestication** (3) — Kindling, Grace's journal, Interrupt engagement memo. The algorithm optimizes for arousal.
+- **amplification** (3) — Joy's obituary, Interrupt engagement memo, Gazette voter guide.
+- **complacency** (3) — Sasha's blog, Grace's journal, Gazette voter guide. The guide is accurate enough. Nobody wrote it.
+- **consumption** (1) — HydraSense smart water bottle. $79 water bottle with a subscription.
+- **excess** (1) — HydraSense. The horror is that it reads as normal.
+- **aspiration** (3) — Jessie forum post, Soo-yeon voice message, Yuki blog post. Three people entering three industries.
+- **margins** (3) — Marco's demand letter, Stratum buildout, Kindling.
 
 ### Well-covered (10+ docs)
 
