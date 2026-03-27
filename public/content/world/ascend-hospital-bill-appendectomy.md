@@ -4,6 +4,11 @@ description: "Itemized hospital bill for emergency appendectomy. Total charges: 
 format: document
 theme: ascend
 tags: [document, healthcare, capitalism]
+related:
+  - ascend-hospital-bill-appendectomy-watts-2031
+  - resolute-debt-portfolio-purchase-agreement-2032
+  - ascend-chargemaster-governance-memo-2031
+  - ascend-community-benefit-report-2032
 ---
 
 <div class="letterhead">

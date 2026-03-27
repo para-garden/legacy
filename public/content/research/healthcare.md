@@ -121,7 +121,45 @@ Flat. Bureaucratic precision. No emotional language. Careful not to threaten arr
 - CFPB, "Medical Debt Burden in the United States," February 2022. https://www.consumerfinance.gov/data-research/research-reports/medical-debt-burden-in-the-united-states/
 - KFF Health Tracking Poll, "Health Care Debt in the United States," June 2022. https://www.kff.org/health-costs/poll-finding/kff-health-care-debt-survey/
 - GAO-22-105337, "Ambulance Providers: Available Data and Limitations," April 2022. https://www.gao.gov/products/gao-22-105337
-- Himmelstein et al., "Medical Bankruptcy: Still Common Despite the ACA," *American Journal of Public Health*, 2019.
+- Himmelstein et al., "Medical Bankruptcy: Still Common Despite the ACA," *American Journal of Public Health*, 2019. https://pmc.ncbi.nlm.nih.gov/articles/PMC6366487/
+
+---
+
+## Uninsured / Self-Pay Experience
+
+**What uninsured patients actually pay:**
+- Appendectomy without insurance: $10,000–$35,000+ uncomplicated; $30,000–$60,000+ with complications. Source: https://health.costhelper.com/appendicitis.html
+- List (chargemaster) prices average 164% higher than negotiated rates; cash prices average 60% higher than negotiated rates. Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC9464687/
+- New Mexico hospital data: average chargemaster appendectomy $84,498 vs. average commercial insurance payment $43,750. Source: https://www.nmpovertylaw.org/wp-content/uploads/2022/11/Report-Fred-Hyde-to-New-Mexico-Update-FINAL-2022-Nov.pdf
+
+**Self-pay discounts:**
+- Vary widely: 20–60% off chargemaster. No national standard. Some hospitals apply automatically; others require asking or attestation. Source: https://oig.hhs.gov/documents/other-guidance/908/FA021904hospitaldiscounts.pdf
+- Under 501(r), hospitals must limit charges for FAP-eligible patients to no more than "amounts generally billed" (AGB) to insured patients. Source: https://www.irs.gov/charities-non-profits/limitation-on-charges-section-501r5
+
+**Financial assistance access barriers:**
+- Only 29% of eligible patients receive financial assistance. 51% never apply. 52% receive no information about it. Source: https://dollarfor.org/the-path-to-charity-care/
+- Black patients have 62% lower probability of approval. Source: https://dollarfor.org/the-path-to-charity-care/
+- $2.7 billion in bad debt from patients likely eligible for charity care but who didn't receive it. Source: https://www.kff.org/health-costs/issue-brief/hospital-charity-care-how-it-works-and-why-it-matters/
+- Most hospitals could grant assistance to every eligible patient and see net revenue decline by only 0.7%. Source: https://dollarfor.org/press/bottom-line-report-press-release/
+
+**CareCredit / medical credit cards:**
+- 0% promotional period (6–24 months), then 26.99% APR retroactively on entire original balance (deferred interest). Source: https://www.consumerfinance.gov/about-us/newsroom/cfpb-report-highlights-costly-credit-cards-and-loans-pushed-on-patients/
+- Consumers paid $1 billion in deferred interest 2018–2020. Source: same.
+- CFPB ordered CareCredit to create $34.1 million reimbursement fund in 2013 for deceptive enrollment. Source: https://www.consumerfinance.gov/about-us/newsroom/cfpb-orders-ge-carecredit-to-refund-34-1-million-for-deceptive-health-care-credit-card-enrollment/
+
+**Hospital price transparency compliance:**
+- Only 21% of hospitals fully compliant as of November 2024. Source: https://www.healthaffairs.org/do/10.1377/forefront.20251021.630519/
+- GAO found hospitals encoded placeholder values instead of real prices in >90% of estimated allowed amounts. Source: https://www.gao.gov/products/gao-25-106995
+- CMS issued only $4 million in penalties to 14 hospitals (2021–2023). Source: https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/hospital-price-transparency-enforcement-activities-and-outcomes
+
+**Real appendectomy cases (uninsured/underinsured):**
+- Shannon Harness, 39, Marine veteran, no insurance. Emergency appendectomy with complications: $80,232. Hospital offered 30% discount — still $56,162. Source: https://www.npr.org/sections/health-shots/2020/08/25/904517805/veterans-appendectomy-launches-excruciating-months-long-battle-over-bill
+- Jay Comfort, 66, Swiss visitor. Emergency appendectomy: $42,156. Swiss insurance covered $8,184. Source: https://www.npr.org/sections/health-shots/2023/05/23/1177149738/he-visited-the-u-s-for-his-daughters-wedding-and-left-with-a-42-000-medical-bill
+- Joshua Bates, 28. Emergency appendectomy: $41,212. Insurance paid $8,944. Balance of $28,295 to collections. Source: https://kffhealthnews.org/news/appendicitis-is-painful-add-a-41212-surgery-bill-to-the-misery/
+
+**Bankruptcy and medical debt:**
+- 66.5% of bankruptcies linked to medical problems; ~530,000 families/year. Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC6366487/
+- 27.6 million Americans uninsured in 2022. Adults 19–34 highest uninsured rate. Source: https://www.census.gov/library/publications/2023/demo/p60-281.html and https://www.kff.org/uninsured/issue-brief/key-facts-about-the-uninsured-population/
 
 ---
 

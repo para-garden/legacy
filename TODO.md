@@ -290,7 +290,7 @@ Documents with real-system claims need quiet inline links to real sources. Statu
 
 Same event as Riley's story (appendectomy), different outcomes. For juxtaposition. Not a parallel document series — fragments, things you find. Some harder to find than others. The medical stuff as entry point, the ripple as the story.
 
-- **No insurance** — chargemaster price is the real price. What that actually looks like.
+- [x] **No insurance** — Jordan Watts. Same hospital, same procedure, no insurance. Self-pay discount 25%, owes $41,112.75. Riley owed $4,247. `ascend-hospital-bill-appendectomy-watts-2031.md`
 - **Debt cascade** — medical debt tips into missed rent, destroyed credit, downstream effects on unrelated things. Medical in the background, ripple in the foreground.
 - **Delayed care** — person who didn't go in because of cost. Paid a different price for that.
 - **Out-of-network cascade** — anesthesiologist came back OON and tipped something Riley narrowly avoided.
