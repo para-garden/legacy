@@ -134,32 +134,20 @@ By 2032: 30+ more years of evolution, fragmentation, commodification. What was u
 
 ## Facet coverage
 
-As of 2026-03-27. Updated after second autonomous worldbuilding sprint — 97 world docs, all facets covered, no facet under 2.
+As of 2026-03-27 (late). Updated after full autonomous sprint — 105 world docs, all facets covered.
 
-### Sparse (2-5 docs)
+### Still sparse (3-4 docs)
 
-- **hubris** (3) — Stratum buildout, Series B memo, Vantage summit press release
-- **unsettlement** (2) — Stratum env compliance, GreenLoop e-waste tracker
-- **amplification** (3) — Joy's obituary, Interrupt memo, Gazette voter guide
-- **choice** (3) — BlueCross plan comparison, cooperative rejection, DoorDash earnings
-- **excess** (3) — HydraSense, Redfin, Solstice retreat
-- **consumption** (4) — HydraSense, env report, Redfin, e-waste tracker
-- **futility** (5) — Stratum cluster, Animage+ AI feature, Yuki's third blog
+- **choice** (3), **hubris** (3), **unsettlement** (3), **excess** (4)
 
-### Moderate (6-10 docs)
+### Moderate (5-10 docs)
 
-- **absence** (6) — dev blog, cooperative rejection, Arclight layoff, Yuki third blog, tenant rights hotline, COBRA
-- **complacency** (8) — Sasha, Grace, Gazette, Rachel's AI paper, Animage+, Yelp reviews, Vantage benefits
-- **aspiration** (10) — Jessie, Soo-yeon, Yuki, Carlos/Luis, Rachel blog, cover letter, viewbook, Ridgemont catalog, Nadia/Keisha text
-- **scarcity** (9) — insulin denial, appointment letter, rent increase, COBRA, urgent care, student loan, tenant hotline, PricePoint, Google reviews
-- **consequences** (12) — collections letter, Arclight layoff, COBRA, Soo-yeon termination, IRS, credit card, Carlos/Elena text, Nadia October text, Yuki third blog
-- **domestication** (10) — Kindling, Grace, Interrupt, Luminance eval, termination, Soo-yeon thread, Uber review, PricePoint, Nadia review, Google reviews
-- **satisfaction** (10) — Whitmore annual report, Ascend community benefit, Heron Capital, Silver Creek staffing, Whitford LinkedIn, Nadia review, viewbook, Vantage summit, PricePoint
-- **indulgence** (9) — Solstice retreat, Vantage benefits, Vantage summit + overlap with House of Velvet and other docs
+- **amplification** (5), **consumption** (5), **futility** (5), **absence** (7)
+- **aspiration** (10), **complacency** (10), **domestication** (10), **indulgence** (10)
 
-### Well-covered (15+ docs)
+### Well-covered (12+ docs)
 
-- **margins** (30), **distance** (64), **rounding** (18), **justice** (19) — the densest facets.
+- **scarcity** (12), **consequences** (13), **satisfaction** (14), **rounding** (19), **justice** (20), **margins** (36), **distance** (73)
 
 ### 2032 tools — the absence cluster
 
