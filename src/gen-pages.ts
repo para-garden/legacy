@@ -17,6 +17,10 @@ function pageHtml(
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${title} — ${siteConfig.name}</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600&family=Merriweather:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Space+Grotesk:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/theme.css">
   <meta property="og:title" content="${title}">
   <meta property="og:description" content="${description}">
   <meta property="og:url" content="https://${siteConfig.domain}/${id}">
@@ -25,39 +29,11 @@ function pageHtml(
   <meta name="description" content="${description}">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    html, body {
-      background: #0a0a0a; color: #ddd;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      line-height: 1.6; font-size: 16px;
-    }
-    nav {
-      padding: 16px 24px; border-bottom: 1px solid #222;
-      display: flex; justify-content: space-between; align-items: center;
-    }
+    html, body { background: #0a0a0a; color: #ddd; font-size: 16px; line-height: 1.6; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    nav { padding: 16px 24px; border-bottom: 1px solid #222; display: flex; justify-content: space-between; align-items: center; }
     nav a { color: #6a9; text-decoration: none; font-size: 14px; }
     nav a:hover { text-decoration: underline; }
-    article {
-      max-width: 680px; margin: 0 auto; padding: 32px 24px 64px;
-    }
-    h1 { font-size: 28px; color: #fff; margin: 24px 0 12px; }
-    h2 { font-size: 22px; color: #eee; margin: 28px 0 10px; }
-    h3 { font-size: 17px; color: #ddd; margin: 20px 0 8px; }
-    p { margin: 0 0 14px; color: #bbb; }
-    a { color: #6a9; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    ul { margin: 0 0 14px; padding-left: 24px; }
-    li { margin: 4px 0; color: #bbb; }
-    code {
-      background: #1a1a1a; padding: 1px 5px; border-radius: 3px;
-      font-size: 14px; color: #ccc;
-    }
-    pre {
-      background: #111; border: 1px solid #333; border-radius: 6px;
-      padding: 14px; overflow-x: auto; margin: 0 0 14px;
-    }
-    pre code { background: none; padding: 0; }
-    hr { border: none; border-top: 1px solid #333; margin: 20px 0; }
-    strong { color: #ddd; }
+    article { max-width: 720px; margin: 0 auto; padding: 32px 24px 64px; }
   </style>
 </head>
 <body>
@@ -66,7 +42,9 @@ function pageHtml(
     <a href="${siteConfig.basePath}/?focus=${id}">view on map</a>
   </nav>
   <article>
+    <div id="panel-body">
 ${body}
+    </div>
   </article>
 </body>
 </html>`;
