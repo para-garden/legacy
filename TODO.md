@@ -134,17 +134,19 @@ By 2032: 30+ more years of evolution, fragmentation, commodification. What was u
 
 ## Facet coverage
 
-As of 2026-03-27 (continued). 129 world docs. All facets covered; former sparse facets now moderate.
+As of 2026-03-27 (continued). 130 world docs. All facets covered; former sparse facets now moderate.
+
+New this session: uninsured bill (+scarcity, distance, rounding, margins), delayed care discharge (+scarcity, rounding, distance, consequences), OON anesthesia bill (+margins, distance, rounding, justice), rental denial (+consequences, distance, rounding, margins), public defender memo (+justice, rounding, scarcity, distance), trust & safety case file (+amplification, distance, domestication, consequences), model training cost analysis (+futility, hubris, satisfaction, distance, margins).
 
 ### Moderate (5-10 docs)
 
-- **amplification** (5), **futility** (5), **unsettlement** (5), **excess** (6), **hubris** (6)
+- **unsettlement** (5), **excess** (6), **amplification** (6+), **futility** (6+), **hubris** (7+)
 - **absence** (7), **consumption** (8), **choice** (9), **complacency** (10), **indulgence** (10)
 
 ### Well-covered (12+ docs)
 
-- **domestication** (11), **aspiration** (12), **consequences** (13), **satisfaction** (18)
-- **scarcity** (19), **rounding** (23), **justice** (24), **margins** (44), **distance** (87)
+- **domestication** (12+), **aspiration** (12), **consequences** (16+), **satisfaction** (19+)
+- **scarcity** (22+), **rounding** (28+), **justice** (27+), **margins** (50+), **distance** (94+)
 
 ### 2032 tools — the absence cluster
 
@@ -255,7 +257,7 @@ text-thread-dani-mel-october-2031.md deleted — was hand-crafted and now orphan
 
 - [x] Title IX outcome letter (whitmore-title-ix-outcome-osei-2031.md)
 - [x] Text thread with Adaeze, Oct–Dec 2031 (text-thread-simone-adaeze-2031.md)
-- [ ] Simone node itself — a figure node placing her in the graph
+- [x] Simone node itself — a figure node placing her in the graph (whitmore-student-directory-osei-2031.md)
 
 ### Citation status by document
 
@@ -369,35 +371,42 @@ Three industries, same pattern: creative people enter a machine that extracts th
 - Out: Nadia/Keisha text thread (classifying the dog video, checking locks twice)
 - 6 documents total
 
-**Housing cluster** — no single character, cross-thread
-- Heron Capital investor letter ("turnover is a value-creation event")
-- James Whitford LinkedIn profile (Harvard MBA, youth soccer coach, marathon runner)
-- Greystone rent increase notice (Rachel's 22%)
-- PricePoint AI product page (the algorithm)
-- Google reviews (Rachel, Denise, others)
-- Ohio Tenant Rights Hotline (defunded)
-- Connects to Rachel, Silver Creek/Maria
+**Housing cluster** — no single character, cross-thread (complete)
+- [x] Heron Capital investor letter ("turnover is a value-creation event")
+- [x] James Whitford LinkedIn profile (Harvard MBA, youth soccer coach, marathon runner)
+- [x] Greystone rent increase notice (Rachel's 22%)
+- [x] PricePoint AI product page (the algorithm)
+- [x] Google reviews (Rachel, Denise, others)
+- [x] Ohio Tenant Rights Hotline (defunded)
+- [x] Twitter thread — housing researcher finds the investor letter
+- [x] Whitmore Beacon adjunct housing investigation
+- [x] Safeguard Self Storage quarterly report
+- [x] Jordan Watts rental denial (medical debt → housing cascade)
+- Connects to Rachel, Silver Creek/Maria, Derek transcripts, Jordan Watts
 
-**Nursing/CNA** — Maria Gutierrez (partial)
-- Resignation letter ($15.25/hr → Amazon $19)
-- Silver Creek staffing memo (94% turnover)
-- Ridgemont Community College catalog (where she got her CNA, clinical site at Silver Creek)
-- CMS inspection report — 2 stars, 1 star staffing, 8 deficiencies, 4 CNAs for 106 residents after Maria left
+**Nursing/CNA** — Maria Gutierrez (complete arc, no character card)
+- [x] Resignation letter ($15.25/hr → Amazon $19)
+- [x] Silver Creek staffing memo (94% turnover)
+- [x] Ridgemont Community College catalog (where she got her CNA, clinical site at Silver Creek)
+- [x] CMS inspection report — 2 stars, 1 star staffing, 8 deficiencies, 4 CNAs for 106 residents after Maria left
+- [x] Federal Register staffing rule repeal (the rule that would have helped, repealed after 8 months)
 - No character card yet — could build
 
 **Criminal justice / institutional** — Maricopa County (no character, cross-thread)
-- Bail schedule ($500 misdemeanor → sit in jail if you can't pay)
-- Jail commissary price list (ramen $1.05, 15-min call $4.80, Keefe Group contract)
+- [x] Bail schedule ($500 misdemeanor → sit in jail if you can't pay)
+- [x] Jail commissary price list (ramen $1.05, 15-min call $4.80, Keefe Group contract)
+- [x] Public defender caseload memo — 47 attorneys, 22,400 cases/year, 7 minutes per misdemeanor client
+- [x] Phoenix municipal court citation (Carlos, red light camera, $264)
 - Connects to Carlos (Phoenix), debt portfolio (Resolute buys accounts)
-- [x] Public defender caseload memo — 47 attorneys, 22,400 cases/year, 7 minutes per misdemeanor client. `maricopa-public-defender-caseload-memo-2032.md`
-- Could add: pretrial detention personal document (someone sitting in jail because they can't pay $500 bail)
+- [x] Pretrial detention personal document — recorded jail phone call (securus-call-recording-maricopa-2032.md)
 
-**Consumer systems / infrastructure** — cross-thread
-- BroadbandNow availability check (1 real option at Carlos's address, $103.99/mo)
-- B-Stock liquidation lot (847 returned items, $24,218 retail → $1,875 bid)
-- Dollar General site selection (Evarts, KY — 0.4 miles from Joy Callahan's church)
-- Desert Vista Elementary school report card (C grade, 24% math proficiency)
-- Capstone Online University recruitment email targeting Carlos
-- Stratum sustainability report (PR version of environmental compliance data)
-- Resolute debt portfolio purchase ($38.2M face value → $1.53M, 4 cents on dollar)
-- FastCash title loan ($1,100 against the Camry at 204% APR)
+**Consumer systems / infrastructure** — cross-thread (all built)
+- [x] BroadbandNow availability check (1 real option at Carlos's address, $103.99/mo)
+- [x] B-Stock liquidation lot (847 returned items, $24,218 retail → $1,875 bid)
+- [x] Dollar General site selection (Evarts, KY — 0.4 miles from Joy Callahan's church)
+- [x] Desert Vista Elementary school report card (C grade, 24% math proficiency)
+- [x] Capstone Online University recruitment email targeting Carlos
+- [x] Stratum sustainability report (PR version of environmental compliance data)
+- [x] Resolute debt portfolio purchase ($38.2M face value → $1.53M, 4 cents on dollar)
+- [x] FastCash title loan ($1,100 against the Camry at 204% APR)
+- [x] Mesa water allocation hearing (Stratum vs residents)
