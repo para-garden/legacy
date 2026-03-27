@@ -251,7 +251,7 @@ Resolved: Simone Osei (characters/simone.md) is the filer. Her incident is Septe
 
 ### Dani cluster — text thread
 
-text-thread-dani-mel-october-2031.md deleted — was hand-crafted and now orphaned after the reassignment. Rebuild via Gemini using characters/dani.md + a Mel character card (or just anchor Mel from Dani's perspective). The thread should cover Dani telling Mel what happened — no dean's office, no filing. Just Mel getting in the car.
+- [x] text-thread-dani-mel-october-2031.md — rebuilt via Gemini (generate.ts + dani character card). Oct 11–18 context messages, Oct 20 break on High Street, Mel drives from Ohio State. Recovery beats at Nov 18 and May 2033.
 
 ### Simone cluster — to build
 
