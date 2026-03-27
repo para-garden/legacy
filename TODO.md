@@ -134,7 +134,7 @@ By 2032: 30+ more years of evolution, fragmentation, commodification. What was u
 
 ## Facet coverage
 
-As of 2026-03-27 (continued). 123 world docs. All facets covered; former sparse facets now moderate.
+As of 2026-03-27 (continued). 126 world docs. All facets covered; former sparse facets now moderate.
 
 ### Moderate (5-10 docs)
 
@@ -291,9 +291,9 @@ Documents with real-system claims need quiet inline links to real sources. Statu
 Same event as Riley's story (appendectomy), different outcomes. For juxtaposition. Not a parallel document series — fragments, things you find. Some harder to find than others. The medical stuff as entry point, the ripple as the story.
 
 - [x] **No insurance** — Jordan Watts. Same hospital, same procedure, no insurance. Self-pay discount 25%, owes $41,112.75. Riley owed $4,247. `ascend-hospital-bill-appendectomy-watts-2031.md`
-- **Debt cascade** — medical debt tips into missed rent, destroyed credit, downstream effects on unrelated things. Medical in the background, ripple in the foreground.
+- [x] **Debt cascade** — Jordan Watts again. Hospital bill → Resolute collections → credit score 680→574 → Greystone rental denial. The screening report doesn't say "appendectomy." `greystone-rental-application-denial-watts-2032.md`
 - [x] **Delayed care** — Tyler Chen, 34, uninsured, waited 72 hours. Appendix perforated. Open surgery, ICU, 7-day stay, second procedure. Bill will exceed $100K. `ascend-discharge-summary-chen-2032.md`
-- **Out-of-network cascade** — anesthesiologist came back OON and tipped something Riley narrowly avoided.
+- [x] **Out-of-network cascade** — Nicole Dawson. Pinnacle Anesthesia bills OON for emergency appendectomy at in-network Ascend. NSA should prevent this. Bill sent anyway. Patient has to know the law exists to enforce it. `pinnacle-anesthesia-bill-dawson-2032.md`
 
 ### Greek life — sororities
 
