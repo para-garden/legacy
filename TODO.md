@@ -134,32 +134,32 @@ By 2032: 30+ more years of evolution, fragmentation, commodification. What was u
 
 ## Facet coverage
 
-As of 2026-03-27 (late). Updated after autonomous worldbuilding sprint — all facets covered.
+As of 2026-03-27. Updated after second autonomous worldbuilding sprint — 97 world docs, all facets covered, no facet under 2.
 
-### Sparse (1-3 docs)
+### Sparse (2-5 docs)
 
-- **unsettlement** (1) — Stratum env compliance report
-- **indulgence** (1) — Solstice ketamine retreat
-- **hubris** (2) — Stratum buildout + Series B memo
+- **hubris** (3) — Stratum buildout, Series B memo, Vantage summit press release
+- **unsettlement** (2) — Stratum env compliance, GreenLoop e-waste tracker
 - **amplification** (3) — Joy's obituary, Interrupt memo, Gazette voter guide
-
-### Moderate (4-9 docs)
-
-- **futility** (4) — Stratum cluster + Animage+ AI feature
-- **absence** (2) — dev blog + rideshare cooperative rejection
-- **choice** (2) — BlueCross plan comparison + cooperative rejection
-- **consequences** (5) — collections letter, Arclight layoff, COBRA, Soo-yeon termination, IRS installment
-- **satisfaction** (4) — Whitmore annual report, Ascend community benefit, Heron Capital, Silver Creek staffing
-- **scarcity** (5) — insulin denial, appointment letter, rent increase, COBRA, urgent care bill
-- **domestication** (7) — Kindling, Grace, Interrupt, Luminance eval, termination, Soo-yeon thread, Uber review
-- **complacency** (5) — Sasha, Grace, Gazette, Rachel's AI paper email, Animage+ feature
-- **consumption** (3) — HydraSense, env report, Redfin listing
+- **choice** (3) — BlueCross plan comparison, cooperative rejection, DoorDash earnings
 - **excess** (3) — HydraSense, Redfin, Solstice retreat
-- **aspiration** (7) — Jessie, Soo-yeon, Yuki, Carlos/Luis, Rachel blog, cover letter, viewbook
+- **consumption** (4) — HydraSense, env report, Redfin, e-waste tracker
+- **futility** (5) — Stratum cluster, Animage+ AI feature, Yuki's third blog
 
-### Well-covered (10+ docs)
+### Moderate (6-10 docs)
 
-- **margins** (15+), **distance** (30+), **rounding** (12+), **justice** (19) — the densest facets.
+- **absence** (6) — dev blog, cooperative rejection, Arclight layoff, Yuki third blog, tenant rights hotline, COBRA
+- **complacency** (8) — Sasha, Grace, Gazette, Rachel's AI paper, Animage+, Yelp reviews, Vantage benefits
+- **aspiration** (10) — Jessie, Soo-yeon, Yuki, Carlos/Luis, Rachel blog, cover letter, viewbook, Ridgemont catalog, Nadia/Keisha text
+- **scarcity** (9) — insulin denial, appointment letter, rent increase, COBRA, urgent care, student loan, tenant hotline, PricePoint, Google reviews
+- **consequences** (12) — collections letter, Arclight layoff, COBRA, Soo-yeon termination, IRS, credit card, Carlos/Elena text, Nadia October text, Yuki third blog
+- **domestication** (10) — Kindling, Grace, Interrupt, Luminance eval, termination, Soo-yeon thread, Uber review, PricePoint, Nadia review, Google reviews
+- **satisfaction** (10) — Whitmore annual report, Ascend community benefit, Heron Capital, Silver Creek staffing, Whitford LinkedIn, Nadia review, viewbook, Vantage summit, PricePoint
+- **indulgence** (9) — Solstice retreat, Vantage benefits, Vantage summit + overlap with House of Velvet and other docs
+
+### Well-covered (15+ docs)
+
+- **margins** (30), **distance** (64), **rounding** (18), **justice** (19) — the densest facets.
 
 ### 2032 tools — the absence cluster
 
@@ -350,33 +350,51 @@ Three industries, same pattern: creative people enter a machine that extracts th
 - Out: layoff email + mom text thread, Austin Chronicle coverage
 - 5 documents total
 
-**Idol industry** — Soo-yeon Park (going-in + inside)
+**Idol industry** — Soo-yeon Park (complete arc)
 - Going-in: voice message to Hannah
 - Inside: Luminance trainee eval (weight flagged), Soo-yeon/Hannah text thread
-- Out: still needed — trainee exit, debt letter, or contract termination
-- 3 documents total
+- Out: trainee termination letter (₩84,480,000 debt, 24-month cooling period)
+- 4 documents total
 
-**Animation** — Yuki Shimizu (going-in + inside)
+**Animation** — Yuki Shimizu (complete arc)
 - Going-in: first-week blog
 - Inside: six-months blog (the math visible), Animage+ AI in-betweening feature
-- Out: still needed — studio closure, career pivot, or the quiet staying
-- 3 documents total
+- Out: one-year blog (DougaFlow arrived, correcting AI output now, callus softer)
+- 4 documents total
 
-**Gig economy** — Carlos Reyes (deep thread)
+**Gig economy** — Carlos Reyes (complete arc)
 - Going-in: Carlos/Luis text thread (the napkin math)
 - Inside: DoorDash weekly earnings, Uber quality review (4.84, minimum 4.80)
-- Financial: credit card statement ($4,780/$5,000), Sofia's urgent care bill ($387)
-- Out: still needed — the conversation with Elena, or the card maxing out
-- 5 documents total
+- Financial: credit card statement ($4,780/$5,000), Sofia's urgent care bill ($387), IRS installment
+- Out: Carlos/Elena text thread (card declined at Fry's, $74 groceries)
+- 7 documents total
 
-**Adjunct academia** — Rachel Odom (deepest thread)
+**Adjunct academia** — Rachel Odom (complete arc)
 - Going-in: first-semester blog (Marcus, the closet office)
 - Inside: cover letter #14 of 47, email to student about AI paper (11:47 PM)
-- Institutional: Whitmore appointment letter (Aug 19), rent increase (22%), student loan statement (negative amortization), Whitmore viewbook (Marcus testimonial)
-- Out: still needed
-- 7 documents total (plus viewbook which is institutional)
+- Institutional: Whitmore appointment letter (Aug 19), rent increase (22%), student loan statement (negative amortization), Whitmore viewbook (Marcus testimonial), Google reviews (Rachel leaves a review)
+- Out: unsent letter to Margaret Mary Vojtko (1 AM, 23 papers left, the math)
+- 9 documents total
 
-**Content moderation** — no character yet
-- Clarity Solutions job posting ($17.50/hr, six counseling sessions/year)
-- Connects to Interrupt engagement memo
-- Character card and personal documents needed
+**Content moderation** — Nadia Okafor (complete arc)
+- Character card: characters/nadia.md
+- Going-in: Nadia/Keisha text thread ("I really think it's gonna be good keish")
+- Inside: performance review (96.2% accuracy, wellness room 4 visits)
+- Institutional: Clarity Solutions job posting, Vantage benefits guide (corporate vs contract), Vantage summit press release
+- Out: Nadia/Keisha text thread (classifying the dog video, checking locks twice)
+- 6 documents total
+
+**Housing cluster** — no single character, cross-thread
+- Heron Capital investor letter ("turnover is a value-creation event")
+- James Whitford LinkedIn profile (Harvard MBA, youth soccer coach, marathon runner)
+- Greystone rent increase notice (Rachel's 22%)
+- PricePoint AI product page (the algorithm)
+- Google reviews (Rachel, Denise, others)
+- Ohio Tenant Rights Hotline (defunded)
+- Connects to Rachel, Silver Creek/Maria
+
+**Nursing/CNA** — Maria Gutierrez (partial)
+- Resignation letter ($15.25/hr → Amazon $19)
+- Silver Creek staffing memo (94% turnover)
+- Ridgemont Community College catalog (where she got her CNA, clinical site at Silver Creek)
+- No character card yet — could build
