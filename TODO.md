@@ -134,7 +134,7 @@ By 2032: 30+ more years of evolution, fragmentation, commodification. What was u
 
 ## Facet coverage
 
-As of 2026-03-27 (continued). 127 world docs. All facets covered; former sparse facets now moderate.
+As of 2026-03-27 (continued). 128 world docs. All facets covered; former sparse facets now moderate.
 
 ### Moderate (5-10 docs)
 
