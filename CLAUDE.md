@@ -128,15 +128,29 @@ No omniscient narrator. Everything is a document someone in the world wrote.
 
 **Don't sanitize heavy content.** A cleaned-up, composed version of trauma is worse than nothing — it minimizes by making it look manageable. When writing from inside a traumatic experience, match the actual cognitive state — fragmented, incoherent, not yet processed. Messiness is accuracy, not melodrama. "Least distance possible" — the closest form to the thing itself. In practice, Claude's safety training still sanitizes despite this rule — the actual workflow for inhabited heavy content is: build the character card here (`/character`), then write via Gemini.
 
-## Citations
+## Links
 
-The world is set in 2032. The citations point to real documents from right now. That's the mechanic: the reader encounters a fictional hospital bill, clicks a link, and finds a real GAO report. The fiction doesn't acknowledge the citation. The citation doesn't acknowledge the fiction. The distance between "this is a story" and "this is happening" collapses in that click. Without the citations, it's just bleak worldbuilding. With them, the reader has to contend with the fact that none of it was invented.
+The world is set in 2032. The links point to real documents from right now. That's the mechanic: the reader encounters a fictional hospital bill, clicks a link, and finds a real GAO report. The fiction doesn't acknowledge the link. The link doesn't acknowledge the fiction. The distance between "this is a story" and "this is happening" collapses in that click. Without the links, it's just bleak worldbuilding. With them, the reader has to contend with the fact that none of it was invented.
 
-Before writing any document, research the real version — the actual chargemaster language, the actual collections letter format, the actual risk management memo, the actual Title IX timeline. Write from the source. Accuracy is the horror.
+### The rule
 
-Every real-system claim in a world document needs a source: prices, statutes, policies, mechanisms. If a number appears and it's a real-system number, it should have a quiet inline link to the real thing. Fictional details (character names, dates, dialogue) don't need citations.
+Every real-system claim in a world document links to the real thing. Not just numbers — every claim about how a system works, what a policy says, what something costs, how an institution behaves. If it's true in the real world and it appears in the document, it's a quiet inline link. The text itself is the anchor. No footnote markers, no "Source:", no attribution. The fiction doesn't know it's linking to anything.
 
-Never fabricate citations. Find the real source or don't cite.
+Fictional details (character names, dates, dialogue) don't get links. Real-system details always do. A document with unlinked real-system claims is incomplete.
+
+Never fabricate links. Find the real source or don't link.
+
+### The pipeline
+
+1. **Research first.** Before writing a document, research the real version — the actual chargemaster language, the actual collections letter format, the actual Title IX timeline. Write from the source. Accuracy is the horror.
+
+2. **Save the research.** Research goes in `public/content/research/` as a research doc — organized by topic (healthcare, entertainment industry, housing, criminal justice, etc.). Research docs collect the real numbers, real sources, and real URLs in one place. They're the reference shelf. If research is done but not written down as a research doc, it will be lost between sessions.
+
+3. **Write the world document.** Every real-system claim in the document gets a quiet inline link drawn from the research. The research doc is the source of truth for URLs; the world doc is where they land as links the reader can click.
+
+4. **Check completeness.** A world document is done when every real-system claim is linked. Not "mostly linked" — every one. Scan the document for any number, policy, mechanism, or institutional behavior that's real and verify it has a link.
+
+Research notes in TODO.md are not a substitute for research docs. TODO tracks what needs to be done. Research docs preserve the actual sources. If research was done via subagent or web search and only recorded as TODO notes, it needs to be written up as a research doc before it's useful.
 
 ## Org
 
