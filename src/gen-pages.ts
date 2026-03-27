@@ -9,6 +9,8 @@ function pageHtml(
   title: string,
   description: string,
   body: string,
+  format?: string,
+  theme?: string,
 ): string {
   return `<!DOCTYPE html>
 <html lang="en">
@@ -42,7 +44,7 @@ function pageHtml(
     <a href="${siteConfig.basePath}/?focus=${id}">view on map</a>
   </nav>
   <article>
-    <div id="panel-body">
+    <div id="panel-body"${format ? ` data-format="${format}"` : ""}${theme ? ` data-theme="${theme}"` : ""}>
 ${body}
     </div>
   </article>
@@ -59,13 +61,15 @@ for (const { id, path } of files) {
   const fm = parseFrontmatter(raw);
   const md = stripFrontmatter(raw);
   const { html } = parseMarkdown(md);
+  const format = typeof fm?.format === "string" ? fm.format : undefined;
+  const theme = typeof fm?.theme === "string" ? fm.theme : undefined;
 
   const title = fm?.label ?? id.split("/").pop() ?? id;
   const description = fm?.description?.replace(/\n/g, " ") ?? "";
 
   const outDir = `dist/${id}`;
   await mkdir(outDir, { recursive: true });
-  await Bun.write(`${outDir}/index.html`, pageHtml(id, title, description, html));
+  await Bun.write(`${outDir}/index.html`, pageHtml(id, title, description, html, format, theme));
   count++;
 }
 
