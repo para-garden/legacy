@@ -134,7 +134,7 @@ By 2032: 30+ more years of evolution, fragmentation, commodification. What was u
 
 ## Facet coverage
 
-As of 2026-03-27 (continued). 126 world docs. All facets covered; former sparse facets now moderate.
+As of 2026-03-27 (continued). 127 world docs. All facets covered; former sparse facets now moderate.
 
 ### Moderate (5-10 docs)
 
@@ -389,7 +389,8 @@ Three industries, same pattern: creative people enter a machine that extracts th
 - Bail schedule ($500 misdemeanor → sit in jail if you can't pay)
 - Jail commissary price list (ramen $1.05, 15-min call $4.80, Keefe Group contract)
 - Connects to Carlos (Phoenix), debt portfolio (Resolute buys accounts)
-- Could add: pretrial detention personal document, public defender caseload memo
+- [x] Public defender caseload memo — 47 attorneys, 22,400 cases/year, 7 minutes per misdemeanor client. `maricopa-public-defender-caseload-memo-2032.md`
+- Could add: pretrial detention personal document (someone sitting in jail because they can't pay $500 bail)
 
 **Consumer systems / infrastructure** — cross-thread
 - BroadbandNow availability check (1 real option at Carlos's address, $103.99/mo)
