@@ -345,20 +345,39 @@ Process: research first (real sources, real numbers, real documents), then build
 
 Three industries, same pattern: creative people enter a machine that extracts their passion as labor.
 
-**Gamedev** — Jessie Torres (done: character card, forum post going-in, Arclight crunch email inside)
-- Out document still needed
-- Research: Telltale closure, CDPR crunch, Rockstar 100-hour weeks, EA spouse letter
+**Gamedev** — Jessie Torres (complete arc)
+- Going-in: forum post (aspiration)
+- Inside: Arclight crunch email, David Moreno LinkedIn post
+- Out: layoff email + mom text thread, Austin Chronicle coverage
+- 5 documents total
 
-**Idol industry** — Soo-yeon Park (done: character card, voice message going-in, Luminance trainee eval inside)
-- Out document still needed
-- Research: trainee debt structures, dating bans, weight checks, mental health (Sulli, Goo Hara, Jonghyun)
+**Idol industry** — Soo-yeon Park (going-in + inside)
+- Going-in: voice message to Hannah
+- Inside: Luminance trainee eval (weight flagged), Soo-yeon/Hannah text thread
+- Out: still needed — trainee exit, debt letter, or contract termination
+- 3 documents total
 
-**Animation** — Yuki Shimizu (done: character card, blog post going-in, six-months blog inside)
-- Out document still needed
-- Research: ¥200/drawing pay, Madhouse/MAPPA conditions, animator surveys, IP ownership
+**Animation** — Yuki Shimizu (going-in + inside)
+- Going-in: first-week blog
+- Inside: six-months blog (the math visible), Animage+ AI in-betweening feature
+- Out: still needed — studio closure, career pivot, or the quiet staying
+- 3 documents total
 
-**Gig economy** — Carlos Reyes (done: character card, Carlos/Luis text thread going-in, DoorDash earnings inside)
-- Out document still needed
+**Gig economy** — Carlos Reyes (deep thread)
+- Going-in: Carlos/Luis text thread (the napkin math)
+- Inside: DoorDash weekly earnings, Uber quality review (4.84, minimum 4.80)
+- Financial: credit card statement ($4,780/$5,000), Sofia's urgent care bill ($387)
+- Out: still needed — the conversation with Elena, or the card maxing out
+- 5 documents total
 
-**Adjunct academia** — Rachel Odom (done: character card, first-semester blog going-in, cover letter inside)
-- Out document still needed
+**Adjunct academia** — Rachel Odom (deepest thread)
+- Going-in: first-semester blog (Marcus, the closet office)
+- Inside: cover letter #14 of 47, email to student about AI paper (11:47 PM)
+- Institutional: Whitmore appointment letter (Aug 19), rent increase (22%), student loan statement (negative amortization), Whitmore viewbook (Marcus testimonial)
+- Out: still needed
+- 7 documents total (plus viewbook which is institutional)
+
+**Content moderation** — no character yet
+- Clarity Solutions job posting ($17.50/hr, six counseling sessions/year)
+- Connects to Interrupt engagement memo
+- Character card and personal documents needed
