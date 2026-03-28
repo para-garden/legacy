@@ -16,7 +16,7 @@ export const siteConfig = {
   /** Display name shown in title bars and landing page. */
   name: "legacy",
   /** Full domain for og:url and og:site_name. */
-  domain: "legacy.paragarden.world",
+  domain: "para.garden",
   /** Base path for deployment (no trailing slash). E.g. "/legacy" if served at /legacy/. */
   basePath: "/legacy",
   /** ID of the meta/landing node (default collection). */
