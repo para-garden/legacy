@@ -692,7 +692,6 @@
   padding: 32px 28px;
   margin-bottom: 12px;
   aspect-ratio: 8.5 / 11;
-  overflow: hidden;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 /* Last page doesn't need bottom margin */
