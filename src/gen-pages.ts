@@ -36,7 +36,7 @@ function pageHtml(
     nav a { color: #6a9; text-decoration: none; font-size: 14px; }
     nav a:hover { text-decoration: underline; }
     article { max-width: 720px; margin: 0 auto; padding: 32px 24px 64px; }
-    .page { overflow: visible; }
+    .page { aspect-ratio: unset; }
   </style>
 </head>
 <body>
