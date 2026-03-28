@@ -31,11 +31,12 @@ function pageHtml(
   <meta name="description" content="${description}">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    html, body { background: #0a0a0a; color: #ddd; font-size: 16px; line-height: 1.6; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    html, body { background: #0a0a0a; color: #ddd; font-size: 14px; line-height: 1.6; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
     nav { padding: 16px 24px; border-bottom: 1px solid #222; display: flex; justify-content: space-between; align-items: center; }
     nav a { color: #6a9; text-decoration: none; font-size: 14px; }
     nav a:hover { text-decoration: underline; }
     article { max-width: 720px; margin: 0 auto; padding: 32px 24px 64px; }
+    .page { overflow: visible; }
   </style>
 </head>
 <body>
