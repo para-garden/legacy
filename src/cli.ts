@@ -103,7 +103,9 @@ async function buildAll(collectionFilter?: CollectionId): Promise<void> {
   await cp("public/style.css", "dist/style.css");
   await cp("public/theme.css", "dist/theme.css");
   await cp("public/favicon.svg", "dist/favicon.svg");
+  await cp("public/.nojekyll", "dist/.nojekyll");
   await cp("public/index.html", "dist/index.html");
+  await cp("public/content", "dist/content", { recursive: true });
 
   // Copy collection entry points
   for (const id of Object.keys(collections) as CollectionId[]) {
