@@ -48,6 +48,16 @@ Your prescriber has requested authorization for **Humalog (insulin lispro) KwikP
 
 Under your plan's [step therapy protocol](https://www.ama-assn.org/delivering-care/patient-support-advocacy/prior-authorization-step-therapy), coverage for non-preferred insulin products requires documentation that the member has **tried and failed** (due to lack of efficacy or adverse reaction) at least one preferred alternative before the non-preferred product will be authorized.
 
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">BLUECROSS ADVANTAGE SELECT</div>
+<div class="letterhead-dept">Pharmacy Benefits Division</div>
+<div class="letterhead-addr">P.O. Box 91400 · Phoenix, AZ 85068-1400 · 1-800-422-2583</div>
+</div>
+
 **Your plan's preferred insulin alternatives include:**
 
 | Preferred Alternative | Tier | Estimated Copay (Silver Plan) |

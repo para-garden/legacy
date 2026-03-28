@@ -77,6 +77,10 @@ The `format` frontmatter field tells the panel how to render the document. If ab
 
 Do not mix markdown prose and thread HTML in the same document. The thread format renders the entire body as a flat message list.
 
+**`format: document`** — institutional document (letter, bill, form). Uses `.page` divs to simulate paper pages. Each `.page` has fixed paper proportions (`aspect-ratio: 8.5/11`) with `overflow: hidden` in the graph panel — content that doesn't fit is clipped.
+
+**Rule: every `.page` div must fit its content.** A document with more content than fits on one paper page must be split across multiple `.page` divs. Each new page should repeat the letterhead if the real document would. There is no CSS fix for overflow — the split must happen at the content level. When writing or editing a `format: document` file, count the pages and check that none overflow.
+
 ### Facets
 
 Facets are tags, not separate collections. A document can carry multiple facets.
