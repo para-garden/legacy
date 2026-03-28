@@ -67,6 +67,16 @@ Under your plan's [step therapy protocol](https://www.ama-assn.org/delivering-ca
 
 ---
 
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">BLUECROSS ADVANTAGE SELECT</div>
+<div class="letterhead-dept">Pharmacy Benefits Division</div>
+<div class="letterhead-addr">P.O. Box 91400 · Phoenix, AZ 85068-1400 · 1-800-422-2583</div>
+</div>
+
 ## REQUIRED FOR APPEAL OR OVERRIDE
 
 If your prescriber believes that the preferred alternatives are not appropriate for your clinical situation, they may submit a prior authorization request with the following documentation:
