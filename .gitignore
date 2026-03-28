@@ -21,6 +21,9 @@ src/generated-graph.ts
 src/generated-groupings.ts
 public/headings.json
 
+# Gemini generation logs
+logs/
+
 # Editor
 .vscode/
 *.swp
