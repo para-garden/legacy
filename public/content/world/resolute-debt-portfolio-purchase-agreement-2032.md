@@ -94,6 +94,16 @@ related:
 | [Dispute filed per FDCPA](https://www.ftc.gov/legal-library/browse/statutes/fair-debt-collection-practices-act) | 4.8% |
 | Active payment plan, defaulted | 2.6% |
 
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">RESOLUTE RECOVERY SERVICES, LLC</div>
+<div class="letterhead-dept">Portfolio Acquisitions</div>
+<div class="letterhead-addr">CONFIDENTIAL — Attorney-Client Privileged</div>
+</div>
+
 ---
 
 ### Seller Representations

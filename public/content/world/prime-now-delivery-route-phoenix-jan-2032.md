@@ -93,7 +93,15 @@ related:
 
 *[Amazon DSP vans are equipped with Netradyne AI-powered cameras](https://www.vice.com/en/article/amazon-delivery-drivers-camera-surveillance-netradyne/) that monitor driver behavior in real time, including following distance, stop sign compliance, seatbelt use, and driver attention. Alerts are scored and aggregated into a weekly Driver Safety Score.*
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">AMAZON LOGISTICS</div>
+<div class="letterhead-dept">Delivery Service Partner — Route Performance Summary</div>
+<div class="letterhead-addr">Hub AZ-PHX-04 · 14220 W Van Buren St · Goodyear, AZ 85338</div>
+</div>
 
 ### Driver Safety Score
 

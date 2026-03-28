@@ -59,6 +59,16 @@ The crypto mining parallel is equally inapplicable. Crypto compute was single-pu
 
 To be direct: the risk is not that this market doesn't exist. The risk is that we don't move fast enough to capture our share of it.
 
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">MERIDIAN CAPITAL PARTNERS</div>
+<div class="letterhead-dept">Growth Equity & Technology Investments</div>
+<div class="letterhead-addr">One Vanderbilt Avenue, 60th Floor · New York, NY 10017</div>
+</div>
+
 ---
 
 ## COMPANY OVERVIEW

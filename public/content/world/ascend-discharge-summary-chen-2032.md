@@ -75,6 +75,16 @@ Appendix removed. Peritoneal cavity irrigated with 6 liters warm saline. Jackson
 
 EBL: 150 mL. No complications. Patient transferred to SICU post-operatively.
 
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">ASCEND HEALTH SYSTEM</div>
+<div class="letterhead-dept">Ascend Regional Medical Center — East Campus</div>
+<div class="letterhead-addr">Department of General Surgery</div>
+</div>
+
 ---
 
 ### Hospital Course

@@ -72,6 +72,16 @@ related: [stratum-series-b-pitch-memo-2029, stratum-workforce-reduction-email-20
 
 *Location-based Scope 2 calculated using [EPA eGRID AZNM subregion factor](https://www.epa.gov/egrid) (0.436 kg CO₂e/kWh). Market-based reflects contracted solar PPA and retired RECs.*
 
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">STRATUM TECHNOLOGIES</div>
+<div class="letterhead-dept">Facilities & Environmental Compliance</div>
+<div class="letterhead-addr">Auto-generated report — do not reply to this address</div>
+</div>
+
 ---
 
 ### 4. Waste

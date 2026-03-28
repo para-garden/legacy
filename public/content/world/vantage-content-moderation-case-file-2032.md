@@ -102,6 +102,16 @@ The following quote posts were sampled at T+6h for context assessment:
 
 > "The replies are exactly the problem she's describing."
 
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">VANTAGE</div>
+<div class="letterhead-dept">Trust & Safety — Content Review</div>
+<div class="letterhead-addr">CONFIDENTIAL — Internal Use Only</div>
+</div>
+
 ---
 
 ### External Impact (noted at time of review)

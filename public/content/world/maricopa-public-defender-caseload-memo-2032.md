@@ -94,6 +94,16 @@ Effective attorney-client time per misdemeanor case — excluding administrative
 
 For the approximately 68% of misdemeanor clients who resolve their cases at or before the initial pretrial conference, direct attorney-client time averages **7 minutes**.
 
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">MARICOPA COUNTY PUBLIC DEFENDER</div>
+<div class="letterhead-dept">Office of the Public Defender</div>
+<div class="letterhead-addr">620 W Jackson St, Suite 4015 · Phoenix, AZ 85003</div>
+</div>
+
 ---
 
 ### Pretrial Detention and Caseload Interaction

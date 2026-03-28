@@ -139,6 +139,16 @@ You're right — I apologize for the confusion! Our team is experiencing higher 
 **Customer** (2:45 PM)\
 Sure. Callback.
 
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">EVERYPLATE</div>
+<div class="letterhead-dept">Customer Support — Chat Transcript</div>
+<div class="letterhead-addr">Transcript ID: EP-2032-08-14-7741 · August 14, 2032 · 2:33 PM EDT</div>
+</div>
+
 **EveryPlate Support** (2:45 PM)\
 Great! We'll call you back at the number on file within 2–4 business hours. You'll receive a confirmation email at sarah.henderson@gmail.com.
 

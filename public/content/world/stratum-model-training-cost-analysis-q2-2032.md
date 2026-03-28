@@ -78,6 +78,16 @@ Frontier-7, our seventh-generation foundation model, completed training on July 
 
 The cost per composite point improved from $14.2 million to $72.8 million — a **5.1× increase in marginal cost per unit of capability gain**. This trend is consistent with [the scaling laws literature](https://arxiv.org/abs/2001.08361), which predicts diminishing returns to scale in the absence of architectural innovation.
 
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">STRATUM TECHNOLOGIES</div>
+<div class="letterhead-dept">AI Research Division — Internal</div>
+<div class="letterhead-addr">CONFIDENTIAL — Executive Distribution Only</div>
+</div>
+
 ---
 
 ### Frontier-8 Projections

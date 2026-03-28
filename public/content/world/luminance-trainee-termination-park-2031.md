@@ -87,6 +87,16 @@ Luminance Entertainment recognizes that the immediate repayment of the full trai
 
 To accept this arrangement, the enclosed Payment Agreement Form (Form LUM-FIN-2031-04) must be signed and returned to the Finance Division within thirty (30) calendar days of receipt of this notice. If the Payment Agreement Form is not received within this period, the full balance of ₩84,480,000 will become immediately due and payable.
 
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">LUMINANCE ENTERTAINMENT</div>
+<div class="letterhead-dept">Trainee Management Division</div>
+<div class="letterhead-addr">12F Luminance Tower, 221 Dosan-daero, Gangnam-gu, Seoul 06039</div>
+</div>
+
 &nbsp;
 
 **3. Intellectual Property**
