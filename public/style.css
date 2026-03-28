@@ -1,6 +1,6 @@
-/* Register --color as animatable */
 @import "./theme.css";
 
+/* Register --color as animatable */
 @property --color {
   syntax: '<color>';
   inherits: true;
