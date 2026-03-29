@@ -100,7 +100,7 @@ A pause.
 
 ---
 
-*Lumen is available at lumen.noachen.net. Source at github.com/noachen/lumen. No account required.*
+*Lumen is available at lumen.noachen.net. Source at github.com/noa-chen/lumen. No account required.*
 
 *Priya Anand is a contributing editor at Interrupt.*
 

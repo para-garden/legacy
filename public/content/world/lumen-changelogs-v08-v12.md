@@ -147,5 +147,5 @@ This will probably be the last release for a few months. I have some other thing
 
 <div class="site-footer">
 <div class="site-wordmark">lumen</div>
-<div class="site-footer-text">Maintained by Noa Chen. Source: github.com/noachen/lumen. License: MIT.</div>
+<div class="site-footer-text">Maintained by Noa Chen. Source: github.com/noa-chen/lumen. License: MIT.</div>
 </div>

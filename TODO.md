@@ -166,14 +166,20 @@ The citation mechanic fully inverted: the fictional tool is real software at a r
 
 **lumen** — real software. LuaJIT + crescent underneath (vendored binaries in the repo, no install ceremony). Local-first, single binary, SQLite, full-text search, no telemetry, no account. pad is the proven foundation; Lumen is what pad looks like with a face.
 
-**github.com/noachen/lumen** — real repository. Commit history starting ~2028. Plausible, not announced. The repo doesn't say it's fiction. Nothing does.
+**github.com/noa-chen/lumen** — real repository. Commit history starting ~2028. Plausible, not announced. The repo doesn't say it's fiction. Nothing does.
 
 **Stack:** LuaJIT (finished, fastest JIT on the planet, best FFI). crescent for ecosystem/stdlib/distribution. Binaries vendored for all platforms — clone and run, no toolchain required. Same approach as pad's `core/dep/`.
+
+**Registered (2026-03-29):**
+- Gmail: `noa.su.chen@gmail.com` — DOB March 15, 1989
+- GitHub: `noa-chen` — created 2026-03-29
+- Domain: `noachen.net` — registered 2026-03-29
+- Email routing: Cloudflare email routing (free, receive) → Gmail. No custom domain sending.
 
 **Priority:** when crescent is far enough along to be the right foundation. Not before. Lumen should be built once and built right.
 
 **Two repos:**
-- `noachen/lumen` — the public artifact. Faked commit history aligned to the changelog. No meta-commentary. The fiction stands on its own.
+- `noa-chen/lumen` — the public artifact. Faked commit history aligned to the changelog. No meta-commentary. The fiction stands on its own.
 - `paragarden/lumen-dev` — the making-of. Real development history, fabrication script that generates the faked git history from the canonical changelog, decision notes. Public is fine — anyone who finds it knows what it is, but Noa's repo doesn't link to it so it doesn't break anything.
 
 **Fabrication script:** takes the changelog as input, produces a git repo with *texture* — not one commit per release but the shape of real development. Small fixes between releases. The sync rebuild visible as a six-week gap in commit density. Early 2028 commits where it's clearly not done yet. The history should feel discovered, not generated.
