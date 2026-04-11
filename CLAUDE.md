@@ -128,6 +128,8 @@ In-world documents are written as if they exist inside the world — reports, ma
 
 No omniscient narrator. Everything is a document someone in the world wrote.
 
+**Build character cards as artifacts, not portraits.** A character card written as an in-world document (observation log, interview transcript, survey, room inventory) reveals the character through evidence rather than explaining them. You find the character by making the artifacts — the framing device is what surfaces who they are. A novelistic second-person portrait is the author explaining the character. An in-world document is the character existing. Prefer the latter.
+
 **Write as characters, not about them.** There is a layer between "Claude writing a journal" and "the person writing their journal" and it shows in every sentence. Cleanness, coherence, tasteful distance — all signs of the author, not the character. For inhabited character writing, use the subagent approach: write a character card (system prompt via `/character`), then spawn a subagent with that card. The subagent writes as the character without the author's mediation.
 
 **Don't sanitize heavy content.** A cleaned-up, composed version of trauma is worse than nothing — it minimizes by making it look manageable. When writing from inside a traumatic experience, match the actual cognitive state — fragmented, incoherent, not yet processed. Messiness is accuracy, not melodrama. "Least distance possible" — the closest form to the thing itself. In practice, Claude's safety training still sanitizes despite this rule — the actual workflow for inhabited heavy content is: build the character card here (`/character`), then write via Gemini.
