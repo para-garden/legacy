@@ -166,7 +166,13 @@ para-garden / paragarden (`~/git/paragarden/`). GitHub org: para-garden.
 
 When suggesting multiple options for content direction: immediately add all of them to TODO.md before continuing. The user will pick one, but alternatives shouldn't be lost.
 
-## Core Rules
+## Context Is The Only Scarce Resource
+
+Every byte that enters the main session stays for its entire lifetime. File contents, command output, search results — once read, it lingers in cache and shapes every downstream token. There is no "just looking."
+
+**All exploration runs in subagents.** Any tool call whose purpose is "find out what's here" — grep, find, broad reads, directory surveys — belongs in a subagent. Raw exploratory output in the main context is active context poisoning: it lingers in cache, shapes downstream reasoning, can't be unsent. The subagent returns a distilled summary; the noise stays in the subagent. Inline tool use in the main context is reserved for reading a known file at a known path, edits you're committing to, or a single targeted lookup whose result you act on immediately. If you find yourself running a second grep to refine the first, you should have spawned a subagent.
+
+## Durability
 
 **Note things down immediately — no deferral:**
 - Problems, tech debt, issues → TODO.md now, in the same response
@@ -174,13 +180,23 @@ When suggesting multiple options for content direction: immediately add all of t
 - Future/deferred scope → TODO.md **before** writing any code, not after
 - **Every observed problem → TODO.md. No exceptions.**
 
-**All exploration runs in subagents.** Any tool call whose purpose is "find out what's here" — grep, find, broad reads, directory surveys — belongs in a subagent. Raw exploratory output in the main context is active context poisoning: it lingers in cache, shapes downstream reasoning, can't be unsent. The subagent returns a distilled summary; the noise stays in the subagent. Inline tool use in the main context is reserved for reading a known file at a known path, edits you're committing to, or a single targeted lookup whose result you act on immediately. If you find yourself running a second grep to refine the first, you should have spawned a subagent.
-
 **Conversation is not memory.** Anything said in chat evaporates at session end. If it implies a future behavior change, write it to CLAUDE.md immediately — or it will not happen.
 
-**When the user corrects you:** Ask what rule would have prevented this, and write it before proceeding. **"The rule exists, I just didn't follow it" is never the diagnosis** — a rule that doesn't prevent the failure it describes is incomplete; fix the rule, not your behavior.
+Commit completed work immediately. Uncommitted work is lost work.
 
-## Negative Constraints
+## Authenticity
+
+When asked to analyze X, read X. Do not synthesize from conversation memory or prior summaries.
+
+**Something unexpected is a signal.** Surprising output, anomalous behavior, a file containing what it shouldn't — stop and find out why. Do not accept the anomaly and proceed.
+
+## Discipline
+
+Corrections from the user are conversation, not material for new rules. A single correction does not warrant a CLAUDE.md edit. Rules are added when a failure mode is observed repeatedly and the rule names the failure it prevents.
+
+Do not announce actions ("I will now…"). Act.
+
+## Hard Constraints
 
 - No Rust in this repo — it's a TypeScript/web project
 - Don't hardcode content-specific values in build tools (inherited from ptera.world)
