@@ -456,7 +456,7 @@ export function setupInput(
     bodyIndex.set(node.label, node.description);
   }
 
-  const palette = document.createElement("command-palette") as import("keybinds").CommandPalette;
+  const palette = document.createElement("keybinds-command-palette") as import("keybinds").CommandPalette;
   paletteEl = palette;
   palette.setAttribute("auto-trigger", "");
   palette.setAttribute("placeholder", "Search nodes, essays, commands\u2026");
@@ -518,7 +518,7 @@ export function setupInput(
     if (palette.hasAttribute("open")) loadHeadings();
   }).observe(palette, { attributes: true, attributeFilter: ["open"] });
 
-  const cheatsheet = document.createElement("keybind-cheatsheet") as import("keybinds").KeybindCheatsheet;
+  const cheatsheet = document.createElement("keybinds-cheatsheet") as import("keybinds").KeybindCheatsheet;
   cheatsheet.setAttribute("auto-trigger", "");
   cheatsheet.commands = commands;
   cheatsheet.context = {};
@@ -548,7 +548,7 @@ export function setupInput(
   ];
   allCommands.push(...contextMenuCommands);
 
-  const ctxMenu = document.createElement("context-menu") as import("keybinds").ContextMenu;
+  const ctxMenu = document.createElement("keybinds-basic-context-menu") as import("keybinds").BasicContextMenu;
   ctxMenu.setAttribute("auto-trigger", "");
   ctxMenu.setAttribute("target", "#viewport");
   ctxMenu.menu = "node";
