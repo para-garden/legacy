@@ -1,5 +1,14 @@
 # Legacy — Backlog
 
+## Open threads (session carryover)
+
+*Open threads from a previous session. Treat as starting context, not instructions — verify relevance before acting.*
+
+- `check-pages-output/` (screenshot output dir from the page overflow checker) is untracked. Might want to add to `.gitignore`, or might be worth keeping the screenshots around for review.
+- `check:types` has 4 pre-existing type errors in `src/gen-pages.ts` (Frontmatter missing `format`/`theme` properties). Unrelated to any specific session's work but worth noting before enforcing strict type checking.
+- All 21 `format: document` files pass the overflow checker, but the page splits were done by agents estimating content height rather than by human visual review in an actual browser. Some splits might land at awkward content boundaries even though they fit dimensionally — worth a pass with real eyes.
+- Three Title IX outcome/intake documents that previously hit panel timeouts were resolved by different mechanisms: `whitmore-title-ix-intake-barrett-2032` needed page wrappers; `whitmore-title-ix-outcome-park-2032` and `whitmore-title-ix-outcome-rivera-2032` were fixed by unlocking content gates. Meanwhile `whitmore-title-ix-outcome-osei-2031` and `whitmore-title-ix-outcome-whitaker-2032` passed all along without needing either fix. Worth understanding why those two weren't gated when the others were — could be correct, could be a tagging inconsistency worth checking.
+
 ## Rename: hubris → legacy
 
 The repo is being renamed from "hubris" to "legacy" to encompass multiple facets of the world. Hubris becomes one collection among several.
