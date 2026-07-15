@@ -20,6 +20,7 @@ src/generated-edges.ts
 src/generated-graph.ts
 src/generated-groupings.ts
 public/headings.json
+check-pages-output/
 
 # Editor
 .vscode/
