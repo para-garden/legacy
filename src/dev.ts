@@ -31,7 +31,7 @@ if (!isProduction) {
 const graph = isProduction ? createGraph() : null;
 const nodeMap = graph ? new Map(graph.nodes.map((n) => [n.id, n])) : null;
 
-function contentPage(id: string, html: string): string {
+function contentPage(id: string, html: string, format?: string, theme?: string): string {
   const title = nodeMap?.get(id)?.label ?? id;
   return `<!DOCTYPE html>
 <html lang="en">
@@ -39,6 +39,7 @@ function contentPage(id: string, html: string): string {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${title} — ${siteConfig.name}</title>
+  <link rel="stylesheet" href="/theme.css">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     html, body {
@@ -82,14 +83,20 @@ function contentPage(id: string, html: string): string {
     <a href="/?focus=${id}">view on map</a>
   </nav>
   <article>
+    <div id="panel-body"${format ? ` data-format="${format}"` : ""}${theme ? ` data-theme="${theme}"` : ""}>
 ${html}
+    </div>
   </article>
 </body>
 </html>`;
 }
 
+// PORT=0 lets Bun pick any free port (used by src/check-pages.ts to avoid
+// colliding with an already-running `bun run dev`); unset defaults to 3000.
+const port = process.env.PORT ? Number(process.env.PORT) : 3000;
+
 const server = Bun.serve({
-  port: 3000,
+  port,
   async fetch(req) {
     const url = new URL(req.url);
     let path = url.pathname;
@@ -149,8 +156,8 @@ const server = Bun.serve({
       const mdFile = Bun.file(`${dir}/content/${slug}.md`);
       if (await mdFile.exists()) {
         const md = await mdFile.text();
-        const { html } = parseMarkdown(md);
-        return new Response(contentPage(slug, html), {
+        const { html, format, theme } = parseMarkdown(md);
+        return new Response(contentPage(slug, html, format, theme), {
           headers: { "Content-Type": "text/html" },
         });
       }

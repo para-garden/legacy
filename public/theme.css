@@ -684,14 +684,34 @@
 #panel-body[data-theme="lumen"] code { background: #141e16; color: #7a9a7a; border: 1px solid #1e2e22; }
 
 /* ── Page layout: paginated paper for letters/documents ──── */
+/* Establish a query container so `.page` can measure the available width
+   and scale itself down to fit — the page's own box always stays a fixed
+   8.5"x11" (at 72dpi), so overflow measurements are stable regardless of
+   the containing panel's width. Applies both to the graph panel
+   (#panel-body inside #panel) and the standalone full-page document route,
+   which reuses the #panel-body id. */
+#panel-body {
+  container-type: inline-size;
+}
 .page {
   position: relative;
+  width: 612px; /* 8.5in * 72dpi */
+  height: 792px; /* 11in * 72dpi */
   background: #141414;
   border: 1px solid #252525;
   border-radius: 2px;
   padding: 32px 28px;
   margin-bottom: 12px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  box-sizing: border-box;
+  /* Scale to fit the container width, never scale up past 1:1. Container
+     query units let this stay pure CSS: 100cqw is the container's content
+     width in px, so dividing by the page's intrinsic width yields the
+     scale factor. `zoom` (unlike `transform`) affects the box's
+     contribution to layout, so no extra wrapper element is needed to
+     collapse the reserved space of a shrunk page. */
+  zoom: clamp(0.6, calc(100cqw / 612px), 1);
 }
 /* Last page doesn't need bottom margin */
 .page:last-child { margin-bottom: 0; }
