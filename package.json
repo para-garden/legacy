@@ -9,9 +9,11 @@
     "inspect": "bun run src/cli.ts inspect",
     "preview": "bun run src/cli.ts dev --production",
     "lint": "oxlint src/",
-    "check:types": "tsgo --noEmit"
+    "check:types": "tsgo --noEmit",
+    "check:pages": "bun run src/check-pages.ts"
   },
   "devDependencies": {
+    "@playwright/test": "1.57.0",
     "@types/bun": "^1.0.0",
     "@typescript/native-preview": "^7.0.0-dev",
     "oxlint": "^1.0.0"
