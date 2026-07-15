@@ -20,6 +20,7 @@ import { join } from "path";
 import { chromium, type Browser, type ElementHandle, type Page } from "@playwright/test";
 import { findMarkdownFiles, CONTENT_DIR } from "./content";
 import { parseFrontmatterLenient } from "./frontmatter";
+import { siteConfig } from "./site-config";
 
 const READY_TIMEOUT_MS = 30_000;
 const PANEL_TIMEOUT_MS = 15_000;
@@ -161,6 +162,15 @@ async function checkNode(browser: Browser, devUrl: string, nodeId: string): Prom
 
   try {
     page = await browser.newPage({ viewport: { width: 1920, height: 1080 } });
+
+    // Unlock all content-gated nodes so gated documents can be checked too.
+    // Content gate keys are read from site-config rather than hardcoded, so
+    // new gates are picked up automatically.
+    await page.addInitScript((gateKeys: string[]) => {
+      for (const key of gateKeys) {
+        localStorage.setItem(`legacy:${key}`, "1");
+      }
+    }, Object.keys(siteConfig.contentGates));
 
     await page.goto(`${devUrl}/?focus=${encodeURIComponent(nodeId)}`, {
       waitUntil: "domcontentloaded",

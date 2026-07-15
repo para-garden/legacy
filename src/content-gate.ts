@@ -7,7 +7,7 @@ export interface GateEntry {
   description: string;
 }
 
-const STORAGE_PREFIX = "legacy:cw:";
+const STORAGE_PREFIX = "legacy:";
 
 export function isAcknowledged(key: string): boolean {
   const storageKey = STORAGE_PREFIX + key;

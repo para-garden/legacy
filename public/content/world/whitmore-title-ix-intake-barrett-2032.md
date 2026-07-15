@@ -7,6 +7,8 @@ tags: [justice, rounding, distance, cw:sexual-violence]
 collections: [default]
 ---
 
+<div class="page">
+
 <div class="letterhead">
 <div class="letterhead-name">WHITMORE UNIVERSITY</div>
 <div class="letterhead-dept">Office of Equity and Civil Rights Compliance</div>
@@ -36,6 +38,15 @@ Complainant asked whether the respondent would have access to medical or transit
 
 Complainant did not ask additional questions.
 
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">WHITMORE UNIVERSITY</div>
+<div class="letterhead-dept">Office of Equity and Civil Rights Compliance</div>
+</div>
+
 ---
 
 **Outcome:**
@@ -51,3 +62,5 @@ Per policy 7.2(c), preliminary intake notes retained for three years. No further
 *A. Merritt, Title IX Case Manager*
 *Office of Equity and Civil Rights Compliance*
 *Whitmore University*
+
+</div>
