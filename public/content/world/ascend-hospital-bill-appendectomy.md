@@ -11,6 +11,8 @@ related:
   - ascend-community-benefit-report-2032
 ---
 
+<div class="page">
+
 <div class="letterhead">
 <div class="letterhead-name">ASCEND HEALTH SYSTEM</div>
 <div class="letterhead-dept">Integrated Care. Exceptional Outcomes.</div>
@@ -36,7 +38,15 @@ related:
 
 > **Important:** This statement reflects charges from Ascend Health System only. You may receive **separate bills** from your surgeon, anesthesiologist, radiologist, and pathologist. These providers may bill independently and may have different network status under your plan. Please contact your insurance carrier with questions about those charges.
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">ASCEND HEALTH SYSTEM</div>
+<div class="letterhead-dept">Integrated Care. Exceptional Outcomes.</div>
+<div class="letterhead-addr">ascendhealthsystem.com/portal · Patient Billing Services: (844) 501-9200</div>
+</div>
 
 ## SUMMARY OF CHARGES
 
@@ -50,7 +60,15 @@ related:
 
 **Amount Due by April 3, 2032: $4,247.00**
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">ASCEND HEALTH SYSTEM</div>
+<div class="letterhead-dept">Integrated Care. Exceptional Outcomes.</div>
+<div class="letterhead-addr">ascendhealthsystem.com/portal · Patient Billing Services: (844) 501-9200</div>
+</div>
 
 ## ITEMIZED CHARGES
 
@@ -69,6 +87,21 @@ related:
 | A4217 | Sterile Water for Irrigation, per 500ml | 3 | $184.00 | $552.00 |
 | A4216 | [Normal Saline, 1000ml IV Bag](https://www.advisory.com/daily-briefing/2013/08/27/the-secret-of-salines-cost-why-a-1-bag-can-cost-700) | 4 | $380.00 | $1,520.00 |
 | J2250 | Midazolam HCl 1mg IV (Versed) | 2 | $94.00 | $188.00 |
+
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">ASCEND HEALTH SYSTEM</div>
+<div class="letterhead-dept">Integrated Care. Exceptional Outcomes.</div>
+<div class="letterhead-addr">ascendhealthsystem.com/portal · Patient Billing Services: (844) 501-9200</div>
+</div>
+
+### EMERGENCY DEPARTMENT — Feb 24, 2032 (continued)
+
+| Code | Description | Qty | Unit Price | Total |
+|---|---|---:|---:|---:|
 | J3010 | Fentanyl Citrate 0.1mg IV | 3 | $112.00 | $336.00 |
 | J0696 | Ceftriaxone 1gm IV (prophylactic antibiotic) | 1 | $284.00 | $284.00 |
 | A6216 | IV Start Kit / Peripheral Access Tray | 1 | $218.00 | $218.00 |
@@ -80,7 +113,15 @@ related:
 | — | ED Trauma Bay Supply Fee | 1 | $1,240.00 | $1,240.00 |
 | **ED Subtotal** | | | | **$17,420.00** |
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">ASCEND HEALTH SYSTEM</div>
+<div class="letterhead-dept">Integrated Care. Exceptional Outcomes.</div>
+<div class="letterhead-addr">ascendhealthsystem.com/portal · Patient Billing Services: (844) 501-9200</div>
+</div>
 
 ### SURGICAL SERVICES — Feb 24–25, 2032 (OR Entry: 11:42 PM)
 
@@ -96,6 +137,21 @@ related:
 | — | Specimen Retrieval Bag | 1 | $312.00 | $312.00 |
 | — | Electrosurgical Pencil / Bovie | 1 | $218.00 | $218.00 |
 | — | Irrigation / Suction Set | 1 | $184.00 | $184.00 |
+
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">ASCEND HEALTH SYSTEM</div>
+<div class="letterhead-dept">Integrated Care. Exceptional Outcomes.</div>
+<div class="letterhead-addr">ascendhealthsystem.com/portal · Patient Billing Services: (844) 501-9200</div>
+</div>
+
+### SURGICAL SERVICES — Feb 24–25, 2032 (continued)
+
+| Code | Description | Qty | Unit Price | Total |
+|---|---|---:|---:|---:|
 | — | Absorbable Suture Pack (Vicryl 2-0) | 2 | $94.00 | $188.00 |
 | — | Skin Closure Strips (Steri-Strip) | 1 | $47.00 | $47.00 |
 | — | Sterile Drape Pack | 1 | $340.00 | $340.00 |
@@ -107,7 +163,15 @@ related:
 | — | Pathology Specimen Container / Preservative | 1 | $138.00 | $138.00 |
 | **Surgical Subtotal** | | | | **$25,807.00** |
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">ASCEND HEALTH SYSTEM</div>
+<div class="letterhead-dept">Integrated Care. Exceptional Outcomes.</div>
+<div class="letterhead-addr">ascendhealthsystem.com/portal · Patient Billing Services: (844) 501-9200</div>
+</div>
 
 ### INPATIENT ROOM & BOARD — Feb 25–26, 2032
 
@@ -121,6 +185,21 @@ related:
 | J3490 | Ketorolac 30mg IV (Toradol) | 4 | $168.00 | $672.00 |
 | — | Acetaminophen 500mg oral | 4 | $47.00 | $188.00 |
 | J0696 | Ceftriaxone 1gm IV (post-op antibiotic) | 2 | $284.00 | $568.00 |
+
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">ASCEND HEALTH SYSTEM</div>
+<div class="letterhead-dept">Integrated Care. Exceptional Outcomes.</div>
+<div class="letterhead-addr">ascendhealthsystem.com/portal · Patient Billing Services: (844) 501-9200</div>
+</div>
+
+### INPATIENT ROOM & BOARD — Feb 25–26, 2032 (continued)
+
+| Code | Description | Qty | Unit Price | Total |
+|---|---|---:|---:|---:|
 | — | Enoxaparin 40mg SQ (blood clot prevention) | 1 | $218.00 | $218.00 |
 | — | Incentive Spirometer (respiratory device) | 1 | $94.00 | $94.00 |
 | — | Compression Stocking Set (DVT prevention) | 1 | $138.00 | $138.00 |
@@ -129,7 +208,15 @@ related:
 | — | Discharge Planning / Case Management Fee | 1 | $312.00 | $312.00 |
 | **Room & Board Subtotal** | | | | **$8,673.00** |
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">ASCEND HEALTH SYSTEM</div>
+<div class="letterhead-dept">Integrated Care. Exceptional Outcomes.</div>
+<div class="letterhead-addr">ascendhealthsystem.com/portal · Patient Billing Services: (844) 501-9200</div>
+</div>
 
 ### RADIOLOGY & PATHOLOGY
 
@@ -154,7 +241,15 @@ related:
 | Facility Fee — Ascend Health System | $200.00 |
 | **Grand Total — This Statement** | **$54,817.00** |
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">ASCEND HEALTH SYSTEM</div>
+<div class="letterhead-dept">Integrated Care. Exceptional Outcomes.</div>
+<div class="letterhead-addr">ascendhealthsystem.com/portal · Patient Billing Services: (844) 501-9200</div>
+</div>
 
 ## INSURANCE ADJUDICATION DETAIL
 
@@ -171,7 +266,15 @@ related:
 
 *This statement reflects Ascend Health System facility charges only. Deductible and out-of-pocket amounts are estimates based on information provided by your insurer. Final adjudication may differ.*
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">ASCEND HEALTH SYSTEM</div>
+<div class="letterhead-dept">Integrated Care. Exceptional Outcomes.</div>
+<div class="letterhead-addr">ascendhealthsystem.com/portal · Patient Billing Services: (844) 501-9200</div>
+</div>
 
 ## NOT INCLUDED IN THIS BILL
 
@@ -186,7 +289,15 @@ The following services were provided by independent practitioners and will be bi
 
 **Note regarding anesthesia:** Anesthesia services are provided by Pinnacle Anesthesia Partners, LLC, an independent contractor operating within Ascend facilities. Pinnacle Anesthesia Partners is **not a participating provider** with all insurance plans. If you received an out-of-network determination for anesthesia services, you may have rights under the No Surprises Act (effective 2022). Contact Pinnacle Anesthesia Partners directly at (866) 774-0183 or visit pinnacleap.com/billing.
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">ASCEND HEALTH SYSTEM</div>
+<div class="letterhead-dept">Integrated Care. Exceptional Outcomes.</div>
+<div class="letterhead-addr">ascendhealthsystem.com/portal · Patient Billing Services: (844) 501-9200</div>
+</div>
 
 ## AMBULANCE SERVICES
 
@@ -200,7 +311,15 @@ Estimated ambulance charge: **$2,800–$4,200** (ground transport, ALS Level 1).
 
 *Ascend Health System has no access to METS billing records and cannot assist with disputes or coverage questions related to ambulance services.*
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">ASCEND HEALTH SYSTEM</div>
+<div class="letterhead-dept">Integrated Care. Exceptional Outcomes.</div>
+<div class="letterhead-addr">ascendhealthsystem.com/portal · Patient Billing Services: (844) 501-9200</div>
+</div>
 
 ## PAYMENT OPTIONS
 
@@ -228,7 +347,15 @@ To enroll, log in to your patient portal or call (844) 501-9200. A credit check 
 
 *Accounts not enrolled in a payment plan and not paid in full by the due date may be referred to our third-party collections partner, Resolute Recovery Solutions. Collection referral may affect your credit score.*
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">ASCEND HEALTH SYSTEM</div>
+<div class="letterhead-dept">Integrated Care. Exceptional Outcomes.</div>
+<div class="letterhead-addr">ascendhealthsystem.com/portal · Patient Billing Services: (844) 501-9200</div>
+</div>
 
 ### Financial Assistance — Ascend Cares Program
 
@@ -250,7 +377,15 @@ Applications are reviewed within 30 business days of receipt of **complete docum
 
 For assistance completing your application, contact our Financial Counseling office at (844) 501-9217.
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">ASCEND HEALTH SYSTEM</div>
+<div class="letterhead-dept">Integrated Care. Exceptional Outcomes.</div>
+<div class="letterhead-addr">ascendhealthsystem.com/portal · Patient Billing Services: (844) 501-9200</div>
+</div>
 
 ## NOTICE OF PATIENT RIGHTS
 
@@ -268,3 +403,5 @@ A copy of our Notice of Privacy Practices is available at ascendhealthsystem.com
 
 *Statement generated: March 4, 2032 | Page 1 of 1*
 *Account: AHS-2032-0047821 | Patient: Riley A. Whitaker*
+
+</div>

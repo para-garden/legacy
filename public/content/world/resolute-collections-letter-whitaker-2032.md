@@ -47,6 +47,16 @@ If you notify this office in writing within 30 days that you dispute the validit
 
 If you request of this office in writing within 30 days, we will provide you with the name and address of the original creditor, if different from the current creditor.
 
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">RESOLUTE RECOVERY SOLUTIONS</div>
+<div class="letterhead-dept">Dedicated to Ethical Recovery Practices</div>
+<div class="letterhead-addr">11240 Corporate Center Drive, Suite 300 · Louisville, KY 40223</div>
+</div>
+
 ---
 
 ## PAYMENT OPTIONS
@@ -58,6 +68,16 @@ If you request of this office in writing within 30 days, we will provide you wit
 **Pay by Phone:** (866) 447-3200 — Monday–Friday 8:00 AM–9:00 PM ET, Saturday 9:00 AM–1:00 PM ET
 
 **Partial Payment / Settlement:** If you are unable to pay the full balance, you may be eligible for a reduced settlement. Contact our office to discuss available options.
+
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">RESOLUTE RECOVERY SOLUTIONS</div>
+<div class="letterhead-dept">Dedicated to Ethical Recovery Practices</div>
+<div class="letterhead-addr">11240 Corporate Center Drive, Suite 300 · Louisville, KY 40223</div>
+</div>
 
 ---
 

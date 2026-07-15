@@ -39,6 +39,10 @@ Columbus, OH 43201
 | **Credits/Adjustments Applied:** | $333.00 |
 | **Total Amount Currently Due:** | **$2,847.00** |
 
+</div>
+
+<div class="page">
+
 &nbsp;
 
 Dear Ms. Whitaker,
@@ -114,6 +118,10 @@ You may request in writing the name and address of the original creditor. The or
 > PO Box 7740
 > Columbus, OH 43207
 > (833) 620-4411
+
+</div>
+
+<div class="page">
 
 **Your Additional Rights**
 

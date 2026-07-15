@@ -10,9 +10,14 @@
  *
  * Run standalone: bun run src/check-pages.ts
  * Or: bun run check:pages
+ *
+ * Pass --screenshots to also save a per-page PNG of every `.page` div to
+ * check-pages-output/ in the project root, with the clipping temporarily
+ * disabled so the image shows the full content even where it overflows.
  */
-import { readFile } from "fs/promises";
-import { chromium, type Browser, type Page } from "@playwright/test";
+import { mkdir, readFile } from "fs/promises";
+import { join } from "path";
+import { chromium, type Browser, type ElementHandle, type Page } from "@playwright/test";
 import { findMarkdownFiles, CONTENT_DIR } from "./content";
 import { parseFrontmatterLenient } from "./frontmatter";
 
@@ -23,12 +28,27 @@ const LISTEN_LINE_RE = /listening on http:\/\/localhost:(\d+)/;
  * server is up" from "something is answering on this port." */
 const APP_FINGERPRINT = 'aria-roledescription="spatial graph"';
 
+const UNDERFULL_RATIO = 0.4;
+
+/** --screenshots: save a per-page screenshot (with overflow clipping
+ * temporarily disabled) alongside the usual measurement pass. */
+const SCREENSHOTS_ENABLED = process.argv.includes("--screenshots");
+const SCREENSHOT_DIR = join(import.meta.dir, "../check-pages-output");
+
+interface PageMeasurement {
+  pageIndex: number;
+  scrollHeight: number;
+  clientHeight: number;
+  status: "overflow" | "underfull" | "ok";
+}
+
 interface Overflow {
   nodeId: string;
   pageIndex: number;
   scrollHeight: number;
   clientHeight: number;
   overflowPx: number;
+  screenshotPath?: string;
 }
 
 /** Find every `format: document` node id under public/content. */
@@ -103,6 +123,37 @@ async function waitForServer(devUrl: string, timeoutMs: number): Promise<void> {
   throw new Error(`Dev server did not become ready within ${timeoutMs}ms`);
 }
 
+/** Filesystem-safe stem for a node id: `world/factions/foo` -> `world-factions-foo`. */
+function screenshotStem(nodeId: string): string {
+  return nodeId.replace(/\//g, "-");
+}
+
+/**
+ * Screenshot a single `.page` element with its overflow clipping disabled,
+ * so the image shows the full content even where it would normally be cut
+ * off. `.page` has a CSS-fixed height (8.5x11 paper), so `overflow: hidden`
+ * alone doesn't change the element's own box — clipped content renders past
+ * the box's bottom edge, outside the screenshot's crop region. To actually
+ * capture it, we also stretch the element's height to its scrollHeight for
+ * the duration of the screenshot, then restore both properties.
+ */
+async function captureUnclippedScreenshot(el: ElementHandle<SVGElement | HTMLElement>, filePath: string): Promise<void> {
+  await el.evaluate((node) => {
+    const style = (node as HTMLElement).style;
+    style.setProperty("overflow", "visible");
+    style.setProperty("height", `${(node as HTMLElement).scrollHeight}px`);
+  });
+  try {
+    await el.screenshot({ path: filePath });
+  } finally {
+    await el.evaluate((node) => {
+      const style = (node as HTMLElement).style;
+      style.removeProperty("overflow");
+      style.removeProperty("height");
+    });
+  }
+}
+
 async function checkNode(browser: Browser, devUrl: string, nodeId: string): Promise<{ overflows: Overflow[]; failed: boolean }> {
   let page: Page | undefined;
   const overflows: Overflow[] = [];
@@ -133,6 +184,19 @@ async function checkNode(browser: Browser, devUrl: string, nodeId: string): Prom
       })),
     );
 
+    const screenshotPaths: string[] = [];
+    if (SCREENSHOTS_ENABLED) {
+      const stem = screenshotStem(nodeId);
+      for (let i = 0; i < pageElements.length; i++) {
+        const el = pageElements[i];
+        if (!el) continue;
+        const filename = `${stem}-page-${i}.png`;
+        const filePath = join(SCREENSHOT_DIR, filename);
+        await captureUnclippedScreenshot(el, filePath);
+        screenshotPaths[i] = filename;
+      }
+    }
+
     measurements.forEach((m, i) => {
       if (m.scrollHeight > m.clientHeight) {
         overflows.push({
@@ -141,6 +205,7 @@ async function checkNode(browser: Browser, devUrl: string, nodeId: string): Prom
           scrollHeight: m.scrollHeight,
           clientHeight: m.clientHeight,
           overflowPx: m.scrollHeight - m.clientHeight,
+          screenshotPath: screenshotPaths[i],
         });
       }
     });
@@ -163,6 +228,12 @@ async function main(): Promise<void> {
   }
 
   console.log(`Found ${nodeIds.length} format: document file(s).`);
+
+  if (SCREENSHOTS_ENABLED) {
+    await mkdir(SCREENSHOT_DIR, { recursive: true });
+    console.log(`Screenshots enabled. Saving to ${SCREENSHOT_DIR}`);
+  }
+
   console.log("Starting dev server on a free port...");
 
   // PORT=0 asks Bun for any free port, so this doesn't collide with a
@@ -205,6 +276,9 @@ async function main(): Promise<void> {
           `  ${o.nodeId} — page ${o.pageIndex}: overflow by ${o.overflowPx}px ` +
             `(scrollHeight ${o.scrollHeight} > clientHeight ${o.clientHeight})`,
         );
+        if (o.screenshotPath) {
+          console.log(`    screenshot: ${o.screenshotPath}`);
+        }
       }
     }
 

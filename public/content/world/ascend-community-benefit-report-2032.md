@@ -55,7 +55,14 @@ We are more than a hospital system. We are a partner in the health of the commun
 | **Community building activities** | $4.1M | 1.0% |
 | **Total Community Benefit** | **$412.0M** | **100%** |
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">ASCEND HEALTH SYSTEM</div>
+<div class="letterhead-dept">Community Benefit Summary</div>
+</div>
 
 ### Financial Assistance Program — Ascend Cares
 
@@ -86,7 +93,14 @@ Ascend sponsors [282 medical residency positions](https://www.aamc.org/data-repo
 
 **Unreimbursed cost of medical education: $61.8M**
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">ASCEND HEALTH SYSTEM</div>
+<div class="letterhead-dept">Community Benefit Summary</div>
+</div>
 
 ### Community Health Improvement
 
@@ -111,7 +125,14 @@ Ascend Health System complies with all requirements of [IRS Section 501(r)](http
 
 *Accounts not eligible for financial assistance and not paid within 240 days of the first post-discharge billing statement may be referred to our [third-party collections partner](https://www.consumerfinance.gov/consumer-tools/debt-collection/) for further action.*
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">ASCEND HEALTH SYSTEM</div>
+<div class="letterhead-dept">Community Benefit Summary</div>
+</div>
 
 ### Looking Ahead — FY2033 Priorities
 

@@ -7,6 +7,8 @@ tags: [indulgence, justice]
 collections: [default]
 ---
 
+<div class="page">
+
 <div class="letterhead">
 <div class="letterhead-name">PHI DELTA SIGMA FRATERNITY</div>
 <div class="letterhead-dept">National Office of Risk Management</div>
@@ -33,6 +35,15 @@ A minimum of three (3) designated sober monitors are required for any event with
 
 Written or digital guest lists must be maintained for all events and retained for a minimum of 90 days. In the event of an incident, the chapter president is responsible for making this documentation available to the national office within 24 hours of request.
 
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">PHI DELTA SIGMA FRATERNITY</div>
+<div class="letterhead-dept">National Office of Risk Management</div>
+</div>
+
 **Incident Reporting**
 
 Any incident requiring emergency services response must be reported to the national office within 4 hours. "Incident" includes but is not limited to: medical emergency, law enforcement contact, property damage requiring insurance claim, or formal complaint from a guest or neighbor.
@@ -45,6 +56,15 @@ Chapters currently under Standards Board review are reminded that compliance wit
 
 We understand this places additional administrative burden on chapter officers. These measures exist to protect the chapter, its members, and the fraternity's standing.
 
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">PHI DELTA SIGMA FRATERNITY</div>
+<div class="letterhead-dept">National Office of Risk Management</div>
+</div>
+
 Questions should be directed to riskmanagement@phideltasigma.org.
 
 In brotherhood,
@@ -52,3 +72,5 @@ In brotherhood,
 Marcus Ellison
 Director, Risk Management
 Phi Delta Sigma National Office
+
+</div>

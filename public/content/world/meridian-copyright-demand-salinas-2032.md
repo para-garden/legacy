@@ -41,11 +41,23 @@ Philippines
 | **Works Identified:** | 11 copyrighted sound recordings (see Exhibit A) |
 | **Rights Holders Represented:** | Sony Music Entertainment, HYBE Corporation, Universal Music Group, Warner Music Group |
 
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">MERIDIAN CONTENT PROTECTION, LLC</div>
+<div class="letterhead-dept">Intellectual Property Enforcement & Licensing Compliance</div>
+<div class="letterhead-addr">200 Park Avenue, 18th Floor · New York, NY 10166 · (212) 905-7100</div>
+</div>
+
 &nbsp;
 
 Dear Mr. Salinas,
 
 This firm represents the above-named rights holders in connection with the enforcement of their exclusive rights under the [Copyright Act of the United States, 17 U.S.C. §§ 101 *et seq.*](https://www.law.cornell.edu/uscode/text/17) and applicable international copyright treaties, including the [Berne Convention for the Protection of Literary and Artistic Works](https://www.wipo.int/treaties/en/ip/berne/).
+
+&nbsp;
 
 We write to notify you that copyrighted sound recordings owned or controlled by our clients have been identified in media files uploaded by you to the Parallax Data platform. These files were subsequently incorporated into AI training datasets licensed to third parties.
 
@@ -68,6 +80,10 @@ Under [17 U.S.C. § 504(c)](https://www.law.cornell.edu/uscode/text/17/504), a c
 For the 11 works at issue, statutory damages range from a minimum of **$8,250** to a maximum of **$1,650,000**.
 
 We note that [statutory damages need not bear any relation to actual harm suffered by the rights holder](https://en.wikipedia.org/wiki/Capitol_Records,_Inc._v._Thomas-Rasset#Appeals). The statutory framework exists precisely because actual damages in cases of individual infringement are often small and difficult to quantify. This does not limit the range of damages available.
+
+</div>
+
+<div class="page">
 
 ## SETTLEMENT OFFER
 
@@ -100,6 +116,10 @@ If we do not receive payment or a written response within 30 days, our clients r
 
 We also note that Parallax Data, Inc. has suspended your contributor account pending resolution of this matter, as provided under Section 12.1 of the Contributor Agreement.
 
+</div>
+
+<div class="page">
+
 ## EXHIBIT A — IDENTIFIED WORKS (SUMMARY)
 
 | # | Title | Artist | Rights Holder | Detection Amplitude | Upload File Ref |
@@ -110,6 +130,15 @@ We also note that Parallax Data, Inc. has suspended your contributor account pen
 | 4 | Langit | Kaia | Warner Music Philippines | –40 dB | PX-VID-2031-0663 |
 | 5 | Soft Landing | HORI7ON | HYBE / MLD Ent. | –37 dB | PX-VID-2031-0847 |
 | 6 | Kulay | Lara Soleil | Sony Music Philippines | –39 dB | PX-VID-2031-1187 |
+
+</div>
+
+<div class="page">
+
+## EXHIBIT A — IDENTIFIED WORKS (SUMMARY, CONTINUED)
+
+| # | Title | Artist | Rights Holder | Detection Amplitude | Upload File Ref |
+|---|---|---|---|---|---|
 | 7 | Passenger | Minjun | HYBE Corporation | –36 dB | PX-VID-2031-1204 |
 | 8 | Last Room | Vex Kierra | RCA Records / Sony | –41 dB | PX-VID-2032-0112 |
 | 9 | Daang | Ren Kai | Universal Music Philippines | –35 dB | PX-VID-2032-0203 |

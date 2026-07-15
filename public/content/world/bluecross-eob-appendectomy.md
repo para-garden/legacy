@@ -6,6 +6,8 @@ theme: bluecross
 tags: [document, healthcare, insurance, capitalism]
 ---
 
+<div class="page">
+
 <div class="letterhead">
 <div class="letterhead-name">BLUECROSS ADVANTAGE SELECT</div>
 <div class="letterhead-dept">A Division of BlueCross Health Partners, Inc.</div>
@@ -33,7 +35,15 @@ Dates of Service:      February 24–26, 2032
 > **Good news — your claim has been processed.**
 > We've reviewed your recent claim and applied your benefits. Please read this document carefully. You may owe money to your provider. A summary of what you owe is on page 2.
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">BLUECROSS ADVANTAGE SELECT</div>
+<div class="letterhead-dept">A Division of BlueCross Health Partners, Inc.</div>
+<div class="letterhead-addr">P.O. Box 91400 · Phoenix, AZ 85068-1400 · 1-800-422-2583</div>
+</div>
 
 ## YOUR SAVINGS THIS CLAIM: $36,204.00
 
@@ -49,7 +59,15 @@ Because you chose an **in-network provider**, BlueCross Advantage Select was abl
 
 > Our in-network provider agreements help keep your costs lower. Choosing in-network providers is one of the most powerful ways to manage your healthcare spending. Learn more at bluecrossadvantageselect.com/savings.
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">BLUECROSS ADVANTAGE SELECT</div>
+<div class="letterhead-dept">A Division of BlueCross Health Partners, Inc.</div>
+<div class="letterhead-addr">P.O. Box 91400 · Phoenix, AZ 85068-1400 · 1-800-422-2583</div>
+</div>
 
 ## CLAIM DETAIL — Ascend Regional Medical Center (In-Network)
 
@@ -63,9 +81,43 @@ Because you chose an **in-network provider**, BlueCross Advantage Select was abl
 | 02/24/2032 | CT Abdomen/Pelvis w/ Contrast (74177) | $6,240.00 | −$4,072.00 | $2,168.00 | $1,082.00 | $1,086.00 | Coinsurance: 50% after deductible |
 | 02/24/2032 | Appendectomy, Laparoscopic — Facility Fee (44950) | $8,400.00 | −$2,622.00 | $5,778.00 | $4,334.00 | $1,444.00 | Coinsurance: 25% after deductible |
 | 02/24/2032 | General Anesthesia — Facility Component (00840) | $3,100.00 | −$2,198.00 | $902.00 | $677.00 | $225.00 | Coinsurance: 25% after deductible |
+
+*(Claim detail continued on next page)*
+
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">BLUECROSS ADVANTAGE SELECT</div>
+<div class="letterhead-dept">A Division of BlueCross Health Partners, Inc.</div>
+<div class="letterhead-addr">P.O. Box 91400 · Phoenix, AZ 85068-1400 · 1-800-422-2583</div>
+</div>
+
+## CLAIM DETAIL (continued) — Ascend Regional Medical Center (In-Network)
+
+| Service Date | Procedure | Billed | Negotiated Rate | Allowed | Plan Paid | Your Share | Reason |
+|---|---|---|---|---|---|---|---|
 | 02/24/2032 | Pathology — Specimen, Facility (88305) | $1,417.00 | −$981.00 | $436.00 | $327.00 | $109.00 | Coinsurance: 25% after deductible |
 | 02/24–02/26/2032 | Inpatient Room & Board, 1 night (99220) | $4,040.00 | −$1,554.00 | $2,486.00 | $2,036.00 | $450.00 | Coinsurance: 10%; daily max applied |
 | 02/24/2032 | IV Medications & Supplies — ED | $4,100.00 | −$2,814.00 | $1,286.00 | $1,286.00 | $0.00 | Fully covered per facility agreement |
+
+*(Claim detail continued on next page)*
+
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">BLUECROSS ADVANTAGE SELECT</div>
+<div class="letterhead-dept">A Division of BlueCross Health Partners, Inc.</div>
+<div class="letterhead-addr">P.O. Box 91400 · Phoenix, AZ 85068-1400 · 1-800-422-2583</div>
+</div>
+
+## CLAIM DETAIL (continued) — Ascend Regional Medical Center (In-Network)
+
+| Service Date | Procedure | Billed | Negotiated Rate | Allowed | Plan Paid | Your Share | Reason |
+|---|---|---|---|---|---|---|---|
 | 02/25/2032 | Surgical Services — OR, Recovery, Supplies | $20,180.00 | −$13,928.00 | $6,252.00 | $4,689.00 | $933.00 | See Reason Code R-14 below |
 | 02/25–02/26/2032 | Room & Board, Nursing, Monitoring | $3,500.00 | −$2,504.00 | $996.00 | $626.00 | $0.00 | Out-of-pocket maximum reached |
 | | **TOTALS** | **$54,817.00** | **−$36,204.00** | **$18,613.00** | **$14,366.00** | **$4,247.00** | |
@@ -73,7 +125,15 @@ Because you chose an **in-network provider**, BlueCross Advantage Select was abl
 **Reason Codes:**
 - **R-14:** Benefit maximum applied. Member has reached the facility service limit for this benefit period. Remaining balance applied to member coinsurance per plan documents Section 4.7(b). This determination is based on your current accumulator status as of the date of service and may differ from your current balance.
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">BLUECROSS ADVANTAGE SELECT</div>
+<div class="letterhead-dept">A Division of BlueCross Health Partners, Inc.</div>
+<div class="letterhead-addr">P.O. Box 91400 · Phoenix, AZ 85068-1400 · 1-800-422-2583</div>
+</div>
 
 ## MEMBER RESPONSIBILITY SUMMARY
 
@@ -86,6 +146,18 @@ Because you chose an **in-network provider**, BlueCross Advantage Select was abl
 | Inpatient Benefit Days | 30 days/year | 2 days | 0 days | 2 days | 28 days |
 
 > **Please note:** Your out-of-pocket maximum applies only to covered services rendered by in-network providers under your plan. Amounts paid for out-of-network services, services requiring prior authorization that was not obtained, non-covered services, or provider balances above the allowed amount may not count toward your out-of-pocket maximum. See your Summary of Benefits and Coverage (SBC) for details.
+
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">BLUECROSS ADVANTAGE SELECT</div>
+<div class="letterhead-dept">A Division of BlueCross Health Partners, Inc.</div>
+<div class="letterhead-addr">P.O. Box 91400 · Phoenix, AZ 85068-1400 · 1-800-422-2583</div>
+</div>
+
+### MEMBER RESPONSIBILITY SUMMARY (continued)
 
 > **Important:** Additional claims related to this episode of care are still processing (see below). Your Member Responsibility Summary above reflects only this claim. Your total out-of-pocket costs for this hospitalization will be higher once all claims are processed.
 
@@ -106,7 +178,19 @@ The following providers typically bill **separately** from the hospital. You may
 > **PLEASE READ — Important Notice Regarding Network Status**
 >
 > Pinnacle Anesthesia Partners, LLC has not yet confirmed their network status with BlueCross Advantage Select for the date of your service. [Anesthesiologists and other specialist providers who practice at in-network facilities are **not always in-network themselves**](https://www.gao.gov/products/gao-23-105765). If this provider is determined to be **out-of-network**, different cost-sharing terms will apply, and your balance due may be higher than anticipated.
->
+
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">BLUECROSS ADVANTAGE SELECT</div>
+<div class="letterhead-dept">A Division of BlueCross Health Partners, Inc.</div>
+<div class="letterhead-addr">P.O. Box 91400 · Phoenix, AZ 85068-1400 · 1-800-422-2583</div>
+</div>
+
+### Anesthesiology Services (continued) — Your Rights Under the No Surprises Act
+
 > **Your rights under the [No Surprises Act](https://content.naic.org/insurance-topics/no-surprises-act) (Federal Law, effective 2022):**
 > You have protections against certain surprise bills for emergency services. However, these protections apply to the **physician fee** only under specific qualifying conditions. Facility fees are governed separately. If you believe you have been billed incorrectly:
 >
@@ -128,7 +212,15 @@ The following providers typically bill **separately** from the hospital. You may
 
 > Standard processing timelines apply. Watch for a separate EOB.
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">BLUECROSS ADVANTAGE SELECT</div>
+<div class="letterhead-dept">A Division of BlueCross Health Partners, Inc.</div>
+<div class="letterhead-addr">P.O. Box 91400 · Phoenix, AZ 85068-1400 · 1-800-422-2583</div>
+</div>
 
 ### Pathology Services — CLAIM PENDING
 
@@ -152,15 +244,35 @@ The following providers typically bill **separately** from the hospital. You may
 **Claim Number:** None on file
 **Status:** BlueCross Advantage Select has **not received a claim** from METS for your emergency transport on February 24, 2032.
 
-> **Action may be required.**
->
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">BLUECROSS ADVANTAGE SELECT</div>
+<div class="letterhead-dept">A Division of BlueCross Health Partners, Inc.</div>
+<div class="letterhead-addr">P.O. Box 91400 · Phoenix, AZ 85068-1400 · 1-800-422-2583</div>
+</div>
+
+### Emergency Transportation (continued) — Action May Be Required
+
 > Emergency medical transport providers are not required to bill your insurer directly. If METS bills you directly, you may submit the claim for reimbursement yourself. Please be aware:
 >
 > - **METS is not an in-network provider.** Out-of-network emergency transport is a covered benefit under your plan, subject to your out-of-network deductible ([$3,500](https://www.kff.org/health-costs/2024-employer-health-benefits-survey/) individual, separate from your in-network deductible) and out-of-network coinsurance ([40%](https://www.healthcare.gov/glossary/co-insurance/) after deductible).
 > - The No Surprises Act provides some protections for ground ambulance services, but [federal ground ambulance protections vary by state and a final rule has not been uniformly implemented](https://crsreports.congress.gov/product/pdf/R/R47067). Your state may have additional protections. BlueCross Advantage Select cannot confirm the applicable protections for your transport at this time.
->
-> **To submit a manual reimbursement claim:**
->
+
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">BLUECROSS ADVANTAGE SELECT</div>
+<div class="letterhead-dept">A Division of BlueCross Health Partners, Inc.</div>
+<div class="letterhead-addr">P.O. Box 91400 · Phoenix, AZ 85068-1400 · 1-800-422-2583</div>
+</div>
+
+### Emergency Transportation (continued) — To Submit a Manual Reimbursement Claim
+
 > 1. Obtain an itemized bill from METS. The bill must include: provider NPI number, date of service, procedure/transport codes (A0427 or equivalent), pickup and drop-off addresses, mileage, and a signed statement of medical necessity.
 > 2. Complete the **Member Reimbursement Request Form**, available at bluecrossadvantageselect.com/forms or by calling Member Services. Do not use a generic form — your plan requires the plan-specific form (Form BCX-MRR-2031).
 > 3. Attach a copy of your itemized bill, a copy of the METS bill you received, a copy of this EOB, and a completed and signed HIPAA authorization form (Form BCX-AUTH-19) if the claim is being submitted by anyone other than the member.
@@ -177,7 +289,15 @@ The following providers typically bill **separately** from the hospital. You may
 >
 > Questions? Call Member Services at 1-800-422-2583, Monday–Friday, 8 a.m.–8 p.m. local time.
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">BLUECROSS ADVANTAGE SELECT</div>
+<div class="letterhead-dept">A Division of BlueCross Health Partners, Inc.</div>
+<div class="letterhead-addr">P.O. Box 91400 · Phoenix, AZ 85068-1400 · 1-800-422-2583</div>
+</div>
 
 ## HOW TO READ THIS EOB
 
@@ -190,6 +310,18 @@ This Explanation of Benefits is a summary of how BlueCross Advantage Select proc
 **Allowed Amount:** The amount BlueCross Advantage Select has determined is the appropriate cost for this service under your plan's network agreement. This is the amount on which your cost-sharing (deductible, coinsurance, copay) is calculated.
 
 **Plan Paid:** The amount BlueCross Advantage Select paid directly to your provider.
+
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">BLUECROSS ADVANTAGE SELECT</div>
+<div class="letterhead-dept">A Division of BlueCross Health Partners, Inc.</div>
+<div class="letterhead-addr">P.O. Box 91400 · Phoenix, AZ 85068-1400 · 1-800-422-2583</div>
+</div>
+
+### HOW TO READ THIS EOB (continued)
 
 **Your Share:** The amount you owe your provider for this claim. Please pay your provider directly. Do not send payment to BlueCross Advantage Select.
 
@@ -207,7 +339,15 @@ This Explanation of Benefits is a summary of how BlueCross Advantage Select proc
 - [ ] If any bill you receive is higher than the "Your Share" amount on the corresponding EOB, call Member Services before paying.
 - [ ] Log in to your member portal at bluecrossadvantageselect.com to track claim status, view accumulator balances, and access digital copies of all your EOBs.
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">BLUECROSS ADVANTAGE SELECT</div>
+<div class="letterhead-dept">A Division of BlueCross Health Partners, Inc.</div>
+<div class="letterhead-addr">P.O. Box 91400 · Phoenix, AZ 85068-1400 · 1-800-422-2583</div>
+</div>
 
 ## IF YOU DISAGREE WITH THIS DETERMINATION
 
@@ -224,6 +364,18 @@ If you believe a claim was processed incorrectly, or that a benefit was improper
 
 BlueCross Advantage Select will acknowledge your appeal within 5 business days and render a decision within 30 days (pre-service) or 60 days (post-service). Urgent appeals may be expedited; call Member Services to request expedited review.
 
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">BLUECROSS ADVANTAGE SELECT</div>
+<div class="letterhead-dept">A Division of BlueCross Health Partners, Inc.</div>
+<div class="letterhead-addr">P.O. Box 91400 · Phoenix, AZ 85068-1400 · 1-800-422-2583</div>
+</div>
+
+### IF YOU DISAGREE WITH THIS DETERMINATION (continued)
+
 **External/Independent Review**
 
 If your internal appeal is denied, or if 60 days have passed without a decision, you may request an Independent Medical Review or External Review through your state's insurance commissioner or a federal external review organization, as applicable. **External review is available only after internal appeal rights have been exhausted**, except in cases of urgent medical necessity where expedited external review may be available concurrently.
@@ -231,6 +383,16 @@ If your internal appeal is denied, or if 60 days have passed without a decision,
 **Your Right to Assistance**
 
 If you need help filing an appeal, understanding this EOB, or navigating a billing dispute, you may contact your state's Consumer Assistance Program (CAP). Contact information for your state CAP is available at healthcare.gov/marketplace/appeals. BlueCross Advantage Select does not administer the Consumer Assistance Program.
+
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">BLUECROSS ADVANTAGE SELECT</div>
+<div class="letterhead-dept">A Division of BlueCross Health Partners, Inc.</div>
+<div class="letterhead-addr">P.O. Box 91400 · Phoenix, AZ 85068-1400 · 1-800-422-2583</div>
+</div>
 
 ---
 
@@ -247,3 +409,5 @@ If you need help filing an appeal, understanding this EOB, or navigating a billi
 
 **We're here for you.**
 *bluecrossadvantageselect.com | 1-800-422-2583 | Monday–Friday, 8 a.m.–8 p.m. local time*
+
+</div>
