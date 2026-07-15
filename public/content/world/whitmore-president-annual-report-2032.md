@@ -31,6 +31,15 @@ Whitmore faculty published **1,847 peer-reviewed articles** and secured **$112 m
 
 We added **26 new tenure-track faculty lines** across four colleges, with particular strength in computer science, public health, and interdisciplinary studies. We remain committed to attracting and retaining the caliber of scholars our students deserve.
 
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">WHITMORE UNIVERSITY</div>
+<div class="letterhead-dept">Office of the President</div>
+</div>
+
 ### Campus Transformation
 
 The **Meridian Center for Student Innovation** opened in September — a [$94 million, 180,000-square-foot facility](https://www.constructiondive.com/news/higher-education-construction-spending-billion-2023/696432/) housing collaborative workspaces, a maker lab, a 400-seat auditorium, and the new home of our entrepreneurship program. Meridian was designed with student input at every stage, and I'm told the third-floor commons has already become the most popular study space on campus. I've confirmed this personally — there are never empty seats.
@@ -42,6 +51,15 @@ Phase II of the **North Campus Residential Village** is on track for fall 2033 d
 The Whitmore endowment closed the fiscal year at **$1.34 billion**, reflecting a [5.8% return](https://www.nacubo.org/Research/2023/Public-NCSE-Tables) and continued generosity from our alumni and friends. Annual giving participation among recent graduates (classes 2027–2031) reached **22%**, well above the [national average of 6%](https://www.case.org/resources/voluntary-support-education). The Together Tomorrow campaign surpassed its $400 million goal eighteen months ahead of schedule.
 
 I am especially grateful for the 3,241 donors who gave to our **Whitmore Access Fund**, which provides emergency grants to students facing unexpected financial hardship — car repairs, medical bills, family emergencies. These small interventions, typically [$500–$1,500](https://www.luminafoundation.org/resource/beyond-financial-aid/), have measurable impact on persistence and graduation.
+
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">WHITMORE UNIVERSITY</div>
+<div class="letterhead-dept">Office of the President</div>
+</div>
 
 ### Student Experience
 

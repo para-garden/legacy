@@ -7,6 +7,8 @@ collections: [default]
 related: [interrupt-engagement-optimization-memo-2031, text-thread-nadia-keisha-march-2032, clarity-solutions-performance-review-okafor-q3-2032, vantage-workforce-employee-benefits-2032]
 ---
 
+<div class="page">
+
 <div class="site-chrome">
 <div class="site-wordmark">CLARITY SOLUTIONS</div>
 <nav class="site-nav">Careers · Open Positions</nav>
@@ -33,7 +35,14 @@ Our Austin headquarters supports over 2,200 Content Review Specialists and Trust
 
 Clarity Solutions is proud to be recognized as one of Austin's Fastest-Growing Employers (Austin Business Journal, 2031).
 
----
+</div>
+
+<div class="page">
+
+<div class="site-chrome">
+<div class="site-wordmark">CLARITY SOLUTIONS</div>
+<nav class="site-nav">Careers · Open Positions</nav>
+</div>
 
 ### What You'll Do
 
@@ -49,7 +58,14 @@ As a Trust & Safety Analyst, you'll play a critical role in maintaining the inte
 
 You will undergo comprehensive training on partner-specific policies during your first two weeks. Ongoing calibration sessions ensure alignment across the team.
 
----
+</div>
+
+<div class="page">
+
+<div class="site-chrome">
+<div class="site-wordmark">CLARITY SOLUTIONS</div>
+<nav class="site-nav">Careers · Open Positions</nav>
+</div>
 
 ### What You'll Bring
 
@@ -70,7 +86,14 @@ You will undergo comprehensive training on partner-specific policies during your
 - Bilingual candidates encouraged to apply (Spanish, Portuguese, Mandarin, Arabic, or Tagalog preferred — bilingual differential of $0.75/hour)
 - Associates degree or relevant certification
 
----
+</div>
+
+<div class="page">
+
+<div class="site-chrome">
+<div class="site-wordmark">CLARITY SOLUTIONS</div>
+<nav class="site-nav">Careers · Open Positions</nav>
+</div>
 
 ### Compensation & Benefits
 
@@ -87,7 +110,14 @@ You will undergo comprehensive training on partner-specific policies during your
 
 *Note: This is a contract position. Contract employees are not eligible for Clarity Solutions' group health insurance, dental, vision, PTO, or paid holiday benefits. Contract terms are reviewed quarterly. Continuation of employment is based on business need, performance, and platform partner contract status.*
 
----
+</div>
+
+<div class="page">
+
+<div class="site-chrome">
+<div class="site-wordmark">CLARITY SOLUTIONS</div>
+<nav class="site-nav">Careers · Open Positions</nav>
+</div>
 
 ### Work Environment
 
@@ -101,7 +131,14 @@ This position involves extended periods of seated computer work and requires sus
 
 Clarity Solutions is committed to supporting the well-being of our team members. All Trust & Safety Analysts have access to our EAP and on-site wellness resources. [Research indicates that individuals in content review roles may experience elevated rates of psychological distress](https://pubmed.ncbi.nlm.nih.gov/38153846/); we encourage all applicants to consider the nature of this work carefully before applying.
 
----
+</div>
+
+<div class="page">
+
+<div class="site-chrome">
+<div class="site-wordmark">CLARITY SOLUTIONS</div>
+<nav class="site-nav">Careers · Open Positions</nav>
+</div>
 
 ### How to Apply
 
@@ -117,4 +154,6 @@ Clarity Solutions is an equal opportunity employer. We do not discriminate on th
 <div class="site-footer">
 <div class="site-wordmark">CLARITY SOLUTIONS</div>
 <div class="site-footer-text">People-powered trust and safety, at scale.</div>
+</div>
+
 </div>

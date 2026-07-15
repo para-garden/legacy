@@ -37,6 +37,16 @@ We believe Stratum represents a generational infrastructure opportunity. The cor
 
 This is not speculative. This is infrastructure.
 
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">MERIDIAN CAPITAL PARTNERS</div>
+<div class="letterhead-dept">Growth Equity & Technology Investments</div>
+<div class="letterhead-addr">One Vanderbilt Avenue, 60th Floor · New York, NY 10017</div>
+</div>
+
 ---
 
 ## MARKET THESIS
@@ -48,6 +58,16 @@ AI capability improvement is a direct function of compute. [Scaling laws](https:
 Global AI compute demand is growing at approximately [4–5× annually](https://www.iea.org/reports/electricity-2024/executive-summary). Datacenter capacity, constrained by power, cooling, land, and permitting timelines, is growing at roughly 30–40% annually. **The gap between demand and supply is widening every quarter.** Every major AI company is compute-constrained. The waitlist for NVIDIA H100/H200 allocation exceeds 18 months for most customers.
 
 Stratum's insight: rather than building AI models (high R&D risk, winner-take-most dynamics), build the infrastructure that *every* AI company needs. [Compute is the new oil.](https://www.economist.com/leaders/2017/05/06/the-worlds-most-valuable-resource-is-no-longer-oil-but-data) The refineries are the business.
+
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">MERIDIAN CAPITAL PARTNERS</div>
+<div class="letterhead-dept">Growth Equity & Technology Investments</div>
+<div class="letterhead-addr">One Vanderbilt Avenue, 60th Floor · New York, NY 10017</div>
+</div>
 
 ### Why This Is Not a Bubble
 
@@ -85,6 +105,16 @@ Stratum currently operates 4 compute facilities: 2 in the US (Texas, Virginia), 
 
 The Series B will fund expansion to 11 facilities across 6 geographies by end of 2031, adding approximately 1,200MW of capacity.
 
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">MERIDIAN CAPITAL PARTNERS</div>
+<div class="letterhead-dept">Growth Equity & Technology Investments</div>
+<div class="letterhead-addr">One Vanderbilt Avenue, 60th Floor · New York, NY 10017</div>
+</div>
+
 ### Unit Economics
 
 | Metric | Current | Target (2031) |
@@ -104,6 +134,17 @@ We have identified and evaluated the following risks:
 **Technological disruption.** If a fundamentally more compute-efficient architecture emerges, demand for raw compute could plateau. We assess this risk as low for the investment horizon. [Every previous efficiency gain](https://arxiv.org/abs/2001.08361) (distillation, quantization, mixture-of-experts) has been absorbed by expanded use cases, resulting in net *increased* compute demand. This dynamic — known as the [Jevons paradox](https://en.wikipedia.org/wiki/Jevons_paradox) — has held consistently since the beginning of the transformer era.
 
 **Power and permitting.** Datacenter construction is constrained by electrical grid capacity, water availability for cooling, and local permitting timelines. Stratum has secured power purchase agreements for 80% of planned capacity through 2031. Remaining facilities are in advanced permitting stages with strong local government relationships.
+
+
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">MERIDIAN CAPITAL PARTNERS</div>
+<div class="letterhead-dept">Growth Equity & Technology Investments</div>
+<div class="letterhead-addr">One Vanderbilt Avenue, 60th Floor · New York, NY 10017</div>
+</div>
 
 **Capital intensity.** This is a capital-intensive business. The bull case requires continued access to large-scale financing at reasonable terms. Stratum's CFO has demonstrated the ability to access diverse capital pools. The sovereign wealth interest alone provides a backstop that most infrastructure companies cannot match.
 

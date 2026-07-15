@@ -8,6 +8,8 @@ related:
   - text-thread-carlos-luis-march-2030
 ---
 
+<div class="page">
+
 <div class="letterhead">
 <div class="letterhead-name">DoorDash</div>
 <div class="letterhead-dept">Weekly Earnings Summary</div>
@@ -45,7 +47,9 @@ You completed **34 deliveries** this week and earned **$233.18**. Keep dashing �
 | **Completion Rate** | 97% |
 | **Customer Rating** | 4.82 ★ |
 
----
+</div>
+
+<div class="page">
 
 ## 🏆 Achievement Unlocked
 
@@ -63,7 +67,9 @@ You completed **34 deliveries** this week and earned **$233.18**. Keep dashing �
 
 **So close!** Complete just **6 more deliveries** before Sunday at midnight to unlock your $15 bonus. That's about 3 hours of dashing. You've got this! 💪
 
----
+</div>
+
+<div class="page">
 
 ## January Progress
 
@@ -91,5 +97,7 @@ You are an independent contractor. Earnings shown do not reflect [self-employmen
 
 DoorDash, Inc. · 303 2nd St, Suite 800, San Francisco, CA 94107
 [Unsubscribe](https://dasher.doordash.com) · [Manage Preferences](https://dasher.doordash.com) · [Help](https://help.doordash.com/dashers)
+
+</div>
 
 </div>

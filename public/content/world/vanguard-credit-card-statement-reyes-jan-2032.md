@@ -53,7 +53,15 @@ related:
 | **Minimum Payment Due** | **$48.00** |
 | **Payment Due Date** | **February 25, 2032** |
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">VANGUARD NATIONAL BANK</div>
+<div class="letterhead-dept">Credit Card Services</div>
+<div class="letterhead-addr">P.O. Box 15129 · Wilmington, DE 19850-5129 · 1-800-555-0147 · vanguardnational.com</div>
+</div>
 
 ### Payment Information
 
@@ -83,7 +91,15 @@ related:
 |---|---:|
 | **Total Purchases** | **$921.14** |
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">VANGUARD NATIONAL BANK</div>
+<div class="letterhead-dept">Credit Card Services</div>
+<div class="letterhead-addr">P.O. Box 15129 · Wilmington, DE 19850-5129 · 1-800-555-0147 · vanguardnational.com</div>
+</div>
 
 ### Interest Charge Calculation
 
@@ -109,13 +125,29 @@ related:
 
 *To pay off your balance in 3 years, pay **$182/month** instead of the minimum.*
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">VANGUARD NATIONAL BANK</div>
+<div class="letterhead-dept">Credit Card Services</div>
+<div class="letterhead-addr">P.O. Box 15129 · Wilmington, DE 19850-5129 · 1-800-555-0147 · vanguardnational.com</div>
+</div>
 
 ### Late Payment Warning
 
 If we do not receive your minimum payment by the due date, you may have to pay a [late fee of up to $41](https://www.consumerfinance.gov/about-us/newsroom/cfpb-finalizes-rule-to-lower-credit-card-late-fees-to-8/) and your APR may be increased to the [Penalty APR of 29.99%](https://www.consumerfinance.gov/ask-cfpb/what-is-a-penalty-apr-en-68/).
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">VANGUARD NATIONAL BANK</div>
+<div class="letterhead-dept">Credit Card Services</div>
+<div class="letterhead-addr">P.O. Box 15129 · Wilmington, DE 19850-5129 · 1-800-555-0147 · vanguardnational.com</div>
+</div>
 
 ### Rewards Summary
 
@@ -127,7 +159,15 @@ If we do not receive your minimum payment by the due date, you may have to pay a
 
 *Redeem your points for statement credits, gift cards, or travel at vanguardnational.com/rewards.*
 
----
+</div>
+
+<div class="page">
+
+<div class="letterhead">
+<div class="letterhead-name">VANGUARD NATIONAL BANK</div>
+<div class="letterhead-dept">Credit Card Services</div>
+<div class="letterhead-addr">P.O. Box 15129 · Wilmington, DE 19850-5129 · 1-800-555-0147 · vanguardnational.com</div>
+</div>
 
 <small>
 
