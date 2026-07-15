@@ -1,4 +1,4 @@
-const CACHE = "pteraworld-v1";
+const CACHE = "legacy-v1";
 
 self.addEventListener("install", () => self.skipWaiting());
 
