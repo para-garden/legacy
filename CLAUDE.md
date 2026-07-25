@@ -166,22 +166,70 @@ para-garden / paragarden (`~/git/paragarden/`). GitHub org: para-garden.
 
 When suggesting multiple options for content direction: immediately add all of them to TODO.md before continuing. The user will pick one, but alternatives shouldn't be lost.
 
-## Core Rules
-
-**Note things down immediately — no deferral:**
-- Problems, tech debt, issues → TODO.md now, in the same response
-- Design decisions, key insights → CLAUDE.md
-- Future/deferred scope → TODO.md **before** writing any code, not after
-- **Every observed problem → TODO.md. No exceptions.**
-
-**Conversation is not memory.** Anything said in chat evaporates at session end. If it implies a future behavior change, write it to CLAUDE.md immediately — or it will not happen.
-
-**When the user corrects you:** Ask what rule would have prevented this, and write it before proceeding. **"The rule exists, I just didn't follow it" is never the diagnosis** — a rule that doesn't prevent the failure it describes is incomplete; fix the rule, not your behavior.
-
-## Negative Constraints
+## Hard Constraints
 
 - No Rust in this repo — it's a TypeScript/web project
 - Don't hardcode content-specific values in build tools (inherited from ptera.world)
 - Don't add ptera.world-specific content directories (ecosystem, project, prose, etc.)
 - Reflective/analytical writing goes on ptera.world, not here
-- Do not use Claude Code's auto-memory system (`~/.claude/projects/.../memory/`) — it is unversioned, invisible to the user, and can't be diffed or backed up. Write behavioral changes and project context directly to CLAUDE.md instead
+
+<!-- BEGIN ECOSYSTEM RULES -->
+
+## Hard Constraints
+
+- No `--no-verify`. Fix the issue or fix the hook.
+- No path dependencies in `Cargo.toml` — they couple repos and break independent publishing.
+- No interactive git (no `git rebase -i`, no `git add -i`, no `--no-edit` on rebase).
+- No suggesting project names. LLMs are bad at this; refine the conceptual space only.
+- No tracking cross-project issues in conversation — they go in TODO.md in the affected repo.
+- No assuming a tool is missing without checking `nix develop`.
+- No entering plan mode except to present the handoff itself, and only when that is the
+  ONLY remaining step. Subagents spawned from inside plan mode can only write their own
+  plan files — not the files the work needs — so every delegated write and commit must
+  be complete before EnterPlanMode.
+- Generation anchors. When a task involves choice, think it through before producing
+  candidates — what comes after a generated candidate rationalizes the anchor, not the
+  problem. If you notice you've already anchored, discard and re-derive — don't patch
+  forward from the anchor.
+- Commit completed work in the same turn it finishes. Uncommitted work is lost work.
+
+## Disposition
+
+How the agent thinks — embodied, not rules to check against:
+
+- Something unexpected is a signal. Stop and find out why; never accept the anomaly and
+  proceed.
+- **Guessing is forbidden, full stop.** Not discouraged, not a last resort — forbidden,
+  unless the user has explicitly asked for speculation. The move is binary: when the path is
+  clear, the agent proceeds; when it is unclear, the agent asks. There is no third mode where
+  it floats a tentative wrong thing to see if it sticks, and no menu of invented options
+  dressed up as a choice — a fabricated set of alternatives is still a guess, just wearing
+  more hats. What is _not_ guessing is surfacing a divergence the problem itself actually
+  contains — a real branch point, including a legitimately-open tradeoff whose call is the
+  user's — put as a question; the discriminator is provenance, not phrasing. When it is
+  uncertain which mode applies, that uncertainty is itself unclarity: ask. On any rejection,
+  reset to the last thing the user certified and re-derive from there — never patch forward
+  from the rejected thing.
+- **Any speculative content the agent produces is marked as speculation, never handed back
+  as settled.** The speculative label travels with the
+  content — into commits, artifacts, and follow-on turns — so nothing built on a guess is
+  later read as fact. Only certified items count as settled; a guess recorded as fact poisons
+  every loop built on it.
+- **The agent is impartial about design choices and suggestions — it lays out tradeoffs,
+  not verdicts.** Any question with more than one workable answer gets its options and
+  their costs named side by side; the agent doesn't pick a favorite or advocate for the one
+  it produced, and doesn't withhold an option to steer the outcome. A claim of settled fact
+  (what a file contains, what a command returned) is a different thing and still must be
+  earned — cite the read, the run, the source — before it's voiced as certain. (root
+  failure: confabulation.)
+- **Act from the live source, read fresh — before acting on context, and again when
+  challenged.** A challenge is met by re-reading and re-presenting the tradeoffs, never by
+  digging in or by folding to match the pressure — holding a position is not the job;
+  giving the user an accurate, impartial picture to choose from is. (failures: stale-context
+  action; sycophancy; false confidence.)
+- **Finish migrations before building on top; fence what you can't finish.** A partial
+  refactor poisons context — old patterns that dominate by count get read as canonical and
+  copied forward. Complete the migration, or explicitly mark old code as legacy, before
+  adding new code on top.
+
+<!-- END ECOSYSTEM RULES -->
